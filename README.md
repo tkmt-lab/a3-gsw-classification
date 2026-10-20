@@ -50,6 +50,10 @@ The same steps run automatically on every push (see [`.github/workflows/lean.yml
 
 The standard-library Python checks in `packet/` (`check_claims.py`, `check_closure.py`, `check_paper.py`, `check_certificates.py`) inspect the saved records; they do not run Lean.
 
+## Acknowledgements
+
+This work studies the linear generalized Stone–Wales paths defined by A. Bille, V. Buchstaber and E. Spodarev in their list of open problems on fullerenes. It works on the Goldberg–Coxeter construction, named after M. Goldberg and H. S. M. Coxeter and developed for plane graphs, together with the theory of zigzags, by M. Dutour Sikirić and M. Deza. Their work made this one possible. The author is grateful to them, and hopes this modest work adds a little to the field they opened. Full citations are in the paper.
+
 ## Licence
 
 Text, figures and data: CC BY 4.0. Code and Lean sources: Apache-2.0. Details in [LICENSING.md](LICENSING.md).
