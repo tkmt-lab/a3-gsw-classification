@@ -1,0 +1,85 @@
+{
+  "trial_id": "T0520",
+  "study_id": "R002",
+  "parent_trial_id": null,
+  "phase": "confirmation",
+  "started_at": "2026-10-18T07:36:01+00:00",
+  "finished_at": "2026-10-18T07:36:18+00:00",
+  "status": "ok",
+  "intent": "AB integrated Lean finite literal path equivalence, 1CPU 4GB 30min",
+  "historical_command": [
+    "python3",
+    "historical-reference:source-cc6027580930f0054069"
+  ],
+  "historical_working_directory": "ARCHIVAL_WORKSPACE",
+  "code_commit": "1f310255daf5a6d4fb1de19def3515835e690c6b",
+  "historical_code_patch_or_snapshot": {
+    "tracked_diff": "historical-reference:source-78cbf950644c54470633",
+    "untracked": [
+      "formal/Formal/FiniteLiteralPath.lean",
+      "historical-reference:source-e1546338d87ef3dc0145",
+      "historical-reference:source-76a1d1a9f361b43f6497",
+      "historical-reference:source-41bd6f5affa0a26131f5/",
+      "historical-reference:source-3f55bde07fd92ff09a38/",
+      "historical-reference:source-ed18fe7e1666c93a7566/",
+      "historical-reference:source-c0502aeb6e7d6a925a0a",
+      "historical-reference:source-efa3e8e2d244133f4e2e",
+      "historical-reference:source-9ccad378b3b196048544",
+      "evidence-eb108d11fc-T0520.json"
+    ],
+    "copies": [
+      {
+        "historical_reference_id": "source-b825809845e7f846a523",
+        "historical_copy_id": "source-718fc9702e4279d9eb71",
+        "sha256": "7b4297d56a66f2fcc2b4565a88924f8a8695adc6cf8600b0db6a0052aa7cfd9a"
+      },
+      {
+        "historical_reference_id": "source-b78c2b3683b62711d73a",
+        "historical_copy_id": "source-de35118d85f9a3f56e93",
+        "sha256": "b2f8c1dca416b7730187ba690fbda627f536b91d5a078e04cb6e665f5705cdf9"
+      },
+      {
+        "historical_reference_id": "source-cc6027580930f0054069",
+        "historical_copy_id": "source-e4f45f375f13edb6897c",
+        "sha256": "fce5d2cdfef74f22ea107143f17434d833319a34621b50f0c9cdbbe6668b8be0"
+      }
+    ]
+  },
+  "environment": {
+    "historical_platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "historical_python": "3.14.7"
+  },
+  "inputs": [],
+  "parameters": {},
+  "seed": null,
+  "artifacts": [
+    {
+      "historical_reference_id": "source-f27446a97fbbe8fa5c4f",
+      "bytes": 5763,
+      "sha256": "4b032721da15d880ce1f15f64ea746c5152143a200cf81001fe5c5d443085209",
+      "git_tracked": true
+    },
+    {
+      "historical_reference_id": "source-84955428e513f30354b9",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_tracked": true
+    }
+  ],
+  "metrics_viewed": {},
+  "elapsed_seconds": 16.928,
+  "peak_memory_mb": 1488.9,
+  "cost": {
+    "amount": 0,
+    "currency": null,
+    "basis": "ローカル実行（課金なし）"
+  },
+  "error_or_abort_reason": null,
+  "decision_and_next_step": null,
+  "notes": [],
+  "historical_executable": {
+    "historical_reference_id": "source-b0fa6594d8f4cbf19f97",
+    "sha256": "87d4df53fd91304be5bac391fb204643c36b7df2023c04a0953bcbc7d4fdf634"
+  }
+}

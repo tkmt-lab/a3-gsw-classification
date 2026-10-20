@@ -1,0 +1,131 @@
+{
+  "status": "PASS",
+  "scope": "Saved metadata transcription and hash checks only. No certificate logic, canonicalization, generation, or gSW search rerun.",
+  "sizes": 71,
+  "totals": {
+    "count_per_generator": 120622224,
+    "negative": 816,
+    "GC2": 812,
+    "GC3": 1,
+    "non_GC": 3
+  },
+  "through_C176": {
+    "count_per_generator": 19703439,
+    "negative": 228
+  },
+  "explanation_counts": {
+    "GC(2,0)": 812,
+    "C1(2,3)=F(2,3)": 1,
+    "O2(2,3)=G(2,2,3)": 1,
+    "GC(3,0)[C20]": 1,
+    "C1(3,2)=F(3,2)": 1
+  },
+  "unexplained_within_saved_census": 0,
+  "certificate_count": 816,
+  "certificate_bytes": 60758514,
+  "source_files": [
+    {
+      "historical_reference_id": "source-5e9406864ad48995daa1",
+      "bytes": 13437,
+      "sha256": "b4bd90fbb739413b1097cc1819a82510dfcf40d26794f0f847d479187ad9c7f7"
+    },
+    {
+      "historical_reference_id": "source-4116a072e4b2b8eb2044",
+      "bytes": 321163,
+      "sha256": "d337e1f7d4adac7dffcc3bae28b5ed77527fdbb7bbd3ded4b38434a43e45de92"
+    },
+    {
+      "historical_reference_id": "source-c885ba810dd18b899d30",
+      "bytes": 33867,
+      "sha256": "680ea9589025b8ffa549d475e7d0bf59eaf239b9ca421a9f4a6a3857aec66aa8"
+    },
+    {
+      "historical_reference_id": "source-f08969cc82e8b34fa040",
+      "bytes": 8770,
+      "sha256": "daac3bfbd3fa69ecab46ca5f2bac76b38600b28840ccd177d40fd1ced0d792ca"
+    },
+    {
+      "historical_reference_id": "source-87037899db120788f2fc",
+      "bytes": 1000,
+      "sha256": "df164b954ff557dbf9b3ad02027856043379ff46298a33f1f39846dddfc65de9"
+    },
+    {
+      "historical_reference_id": "source-fc68e60e5bc63706e90e",
+      "bytes": 1000,
+      "sha256": "65d27ec89104419b84cd800125ace17bc6aa1a5a0beeef1dbcc7a1fd7b137483"
+    },
+    {
+      "historical_reference_id": "source-afb1549e9b78a43a647a",
+      "bytes": 1000,
+      "sha256": "d01976f66f124730e3356ec52f61db1a03e3514194bd3a147e6662a683561cf3"
+    },
+    {
+      "historical_reference_id": "source-b364f813b0483875b3fd",
+      "bytes": 9127,
+      "sha256": "604a38a7e6d399579504e91a70e55af41654730c0edc14b4baf6b61a48095aa7"
+    },
+    {
+      "historical_reference_id": "source-1f0a5b4ba87b8276f645",
+      "bytes": 1000,
+      "sha256": "ea90345252ec8032b6a0b736f4a6ce92c8b5037fd6e287fd7388d04046ab030b"
+    },
+    {
+      "historical_reference_id": "source-ad46a22815666333c086",
+      "bytes": 979,
+      "sha256": "72f45069ff230e8b3182373e9efc4fc94011efcd2baaa82dff425cc13c29e9cf"
+    },
+    {
+      "historical_reference_id": "source-5e17f8fe64189511a7fe",
+      "bytes": 979,
+      "sha256": "22f3902fa2988d1b6e34b164fea0e8765712cb5f940ddba9f5f1bf9c6c3ca56b"
+    },
+    {
+      "historical_reference_id": "source-51606fac0360e459d6a0",
+      "bytes": 20145,
+      "sha256": "637488c09ff83d3216d1199f6846ae155759ae63d71f03009c2333c21f54c540"
+    },
+    {
+      "historical_reference_id": "source-fcf67201415489a2e23c",
+      "bytes": 5742,
+      "sha256": "0dc177b4eeb09f9989d476d4a9d7dafd47bbe8a76875987e1e449be12c2c2580"
+    },
+    {
+      "historical_reference_id": "source-5d7c54f14d5cd9019330",
+      "bytes": 5664,
+      "sha256": "a35f76a4b82238705ffbc35dcbc41386a351f09d9bf19f2af5416d5dc175dc9e"
+    },
+    {
+      "historical_reference_id": "source-e0227af363c5c88fe68d",
+      "bytes": 70135,
+      "sha256": "3738ae4f15da3f53bbf572189d2a6369aa8235755c2039dfe30caa0f0fe12310"
+    },
+    {
+      "historical_reference_id": "source-1d4787faaa0019a9e1f2",
+      "bytes": 33756,
+      "sha256": "9266cc9553cf64bffbc28126a428ac5b2024bcd8e16c6fc924de4afdd15d9e50"
+    },
+    {
+      "historical_reference_id": "source-52b0293cb00735fd4d86",
+      "bytes": 6001,
+      "sha256": "e3174e6a17e0376b5ca3bf49bfe1e4b54af2ec024485f8ff845483966eb20d62"
+    },
+    {
+      "historical_reference_id": "source-0b25729bb13f90db3ae8",
+      "bytes": 118968,
+      "sha256": "be9eb074592cdbeccc8dbde2ed26f628c507b6da6af84a7a3e2fb759e55ee508"
+    }
+  ],
+  "outputs": [
+    {
+      "historical_reference_id": "source-bf0042818836131bd989",
+      "bytes": 4307,
+      "sha256": "af0ba21922bccfc814341199c4b7b72f408bd040bc24ea939c6ca0f75833fc5d"
+    },
+    {
+      "historical_reference_id": "source-9558dc3d3041737463de",
+      "bytes": 334032,
+      "sha256": "f67d4c7d083a5f538adb347c71a8f25218d9d593eee1f53a448cc758781df5d5"
+    }
+  ],
+  "scientific_execution": false
+}

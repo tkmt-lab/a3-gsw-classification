@@ -1,0 +1,20 @@
+# Comparator照合：主定理の全体 `ClaudeChallenge.main`（2026-10-19）
+
+統括（Claude Code）。**A3の二段分類の全体（既約・非既約とも、k>l>0）**が、統括の独立な主張文の`theorem main`と同じ文の証明であることを、Lean 4.35.0同梱の`lake comparator --paranoid`で照合した。
+
+- 主張（challenge）：`formal/Formal/ComparatorChallengeMain.lean`。統括が最初に書いた`challenge/Challenge.lean`の`namespace ClaudeChallenge`以下と同じ（違いは研究チームの定義コピーに付いたコメント1行だけ）。`theorem main ... := by sorry`を含む。
+- 証明（solution）：`formal/Formal/ComparatorSolutionMain.lean` → `ClaudeMain.main_full`（`formal/Formal/ClaudeMainFull.lean`）。
+  - 必要性（全てのk>l>0）：研究チーム（Codex Sol）の`R002.GCClosed.criterion_necessary`（既約の`GCNeg.primitive_criterion_necessary`と非既約の`GCClosed.challenge_nonprimitive_no_literal`）。
+  - 十分性：Claudeサブエージェントの`ClaudePos.criterion_sufficient`（帯の`ClaudeBelt.belt_literal_path`と三領域）。
+- 設定：`formal/comparator-main.json`（許す公理はpropext・Quot.sound・Classical.choice）。
+
+## 結果
+
+`lake comparator --config comparator-main.json --inadvisably-no-sandbox --paranoid`：
+**Lean paranoid・lean4lean（17,691宣言）・nanoda・con-leche（17,694宣言）・con-ron（17,694宣言）・Lean標準の6つのkernelが全て受理。Your solution is okay!** 212.1秒、最大2.99GB。生の出力：`comparator-main-paranoid-2026-10-19.txt`。
+
+## 留保
+
+- macOSにbwrapがないため隔離なしで実行（自分たちのコードの検査。第三者の再現はLinuxでの隔離実行を勧める）。
+- 主張文が論文の主張と同じ意味であることは機械では保証されない（`studies/R002/challenge-reading-guide-ja.md`で本人が確かめる）。
+- 主張文は統括一人が書いた。研究チームが独立に書いた曲面の仕様と同型であることはLeanで証明済み。人間の点検はまだない。

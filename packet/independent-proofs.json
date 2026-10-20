@@ -1,0 +1,223 @@
+{
+  "packet_version": "1.0.5",
+  "coverage": {
+    "nonprimitive": true,
+    "primitive_negative": true,
+    "primitive_positive": true
+  },
+  "coordinator_reviewers": 1,
+  "human_review": false,
+  "full_formalization": false,
+  "blind": false,
+  "scope": "Independent full classification received. Alternate proof does not certify every main-team coordinate convention. No R004 computation rerun in this packet update.",
+  "receipts": [
+    {
+      "title": "R004-report-012.md",
+      "source_identifier": "studies/R004/report-012.md",
+      "source_commit": "751f8ed57b4cc55dad10366957fa47a623890d83",
+      "source_sha256": "d72da2bc8a234c7f4fd7db15085e8cbffb9e1a9842477cbdddd53dad05e8fc07",
+      "original": {
+        "path": "R004-report-012.md.original.txt",
+        "sha256": "d72da2bc8a234c7f4fd7db15085e8cbffb9e1a9842477cbdddd53dad05e8fc07",
+        "bytes": 7257
+      },
+      "portable": {
+        "path": "R004-report-012.md",
+        "sha256": "2dbe98c4f2453f48f1a32e465c94d7ecd9321b7f4050d994b0efe609815a3b5c",
+        "bytes": 7394
+      }
+    },
+    {
+      "title": "R004-a3-necessity-proof.md",
+      "source_identifier": "studies/R004/a3-necessity-proof.md",
+      "source_commit": "751f8ed57b4cc55dad10366957fa47a623890d83",
+      "source_sha256": "382f3f23ca2ee7c31598d2eb86a497edc8dff257a8306607c36f38c2b5cf2368",
+      "original": {
+        "path": "R004-a3-necessity-proof.md.original.txt",
+        "sha256": "382f3f23ca2ee7c31598d2eb86a497edc8dff257a8306607c36f38c2b5cf2368",
+        "bytes": 8889
+      },
+      "portable": {
+        "path": "R004-a3-necessity-proof.md",
+        "sha256": "69154e9378395e09bb8e11459b05f29db0eef3936243b57f876530fac857df77",
+        "bytes": 8914
+      }
+    },
+    {
+      "title": "R004-a3-remaining-necessity-proof.md",
+      "source_identifier": "studies/R004/a3-remaining-necessity-proof.md",
+      "source_commit": "751f8ed57b4cc55dad10366957fa47a623890d83",
+      "source_sha256": "ff849c32f7792e38e380e1bc965c6036b471ee2b5b4b035d29f6bc0dc3c00e33",
+      "original": {
+        "path": "R004-a3-remaining-necessity-proof.md.original.txt",
+        "sha256": "ff849c32f7792e38e380e1bc965c6036b471ee2b5b4b035d29f6bc0dc3c00e33",
+        "bytes": 12969
+      },
+      "portable": {
+        "path": "R004-a3-remaining-necessity-proof.md",
+        "sha256": "cd52617c69f4f8419d9674bd585be796a7aec06afd0aefc9d60c4b0ae9366404",
+        "bytes": 12989
+      }
+    },
+    {
+      "title": "R004-report-013.md",
+      "source_identifier": "studies/R004/report-013.md",
+      "source_commit": "1ed190fd7a057c8cda02fd9cefa9337ae60214a4",
+      "source_sha256": "8f8a46d8c5b7a93cb1339dd61cd4d996424da32f1d1901177baa448868b1b42b",
+      "original": {
+        "path": "R004-report-013.md.original.txt",
+        "sha256": "8f8a46d8c5b7a93cb1339dd61cd4d996424da32f1d1901177baa448868b1b42b",
+        "bytes": 4862
+      },
+      "portable": {
+        "path": "R004-report-013.md",
+        "sha256": "8991614e854ad4ac8f58dd9f1db7795b9bde96eb42c3003f709fa2a8619c65e0",
+        "bytes": 4980
+      }
+    },
+    {
+      "title": "R004-a3-positive-remaining-proof.md",
+      "source_identifier": "studies/R004/a3-positive-remaining-proof.md",
+      "source_commit": "1ed190fd7a057c8cda02fd9cefa9337ae60214a4",
+      "source_sha256": "5e6ebf1f9a3d912932775a34c5eab94a9af0669b22020cbd4baafad0e653f1ad",
+      "original": {
+        "path": "R004-a3-positive-remaining-proof.md.original.txt",
+        "sha256": "5e6ebf1f9a3d912932775a34c5eab94a9af0669b22020cbd4baafad0e653f1ad",
+        "bytes": 12757
+      },
+      "portable": {
+        "path": "R004-a3-positive-remaining-proof.md",
+        "sha256": "251152b02b41f467bb812f32b346680495154b7238062ac1e4fd845b526daec7",
+        "bytes": 12762
+      }
+    },
+    {
+      "title": "R004-a3-claim13-proof-map.md",
+      "source_identifier": "studies/R004/a3-claim13-proof-map.md",
+      "source_commit": "1ed190fd7a057c8cda02fd9cefa9337ae60214a4",
+      "source_sha256": "886cc72f10dc3cbe5252922638a704b0cc0104fe05277e611c3e5aee6241108c",
+      "original": {
+        "path": "R004-a3-claim13-proof-map.md.original.txt",
+        "sha256": "886cc72f10dc3cbe5252922638a704b0cc0104fe05277e611c3e5aee6241108c",
+        "bytes": 3291
+      },
+      "portable": {
+        "path": "R004-a3-claim13-proof-map.md",
+        "sha256": "afd24f86a1d02172861f7ca664f0aa4ff13f7350b686af91ead4eb09a01f5f43",
+        "bytes": 3356
+      }
+    },
+    {
+      "title": "R004-a3-gcd-proof.md",
+      "source_identifier": "studies/R004/a3-gcd-proof.md",
+      "source_commit": "1ed190fd7a057c8cda02fd9cefa9337ae60214a4",
+      "source_sha256": "edbed00d5af23b4bb96bdd271f0487c722da427c5fad46e874099d079166ac5b",
+      "original": {
+        "path": "R004-a3-gcd-proof.md.original.txt",
+        "sha256": "edbed00d5af23b4bb96bdd271f0487c722da427c5fad46e874099d079166ac5b",
+        "bytes": 1867
+      },
+      "portable": {
+        "path": "R004-a3-gcd-proof.md",
+        "sha256": "9ff3ea514ce86c9195e16500647eb2a1613db25225f83ec59522fd96bbd24092",
+        "bytes": 1872
+      }
+    },
+    {
+      "title": "R004-gc-proof.md",
+      "source_identifier": "studies/R004/gc-proof.md",
+      "source_commit": "1ed190fd7a057c8cda02fd9cefa9337ae60214a4",
+      "source_sha256": "c0430d4029754d4ab75baa44abe25ff24ffc0af082fdf76c6dcecdd34fd07e8c",
+      "original": {
+        "path": "R004-gc-proof.md.original.txt",
+        "sha256": "c0430d4029754d4ab75baa44abe25ff24ffc0af082fdf76c6dcecdd34fd07e8c",
+        "bytes": 3322
+      },
+      "portable": {
+        "path": "R004-gc-proof.md",
+        "sha256": "de6417110dc2df19e5270987212c4c30dfc65e58c947e1ab16da9f74f51e84dd",
+        "bytes": 3361
+      }
+    },
+    {
+      "title": "R004-a3-belt-proof.md",
+      "source_identifier": "studies/R004/a3-belt-proof.md",
+      "source_commit": "1ed190fd7a057c8cda02fd9cefa9337ae60214a4",
+      "source_sha256": "dfb4565763ba9f736235d57136a0cccb2651c3b7c96e1e9aac44b7ed7139fcc6",
+      "original": {
+        "path": "R004-a3-belt-proof.md.original.txt",
+        "sha256": "dfb4565763ba9f736235d57136a0cccb2651c3b7c96e1e9aac44b7ed7139fcc6",
+        "bytes": 6737
+      },
+      "portable": {
+        "path": "R004-a3-belt-proof.md",
+        "sha256": "dfb4565763ba9f736235d57136a0cccb2651c3b7c96e1e9aac44b7ed7139fcc6",
+        "bytes": 6737
+      }
+    },
+    {
+      "title": "R004-coordinator-review-a3-necessity-2026-10-19.md",
+      "source_identifier": "studies/R004/coordinator-review-a3-necessity-2026-10-19.md",
+      "source_commit": "9e5d1648757994944b704ef2ddc9085294fd552e",
+      "source_sha256": "6d98e9c558c81ccb0139e43de15c15ca3f1e9798316060dc554a235e6f029f97",
+      "original": {
+        "path": "R004-coordinator-review-a3-necessity-2026-10-19.md.original.txt",
+        "sha256": "6d98e9c558c81ccb0139e43de15c15ca3f1e9798316060dc554a235e6f029f97",
+        "bytes": 1491
+      },
+      "portable": {
+        "path": "R004-coordinator-review-a3-necessity-2026-10-19.md",
+        "sha256": "6d98e9c558c81ccb0139e43de15c15ca3f1e9798316060dc554a235e6f029f97",
+        "bytes": 1491
+      }
+    },
+    {
+      "title": "R004-coordinator-review-a3-positive-2026-10-19.md",
+      "source_identifier": "studies/R004/coordinator-review-a3-positive-2026-10-19.md",
+      "source_commit": "4f5840df29ed6de49506444b93646ddb85986e08",
+      "source_sha256": "99bd71548ec5db8744f887466a46cc47f975bce9d91eba8b883b03fae5180042",
+      "original": {
+        "path": "R004-coordinator-review-a3-positive-2026-10-19.md.original.txt",
+        "sha256": "99bd71548ec5db8744f887466a46cc47f975bce9d91eba8b883b03fae5180042",
+        "bytes": 1290
+      },
+      "portable": {
+        "path": "R004-coordinator-review-a3-positive-2026-10-19.md",
+        "sha256": "99bd71548ec5db8744f887466a46cc47f975bce9d91eba8b883b03fae5180042",
+        "bytes": 1290
+      }
+    },
+    {
+      "title": "Claude-2026-10-19-R004-necessity-review.md",
+      "source_identifier": "studies/R002/analysis/2026-10-18-claude-independent-gsw/2026-10-19-R004-necessity-review.md",
+      "source_commit": "a3f43c35801199ae0e9a1683458bfeb4770032cf",
+      "source_sha256": "e6fd45bd844fa52944941f4fd969bdaa4f9f74af0bc3320334e3d78430cf9df7",
+      "original": {
+        "path": "Claude-2026-10-19-R004-necessity-review.md.original.txt",
+        "sha256": "e6fd45bd844fa52944941f4fd969bdaa4f9f74af0bc3320334e3d78430cf9df7",
+        "bytes": 2908
+      },
+      "portable": {
+        "path": "Claude-2026-10-19-R004-necessity-review.md",
+        "sha256": "e6fd45bd844fa52944941f4fd969bdaa4f9f74af0bc3320334e3d78430cf9df7",
+        "bytes": 2908
+      }
+    },
+    {
+      "title": "Claude-2026-10-19-R004-positive-review.md",
+      "source_identifier": "studies/R002/analysis/2026-10-18-claude-independent-gsw/2026-10-19-R004-positive-review.md",
+      "source_commit": "7a265b68f5187f1830c32ca47e62ba6ac71bbeb8",
+      "source_sha256": "d7f425539f5cf8fd60fd148e4b818ba9c92679a2ee695389eb23f2dec55478db",
+      "original": {
+        "path": "Claude-2026-10-19-R004-positive-review.md.original.txt",
+        "sha256": "d7f425539f5cf8fd60fd148e4b818ba9c92679a2ee695389eb23f2dec55478db",
+        "bytes": 2422
+      },
+      "portable": {
+        "path": "Claude-2026-10-19-R004-positive-review.md",
+        "sha256": "d7f425539f5cf8fd60fd148e4b818ba9c92679a2ee695389eb23f2dec55478db",
+        "bytes": 2422
+      }
+    }
+  ]
+}

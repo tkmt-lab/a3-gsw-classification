@@ -1,0 +1,65 @@
+cwd=formal; LEAN_NUM_THREADS=1; ['lake', '--no-cache', 'build', '+Formal:olean']
+⚠ [862/869] Replayed Formal.GCArithmetic
+warning: historical-reference:source-881c4b5ffcdb247cc026: imports `Mathlib.Data.Int.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: historical-reference:source-881c4b5ffcdb247cc026: imports `Mathlib.Algebra.Group.Prod` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: historical-reference:source-881c4b5ffcdb247cc026: imports `Mathlib.Algebra.Ring.Divisibility.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: historical-reference:source-881c4b5ffcdb247cc026: imports `Mathlib.Tactic.Linarith` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: historical-reference:source-881c4b5ffcdb247cc026: imports `Mathlib.Tactic.NormNum` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: historical-reference:source-881c4b5ffcdb247cc026: imports `Mathlib.Tactic.Ring` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: historical-reference:source-881c4b5ffcdb247cc026:1:1: * `-/`:
+Copyright too short!
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+info: historical-reference:source-881c4b5ffcdb247cc026:98:0: 'R002.strip_coordinates' depends on axioms: [propext, Quot.sound]
+info: historical-reference:source-881c4b5ffcdb247cc026:99:0: 'R002.strip_odd_not_scaled' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: historical-reference:source-881c4b5ffcdb247cc026:100:0: 'R002.strip_even_scaled_iff' depends on axioms: [propext, Quot.sound]
+info: historical-reference:source-881c4b5ffcdb247cc026:101:0: 'R002.explicitStrip_recurrence' depends on axioms: [propext, Quot.sound]
+info: historical-reference:source-881c4b5ffcdb247cc026:102:0: 'R002.adjacent_heights_not_both_scaled' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [863/869] Replayed Formal.LatticeTransport
+warning: historical-reference:source-66642d9b8849e8be2885:1:1: * `-/`:
+Copyright too short!
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+info: historical-reference:source-66642d9b8849e8be2885:90:0: 'R002.rotate60_scaled_iff' depends on axioms: [propext, Quot.sound]
+info: historical-reference:source-66642d9b8849e8be2885:91:0: 'R002.rotateAbout_scaled_iff' depends on axioms: [propext, Quot.sound]
+info: historical-reference:source-66642d9b8849e8be2885:92:0: 'R002.transportCenters_scaled_iff' depends on axioms: [propext, Quot.sound]
+info: historical-reference:source-66642d9b8849e8be2885:93:0: 'R002.rotateAbout_next' depends on axioms: [propext]
+info: historical-reference:source-66642d9b8849e8be2885:94:0: 'R002.rotate60_norm' depends on axioms: [propext]
+info: historical-reference:source-66642d9b8849e8be2885:95:0: 'R002.transported_strip_odd_not_scaled' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [930/983] Replayed Formal.SequenceDecision
+warning: historical-reference:source-93ac3c06358a3315bb2d: imports `Mathlib.Data.Nat.Find` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: historical-reference:source-93ac3c06358a3315bb2d: imports `Mathlib.Data.Fintype.Card` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: historical-reference:source-93ac3c06358a3315bb2d:1:1: * `-/`:
+Copyright too short!
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+info: historical-reference:source-93ac3c06358a3315bb2d:122:0: 'R002.prefix_injective_iff_before_first_repeat' depends on axioms: [propext, Quot.sound]
+info: historical-reference:source-93ac3c06358a3315bb2d:123:0: 'R002.valid_exists_iff_first_endpoint_lt_repeat' depends on axioms: [propext, Quot.sound]
+info: historical-reference:source-93ac3c06358a3315bb2d:124:0: 'R002.valid_exists_iff_bounded_endpoint' depends on axioms: [propext, Quot.sound]
+info: historical-reference:source-93ac3c06358a3315bb2d:125:0: 'R002.first_repeat_exists_bounded' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: historical-reference:source-93ac3c06358a3315bb2d:126:0: 'R002.legal_cone_endpoint_has_even_length' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [981/983] Replayed Formal.ForcedContinuation
+warning: historical-reference:source-71dee03c97867d4fb519: imports `Mathlib.Combinatorics.SimpleGraph.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: historical-reference:source-71dee03c97867d4fb519:1:1: * `-/`:
+Copyright too short!
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+info: historical-reference:source-71dee03c97867d4fb519:144:0: 'R002.unique_other_common' does not depend on any axioms
+info: historical-reference:source-71dee03c97867d4fb519:145:0: 'R002.forced_walk_unique' depends on axioms: [propext, Quot.sound]
+info: historical-reference:source-71dee03c97867d4fb519:146:0: 'R002.forced_walk_exists_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: historical-reference:source-71dee03c97867d4fb519:147:0: 'R002.finite_forced_walk_decision' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [982/983] Built Formal.FiniteLiteralPath (6.4s)
+warning: historical-reference:source-c31056062ec173e28f2c:1:1: * `-/`:
+Copyright too short!
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+info: historical-reference:source-c31056062ec173e28f2c:118:0: 'R002.finite_path_eq_forced_prefix' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: historical-reference:source-c31056062ec173e28f2c:119:0: 'R002.literal_path_iff_valid_forced_prefix' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: historical-reference:source-c31056062ec173e28f2c:120:0: 'R002.finite_literal_path_decision' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [983/983] Built Formal (1.7s)
+Build completed successfully (983 jobs).

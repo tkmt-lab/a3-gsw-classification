@@ -1,0 +1,118 @@
+{
+  "trial_id": "T1202",
+  "study_id": "R002",
+  "parent_trial_id": "T1199",
+  "phase": "confirmation",
+  "started_at": "2026-10-19T11:38:26+00:00",
+  "finished_at": "2026-10-19T11:39:09+00:00",
+  "status": "ok",
+  "intent": "next75: exercise distributed formal driver in outside-Git copy with explicit existing pinned package/build-cache reuse, fresh gate and forbidden-axiom control",
+  "command": [
+    "nice",
+    "-n",
+    "10",
+    "python3",
+    "-B",
+    "studies/R002/src/validate_A3_v7_detached_gate.py",
+    "--record",
+    "studies/R002/A3-v7-release/detached-formal-check.json"
+  ],
+  "working_directory": "<WORKDIR>",
+  "code_commit": "acf551eeff93a0da0267909408ee7b97ed84b6ef",
+  "code_patch_or_snapshot": {
+    "tracked_diff": "studies/R002/results/T1202/code.patch",
+    "untracked": [
+      "formal/Formal/A3ReleaseCheck.lean",
+      "studies/R002/A3-v7-budget.json",
+      "studies/R002/A3-v7-machine/",
+      "studies/R002/A3-v7-pdf-validation.json",
+      "studies/R002/A3-v7-release/",
+      "studies/R002/paper-A3-v7-en.tex",
+      "studies/R002/results/T1189/",
+      "studies/R002/results/T1190/",
+      "studies/R002/results/T1191/",
+      "studies/R002/results/T1192/",
+      "studies/R002/results/T1193/",
+      "studies/R002/results/T1194/",
+      "studies/R002/results/T1195/",
+      "studies/R002/results/T1196/",
+      "studies/R002/results/T1197/",
+      "studies/R002/results/T1198/",
+      "studies/R002/results/T1199/",
+      "studies/R002/results/T1200/",
+      "studies/R002/results/T1201/",
+      "studies/R002/results/T1202/",
+      "studies/R002/review-A3/review-sheets-v7.md",
+      "studies/R002/src/build_A3_v7_release.py",
+      "studies/R002/src/configure_A3_v7_release.py",
+      "studies/R002/src/finalize_A3_v7_pdf.py",
+      "studies/R002/src/prepare_A3_v7.py",
+      "studies/R002/src/run_A3_packet_formal_gate.py",
+      "studies/R002/src/run_lean_A3_v7.py",
+      "studies/R002/src/validate_A3_v7_detached_gate.py",
+      "studies/R002/trials/T1189.json",
+      "studies/R002/trials/T1190.json",
+      "studies/R002/trials/T1191.json",
+      "studies/R002/trials/T1192.json",
+      "studies/R002/trials/T1193.json",
+      "studies/R002/trials/T1194.json",
+      "studies/R002/trials/T1195.json",
+      "studies/R002/trials/T1196.json",
+      "studies/R002/trials/T1197.json",
+      "studies/R002/trials/T1198.json",
+      "studies/R002/trials/T1199.json",
+      "studies/R002/trials/T1200.json",
+      "studies/R002/trials/T1201.json",
+      "studies/R002/trials/T1202.json"
+    ],
+    "copies": [
+      {
+        "path": "studies/R002/src/validate_A3_v7_detached_gate.py",
+        "copy": "studies/R002/results/T1202/code/validate_A3_v7_detached_gate.py",
+        "sha256": "803b80050616a0cfd51ccd2d2c4e0823203c375f25fd35a880c65a47b83d86b6"
+      },
+      {
+        "path": "studies/R002/A3-v7-release/run_formal_gate.py",
+        "copy": "studies/R002/results/T1202/code/run_formal_gate.py",
+        "sha256": "7efd042393eb3dac4ac7ed5b13016e99465a075531617414b15330b3fb19a853"
+      }
+    ]
+  },
+  "environment": {
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "python": "3.14.7"
+  },
+  "inputs": [],
+  "parameters": {},
+  "seed": null,
+  "artifacts": [
+    {
+      "path": "studies/R002/results/T1202/stdout.txt",
+      "bytes": 848416,
+      "sha256": "4159460a4501e24dab9ff10d14b4a46620fcdb76a3640593662b84629318ccde",
+      "git_tracked": true
+    },
+    {
+      "path": "studies/R002/results/T1202/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_tracked": true
+    }
+  ],
+  "metrics_viewed": {},
+  "elapsed_seconds": 42.448,
+  "peak_memory_mb": 2850.3,
+  "cost": {
+    "amount": 0,
+    "currency": null,
+    "basis": "ローカル実行（課金なし）"
+  },
+  "error_or_abort_reason": null,
+  "decision_and_next_step": null,
+  "notes": [],
+  "executable": {
+    "path": "/usr/bin/nice",
+    "sha256": "05086ac4d65920ab678c90142b3004c004086b7d77824a70e2ef9acd8d18eeb1"
+  }
+}

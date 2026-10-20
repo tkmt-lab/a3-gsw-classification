@@ -1,0 +1,1 @@
+{"status": "PASS", "theorem_domain": 191, "primitive_interior": 127, "nonprimitive_interior": 64, "nonprimitive_axis": 25, "nonprimitive_diagonal": 14, "boundary_nonprimitive": 39, "noncontrol_total": 230, "controls": 2, "stored_records": 232, "scope": "Recount saved-review parameter domains; does not construct or classify graphs.", "graph_checks_rerun": false}

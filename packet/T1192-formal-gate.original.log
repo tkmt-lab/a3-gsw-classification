@@ -1,0 +1,19 @@
+standard-axiom gate PASS: ClaudeMain.main_full ([propext, Classical.choice, Quot.sound])
+standard-axiom gate PASS: ClaudeMain.main_primitive ([propext, Classical.choice, Quot.sound])
+standard-axiom gate PASS: ClaudePos.criterion_sufficient ([propext, Classical.choice, Quot.sound])
+standard-axiom gate PASS: R002.GCClosed.criterion_necessary ([propext, Classical.choice, Quot.sound])
+standard-axiom gate PASS: R002.GCClosed.challenge_nonprimitive_no_literal ([propext, Classical.choice, Quot.sound])
+standard-axiom gate PASS: ClaudeCor.minimum_negative ([propext, Classical.choice, Quot.sound])
+standard-axiom gate PASS: ClaudeCor.minimum_below ([propext, Classical.choice, Quot.sound])
+standard-axiom gate PASS: ClaudeCor.minimum_at ([propext, Classical.choice, Quot.sound])
+standard-axiom gate PASS: ClaudeCor.minimum_data ([propext, Classical.choice, Quot.sound])
+standard-axiom gate PASS: ClaudeCor.criterion_ray ([propext, Classical.choice, Quot.sound])
+standard-axiom gate PASS: ClaudeCor.path_ray_primitive ([propext, Classical.choice, Quot.sound])
+standard-axiom gate PASS: ClaudeCor.path_ray_of_primitive ([propext, Classical.choice, Quot.sound])
+standard-axiom gate PASS: R002.A3Release.path_ray ([propext, Classical.choice, Quot.sound])
+'ClaudeMain.main_full' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClaudeCor.minimum_at' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClaudeCor.minimum_data' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ClaudeCor.criterion_ray' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R002.A3Release.path_ray' depends on axioms: [propext, Classical.choice, Quot.sound]
+{"command": ["lake", "env", "lean", "-j1", "-M4096", "Formal/A3ReleaseCheck.lean"], "poll_peak_process_mib": 2834.3, "poll_peak_own_sum_mib": 3446.8, "poll_peak_all_lean_mib": 2834.3, "stopped": null}

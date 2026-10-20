@@ -1,0 +1,133 @@
+{
+  "status": "PASS",
+  "pdf_path": "paper-A3-v8-en.pdf",
+  "source_path": "paper-A3-v8-en.tex",
+  "pdf_sha256": "208e28a06fa4a9ac631d78da4b28862a5c0675d92e683613c6dc082927708c04",
+  "source_sha256": "0f1633e9985b0ff89d1920c61a7c2738f187dd3dc81fc7bc9ce5d997e181d795",
+  "pdf_bytes": 217184,
+  "pages": 25,
+  "typeset_trial": "T1284",
+  "render_trial": "T1286",
+  "tex_engine": "Tectonic0.17.0 (cached only)",
+  "overfull_boxes": false,
+  "undefined_references": false,
+  "duplicate_destinations": false,
+  "page_render_hashes": [
+    {
+      "page": 1,
+      "sha256": "b8840b0c5715293aa01ced65d3f900b0ac117919996c69e575c0681e60a17a5e"
+    },
+    {
+      "page": 2,
+      "sha256": "aa283c4c4929c73d619e4ef2002116b910ba558443e3c358a46631948649fcdb"
+    },
+    {
+      "page": 3,
+      "sha256": "fdd62827cdb8d0926d557970e4eaaaf3f8c8fbc223878960a3f09ab56aabb4ef"
+    },
+    {
+      "page": 4,
+      "sha256": "427e2ee98ff830a4561345fbfd5cb7c325683e9fce73eaf1ec1a919c41fb623f"
+    },
+    {
+      "page": 5,
+      "sha256": "f01f68b46709f48e5a2405df19fa0b99b28eb800dc3d6460a7fad10a2b0706ab"
+    },
+    {
+      "page": 6,
+      "sha256": "199739344d0215d30503aa9e4326a67435955dbb07174d29ca9f87782ba29d03"
+    },
+    {
+      "page": 7,
+      "sha256": "9b9751fa5ea0d535434bb28ba2f22b6c10a220fd6760941bd1c2379b2f879400"
+    },
+    {
+      "page": 8,
+      "sha256": "7cdcd9e0912f9cf9b646c4ceb707b0a04d225a2e4b746c72fa18dcf37509ee46"
+    },
+    {
+      "page": 9,
+      "sha256": "d3ec254e583383186adfef836d233ca9055a217c665835200ac517fd14656596"
+    },
+    {
+      "page": 10,
+      "sha256": "35e66dbe051a5c1c468f9254d476419b9d1597ffdcfd93f57855897d96fc1246"
+    },
+    {
+      "page": 11,
+      "sha256": "74321a0ade243eec6c173613287cd6db8436eb0012368ab137de9b297dd07298"
+    },
+    {
+      "page": 12,
+      "sha256": "b9c7508bb8f64ff026062e33ddc6babede906c7f1afe10b33eeb6135bbc84b1f"
+    },
+    {
+      "page": 13,
+      "sha256": "dedc234dbeb3e9e49297cac26c241d544028d470fd7337b5ff92b99a1a9bc6f1"
+    },
+    {
+      "page": 14,
+      "sha256": "600dab6a0f03ee609b3c7b8d4737c3708402fced0cb27897a114b87551fd3ac1"
+    },
+    {
+      "page": 15,
+      "sha256": "1c34bf7a3c3a154612141dcd5a4c451a01e17abb9a3238b6edcb373110bb6806"
+    },
+    {
+      "page": 16,
+      "sha256": "133f1095c17c690bd3fb70b3c8749f0d9d50120c1b4e7e5152390fc5980e07e7"
+    },
+    {
+      "page": 17,
+      "sha256": "20416b675a901dd5a67ee7cc896c8fbc5bdd99b31b7a3fcc1e53514b720e8e46"
+    },
+    {
+      "page": 18,
+      "sha256": "c00d7af1ac95b57a5cf8dec2434a9537af949d68618709937163e3286e309a52"
+    },
+    {
+      "page": 19,
+      "sha256": "efa7e282c1fede05b470e9c360d026d9e1dd8d18dafc9b275854264dd8d6b38b"
+    },
+    {
+      "page": 20,
+      "sha256": "a2277fcefca5b872c312ed05814489956626613fbc7d9d39e47b36b07f78d229"
+    },
+    {
+      "page": 21,
+      "sha256": "b0981c0fa97f517234161f8dad8923448a9b2df0c773818dd2e04df148eb5ca2"
+    },
+    {
+      "page": 22,
+      "sha256": "1ba165c51f067679287b49fde4711628259bcec734dd0160986b67b0c0361ff5"
+    },
+    {
+      "page": 23,
+      "sha256": "c6d62a75b123bdfba3351a389734e17ba97e58bf97135be5790af28ef2b347fb"
+    },
+    {
+      "page": 24,
+      "sha256": "e32f17555aae6258365d18e6008ee57caffc536ba5d8a4301ea0769fb917dbee"
+    },
+    {
+      "page": 25,
+      "sha256": "a53af19312d4caae1429dd3a76713ab647036cefcdde7d0576022cc546498ab0"
+    }
+  ],
+  "mathematical_comparison": {
+    "numbered_statement_blocks": 4,
+    "display_expressions": 30,
+    "inline_expressions": 727,
+    "byte_identical": true,
+    "source_predecessor": "paper-A3-v7.2-en.tex"
+  },
+  "visual_review": {
+    "reviewer": "Codex main agent",
+    "all_pages_viewed": true,
+    "method": "All final pages rendered at1100px and viewed individually, including headers, first-page author, license/disclosure page and affiliation after references.",
+    "observed": "No clipping, overlap, missing glyphs or broken tables. Mild underfull lines are readable.",
+    "independent_review": false
+  },
+  "uploaded": false,
+  "publication_metadata_approved": true
+}

@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "scope": "Distributed Lean driver in a separate outside-Git working copy; existing pinned package checkouts AND build cache reused, not clean rebuild or OS sandbox.",
+  "packet": "<TMPDIR>/packet",
+  "packet_inventory_sha256": "81f699514074521ef75206c7f55624ed3e41cb9b77042c0747e96cb1ba9a14f7",
+  "seconds": 41.829773291014135,
+  "reused_package_cache": true,
+  "reused_build_cache": true,
+  "source_hashes_checked": 165,
+  "fresh_gate_reelaborated": true,
+  "custom_axiom_rejected": true,
+  "external_kernels_rerun": false,
+  "dependencies_installed": false,
+  "network_used": false
+}

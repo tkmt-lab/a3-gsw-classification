@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "generators": [
+    {
+      "name": "buckygen",
+      "version": "1.1",
+      "acquisition_url": "https://caagt.ugent.be/buckygen/buckygen-1.1.zip",
+      "archive_sha256": "c151b33078913bed7f72977821d246c6dda5e01b64a53d963b5f95b65852e634",
+      "source_sha256": "e379e7939686f93129274f3bb87dab5a72f63eae137b0878a98b74d2b1f7aa2b",
+      "binary_sha256": {
+        "local_macos": "36ec3170ff9ab3ba2ad95cba0fd94fbc2e6909f6bf600945f86799efb7be2cb1",
+        "recorded_linux_Modal_P": "41f97b1eeb5f5006f23f70ccbe47380f5b839964548bcd94b92ed2f8f6334666"
+      },
+      "redistributed": false
+    },
+    {
+      "name": "fullgen",
+      "version": "plantri 5.8 distribution; source change comment 2016-02-23",
+      "acquisition_url": "https://users.cecs.anu.edu.au/~bdm/plantri/plantri58.tar.gz",
+      "archive_sha256": "e78a944116fec9f2c9f5e484206276cc2b0043bae803e9815f4b2683614629b8",
+      "source_sha256": "16366ca7881fd3d79addc53991f6445bea31295f5e754ce29ea9ee53ed94a837",
+      "binary_sha256": {
+        "local_macos": "c8c9215c913423e0ff3b76bff0dbe67355ef28499765a599b1b6c6463f81aa49",
+        "recorded_linux_Modal_P": "7456c77f7b0527937b0eaeb944a2472fdebd477528f47218a478e75fa607850e"
+      },
+      "redistributed": false
+    }
+  ]
+}

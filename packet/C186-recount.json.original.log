@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "range": [
+    60,
+    186
+  ],
+  "sizes": 64,
+  "outputs_per_generator": 43636843,
+  "negative": 346,
+  "by_size_counts_equal": true,
+  "exact_code_sets_equal_reported_by_R004": true,
+  "main_team_only_range": [
+    188,
+    200
+  ],
+  "new_graph_runs": 0,
+  "kind": "Recount of fixed count tables, not canonical-code regeneration",
+  "receipts": [
+    {
+      "path": "studies/R002/A3-v7.3-received/R004-C186-sizes.csv.original.log",
+      "sha256": "59af16150f87d2297a1f5e07d95f47cbc9b3557e3729908e4caabe44720b302f",
+      "bytes": 6633
+    },
+    {
+      "path": "studies/R002/A3-v7.3-received/R004-report-011.original.log",
+      "sha256": "dc6dd56cecc44b470cd8443f4fada1517a99bb7ce8292f2fe2bce84a3a7b3201",
+      "bytes": 11667
+    },
+    {
+      "path": "studies/R002/A3-v7.3-received/coordinator-C186-check.original.log",
+      "sha256": "c4847a4c70a11de13064e3971153e66a296b073e494f37cb5c12b8be245fa127",
+      "bytes": 881
+    }
+  ]
+}

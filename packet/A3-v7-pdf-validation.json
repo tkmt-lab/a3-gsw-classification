@@ -1,0 +1,142 @@
+{
+  "status": "PASS",
+  "pdf_path": "paper-A3-v7-en.pdf",
+  "pdf_sha256": "e7b4728b6c917ae9af22ab3d98b73982e0e1dc75c617a4da867bc1b97ade739c",
+  "pdf_bytes": 208694,
+  "pages": 23,
+  "source_path": "paper-A3-v7-en.tex",
+  "source_sha256": "b04e0503aa514fa087514ac33ce0f7df3a0f7cb9fd054afc01338fede3066ef7",
+  "typeset_trial": "T1196",
+  "render_trial": "T1197",
+  "tex_engine": "Tectonic 0.17.0",
+  "equation_numbers": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "B1",
+    "B2",
+    "C1"
+  ],
+  "unique_equation_destinations": true,
+  "numbered_statements": 4,
+  "missing_references": false,
+  "overfull_boxes": false,
+  "duplicate_destinations": false,
+  "pdf_string_warnings": false,
+  "remaining_underfull_badness": [
+    1082,
+    1142,
+    1817
+  ],
+  "visual_review": {
+    "reviewer": "Codex main agent",
+    "all_pages_viewed": true,
+    "method": "All 23 pages rendered at 1100 pixels and viewed individually, including all formalization and review-state paragraphs, tables and appendix transitions.",
+    "observed": "No clipping, overlapping text, broken tables or missing glyphs; claim identifiers kept with declarations. Mild underfull spacing remains readable.",
+    "independent_review": false
+  },
+  "page_render_hashes": [
+    {
+      "page": 1,
+      "sha256": "af18b9bda09b4a365fee52c2677ddeeba7230770350a998a2b25633a44b6c638"
+    },
+    {
+      "page": 2,
+      "sha256": "51fe814e6d6afa7ba7ee3139acf2139e56bf2b6010773aa988e2aae9765e8d42"
+    },
+    {
+      "page": 3,
+      "sha256": "fdd62827cdb8d0926d557970e4eaaaf3f8c8fbc223878960a3f09ab56aabb4ef"
+    },
+    {
+      "page": 4,
+      "sha256": "884baff4723055e34c3692e2fc56e47adba9251a1a9266b33e5cb347d39ee3a6"
+    },
+    {
+      "page": 5,
+      "sha256": "f01f68b46709f48e5a2405df19fa0b99b28eb800dc3d6460a7fad10a2b0706ab"
+    },
+    {
+      "page": 6,
+      "sha256": "5e625be6af7f5613f1d76a889dda5bc2ab809f221855c4d45bd064dff888cae8"
+    },
+    {
+      "page": 7,
+      "sha256": "9b9751fa5ea0d535434bb28ba2f22b6c10a220fd6760941bd1c2379b2f879400"
+    },
+    {
+      "page": 8,
+      "sha256": "3ee846dc1b7843aa1a004df99112be28947060bebf9d8cb13e23722369246fbd"
+    },
+    {
+      "page": 9,
+      "sha256": "d3ec254e583383186adfef836d233ca9055a217c665835200ac517fd14656596"
+    },
+    {
+      "page": 10,
+      "sha256": "c7bad46a29fe81efc3cd9036264c56383c5811a1691151bd02efb9948c4bb4b6"
+    },
+    {
+      "page": 11,
+      "sha256": "5f3d62cb0430d7d47da877150de7cc96488a56865b424a96e74953e4253eb1af"
+    },
+    {
+      "page": 12,
+      "sha256": "50ee56313c3842ea8cc0a07f9fc8d8485455577ba9a67e2b39e4dd6106e05ca0"
+    },
+    {
+      "page": 13,
+      "sha256": "0671f57abcae9fd246788796351e7e3ca27438b9f928e30a67bd47866a5d6028"
+    },
+    {
+      "page": 14,
+      "sha256": "6c9f0f7971a95035b9bae7dd98b93599609fc384f89549ef04d2f79d7805dc4c"
+    },
+    {
+      "page": 15,
+      "sha256": "2e130d687835f5328460bf77486067b1a0952f7806fa943c22a5af74c21f250c"
+    },
+    {
+      "page": 16,
+      "sha256": "7379b4de669208121b08c84e1c8ee06906c5e300acced74fbb327fd3b7e3b166"
+    },
+    {
+      "page": 17,
+      "sha256": "34b890c09c1a5c4c2af466db0a76e4d887b0397efeee92f30700b272e3d35b59"
+    },
+    {
+      "page": 18,
+      "sha256": "2d1050b71cde13ede9610cafabc0f06c9842515eeb6639d51eb3e9a145b9dc27"
+    },
+    {
+      "page": 19,
+      "sha256": "1acf70622f8fd13bbe8000b640d8bcec4e6b987300f9df3a252f17313b7a592b"
+    },
+    {
+      "page": 20,
+      "sha256": "3c481e9220ec459e6d8d81f20409f6225de9faf7a950f71e6b026e5849665c38"
+    },
+    {
+      "page": 21,
+      "sha256": "fc27a7be6588b3b2deeea6a7c329cbc140321ff9453054e8b6e01f82c1de19e6"
+    },
+    {
+      "page": 22,
+      "sha256": "dddfbead14055bf6d4e7ecfc7ccab6bed8dfd2013400d0ff4ad0bbb3ea9bd8d0"
+    },
+    {
+      "page": 23,
+      "sha256": "cbd718b38a70b19afde1ed763163f92a4cb1194c8b8537f9a349bacc600b584c"
+    }
+  ],
+  "external_release": false
+}

@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "owner_copy": {
+    "path": "owner-challenge-original.lean.original.log",
+    "sha256": "2f466e618d27acb81b94ec93bd5f2e044f81d3f1b850574bc24ee27ef97d3166",
+    "bytes": 6169
+  },
+  "current_copy": {
+    "path": "formal/Formal/ComparatorChallengeMain.lean",
+    "sha256": "a8743de53d570cb0b1a3e4c92ea4d3456b509f6e7caadd61774e16fd41c0f1fc",
+    "bytes": 6385
+  },
+  "diff": {
+    "path": "owner-copy-diff.txt",
+    "sha256": "3bd6d3d51441c60399c07115f6e57c7679c43616c78eed413ff0ef827115df91",
+    "bytes": 718
+  },
+  "method": "byte comparison after removing import lines and the one exact definition-only receipt comment",
+  "definitions_and_theorem_statement_identical": true,
+  "new_lean_run": false,
+  "human_proof_review": false
+}

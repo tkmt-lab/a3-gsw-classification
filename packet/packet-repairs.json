@@ -1,0 +1,52 @@
+{
+  "packet_version": "1.0.5",
+  "paper_version": "8",
+  "historical_claims_version": "0.6.0-draft",
+  "historical_claims_sha256": "187b0756e1ad8e3fb3fe33e2eb439c30d9565d0251e7d93f4c4151bdec431f83",
+  "certificate_module": {
+    "path": "code/certificates.py",
+    "sha256": "1720b77e8ce8dba02b6ca6638abe88b1ef2d071445cba386b442f58b1ac65411",
+    "bytes": 4461
+  },
+  "historical_check_script": {
+    "path": "code/check_en_v5_formulas.py",
+    "sha256": "a2d5d0327faa3763e5d78cf6e34bf8775f65fa7429e539a9db5e736f2717f6a2",
+    "bytes": 10961
+  },
+  "original_check_script": {
+    "path": "historical-check-en-v5-original.py.txt",
+    "sha256": "b603582d978b9f46e7a26f0a2501c49def77a299222d8edfa614130e9f5d7b7b",
+    "bytes": 11029
+  },
+  "script_source_commit": "0242e451270df0029d5acf63b35fd3dda6766bc9",
+  "historical_check_inputs": [
+    {
+      "path": "historical-paper-A3-v5-en.tex",
+      "sha256": "bb779106159529fc6dce5ca7e3b6361f5d1c0e9463670e90bfe2f5ee7973ecc9",
+      "bytes": 70943
+    },
+    {
+      "path": "historical-counts-v3.csv",
+      "sha256": "af0ba21922bccfc814341199c4b7b72f408bd040bc24ea939c6ca0f75833fc5d",
+      "bytes": 4307
+    }
+  ],
+  "t0929_input": {
+    "path": "T0929-input-claude-en-v5-review.txt",
+    "sha256": "3e0792539d4060ad0f06ad57e4f5cbc591a950835b9b46be6b74a3eda8e21c48",
+    "bytes": 2771
+  },
+  "expected_historical_check_result": {
+    "passed": 76,
+    "total": 77,
+    "failed": "R004 T<=700: 127 primitive (120/7), 103 nonprimitive"
+  },
+  "optional_reproduction_argv": [
+    "python3",
+    "-B",
+    "code/check_en_v5_formulas.py",
+    "--big"
+  ],
+  "arithmetic_ast_unchanged": true,
+  "certificate_functions_ast_unchanged": true
+}

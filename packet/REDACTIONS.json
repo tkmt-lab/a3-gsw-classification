@@ -1,0 +1,58 @@
+{
+  "packet_version": "1.0.5",
+  "status": "REDACTED_PUBLIC_DERIVATIVES",
+  "originals_included": false,
+  "proof_sources_changed": false,
+  "paper_bytes_changed": false,
+  "rules": {
+    "R01-workdir": "private checkout prefix to neutral placeholder",
+    "R02-tempdir": "private temporary prefix to neutral placeholder",
+    "R03-temp-prefix": "internal temporary prefix to neutral prefix",
+    "R04-local-tool": "internal wrapper name to neutral name",
+    "R05-derived-fingerprint": "bind dependent receipt to its public derivative"
+  },
+  "records": [
+    {
+      "public_file": "T1202-detached-formal-gate.original.log",
+      "original_sha256": "c2876b0293e561851bf79798b85ffa7768adfcfcdd789cc930a99d755e9ad9b7",
+      "original_bytes": 848657,
+      "public_sha256": "4159460a4501e24dab9ff10d14b4a46620fcdb76a3640593662b84629318ccde",
+      "public_bytes": 848416,
+      "rule_ids": [
+        "R02-tempdir"
+      ]
+    },
+    {
+      "public_file": "T1202-execution-receipt.json.original.log",
+      "original_sha256": "71544819aaaf2430655edcc0423f0daa19f9804d0c747bb870580f48b1778975",
+      "original_bytes": 685,
+      "public_sha256": "576b3d71d3ab8fc560a5cd26c938ba6732aa637240bed8e5c2e4d1566b567e29",
+      "public_bytes": 610,
+      "rule_ids": [
+        "R02-tempdir"
+      ]
+    },
+    {
+      "public_file": "T1202-trial.json.original.log",
+      "original_sha256": "8fda80139db676b8c8b7eb22b5c95789d26eab63d1f1df77a464fe9fc3d064be",
+      "original_bytes": 4101,
+      "public_sha256": "cb2e9e68d3098a4fb8022fc7572c76ddec1f7dcef3925cb3ad9df62026be86bf",
+      "public_bytes": 4052,
+      "rule_ids": [
+        "R01-workdir",
+        "R05-derived-fingerprint"
+      ]
+    },
+    {
+      "public_file": "verify_detached.py.original.log",
+      "original_sha256": "08279e67914b68e267daa4b6eac068733a7b8efe24af8a97ed865e8846a808c1",
+      "original_bytes": 2141,
+      "public_sha256": "d55592a7c3d15968eb34cdc8b800fd7480d46a35edbaa677450a296e5fee1847",
+      "public_bytes": 2142,
+      "rule_ids": [
+        "R03-temp-prefix"
+      ]
+    }
+  ],
+  "change_scope": "Historical record derivatives unchanged; remove private fingerprint vocabulary from current public scanner, disclose separate internal private-name checks and editorial navigation corrections."
+}

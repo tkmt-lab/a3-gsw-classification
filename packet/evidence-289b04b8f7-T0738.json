@@ -1,0 +1,98 @@
+{
+  "trial_id": "T0738",
+  "study_id": "R002",
+  "parent_trial_id": null,
+  "phase": "reproduction",
+  "started_at": "2026-10-18T15:12:52+00:00",
+  "finished_at": "2026-10-18T15:13:26+00:00",
+  "status": "ok",
+  "intent": "AV final integrated Lean build: optional definitional unfolding then unconditional ring;41 new theorems, no sorry, unchanged26 coefficient identities",
+  "historical_command": [
+    "env",
+    "LEAN_NUM_THREADS=1",
+    "lake",
+    "--no-cache",
+    "build",
+    "+Formal:olean"
+  ],
+  "historical_working_directory": "ARCHIVAL_WORKSPACE/formal",
+  "code_commit": "76a9d89ebce23ad15975e2eaeb716ddd5f90fcfc",
+  "historical_code_patch_or_snapshot": {
+    "tracked_diff": "historical-reference:source-8ea1902d03f7f9c5cd4a",
+    "untracked": [
+      "formal/Formal/A3Arithmetic.lean",
+      "formal/Formal/A3PolynomialBounds.lean",
+      "historical-reference:source-b9e6cfbaef89c2d172c0",
+      "historical-reference:source-d182e1c1dcbdd24a9317",
+      "historical-reference:source-058d75f87ce7679b528a",
+      "historical-reference:source-f73c9086018a4b69e25f/",
+      "historical-reference:source-dd4bae98cf59053a68e4/",
+      "historical-reference:source-bb767e0ed4f64f1e61f4/",
+      "historical-reference:source-7b8c847e1937291b1d3a/",
+      "historical-reference:source-e87c950678631dc75a3d/",
+      "historical-reference:source-1eff4fb35ee69e428de2",
+      "historical-reference:source-fd39aba89c0b42edfa42",
+      "historical-reference:source-98f9d5ef25082696b615",
+      "historical-reference:source-2108ea8ba36f428062d6",
+      "historical-reference:source-a463cf8e62f214d56f41",
+      "evidence-289b04b8f7-T0738.json"
+    ],
+    "copies": [
+      {
+        "historical_reference_id": "source-f2db848794162bd43349",
+        "historical_copy_id": "source-e5cf9a9706e8a26dab95",
+        "sha256": "25a2259a80471a4000f5777a3cf5ef71c569d4ad00f8985f14ebe54ebbe41e57"
+      },
+      {
+        "historical_reference_id": "source-e7c2534c9ebf20513c20",
+        "historical_copy_id": "source-3cd107756e6da1de1c16",
+        "sha256": "e9a6ca756c53b72b05d0e2e05d83c2fe57a234ad4453df9cb88ea2c3dbd31407"
+      },
+      {
+        "historical_reference_id": "source-b78c2b3683b62711d73a",
+        "historical_copy_id": "source-c2621ef7215a9e75516a",
+        "sha256": "45b5b0901ab24de4f1fdce3ae4a950d1b073ec571f30fa7618fe04f99b08c470"
+      }
+    ]
+  },
+  "environment": {
+    "historical_platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "historical_python": "3.14.7"
+  },
+  "inputs": [],
+  "parameters": {
+    "cpu": "1",
+    "memory_limit": "4GB"
+  },
+  "seed": null,
+  "artifacts": [
+    {
+      "historical_reference_id": "source-cddcf9bb79727ff4b12e",
+      "bytes": 37450,
+      "sha256": "0489ab519ab3087a8816215d26eb92ca8e79bae5fd5798430d5fe31e54af3676",
+      "git_tracked": true
+    },
+    {
+      "historical_reference_id": "source-68449634369fc836d93d",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_tracked": true
+    }
+  ],
+  "metrics_viewed": {},
+  "elapsed_seconds": 33.786,
+  "peak_memory_mb": 2836.5,
+  "cost": {
+    "amount": 0,
+    "currency": null,
+    "basis": "ローカル実行（課金なし）"
+  },
+  "error_or_abort_reason": null,
+  "decision_and_next_step": null,
+  "notes": [],
+  "historical_executable": {
+    "historical_reference_id": "source-21cc473fde0050ab4e99",
+    "sha256": "75690864f0e7397db05bcc0f4439915559ce24c2d834d530e4e619c14b938556"
+  }
+}

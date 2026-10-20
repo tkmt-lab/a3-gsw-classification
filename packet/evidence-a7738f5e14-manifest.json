@@ -1,0 +1,11084 @@
+{
+  "status": "prepared_not_executed",
+  "sources": [
+    {
+      "historical_reference_id": "source-76db028e8193fe885b74",
+      "sha256": "3334e0bd8a940099bfe3e6292e1ca9d89b008bd91446cc3e6f82dfef6547a028"
+    },
+    {
+      "historical_reference_id": "source-6d7b179576b91bba2d2a",
+      "sha256": "2222258ab9bf510c210c54632b9707ff839c204f9a570a449b3f08333aa2ffcf"
+    },
+    {
+      "historical_reference_id": "source-a54f5dd826ad5668a597",
+      "sha256": "8cc9f8e0372b405fb3ba9a91b932dcc4dcdcd613d80b499bc63b757df84b3537"
+    },
+    {
+      "historical_reference_id": "source-b57444c177dc9cc06256",
+      "sha256": "19f70e6e4ca70dd651a63c5cc8ffe14482f9e308d927e61844d65624a476a5bd"
+    },
+    {
+      "historical_reference_id": "source-67adc488312c99836683",
+      "sha256": "e07ed7941bd9403d72abb48e4955e6430ec4a11590373ade6ce767dcb5d3e5a8"
+    },
+    {
+      "historical_reference_id": "source-e3f8af20c6d007e53c3b",
+      "sha256": "383709bb21b3276488f561ca96f08c2ade86af05f1e213de3c9ffa7c1b07f554"
+    },
+    {
+      "historical_reference_id": "source-e33b15a591f983b8ced2",
+      "sha256": "71428f5c5a7fd901d588030d7b200c1e329155592dcf75d1c6255a0cd9327b50"
+    }
+  ],
+  "bands": [
+    {
+      "name": "AR_plus",
+      "normal": [
+        1,
+        0,
+        0
+      ],
+      "period": [
+        0,
+        5
+      ],
+      "central": [
+        {
+          "chart": 0,
+          "rotation": 0,
+          "shift": [
+            0,
+            0
+          ],
+          "tile": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                0,
+                0
+              ],
+              "label": 4
+            },
+            {
+              "parent": [
+                1,
+                0
+              ],
+              "label": 0
+            },
+            {
+              "parent": [
+                0,
+                1
+              ],
+              "label": 5
+            }
+          ]
+        },
+        {
+          "chart": 13,
+          "rotation": 1,
+          "shift": [
+            1,
+            -1
+          ],
+          "tile": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                1,
+                0
+              ],
+              "label": 0
+            },
+            {
+              "parent": [
+                1,
+                1
+              ],
+              "label": 1
+            },
+            {
+              "parent": [
+                0,
+                1
+              ],
+              "label": 5
+            }
+          ]
+        },
+        {
+          "chart": 3,
+          "rotation": 0,
+          "shift": [
+            0,
+            -1
+          ],
+          "tile": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                0,
+                1
+              ],
+              "label": 5
+            },
+            {
+              "parent": [
+                1,
+                1
+              ],
+              "label": 1
+            },
+            {
+              "parent": [
+                0,
+                2
+              ],
+              "label": 6
+            }
+          ]
+        },
+        {
+          "chart": 17,
+          "rotation": 1,
+          "shift": [
+            2,
+            -2
+          ],
+          "tile": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                1,
+                1
+              ],
+              "label": 1
+            },
+            {
+              "parent": [
+                1,
+                2
+              ],
+              "label": 7
+            },
+            {
+              "parent": [
+                0,
+                2
+              ],
+              "label": 6
+            }
+          ]
+        },
+        {
+          "chart": 18,
+          "rotation": 0,
+          "shift": [
+            0,
+            -2
+          ],
+          "tile": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                0,
+                2
+              ],
+              "label": 6
+            },
+            {
+              "parent": [
+                1,
+                2
+              ],
+              "label": 7
+            },
+            {
+              "parent": [
+                0,
+                3
+              ],
+              "label": 11
+            }
+          ]
+        },
+        {
+          "chart": 12,
+          "rotation": 1,
+          "shift": [
+            3,
+            -3
+          ],
+          "tile": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                1,
+                2
+              ],
+              "label": 7
+            },
+            {
+              "parent": [
+                1,
+                3
+              ],
+              "label": 8
+            },
+            {
+              "parent": [
+                0,
+                3
+              ],
+              "label": 11
+            }
+          ]
+        },
+        {
+          "chart": 6,
+          "rotation": 4,
+          "shift": [
+            -3,
+            4
+          ],
+          "tile": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              0,
+              4
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                0,
+                3
+              ],
+              "label": 11
+            },
+            {
+              "parent": [
+                1,
+                3
+              ],
+              "label": 8
+            },
+            {
+              "parent": [
+                0,
+                4
+              ],
+              "label": 9
+            }
+          ]
+        },
+        {
+          "chart": 7,
+          "rotation": 5,
+          "shift": [
+            -4,
+            1
+          ],
+          "tile": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              0,
+              4
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                1,
+                3
+              ],
+              "label": 8
+            },
+            {
+              "parent": [
+                1,
+                4
+              ],
+              "label": 3
+            },
+            {
+              "parent": [
+                0,
+                4
+              ],
+              "label": 9
+            }
+          ]
+        },
+        {
+          "chart": 1,
+          "rotation": 4,
+          "shift": [
+            -4,
+            5
+          ],
+          "tile": [
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              0,
+              5
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                0,
+                4
+              ],
+              "label": 9
+            },
+            {
+              "parent": [
+                1,
+                4
+              ],
+              "label": 3
+            },
+            {
+              "parent": [
+                0,
+                5
+              ],
+              "label": 4
+            }
+          ]
+        },
+        {
+          "chart": 2,
+          "rotation": 1,
+          "shift": [
+            5,
+            -5
+          ],
+          "tile": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              0,
+              5
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                1,
+                4
+              ],
+              "label": 3
+            },
+            {
+              "parent": [
+                1,
+                5
+              ],
+              "label": 0
+            },
+            {
+              "parent": [
+                0,
+                5
+              ],
+              "label": 4
+            }
+          ]
+        }
+      ],
+      "caps": [],
+      "source": "AR-A3-strip-atlas.json"
+    },
+    {
+      "name": "AR_minus",
+      "normal": [
+        0,
+        1,
+        -1
+      ],
+      "period": [
+        5,
+        0
+      ],
+      "central": [
+        {
+          "chart": 2,
+          "rotation": 1,
+          "shift": [
+            0,
+            0
+          ],
+          "tile": [
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                1,
+                -1
+              ],
+              "label": 3
+            },
+            {
+              "parent": [
+                1,
+                0
+              ],
+              "label": 0
+            },
+            {
+              "parent": [
+                0,
+                0
+              ],
+              "label": 4
+            }
+          ]
+        },
+        {
+          "chart": 19,
+          "rotation": 0,
+          "shift": [
+            -1,
+            1
+          ],
+          "tile": [
+            [
+              1,
+              -1
+            ],
+            [
+              2,
+              -1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                1,
+                -1
+              ],
+              "label": 3
+            },
+            {
+              "parent": [
+                2,
+                -1
+              ],
+              "label": 2
+            },
+            {
+              "parent": [
+                1,
+                0
+              ],
+              "label": 0
+            }
+          ]
+        },
+        {
+          "chart": 4,
+          "rotation": 1,
+          "shift": [
+            0,
+            -1
+          ],
+          "tile": [
+            [
+              2,
+              -1
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                2,
+                -1
+              ],
+              "label": 2
+            },
+            {
+              "parent": [
+                2,
+                0
+              ],
+              "label": 1
+            },
+            {
+              "parent": [
+                1,
+                0
+              ],
+              "label": 0
+            }
+          ]
+        },
+        {
+          "chart": 11,
+          "rotation": 4,
+          "shift": [
+            1,
+            2
+          ],
+          "tile": [
+            [
+              2,
+              -1
+            ],
+            [
+              3,
+              -1
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                2,
+                -1
+              ],
+              "label": 2
+            },
+            {
+              "parent": [
+                3,
+                -1
+              ],
+              "label": 7
+            },
+            {
+              "parent": [
+                2,
+                0
+              ],
+              "label": 1
+            }
+          ]
+        },
+        {
+          "chart": 17,
+          "rotation": 3,
+          "shift": [
+            3,
+            0
+          ],
+          "tile": [
+            [
+              3,
+              -1
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                3,
+                -1
+              ],
+              "label": 7
+            },
+            {
+              "parent": [
+                3,
+                0
+              ],
+              "label": 6
+            },
+            {
+              "parent": [
+                2,
+                0
+              ],
+              "label": 1
+            }
+          ]
+        },
+        {
+          "chart": 18,
+          "rotation": 2,
+          "shift": [
+            3,
+            -3
+          ],
+          "tile": [
+            [
+              3,
+              -1
+            ],
+            [
+              4,
+              -1
+            ],
+            [
+              3,
+              0
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                3,
+                -1
+              ],
+              "label": 7
+            },
+            {
+              "parent": [
+                4,
+                -1
+              ],
+              "label": 11
+            },
+            {
+              "parent": [
+                3,
+                0
+              ],
+              "label": 6
+            }
+          ]
+        },
+        {
+          "chart": 9,
+          "rotation": 3,
+          "shift": [
+            4,
+            0
+          ],
+          "tile": [
+            [
+              4,
+              -1
+            ],
+            [
+              4,
+              0
+            ],
+            [
+              3,
+              0
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                4,
+                -1
+              ],
+              "label": 11
+            },
+            {
+              "parent": [
+                4,
+                0
+              ],
+              "label": 10
+            },
+            {
+              "parent": [
+                3,
+                0
+              ],
+              "label": 6
+            }
+          ]
+        },
+        {
+          "chart": 16,
+          "rotation": 4,
+          "shift": [
+            1,
+            4
+          ],
+          "tile": [
+            [
+              4,
+              -1
+            ],
+            [
+              5,
+              -1
+            ],
+            [
+              4,
+              0
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                4,
+                -1
+              ],
+              "label": 11
+            },
+            {
+              "parent": [
+                5,
+                -1
+              ],
+              "label": 9
+            },
+            {
+              "parent": [
+                4,
+                0
+              ],
+              "label": 10
+            }
+          ]
+        },
+        {
+          "chart": 8,
+          "rotation": 1,
+          "shift": [
+            0,
+            -4
+          ],
+          "tile": [
+            [
+              5,
+              -1
+            ],
+            [
+              5,
+              0
+            ],
+            [
+              4,
+              0
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                5,
+                -1
+              ],
+              "label": 9
+            },
+            {
+              "parent": [
+                5,
+                0
+              ],
+              "label": 4
+            },
+            {
+              "parent": [
+                4,
+                0
+              ],
+              "label": 10
+            }
+          ]
+        },
+        {
+          "chart": 1,
+          "rotation": 4,
+          "shift": [
+            1,
+            5
+          ],
+          "tile": [
+            [
+              5,
+              -1
+            ],
+            [
+              6,
+              -1
+            ],
+            [
+              5,
+              0
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                5,
+                -1
+              ],
+              "label": 9
+            },
+            {
+              "parent": [
+                6,
+                -1
+              ],
+              "label": 3
+            },
+            {
+              "parent": [
+                5,
+                0
+              ],
+              "label": 4
+            }
+          ]
+        }
+      ],
+      "caps": [
+        {
+          "role": "upper",
+          "phase": 0,
+          "record": {
+            "chart": 0,
+            "rotation": 0,
+            "shift": [
+              0,
+              0
+            ],
+            "tile": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            "vertices": [
+              {
+                "parent": [
+                  0,
+                  0
+                ],
+                "label": 4
+              },
+              {
+                "parent": [
+                  1,
+                  0
+                ],
+                "label": 0
+              },
+              {
+                "parent": [
+                  0,
+                  1
+                ],
+                "label": 5
+              }
+            ]
+          }
+        },
+        {
+          "role": "upper",
+          "phase": 1,
+          "record": {
+            "chart": 13,
+            "rotation": 2,
+            "shift": [
+              2,
+              -1
+            ],
+            "tile": [
+              [
+                1,
+                0
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "vertices": [
+              {
+                "parent": [
+                  1,
+                  0
+                ],
+                "label": 0
+              },
+              {
+                "parent": [
+                  2,
+                  0
+                ],
+                "label": 1
+              },
+              {
+                "parent": [
+                  1,
+                  1
+                ],
+                "label": 5
+              }
+            ]
+          }
+        },
+        {
+          "role": "upper",
+          "phase": 2,
+          "record": {
+            "chart": 3,
+            "rotation": 2,
+            "shift": [
+              3,
+              -2
+            ],
+            "tile": [
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                0
+              ],
+              [
+                2,
+                1
+              ]
+            ],
+            "vertices": [
+              {
+                "parent": [
+                  2,
+                  0
+                ],
+                "label": 1
+              },
+              {
+                "parent": [
+                  3,
+                  0
+                ],
+                "label": 6
+              },
+              {
+                "parent": [
+                  2,
+                  1
+                ],
+                "label": 5
+              }
+            ]
+          }
+        },
+        {
+          "role": "upper",
+          "phase": 3,
+          "record": {
+            "chart": 14,
+            "rotation": 2,
+            "shift": [
+              4,
+              -3
+            ],
+            "tile": [
+              [
+                3,
+                0
+              ],
+              [
+                4,
+                0
+              ],
+              [
+                3,
+                1
+              ]
+            ],
+            "vertices": [
+              {
+                "parent": [
+                  3,
+                  0
+                ],
+                "label": 6
+              },
+              {
+                "parent": [
+                  4,
+                  0
+                ],
+                "label": 10
+              },
+              {
+                "parent": [
+                  3,
+                  1
+                ],
+                "label": 5
+              }
+            ]
+          }
+        },
+        {
+          "role": "upper",
+          "phase": 4,
+          "record": {
+            "chart": 5,
+            "rotation": 2,
+            "shift": [
+              5,
+              -4
+            ],
+            "tile": [
+              [
+                4,
+                0
+              ],
+              [
+                5,
+                0
+              ],
+              [
+                4,
+                1
+              ]
+            ],
+            "vertices": [
+              {
+                "parent": [
+                  4,
+                  0
+                ],
+                "label": 10
+              },
+              {
+                "parent": [
+                  5,
+                  0
+                ],
+                "label": 4
+              },
+              {
+                "parent": [
+                  4,
+                  1
+                ],
+                "label": 5
+              }
+            ]
+          }
+        },
+        {
+          "role": "lower",
+          "phase": 0,
+          "record": {
+            "chart": 15,
+            "rotation": 5,
+            "shift": [
+              0,
+              2
+            ],
+            "tile": [
+              [
+                1,
+                -1
+              ],
+              [
+                2,
+                -2
+              ],
+              [
+                2,
+                -1
+              ]
+            ],
+            "vertices": [
+              {
+                "parent": [
+                  1,
+                  -1
+                ],
+                "label": 3
+              },
+              {
+                "parent": [
+                  2,
+                  -2
+                ],
+                "label": 8
+              },
+              {
+                "parent": [
+                  2,
+                  -1
+                ],
+                "label": 2
+              }
+            ]
+          }
+        },
+        {
+          "role": "lower",
+          "phase": 1,
+          "record": {
+            "chart": 10,
+            "rotation": 1,
+            "shift": [
+              -1,
+              -1
+            ],
+            "tile": [
+              [
+                2,
+                -1
+              ],
+              [
+                3,
+                -2
+              ],
+              [
+                3,
+                -1
+              ]
+            ],
+            "vertices": [
+              {
+                "parent": [
+                  2,
+                  -1
+                ],
+                "label": 2
+              },
+              {
+                "parent": [
+                  3,
+                  -2
+                ],
+                "label": 8
+              },
+              {
+                "parent": [
+                  3,
+                  -1
+                ],
+                "label": 7
+              }
+            ]
+          }
+        },
+        {
+          "role": "lower",
+          "phase": 2,
+          "record": {
+            "chart": 12,
+            "rotation": 3,
+            "shift": [
+              4,
+              -1
+            ],
+            "tile": [
+              [
+                3,
+                -1
+              ],
+              [
+                4,
+                -2
+              ],
+              [
+                4,
+                -1
+              ]
+            ],
+            "vertices": [
+              {
+                "parent": [
+                  3,
+                  -1
+                ],
+                "label": 7
+              },
+              {
+                "parent": [
+                  4,
+                  -2
+                ],
+                "label": 8
+              },
+              {
+                "parent": [
+                  4,
+                  -1
+                ],
+                "label": 11
+              }
+            ]
+          }
+        },
+        {
+          "role": "lower",
+          "phase": 3,
+          "record": {
+            "chart": 6,
+            "rotation": 5,
+            "shift": [
+              -3,
+              5
+            ],
+            "tile": [
+              [
+                4,
+                -1
+              ],
+              [
+                5,
+                -2
+              ],
+              [
+                5,
+                -1
+              ]
+            ],
+            "vertices": [
+              {
+                "parent": [
+                  4,
+                  -1
+                ],
+                "label": 11
+              },
+              {
+                "parent": [
+                  5,
+                  -2
+                ],
+                "label": 8
+              },
+              {
+                "parent": [
+                  5,
+                  -1
+                ],
+                "label": 9
+              }
+            ]
+          }
+        },
+        {
+          "role": "lower",
+          "phase": 4,
+          "record": {
+            "chart": 7,
+            "rotation": 5,
+            "shift": [
+              -4,
+              6
+            ],
+            "tile": [
+              [
+                5,
+                -1
+              ],
+              [
+                6,
+                -2
+              ],
+              [
+                6,
+                -1
+              ]
+            ],
+            "vertices": [
+              {
+                "parent": [
+                  5,
+                  -1
+                ],
+                "label": 9
+              },
+              {
+                "parent": [
+                  6,
+                  -2
+                ],
+                "label": 8
+              },
+              {
+                "parent": [
+                  6,
+                  -1
+                ],
+                "label": 3
+              }
+            ]
+          }
+        }
+      ],
+      "source": "AR-A3-strip-atlas.json"
+    },
+    {
+      "name": "AT_A",
+      "normal": [
+        -2,
+        1,
+        0
+      ],
+      "period": [
+        2,
+        4
+      ],
+      "central": [
+        {
+          "chart": 0,
+          "rotation": 0,
+          "shift": [
+            0,
+            0
+          ],
+          "tile": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                0,
+                0
+              ],
+              "label": 4
+            },
+            {
+              "parent": [
+                1,
+                0
+              ],
+              "label": 0
+            },
+            {
+              "parent": [
+                0,
+                1
+              ],
+              "label": 5
+            }
+          ]
+        },
+        {
+          "chart": 13,
+          "rotation": 1,
+          "shift": [
+            1,
+            -1
+          ],
+          "tile": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                1,
+                0
+              ],
+              "label": 0
+            },
+            {
+              "parent": [
+                1,
+                1
+              ],
+              "label": 1
+            },
+            {
+              "parent": [
+                0,
+                1
+              ],
+              "label": 5
+            }
+          ]
+        },
+        {
+          "chart": 3,
+          "rotation": 0,
+          "shift": [
+            0,
+            -1
+          ],
+          "tile": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                0,
+                1
+              ],
+              "label": 5
+            },
+            {
+              "parent": [
+                1,
+                1
+              ],
+              "label": 1
+            },
+            {
+              "parent": [
+                0,
+                2
+              ],
+              "label": 6
+            }
+          ]
+        },
+        {
+          "chart": 17,
+          "rotation": 1,
+          "shift": [
+            2,
+            -2
+          ],
+          "tile": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                1,
+                1
+              ],
+              "label": 1
+            },
+            {
+              "parent": [
+                1,
+                2
+              ],
+              "label": 7
+            },
+            {
+              "parent": [
+                0,
+                2
+              ],
+              "label": 6
+            }
+          ]
+        },
+        {
+          "chart": 18,
+          "rotation": 0,
+          "shift": [
+            0,
+            -2
+          ],
+          "tile": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                0,
+                2
+              ],
+              "label": 6
+            },
+            {
+              "parent": [
+                1,
+                2
+              ],
+              "label": 7
+            },
+            {
+              "parent": [
+                0,
+                3
+              ],
+              "label": 11
+            }
+          ]
+        },
+        {
+          "chart": 12,
+          "rotation": 1,
+          "shift": [
+            3,
+            -3
+          ],
+          "tile": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                1,
+                2
+              ],
+              "label": 7
+            },
+            {
+              "parent": [
+                1,
+                3
+              ],
+              "label": 8
+            },
+            {
+              "parent": [
+                0,
+                3
+              ],
+              "label": 11
+            }
+          ]
+        },
+        {
+          "chart": 10,
+          "rotation": 4,
+          "shift": [
+            -2,
+            4
+          ],
+          "tile": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                1,
+                2
+              ],
+              "label": 7
+            },
+            {
+              "parent": [
+                2,
+                2
+              ],
+              "label": 2
+            },
+            {
+              "parent": [
+                1,
+                3
+              ],
+              "label": 8
+            }
+          ]
+        },
+        {
+          "chart": 15,
+          "rotation": 1,
+          "shift": [
+            3,
+            -4
+          ],
+          "tile": [
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                2,
+                2
+              ],
+              "label": 2
+            },
+            {
+              "parent": [
+                2,
+                3
+              ],
+              "label": 3
+            },
+            {
+              "parent": [
+                1,
+                3
+              ],
+              "label": 8
+            }
+          ]
+        },
+        {
+          "chart": 7,
+          "rotation": 0,
+          "shift": [
+            -1,
+            -3
+          ],
+          "tile": [
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                1,
+                3
+              ],
+              "label": 8
+            },
+            {
+              "parent": [
+                2,
+                3
+              ],
+              "label": 3
+            },
+            {
+              "parent": [
+                1,
+                4
+              ],
+              "label": 9
+            }
+          ]
+        },
+        {
+          "chart": 1,
+          "rotation": 5,
+          "shift": [
+            -5,
+            2
+          ],
+          "tile": [
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                2,
+                3
+              ],
+              "label": 3
+            },
+            {
+              "parent": [
+                2,
+                4
+              ],
+              "label": 4
+            },
+            {
+              "parent": [
+                1,
+                4
+              ],
+              "label": 9
+            }
+          ]
+        },
+        {
+          "chart": 8,
+          "rotation": 2,
+          "shift": [
+            6,
+            -1
+          ],
+          "tile": [
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              1,
+              5
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                1,
+                4
+              ],
+              "label": 9
+            },
+            {
+              "parent": [
+                2,
+                4
+              ],
+              "label": 4
+            },
+            {
+              "parent": [
+                1,
+                5
+              ],
+              "label": 10
+            }
+          ]
+        },
+        {
+          "chart": 5,
+          "rotation": 3,
+          "shift": [
+            2,
+            5
+          ],
+          "tile": [
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              1,
+              5
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                2,
+                4
+              ],
+              "label": 4
+            },
+            {
+              "parent": [
+                2,
+                5
+              ],
+              "label": 5
+            },
+            {
+              "parent": [
+                1,
+                5
+              ],
+              "label": 10
+            }
+          ]
+        }
+      ],
+      "caps": [
+        {
+          "role": "initial",
+          "phase": 0,
+          "record": {
+            "chart": 2,
+            "rotation": 1,
+            "shift": [
+              0,
+              0
+            ],
+            "tile": [
+              [
+                1,
+                -1
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "vertices": [
+              {
+                "parent": [
+                  1,
+                  -1
+                ],
+                "label": 3
+              },
+              {
+                "parent": [
+                  1,
+                  0
+                ],
+                "label": 0
+              },
+              {
+                "parent": [
+                  0,
+                  0
+                ],
+                "label": 4
+              }
+            ]
+          }
+        },
+        {
+          "role": "terminal",
+          "phase": 0,
+          "record": {
+            "chart": 6,
+            "rotation": 4,
+            "shift": [
+              -3,
+              4
+            ],
+            "tile": [
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                0,
+                4
+              ]
+            ],
+            "vertices": [
+              {
+                "parent": [
+                  0,
+                  3
+                ],
+                "label": 11
+              },
+              {
+                "parent": [
+                  1,
+                  3
+                ],
+                "label": 8
+              },
+              {
+                "parent": [
+                  0,
+                  4
+                ],
+                "label": 9
+              }
+            ]
+          }
+        },
+        {
+          "role": "terminal",
+          "phase": 1,
+          "record": {
+            "chart": 14,
+            "rotation": 4,
+            "shift": [
+              -5,
+              7
+            ],
+            "tile": [
+              [
+                1,
+                5
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                1,
+                6
+              ]
+            ],
+            "vertices": [
+              {
+                "parent": [
+                  1,
+                  5
+                ],
+                "label": 10
+              },
+              {
+                "parent": [
+                  2,
+                  5
+                ],
+                "label": 5
+              },
+              {
+                "parent": [
+                  1,
+                  6
+                ],
+                "label": 6
+              }
+            ]
+          }
+        }
+      ],
+      "source": "AT-A3-second-atlas.json"
+    },
+    {
+      "name": "AT_B",
+      "normal": [
+        1,
+        3,
+        0
+      ],
+      "period": [
+        6,
+        -2
+      ],
+      "central": [
+        {
+          "chart": 2,
+          "rotation": 1,
+          "shift": [
+            0,
+            0
+          ],
+          "tile": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                0,
+                0
+              ],
+              "label": 4
+            },
+            {
+              "parent": [
+                1,
+                -1
+              ],
+              "label": 3
+            },
+            {
+              "parent": [
+                1,
+                0
+              ],
+              "label": 0
+            }
+          ]
+        },
+        {
+          "chart": 19,
+          "rotation": 0,
+          "shift": [
+            -1,
+            1
+          ],
+          "tile": [
+            [
+              1,
+              -1
+            ],
+            [
+              2,
+              -1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                1,
+                -1
+              ],
+              "label": 3
+            },
+            {
+              "parent": [
+                2,
+                -1
+              ],
+              "label": 2
+            },
+            {
+              "parent": [
+                1,
+                0
+              ],
+              "label": 0
+            }
+          ]
+        },
+        {
+          "chart": 4,
+          "rotation": 1,
+          "shift": [
+            0,
+            -1
+          ],
+          "tile": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              -1
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                1,
+                0
+              ],
+              "label": 0
+            },
+            {
+              "parent": [
+                2,
+                -1
+              ],
+              "label": 2
+            },
+            {
+              "parent": [
+                2,
+                0
+              ],
+              "label": 1
+            }
+          ]
+        },
+        {
+          "chart": 11,
+          "rotation": 4,
+          "shift": [
+            1,
+            2
+          ],
+          "tile": [
+            [
+              2,
+              -1
+            ],
+            [
+              3,
+              -1
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                2,
+                -1
+              ],
+              "label": 2
+            },
+            {
+              "parent": [
+                3,
+                -1
+              ],
+              "label": 7
+            },
+            {
+              "parent": [
+                2,
+                0
+              ],
+              "label": 1
+            }
+          ]
+        },
+        {
+          "chart": 17,
+          "rotation": 3,
+          "shift": [
+            3,
+            0
+          ],
+          "tile": [
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              -1
+            ],
+            [
+              3,
+              0
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                2,
+                0
+              ],
+              "label": 1
+            },
+            {
+              "parent": [
+                3,
+                -1
+              ],
+              "label": 7
+            },
+            {
+              "parent": [
+                3,
+                0
+              ],
+              "label": 6
+            }
+          ]
+        },
+        {
+          "chart": 18,
+          "rotation": 2,
+          "shift": [
+            3,
+            -3
+          ],
+          "tile": [
+            [
+              3,
+              -1
+            ],
+            [
+              4,
+              -1
+            ],
+            [
+              3,
+              0
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                3,
+                -1
+              ],
+              "label": 7
+            },
+            {
+              "parent": [
+                4,
+                -1
+              ],
+              "label": 11
+            },
+            {
+              "parent": [
+                3,
+                0
+              ],
+              "label": 6
+            }
+          ]
+        },
+        {
+          "chart": 12,
+          "rotation": 3,
+          "shift": [
+            4,
+            -1
+          ],
+          "tile": [
+            [
+              3,
+              -1
+            ],
+            [
+              4,
+              -2
+            ],
+            [
+              4,
+              -1
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                3,
+                -1
+              ],
+              "label": 7
+            },
+            {
+              "parent": [
+                4,
+                -2
+              ],
+              "label": 8
+            },
+            {
+              "parent": [
+                4,
+                -1
+              ],
+              "label": 11
+            }
+          ]
+        },
+        {
+          "chart": 6,
+          "rotation": 0,
+          "shift": [
+            -4,
+            2
+          ],
+          "tile": [
+            [
+              4,
+              -2
+            ],
+            [
+              5,
+              -2
+            ],
+            [
+              4,
+              -1
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                4,
+                -2
+              ],
+              "label": 8
+            },
+            {
+              "parent": [
+                5,
+                -2
+              ],
+              "label": 9
+            },
+            {
+              "parent": [
+                4,
+                -1
+              ],
+              "label": 11
+            }
+          ]
+        },
+        {
+          "chart": 16,
+          "rotation": 5,
+          "shift": [
+            -3,
+            5
+          ],
+          "tile": [
+            [
+              4,
+              -1
+            ],
+            [
+              5,
+              -2
+            ],
+            [
+              5,
+              -1
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                4,
+                -1
+              ],
+              "label": 11
+            },
+            {
+              "parent": [
+                5,
+                -2
+              ],
+              "label": 9
+            },
+            {
+              "parent": [
+                5,
+                -1
+              ],
+              "label": 10
+            }
+          ]
+        },
+        {
+          "chart": 8,
+          "rotation": 2,
+          "shift": [
+            4,
+            -5
+          ],
+          "tile": [
+            [
+              5,
+              -2
+            ],
+            [
+              6,
+              -2
+            ],
+            [
+              5,
+              -1
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                5,
+                -2
+              ],
+              "label": 9
+            },
+            {
+              "parent": [
+                6,
+                -2
+              ],
+              "label": 4
+            },
+            {
+              "parent": [
+                5,
+                -1
+              ],
+              "label": 10
+            }
+          ]
+        },
+        {
+          "chart": 5,
+          "rotation": 3,
+          "shift": [
+            6,
+            -1
+          ],
+          "tile": [
+            [
+              5,
+              -1
+            ],
+            [
+              6,
+              -2
+            ],
+            [
+              6,
+              -1
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                5,
+                -1
+              ],
+              "label": 10
+            },
+            {
+              "parent": [
+                6,
+                -2
+              ],
+              "label": 4
+            },
+            {
+              "parent": [
+                6,
+                -1
+              ],
+              "label": 5
+            }
+          ]
+        },
+        {
+          "chart": 0,
+          "rotation": 0,
+          "shift": [
+            -6,
+            2
+          ],
+          "tile": [
+            [
+              6,
+              -2
+            ],
+            [
+              7,
+              -2
+            ],
+            [
+              6,
+              -1
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                6,
+                -2
+              ],
+              "label": 4
+            },
+            {
+              "parent": [
+                7,
+                -2
+              ],
+              "label": 0
+            },
+            {
+              "parent": [
+                6,
+                -1
+              ],
+              "label": 5
+            }
+          ]
+        }
+      ],
+      "caps": [],
+      "source": "AT-A3-second-atlas.json"
+    },
+    {
+      "name": "AU_diagA",
+      "normal": [
+        -1,
+        1,
+        0
+      ],
+      "period": [
+        3,
+        3
+      ],
+      "central": [
+        {
+          "chart": 0,
+          "rotation": 0,
+          "shift": [
+            0,
+            0
+          ],
+          "tile": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                0,
+                0
+              ],
+              "label": 4
+            },
+            {
+              "parent": [
+                1,
+                0
+              ],
+              "label": 0
+            },
+            {
+              "parent": [
+                0,
+                1
+              ],
+              "label": 5
+            }
+          ]
+        },
+        {
+          "chart": 13,
+          "rotation": 1,
+          "shift": [
+            1,
+            -1
+          ],
+          "tile": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                1,
+                0
+              ],
+              "label": 0
+            },
+            {
+              "parent": [
+                1,
+                1
+              ],
+              "label": 1
+            },
+            {
+              "parent": [
+                0,
+                1
+              ],
+              "label": 5
+            }
+          ]
+        },
+        {
+          "chart": 3,
+          "rotation": 0,
+          "shift": [
+            0,
+            -1
+          ],
+          "tile": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                0,
+                1
+              ],
+              "label": 5
+            },
+            {
+              "parent": [
+                1,
+                1
+              ],
+              "label": 1
+            },
+            {
+              "parent": [
+                0,
+                2
+              ],
+              "label": 6
+            }
+          ]
+        },
+        {
+          "chart": 17,
+          "rotation": 1,
+          "shift": [
+            2,
+            -2
+          ],
+          "tile": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                1,
+                1
+              ],
+              "label": 1
+            },
+            {
+              "parent": [
+                1,
+                2
+              ],
+              "label": 7
+            },
+            {
+              "parent": [
+                0,
+                2
+              ],
+              "label": 6
+            }
+          ]
+        },
+        {
+          "chart": 11,
+          "rotation": 2,
+          "shift": [
+            3,
+            -1
+          ],
+          "tile": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                1,
+                1
+              ],
+              "label": 1
+            },
+            {
+              "parent": [
+                2,
+                1
+              ],
+              "label": 2
+            },
+            {
+              "parent": [
+                1,
+                2
+              ],
+              "label": 7
+            }
+          ]
+        },
+        {
+          "chart": 10,
+          "rotation": 5,
+          "shift": [
+            -3,
+            2
+          ],
+          "tile": [
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                2,
+                1
+              ],
+              "label": 2
+            },
+            {
+              "parent": [
+                2,
+                2
+              ],
+              "label": 8
+            },
+            {
+              "parent": [
+                1,
+                2
+              ],
+              "label": 7
+            }
+          ]
+        },
+        {
+          "chart": 12,
+          "rotation": 2,
+          "shift": [
+            4,
+            -1
+          ],
+          "tile": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                1,
+                2
+              ],
+              "label": 7
+            },
+            {
+              "parent": [
+                2,
+                2
+              ],
+              "label": 8
+            },
+            {
+              "parent": [
+                1,
+                3
+              ],
+              "label": 11
+            }
+          ]
+        },
+        {
+          "chart": 6,
+          "rotation": 5,
+          "shift": [
+            -4,
+            2
+          ],
+          "tile": [
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                2,
+                2
+              ],
+              "label": 8
+            },
+            {
+              "parent": [
+                2,
+                3
+              ],
+              "label": 9
+            },
+            {
+              "parent": [
+                1,
+                3
+              ],
+              "label": 11
+            }
+          ]
+        },
+        {
+          "chart": 7,
+          "rotation": 0,
+          "shift": [
+            -2,
+            -2
+          ],
+          "tile": [
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                2,
+                2
+              ],
+              "label": 8
+            },
+            {
+              "parent": [
+                3,
+                2
+              ],
+              "label": 3
+            },
+            {
+              "parent": [
+                2,
+                3
+              ],
+              "label": 9
+            }
+          ]
+        },
+        {
+          "chart": 1,
+          "rotation": 5,
+          "shift": [
+            -5,
+            3
+          ],
+          "tile": [
+            [
+              3,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                3,
+                2
+              ],
+              "label": 3
+            },
+            {
+              "parent": [
+                3,
+                3
+              ],
+              "label": 4
+            },
+            {
+              "parent": [
+                2,
+                3
+              ],
+              "label": 9
+            }
+          ]
+        },
+        {
+          "chart": 8,
+          "rotation": 2,
+          "shift": [
+            6,
+            -2
+          ],
+          "tile": [
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              2,
+              4
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                2,
+                3
+              ],
+              "label": 9
+            },
+            {
+              "parent": [
+                3,
+                3
+              ],
+              "label": 4
+            },
+            {
+              "parent": [
+                2,
+                4
+              ],
+              "label": 10
+            }
+          ]
+        },
+        {
+          "chart": 5,
+          "rotation": 3,
+          "shift": [
+            3,
+            4
+          ],
+          "tile": [
+            [
+              3,
+              3
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              2,
+              4
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                3,
+                3
+              ],
+              "label": 4
+            },
+            {
+              "parent": [
+                3,
+                4
+              ],
+              "label": 5
+            },
+            {
+              "parent": [
+                2,
+                4
+              ],
+              "label": 10
+            }
+          ]
+        }
+      ],
+      "caps": [
+        {
+          "role": "initial",
+          "phase": 0,
+          "record": {
+            "chart": 2,
+            "rotation": 1,
+            "shift": [
+              0,
+              0
+            ],
+            "tile": [
+              [
+                1,
+                -1
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "vertices": [
+              {
+                "parent": [
+                  1,
+                  -1
+                ],
+                "label": 3
+              },
+              {
+                "parent": [
+                  1,
+                  0
+                ],
+                "label": 0
+              },
+              {
+                "parent": [
+                  0,
+                  0
+                ],
+                "label": 4
+              }
+            ]
+          }
+        },
+        {
+          "role": "terminal",
+          "phase": 0,
+          "record": {
+            "chart": 14,
+            "rotation": 4,
+            "shift": [
+              -1,
+              1
+            ],
+            "tile": [
+              [
+                -1,
+                2
+              ],
+              [
+                -1,
+                1
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            "vertices": [
+              {
+                "parent": [
+                  -1,
+                  2
+                ],
+                "label": 6
+              },
+              {
+                "parent": [
+                  -1,
+                  1
+                ],
+                "label": 10
+              },
+              {
+                "parent": [
+                  0,
+                  1
+                ],
+                "label": 5
+              }
+            ]
+          }
+        },
+        {
+          "role": "terminal",
+          "phase": 1,
+          "record": {
+            "chart": 18,
+            "rotation": 0,
+            "shift": [
+              0,
+              -2
+            ],
+            "tile": [
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                2
+              ]
+            ],
+            "vertices": [
+              {
+                "parent": [
+                  0,
+                  3
+                ],
+                "label": 11
+              },
+              {
+                "parent": [
+                  0,
+                  2
+                ],
+                "label": 6
+              },
+              {
+                "parent": [
+                  1,
+                  2
+                ],
+                "label": 7
+              }
+            ]
+          }
+        },
+        {
+          "role": "terminal",
+          "phase": 2,
+          "record": {
+            "chart": 16,
+            "rotation": 4,
+            "shift": [
+              -3,
+              5
+            ],
+            "tile": [
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ]
+            ],
+            "vertices": [
+              {
+                "parent": [
+                  1,
+                  4
+                ],
+                "label": 10
+              },
+              {
+                "parent": [
+                  1,
+                  3
+                ],
+                "label": 11
+              },
+              {
+                "parent": [
+                  2,
+                  3
+                ],
+                "label": 9
+              }
+            ]
+          }
+        }
+      ],
+      "source": "AU-A3-fold-atlas.json"
+    },
+    {
+      "name": "AU_diagB",
+      "normal": [
+        1,
+        2,
+        0
+      ],
+      "period": [
+        6,
+        -3
+      ],
+      "central": [
+        {
+          "chart": 2,
+          "rotation": 1,
+          "shift": [
+            0,
+            0
+          ],
+          "tile": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                0,
+                0
+              ],
+              "label": 4
+            },
+            {
+              "parent": [
+                1,
+                -1
+              ],
+              "label": 3
+            },
+            {
+              "parent": [
+                1,
+                0
+              ],
+              "label": 0
+            }
+          ]
+        },
+        {
+          "chart": 19,
+          "rotation": 0,
+          "shift": [
+            -1,
+            1
+          ],
+          "tile": [
+            [
+              1,
+              -1
+            ],
+            [
+              2,
+              -1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                1,
+                -1
+              ],
+              "label": 3
+            },
+            {
+              "parent": [
+                2,
+                -1
+              ],
+              "label": 2
+            },
+            {
+              "parent": [
+                1,
+                0
+              ],
+              "label": 0
+            }
+          ]
+        },
+        {
+          "chart": 4,
+          "rotation": 1,
+          "shift": [
+            0,
+            -1
+          ],
+          "tile": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              -1
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                1,
+                0
+              ],
+              "label": 0
+            },
+            {
+              "parent": [
+                2,
+                -1
+              ],
+              "label": 2
+            },
+            {
+              "parent": [
+                2,
+                0
+              ],
+              "label": 1
+            }
+          ]
+        },
+        {
+          "chart": 11,
+          "rotation": 4,
+          "shift": [
+            1,
+            2
+          ],
+          "tile": [
+            [
+              2,
+              -1
+            ],
+            [
+              3,
+              -1
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                2,
+                -1
+              ],
+              "label": 2
+            },
+            {
+              "parent": [
+                3,
+                -1
+              ],
+              "label": 7
+            },
+            {
+              "parent": [
+                2,
+                0
+              ],
+              "label": 1
+            }
+          ]
+        },
+        {
+          "chart": 10,
+          "rotation": 1,
+          "shift": [
+            -1,
+            -1
+          ],
+          "tile": [
+            [
+              2,
+              -1
+            ],
+            [
+              3,
+              -2
+            ],
+            [
+              3,
+              -1
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                2,
+                -1
+              ],
+              "label": 2
+            },
+            {
+              "parent": [
+                3,
+                -2
+              ],
+              "label": 8
+            },
+            {
+              "parent": [
+                3,
+                -1
+              ],
+              "label": 7
+            }
+          ]
+        },
+        {
+          "chart": 12,
+          "rotation": 4,
+          "shift": [
+            2,
+            2
+          ],
+          "tile": [
+            [
+              3,
+              -2
+            ],
+            [
+              4,
+              -2
+            ],
+            [
+              3,
+              -1
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                3,
+                -2
+              ],
+              "label": 8
+            },
+            {
+              "parent": [
+                4,
+                -2
+              ],
+              "label": 11
+            },
+            {
+              "parent": [
+                3,
+                -1
+              ],
+              "label": 7
+            }
+          ]
+        },
+        {
+          "chart": 18,
+          "rotation": 3,
+          "shift": [
+            4,
+            -1
+          ],
+          "tile": [
+            [
+              3,
+              -1
+            ],
+            [
+              4,
+              -2
+            ],
+            [
+              4,
+              -1
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                3,
+                -1
+              ],
+              "label": 7
+            },
+            {
+              "parent": [
+                4,
+                -2
+              ],
+              "label": 11
+            },
+            {
+              "parent": [
+                4,
+                -1
+              ],
+              "label": 6
+            }
+          ]
+        },
+        {
+          "chart": 9,
+          "rotation": 4,
+          "shift": [
+            2,
+            3
+          ],
+          "tile": [
+            [
+              4,
+              -2
+            ],
+            [
+              5,
+              -2
+            ],
+            [
+              4,
+              -1
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                4,
+                -2
+              ],
+              "label": 11
+            },
+            {
+              "parent": [
+                5,
+                -2
+              ],
+              "label": 10
+            },
+            {
+              "parent": [
+                4,
+                -1
+              ],
+              "label": 6
+            }
+          ]
+        },
+        {
+          "chart": 16,
+          "rotation": 5,
+          "shift": [
+            -2,
+            5
+          ],
+          "tile": [
+            [
+              4,
+              -2
+            ],
+            [
+              5,
+              -3
+            ],
+            [
+              5,
+              -2
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                4,
+                -2
+              ],
+              "label": 11
+            },
+            {
+              "parent": [
+                5,
+                -3
+              ],
+              "label": 9
+            },
+            {
+              "parent": [
+                5,
+                -2
+              ],
+              "label": 10
+            }
+          ]
+        },
+        {
+          "chart": 8,
+          "rotation": 2,
+          "shift": [
+            3,
+            -5
+          ],
+          "tile": [
+            [
+              5,
+              -3
+            ],
+            [
+              6,
+              -3
+            ],
+            [
+              5,
+              -2
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                5,
+                -3
+              ],
+              "label": 9
+            },
+            {
+              "parent": [
+                6,
+                -3
+              ],
+              "label": 4
+            },
+            {
+              "parent": [
+                5,
+                -2
+              ],
+              "label": 10
+            }
+          ]
+        },
+        {
+          "chart": 5,
+          "rotation": 3,
+          "shift": [
+            6,
+            -2
+          ],
+          "tile": [
+            [
+              5,
+              -2
+            ],
+            [
+              6,
+              -3
+            ],
+            [
+              6,
+              -2
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                5,
+                -2
+              ],
+              "label": 10
+            },
+            {
+              "parent": [
+                6,
+                -3
+              ],
+              "label": 4
+            },
+            {
+              "parent": [
+                6,
+                -2
+              ],
+              "label": 5
+            }
+          ]
+        },
+        {
+          "chart": 0,
+          "rotation": 0,
+          "shift": [
+            -6,
+            3
+          ],
+          "tile": [
+            [
+              6,
+              -3
+            ],
+            [
+              7,
+              -3
+            ],
+            [
+              6,
+              -2
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                6,
+                -3
+              ],
+              "label": 4
+            },
+            {
+              "parent": [
+                7,
+                -3
+              ],
+              "label": 0
+            },
+            {
+              "parent": [
+                6,
+                -2
+              ],
+              "label": 5
+            }
+          ]
+        }
+      ],
+      "caps": [],
+      "source": "AU-A3-fold-atlas.json"
+    },
+    {
+      "name": "AU_negA",
+      "normal": [
+        -2,
+        1,
+        -1
+      ],
+      "period": [
+        2,
+        4
+      ],
+      "central": [
+        {
+          "chart": 1,
+          "rotation": 4,
+          "shift": [
+            1,
+            0
+          ],
+          "tile": [
+            [
+              0,
+              -1
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                0,
+                -1
+              ],
+              "label": 9
+            },
+            {
+              "parent": [
+                1,
+                -1
+              ],
+              "label": 3
+            },
+            {
+              "parent": [
+                0,
+                0
+              ],
+              "label": 4
+            }
+          ]
+        },
+        {
+          "chart": 2,
+          "rotation": 1,
+          "shift": [
+            0,
+            0
+          ],
+          "tile": [
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                1,
+                -1
+              ],
+              "label": 3
+            },
+            {
+              "parent": [
+                1,
+                0
+              ],
+              "label": 0
+            },
+            {
+              "parent": [
+                0,
+                0
+              ],
+              "label": 4
+            }
+          ]
+        },
+        {
+          "chart": 0,
+          "rotation": 0,
+          "shift": [
+            0,
+            0
+          ],
+          "tile": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                0,
+                0
+              ],
+              "label": 4
+            },
+            {
+              "parent": [
+                1,
+                0
+              ],
+              "label": 0
+            },
+            {
+              "parent": [
+                0,
+                1
+              ],
+              "label": 5
+            }
+          ]
+        },
+        {
+          "chart": 13,
+          "rotation": 1,
+          "shift": [
+            1,
+            -1
+          ],
+          "tile": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                1,
+                0
+              ],
+              "label": 0
+            },
+            {
+              "parent": [
+                1,
+                1
+              ],
+              "label": 1
+            },
+            {
+              "parent": [
+                0,
+                1
+              ],
+              "label": 5
+            }
+          ]
+        },
+        {
+          "chart": 3,
+          "rotation": 0,
+          "shift": [
+            0,
+            -1
+          ],
+          "tile": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                0,
+                1
+              ],
+              "label": 5
+            },
+            {
+              "parent": [
+                1,
+                1
+              ],
+              "label": 1
+            },
+            {
+              "parent": [
+                0,
+                2
+              ],
+              "label": 6
+            }
+          ]
+        },
+        {
+          "chart": 17,
+          "rotation": 1,
+          "shift": [
+            2,
+            -2
+          ],
+          "tile": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                1,
+                1
+              ],
+              "label": 1
+            },
+            {
+              "parent": [
+                1,
+                2
+              ],
+              "label": 7
+            },
+            {
+              "parent": [
+                0,
+                2
+              ],
+              "label": 6
+            }
+          ]
+        },
+        {
+          "chart": 11,
+          "rotation": 2,
+          "shift": [
+            3,
+            -1
+          ],
+          "tile": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                1,
+                1
+              ],
+              "label": 1
+            },
+            {
+              "parent": [
+                2,
+                1
+              ],
+              "label": 2
+            },
+            {
+              "parent": [
+                1,
+                2
+              ],
+              "label": 7
+            }
+          ]
+        },
+        {
+          "chart": 10,
+          "rotation": 5,
+          "shift": [
+            -3,
+            2
+          ],
+          "tile": [
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                2,
+                1
+              ],
+              "label": 2
+            },
+            {
+              "parent": [
+                2,
+                2
+              ],
+              "label": 8
+            },
+            {
+              "parent": [
+                1,
+                2
+              ],
+              "label": 7
+            }
+          ]
+        },
+        {
+          "chart": 12,
+          "rotation": 2,
+          "shift": [
+            4,
+            -1
+          ],
+          "tile": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                1,
+                2
+              ],
+              "label": 7
+            },
+            {
+              "parent": [
+                2,
+                2
+              ],
+              "label": 8
+            },
+            {
+              "parent": [
+                1,
+                3
+              ],
+              "label": 11
+            }
+          ]
+        },
+        {
+          "chart": 6,
+          "rotation": 5,
+          "shift": [
+            -4,
+            2
+          ],
+          "tile": [
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                2,
+                2
+              ],
+              "label": 8
+            },
+            {
+              "parent": [
+                2,
+                3
+              ],
+              "label": 9
+            },
+            {
+              "parent": [
+                1,
+                3
+              ],
+              "label": 11
+            }
+          ]
+        },
+        {
+          "chart": 16,
+          "rotation": 4,
+          "shift": [
+            -3,
+            5
+          ],
+          "tile": [
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                1,
+                3
+              ],
+              "label": 11
+            },
+            {
+              "parent": [
+                2,
+                3
+              ],
+              "label": 9
+            },
+            {
+              "parent": [
+                1,
+                4
+              ],
+              "label": 10
+            }
+          ]
+        },
+        {
+          "chart": 8,
+          "rotation": 1,
+          "shift": [
+            4,
+            -5
+          ],
+          "tile": [
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                2,
+                3
+              ],
+              "label": 9
+            },
+            {
+              "parent": [
+                2,
+                4
+              ],
+              "label": 4
+            },
+            {
+              "parent": [
+                1,
+                4
+              ],
+              "label": 10
+            }
+          ]
+        }
+      ],
+      "caps": [],
+      "source": "AU-A3-fold-atlas.json"
+    },
+    {
+      "name": "AU_negB",
+      "normal": [
+        1,
+        3,
+        -1
+      ],
+      "period": [
+        6,
+        -2
+      ],
+      "central": [
+        {
+          "chart": 8,
+          "rotation": 1,
+          "shift": [
+            0,
+            1
+          ],
+          "tile": [
+            [
+              -1,
+              0
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                -1,
+                0
+              ],
+              "label": 10
+            },
+            {
+              "parent": [
+                0,
+                -1
+              ],
+              "label": 9
+            },
+            {
+              "parent": [
+                0,
+                0
+              ],
+              "label": 4
+            }
+          ]
+        },
+        {
+          "chart": 1,
+          "rotation": 4,
+          "shift": [
+            1,
+            0
+          ],
+          "tile": [
+            [
+              0,
+              -1
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                0,
+                -1
+              ],
+              "label": 9
+            },
+            {
+              "parent": [
+                1,
+                -1
+              ],
+              "label": 3
+            },
+            {
+              "parent": [
+                0,
+                0
+              ],
+              "label": 4
+            }
+          ]
+        },
+        {
+          "chart": 2,
+          "rotation": 1,
+          "shift": [
+            0,
+            0
+          ],
+          "tile": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                0,
+                0
+              ],
+              "label": 4
+            },
+            {
+              "parent": [
+                1,
+                -1
+              ],
+              "label": 3
+            },
+            {
+              "parent": [
+                1,
+                0
+              ],
+              "label": 0
+            }
+          ]
+        },
+        {
+          "chart": 19,
+          "rotation": 0,
+          "shift": [
+            -1,
+            1
+          ],
+          "tile": [
+            [
+              1,
+              -1
+            ],
+            [
+              2,
+              -1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                1,
+                -1
+              ],
+              "label": 3
+            },
+            {
+              "parent": [
+                2,
+                -1
+              ],
+              "label": 2
+            },
+            {
+              "parent": [
+                1,
+                0
+              ],
+              "label": 0
+            }
+          ]
+        },
+        {
+          "chart": 4,
+          "rotation": 1,
+          "shift": [
+            0,
+            -1
+          ],
+          "tile": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              -1
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                1,
+                0
+              ],
+              "label": 0
+            },
+            {
+              "parent": [
+                2,
+                -1
+              ],
+              "label": 2
+            },
+            {
+              "parent": [
+                2,
+                0
+              ],
+              "label": 1
+            }
+          ]
+        },
+        {
+          "chart": 11,
+          "rotation": 4,
+          "shift": [
+            1,
+            2
+          ],
+          "tile": [
+            [
+              2,
+              -1
+            ],
+            [
+              3,
+              -1
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                2,
+                -1
+              ],
+              "label": 2
+            },
+            {
+              "parent": [
+                3,
+                -1
+              ],
+              "label": 7
+            },
+            {
+              "parent": [
+                2,
+                0
+              ],
+              "label": 1
+            }
+          ]
+        },
+        {
+          "chart": 10,
+          "rotation": 1,
+          "shift": [
+            -1,
+            -1
+          ],
+          "tile": [
+            [
+              2,
+              -1
+            ],
+            [
+              3,
+              -2
+            ],
+            [
+              3,
+              -1
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                2,
+                -1
+              ],
+              "label": 2
+            },
+            {
+              "parent": [
+                3,
+                -2
+              ],
+              "label": 8
+            },
+            {
+              "parent": [
+                3,
+                -1
+              ],
+              "label": 7
+            }
+          ]
+        },
+        {
+          "chart": 12,
+          "rotation": 4,
+          "shift": [
+            2,
+            2
+          ],
+          "tile": [
+            [
+              3,
+              -2
+            ],
+            [
+              4,
+              -2
+            ],
+            [
+              3,
+              -1
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                3,
+                -2
+              ],
+              "label": 8
+            },
+            {
+              "parent": [
+                4,
+                -2
+              ],
+              "label": 11
+            },
+            {
+              "parent": [
+                3,
+                -1
+              ],
+              "label": 7
+            }
+          ]
+        },
+        {
+          "chart": 18,
+          "rotation": 3,
+          "shift": [
+            4,
+            -1
+          ],
+          "tile": [
+            [
+              3,
+              -1
+            ],
+            [
+              4,
+              -2
+            ],
+            [
+              4,
+              -1
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                3,
+                -1
+              ],
+              "label": 7
+            },
+            {
+              "parent": [
+                4,
+                -2
+              ],
+              "label": 11
+            },
+            {
+              "parent": [
+                4,
+                -1
+              ],
+              "label": 6
+            }
+          ]
+        },
+        {
+          "chart": 9,
+          "rotation": 4,
+          "shift": [
+            2,
+            3
+          ],
+          "tile": [
+            [
+              4,
+              -2
+            ],
+            [
+              5,
+              -2
+            ],
+            [
+              4,
+              -1
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                4,
+                -2
+              ],
+              "label": 11
+            },
+            {
+              "parent": [
+                5,
+                -2
+              ],
+              "label": 10
+            },
+            {
+              "parent": [
+                4,
+                -1
+              ],
+              "label": 6
+            }
+          ]
+        },
+        {
+          "chart": 14,
+          "rotation": 3,
+          "shift": [
+            5,
+            -1
+          ],
+          "tile": [
+            [
+              4,
+              -1
+            ],
+            [
+              5,
+              -2
+            ],
+            [
+              5,
+              -1
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                4,
+                -1
+              ],
+              "label": 6
+            },
+            {
+              "parent": [
+                5,
+                -2
+              ],
+              "label": 10
+            },
+            {
+              "parent": [
+                5,
+                -1
+              ],
+              "label": 5
+            }
+          ]
+        },
+        {
+          "chart": 5,
+          "rotation": 2,
+          "shift": [
+            4,
+            -5
+          ],
+          "tile": [
+            [
+              5,
+              -2
+            ],
+            [
+              6,
+              -2
+            ],
+            [
+              5,
+              -1
+            ]
+          ],
+          "vertices": [
+            {
+              "parent": [
+                5,
+                -2
+              ],
+              "label": 10
+            },
+            {
+              "parent": [
+                6,
+                -2
+              ],
+              "label": 4
+            },
+            {
+              "parent": [
+                5,
+                -1
+              ],
+              "label": 5
+            }
+          ]
+        }
+      ],
+      "caps": [
+        {
+          "role": "initial",
+          "phase": 0,
+          "record": {
+            "chart": 0,
+            "rotation": 0,
+            "shift": [
+              0,
+              0
+            ],
+            "tile": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            "vertices": [
+              {
+                "parent": [
+                  0,
+                  0
+                ],
+                "label": 4
+              },
+              {
+                "parent": [
+                  1,
+                  0
+                ],
+                "label": 0
+              },
+              {
+                "parent": [
+                  0,
+                  1
+                ],
+                "label": 5
+              }
+            ]
+          }
+        },
+        {
+          "role": "terminal",
+          "phase": 0,
+          "record": {
+            "chart": 16,
+            "rotation": 5,
+            "shift": [
+              2,
+              -1
+            ],
+            "tile": [
+              [
+                -1,
+                0
+              ],
+              [
+                -2,
+                0
+              ],
+              [
+                -1,
+                -1
+              ]
+            ],
+            "vertices": [
+              {
+                "parent": [
+                  -1,
+                  0
+                ],
+                "label": 10
+              },
+              {
+                "parent": [
+                  -2,
+                  0
+                ],
+                "label": 11
+              },
+              {
+                "parent": [
+                  -1,
+                  -1
+                ],
+                "label": 9
+              }
+            ]
+          }
+        },
+        {
+          "role": "terminal",
+          "phase": 1,
+          "record": {
+            "chart": 15,
+            "rotation": 5,
+            "shift": [
+              0,
+              2
+            ],
+            "tile": [
+              [
+                2,
+                -1
+              ],
+              [
+                1,
+                -1
+              ],
+              [
+                2,
+                -2
+              ]
+            ],
+            "vertices": [
+              {
+                "parent": [
+                  2,
+                  -1
+                ],
+                "label": 2
+              },
+              {
+                "parent": [
+                  1,
+                  -1
+                ],
+                "label": 3
+              },
+              {
+                "parent": [
+                  2,
+                  -2
+                ],
+                "label": 8
+              }
+            ]
+          }
+        }
+      ],
+      "source": "AU-A3-fold-atlas.json"
+    }
+  ],
+  "fan_cases": [
+    {
+      "k": 19,
+      "l": 7,
+      "formula": {
+        "c": 2,
+        "r": 5,
+        "s": 1,
+        "d": 2,
+        "negative": false,
+        "a": 28,
+        "b": 153
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 307,
+          "previous": 56,
+          "vertices": 308
+        },
+        {
+          "orientation": 1,
+          "stop": 306,
+          "previous": 57,
+          "vertices": 307
+        }
+      ]
+    },
+    {
+      "k": 17,
+      "l": 12,
+      "formula": {
+        "c": 1,
+        "r": 5,
+        "s": 2,
+        "d": 2,
+        "negative": false,
+        "a": 31,
+        "b": 166
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 333,
+          "previous": 62,
+          "vertices": 334
+        },
+        {
+          "orientation": 1,
+          "stop": 332,
+          "previous": 63,
+          "vertices": 333
+        }
+      ]
+    },
+    {
+      "k": 21,
+      "l": 8,
+      "formula": {
+        "c": 2,
+        "r": 5,
+        "s": 1,
+        "d": 3,
+        "negative": false,
+        "a": 30,
+        "b": 170
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 341,
+          "previous": 60,
+          "vertices": 342
+        },
+        {
+          "orientation": 1,
+          "stop": 340,
+          "previous": 61,
+          "vertices": 341
+        }
+      ]
+    },
+    {
+      "k": 18,
+      "l": 13,
+      "formula": {
+        "c": 1,
+        "r": 5,
+        "s": 2,
+        "d": 3,
+        "negative": false,
+        "a": 32,
+        "b": 177
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 355,
+          "previous": 64,
+          "vertices": 356
+        },
+        {
+          "orientation": 1,
+          "stop": 354,
+          "previous": 65,
+          "vertices": 355
+        }
+      ]
+    },
+    {
+      "k": 19,
+      "l": 12,
+      "formula": {
+        "c": 2,
+        "r": 5,
+        "s": 2,
+        "d": 2,
+        "negative": true,
+        "a": 52,
+        "b": 197
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 394,
+          "previous": 105,
+          "vertices": 395
+        },
+        {
+          "orientation": 1,
+          "stop": 395,
+          "previous": 104,
+          "vertices": 396
+        }
+      ]
+    },
+    {
+      "k": 21,
+      "l": 13,
+      "formula": {
+        "c": 2,
+        "r": 5,
+        "s": 2,
+        "d": 3,
+        "negative": true,
+        "a": 56,
+        "b": 216
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 432,
+          "previous": 113,
+          "vertices": 433
+        },
+        {
+          "orientation": 1,
+          "stop": 433,
+          "previous": 112,
+          "vertices": 434
+        }
+      ]
+    },
+    {
+      "k": 25,
+      "l": 9,
+      "formula": {
+        "c": 2,
+        "r": 7,
+        "s": 1,
+        "d": 2,
+        "negative": false,
+        "a": 38,
+        "b": 201
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 403,
+          "previous": 76,
+          "vertices": 404
+        },
+        {
+          "orientation": 1,
+          "stop": 402,
+          "previous": 77,
+          "vertices": 403
+        }
+      ]
+    },
+    {
+      "k": 27,
+      "l": 10,
+      "formula": {
+        "c": 2,
+        "r": 7,
+        "s": 1,
+        "d": 3,
+        "negative": false,
+        "a": 40,
+        "b": 218
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 437,
+          "previous": 80,
+          "vertices": 438
+        },
+        {
+          "orientation": 1,
+          "stop": 436,
+          "previous": 81,
+          "vertices": 437
+        }
+      ]
+    },
+    {
+      "k": 22,
+      "l": 17,
+      "formula": {
+        "c": 1,
+        "r": 5,
+        "s": 3,
+        "d": 2,
+        "negative": false,
+        "a": 97,
+        "b": 277
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 555,
+          "previous": 194,
+          "vertices": 556
+        },
+        {
+          "orientation": 1,
+          "stop": 554,
+          "previous": 195,
+          "vertices": 555
+        }
+      ]
+    },
+    {
+      "k": 23,
+      "l": 16,
+      "formula": {
+        "c": 1,
+        "r": 7,
+        "s": 2,
+        "d": 2,
+        "negative": false,
+        "a": 43,
+        "b": 224
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 449,
+          "previous": 86,
+          "vertices": 450
+        },
+        {
+          "orientation": 1,
+          "stop": 448,
+          "previous": 87,
+          "vertices": 449
+        }
+      ]
+    },
+    {
+      "k": 23,
+      "l": 18,
+      "formula": {
+        "c": 1,
+        "r": 5,
+        "s": 3,
+        "d": 3,
+        "negative": false,
+        "a": 101,
+        "b": 291
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 583,
+          "previous": 202,
+          "vertices": 584
+        },
+        {
+          "orientation": 1,
+          "stop": 582,
+          "previous": 203,
+          "vertices": 583
+        }
+      ]
+    },
+    {
+      "k": 24,
+      "l": 17,
+      "formula": {
+        "c": 1,
+        "r": 7,
+        "s": 2,
+        "d": 3,
+        "negative": false,
+        "a": 44,
+        "b": 235
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 471,
+          "previous": 88,
+          "vertices": 472
+        },
+        {
+          "orientation": 1,
+          "stop": 470,
+          "previous": 89,
+          "vertices": 471
+        }
+      ]
+    },
+    {
+      "k": 25,
+      "l": 16,
+      "formula": {
+        "c": 2,
+        "r": 7,
+        "s": 2,
+        "d": 2,
+        "negative": true,
+        "a": 70,
+        "b": 261
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 522,
+          "previous": 141,
+          "vertices": 523
+        },
+        {
+          "orientation": 1,
+          "stop": 523,
+          "previous": 140,
+          "vertices": 524
+        }
+      ]
+    },
+    {
+      "k": 29,
+      "l": 11,
+      "formula": {
+        "c": 2,
+        "r": 7,
+        "s": 1,
+        "d": 4,
+        "negative": false,
+        "a": 42,
+        "b": 235
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 471,
+          "previous": 84,
+          "vertices": 472
+        },
+        {
+          "orientation": 1,
+          "stop": 470,
+          "previous": 85,
+          "vertices": 471
+        }
+      ]
+    },
+    {
+      "k": 29,
+      "l": 12,
+      "formula": {
+        "c": 2,
+        "r": 5,
+        "s": 2,
+        "d": 2,
+        "negative": false,
+        "a": 137,
+        "b": 332
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 665,
+          "previous": 274,
+          "vertices": 666
+        },
+        {
+          "orientation": 1,
+          "stop": 664,
+          "previous": 275,
+          "vertices": 665
+        }
+      ]
+    },
+    {
+      "k": 30,
+      "l": 11,
+      "formula": {
+        "c": 2,
+        "r": 8,
+        "s": 1,
+        "d": 3,
+        "negative": false,
+        "a": 45,
+        "b": 242
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 485,
+          "previous": 90,
+          "vertices": 486
+        },
+        {
+          "orientation": 1,
+          "stop": 484,
+          "previous": 91,
+          "vertices": 485
+        }
+      ]
+    },
+    {
+      "k": 25,
+      "l": 18,
+      "formula": {
+        "c": 1,
+        "r": 7,
+        "s": 2,
+        "d": 4,
+        "negative": false,
+        "a": 45,
+        "b": 246
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 493,
+          "previous": 90,
+          "vertices": 494
+        },
+        {
+          "orientation": 1,
+          "stop": 492,
+          "previous": 91,
+          "vertices": 493
+        }
+      ]
+    },
+    {
+      "k": 31,
+      "l": 11,
+      "formula": {
+        "c": 2,
+        "r": 9,
+        "s": 1,
+        "d": 2,
+        "negative": false,
+        "a": 48,
+        "b": 249
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 499,
+          "previous": 96,
+          "vertices": 500
+        },
+        {
+          "orientation": 1,
+          "stop": 498,
+          "previous": 97,
+          "vertices": 499
+        }
+      ]
+    },
+    {
+      "k": 27,
+      "l": 17,
+      "formula": {
+        "c": 2,
+        "r": 7,
+        "s": 2,
+        "d": 3,
+        "negative": true,
+        "a": 74,
+        "b": 280
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 560,
+          "previous": 149,
+          "vertices": 561
+        },
+        {
+          "orientation": 1,
+          "stop": 561,
+          "previous": 148,
+          "vertices": 562
+        }
+      ]
+    },
+    {
+      "k": 31,
+      "l": 12,
+      "formula": {
+        "c": 2,
+        "r": 7,
+        "s": 1,
+        "d": 5,
+        "negative": false,
+        "a": 44,
+        "b": 252
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 505,
+          "previous": 88,
+          "vertices": 506
+        },
+        {
+          "orientation": 1,
+          "stop": 504,
+          "previous": 89,
+          "vertices": 505
+        }
+      ]
+    },
+    {
+      "k": 26,
+      "l": 19,
+      "formula": {
+        "c": 1,
+        "r": 7,
+        "s": 2,
+        "d": 5,
+        "negative": false,
+        "a": 46,
+        "b": 257
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 515,
+          "previous": 92,
+          "vertices": 516
+        },
+        {
+          "orientation": 1,
+          "stop": 514,
+          "previous": 93,
+          "vertices": 515
+        }
+      ]
+    },
+    {
+      "k": 31,
+      "l": 13,
+      "formula": {
+        "c": 2,
+        "r": 5,
+        "s": 2,
+        "d": 3,
+        "negative": false,
+        "a": 146,
+        "b": 356
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 713,
+          "previous": 292,
+          "vertices": 714
+        },
+        {
+          "orientation": 1,
+          "stop": 712,
+          "previous": 293,
+          "vertices": 713
+        }
+      ]
+    },
+    {
+      "k": 27,
+      "l": 19,
+      "formula": {
+        "c": 1,
+        "r": 8,
+        "s": 2,
+        "d": 3,
+        "negative": false,
+        "a": 50,
+        "b": 264
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 529,
+          "previous": 100,
+          "vertices": 530
+        },
+        {
+          "orientation": 1,
+          "stop": 528,
+          "previous": 101,
+          "vertices": 529
+        }
+      ]
+    },
+    {
+      "k": 29,
+      "l": 17,
+      "formula": {
+        "c": 2,
+        "r": 5,
+        "s": 3,
+        "d": 2,
+        "negative": true,
+        "a": 181,
+        "b": 396
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 792,
+          "previous": 363,
+          "vertices": 793
+        },
+        {
+          "orientation": 1,
+          "stop": 793,
+          "previous": 362,
+          "vertices": 794
+        }
+      ]
+    },
+    {
+      "k": 29,
+      "l": 18,
+      "formula": {
+        "c": 2,
+        "r": 7,
+        "s": 2,
+        "d": 4,
+        "negative": true,
+        "a": 78,
+        "b": 299
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 598,
+          "previous": 157,
+          "vertices": 599
+        },
+        {
+          "orientation": 1,
+          "stop": 599,
+          "previous": 156,
+          "vertices": 600
+        }
+      ]
+    },
+    {
+      "k": 34,
+      "l": 13,
+      "formula": {
+        "c": 2,
+        "r": 8,
+        "s": 1,
+        "d": 5,
+        "negative": false,
+        "a": 49,
+        "b": 276
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 553,
+          "previous": 98,
+          "vertices": 554
+        },
+        {
+          "orientation": 1,
+          "stop": 552,
+          "previous": 99,
+          "vertices": 553
+        }
+      ]
+    },
+    {
+      "k": 27,
+      "l": 22,
+      "formula": {
+        "c": 1,
+        "r": 5,
+        "s": 4,
+        "d": 2,
+        "negative": false,
+        "a": 193,
+        "b": 418
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 837,
+          "previous": 386,
+          "vertices": 838
+        },
+        {
+          "orientation": 1,
+          "stop": 836,
+          "previous": 387,
+          "vertices": 837
+        }
+      ]
+    },
+    {
+      "k": 29,
+      "l": 20,
+      "formula": {
+        "c": 1,
+        "r": 9,
+        "s": 2,
+        "d": 2,
+        "negative": false,
+        "a": 55,
+        "b": 282
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 565,
+          "previous": 110,
+          "vertices": 566
+        },
+        {
+          "orientation": 1,
+          "stop": 564,
+          "previous": 111,
+          "vertices": 565
+        }
+      ]
+    },
+    {
+      "k": 30,
+      "l": 19,
+      "formula": {
+        "c": 2,
+        "r": 8,
+        "s": 2,
+        "d": 3,
+        "negative": true,
+        "a": 83,
+        "b": 312
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 624,
+          "previous": 167,
+          "vertices": 625
+        },
+        {
+          "orientation": 1,
+          "stop": 625,
+          "previous": 166,
+          "vertices": 626
+        }
+      ]
+    },
+    {
+      "k": 31,
+      "l": 18,
+      "formula": {
+        "c": 2,
+        "r": 5,
+        "s": 3,
+        "d": 3,
+        "negative": true,
+        "a": 192,
+        "b": 422
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 844,
+          "previous": 385,
+          "vertices": 845
+        },
+        {
+          "orientation": 1,
+          "stop": 845,
+          "previous": 384,
+          "vertices": 846
+        }
+      ]
+    },
+    {
+      "k": 35,
+      "l": 13,
+      "formula": {
+        "c": 2,
+        "r": 9,
+        "s": 1,
+        "d": 4,
+        "negative": false,
+        "a": 52,
+        "b": 283
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 567,
+          "previous": 104,
+          "vertices": 568
+        },
+        {
+          "orientation": 1,
+          "stop": 566,
+          "previous": 105,
+          "vertices": 567
+        }
+      ]
+    },
+    {
+      "k": 29,
+      "l": 21,
+      "formula": {
+        "c": 1,
+        "r": 8,
+        "s": 2,
+        "d": 5,
+        "negative": false,
+        "a": 52,
+        "b": 286
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 573,
+          "previous": 104,
+          "vertices": 574
+        },
+        {
+          "orientation": 1,
+          "stop": 572,
+          "previous": 105,
+          "vertices": 573
+        }
+      ]
+    },
+    {
+      "k": 31,
+      "l": 19,
+      "formula": {
+        "c": 2,
+        "r": 7,
+        "s": 2,
+        "d": 5,
+        "negative": true,
+        "a": 82,
+        "b": 318
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 636,
+          "previous": 165,
+          "vertices": 637
+        },
+        {
+          "orientation": 1,
+          "stop": 637,
+          "previous": 164,
+          "vertices": 638
+        }
+      ]
+    },
+    {
+      "k": 36,
+      "l": 13,
+      "formula": {
+        "c": 2,
+        "r": 10,
+        "s": 1,
+        "d": 3,
+        "negative": false,
+        "a": 55,
+        "b": 290
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 581,
+          "previous": 110,
+          "vertices": 582
+        },
+        {
+          "orientation": 1,
+          "stop": 580,
+          "previous": 111,
+          "vertices": 581
+        }
+      ]
+    },
+    {
+      "k": 28,
+      "l": 23,
+      "formula": {
+        "c": 1,
+        "r": 5,
+        "s": 4,
+        "d": 3,
+        "negative": false,
+        "a": 200,
+        "b": 435
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 871,
+          "previous": 400,
+          "vertices": 872
+        },
+        {
+          "orientation": 1,
+          "stop": 870,
+          "previous": 401,
+          "vertices": 871
+        }
+      ]
+    },
+    {
+      "k": 31,
+      "l": 20,
+      "formula": {
+        "c": 2,
+        "r": 9,
+        "s": 2,
+        "d": 2,
+        "negative": true,
+        "a": 88,
+        "b": 325
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 650,
+          "previous": 177,
+          "vertices": 651
+        },
+        {
+          "orientation": 1,
+          "stop": 651,
+          "previous": 176,
+          "vertices": 652
+        }
+      ]
+    },
+    {
+      "k": 37,
+      "l": 13,
+      "formula": {
+        "c": 2,
+        "r": 11,
+        "s": 1,
+        "d": 2,
+        "negative": false,
+        "a": 58,
+        "b": 297
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 595,
+          "previous": 116,
+          "vertices": 596
+        },
+        {
+          "orientation": 1,
+          "stop": 594,
+          "previous": 117,
+          "vertices": 595
+        }
+      ]
+    },
+    {
+      "k": 37,
+      "l": 14,
+      "formula": {
+        "c": 2,
+        "r": 9,
+        "s": 1,
+        "d": 5,
+        "negative": false,
+        "a": 54,
+        "b": 300
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 601,
+          "previous": 108,
+          "vertices": 602
+        },
+        {
+          "orientation": 1,
+          "stop": 600,
+          "previous": 109,
+          "vertices": 601
+        }
+      ]
+    },
+    {
+      "k": 30,
+      "l": 23,
+      "formula": {
+        "c": 1,
+        "r": 7,
+        "s": 3,
+        "d": 2,
+        "negative": false,
+        "a": 133,
+        "b": 377
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 755,
+          "previous": 266,
+          "vertices": 756
+        },
+        {
+          "orientation": 1,
+          "stop": 754,
+          "previous": 267,
+          "vertices": 755
+        }
+      ]
+    },
+    {
+      "k": 31,
+      "l": 22,
+      "formula": {
+        "c": 1,
+        "r": 9,
+        "s": 2,
+        "d": 4,
+        "negative": false,
+        "a": 57,
+        "b": 304
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 609,
+          "previous": 114,
+          "vertices": 610
+        },
+        {
+          "orientation": 1,
+          "stop": 608,
+          "previous": 115,
+          "vertices": 609
+        }
+      ]
+    },
+    {
+      "k": 39,
+      "l": 14,
+      "formula": {
+        "c": 2,
+        "r": 11,
+        "s": 1,
+        "d": 3,
+        "negative": false,
+        "a": 60,
+        "b": 314
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 629,
+          "previous": 120,
+          "vertices": 630
+        },
+        {
+          "orientation": 1,
+          "stop": 628,
+          "previous": 121,
+          "vertices": 629
+        }
+      ]
+    },
+    {
+      "k": 31,
+      "l": 24,
+      "formula": {
+        "c": 1,
+        "r": 7,
+        "s": 3,
+        "d": 3,
+        "negative": false,
+        "a": 137,
+        "b": 391
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 783,
+          "previous": 274,
+          "vertices": 784
+        },
+        {
+          "orientation": 1,
+          "stop": 782,
+          "previous": 275,
+          "vertices": 783
+        }
+      ]
+    },
+    {
+      "k": 32,
+      "l": 23,
+      "formula": {
+        "c": 1,
+        "r": 9,
+        "s": 2,
+        "d": 5,
+        "negative": false,
+        "a": 58,
+        "b": 315
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 631,
+          "previous": 116,
+          "vertices": 632
+        },
+        {
+          "orientation": 1,
+          "stop": 630,
+          "previous": 117,
+          "vertices": 631
+        }
+      ]
+    },
+    {
+      "k": 34,
+      "l": 21,
+      "formula": {
+        "c": 2,
+        "r": 8,
+        "s": 2,
+        "d": 5,
+        "negative": true,
+        "a": 91,
+        "b": 350
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 700,
+          "previous": 183,
+          "vertices": 701
+        },
+        {
+          "orientation": 1,
+          "stop": 701,
+          "previous": 182,
+          "vertices": 702
+        }
+      ]
+    },
+    {
+      "k": 33,
+      "l": 23,
+      "formula": {
+        "c": 1,
+        "r": 10,
+        "s": 2,
+        "d": 3,
+        "negative": false,
+        "a": 62,
+        "b": 322
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 645,
+          "previous": 124,
+          "vertices": 646
+        },
+        {
+          "orientation": 1,
+          "stop": 644,
+          "previous": 125,
+          "vertices": 645
+        }
+      ]
+    },
+    {
+      "k": 39,
+      "l": 16,
+      "formula": {
+        "c": 2,
+        "r": 7,
+        "s": 2,
+        "d": 2,
+        "negative": false,
+        "a": 185,
+        "b": 446
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 893,
+          "previous": 370,
+          "vertices": 894
+        },
+        {
+          "orientation": 1,
+          "stop": 892,
+          "previous": 371,
+          "vertices": 893
+        }
+      ]
+    },
+    {
+      "k": 32,
+      "l": 25,
+      "formula": {
+        "c": 1,
+        "r": 7,
+        "s": 3,
+        "d": 4,
+        "negative": false,
+        "a": 141,
+        "b": 405
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 811,
+          "previous": 282,
+          "vertices": 812
+        },
+        {
+          "orientation": 1,
+          "stop": 810,
+          "previous": 283,
+          "vertices": 811
+        }
+      ]
+    },
+    {
+      "k": 39,
+      "l": 17,
+      "formula": {
+        "c": 2,
+        "r": 5,
+        "s": 3,
+        "d": 2,
+        "negative": false,
+        "a": 316,
+        "b": 581
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 1163,
+          "previous": 632,
+          "vertices": 1164
+        },
+        {
+          "orientation": 1,
+          "stop": 1162,
+          "previous": 633,
+          "vertices": 1163
+        }
+      ]
+    },
+    {
+      "k": 35,
+      "l": 22,
+      "formula": {
+        "c": 2,
+        "r": 9,
+        "s": 2,
+        "d": 4,
+        "negative": true,
+        "a": 96,
+        "b": 363
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 726,
+          "previous": 193,
+          "vertices": 727
+        },
+        {
+          "orientation": 1,
+          "stop": 727,
+          "previous": 192,
+          "vertices": 728
+        }
+      ]
+    },
+    {
+      "k": 41,
+      "l": 15,
+      "formula": {
+        "c": 2,
+        "r": 11,
+        "s": 1,
+        "d": 4,
+        "negative": false,
+        "a": 62,
+        "b": 331
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 663,
+          "previous": 124,
+          "vertices": 664
+        },
+        {
+          "orientation": 1,
+          "stop": 662,
+          "previous": 125,
+          "vertices": 663
+        }
+      ]
+    },
+    {
+      "k": 41,
+      "l": 16,
+      "formula": {
+        "c": 2,
+        "r": 9,
+        "s": 1,
+        "d": 7,
+        "negative": false,
+        "a": 58,
+        "b": 334
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 669,
+          "previous": 116,
+          "vertices": 670
+        },
+        {
+          "orientation": 1,
+          "stop": 668,
+          "previous": 117,
+          "vertices": 669
+        }
+      ]
+    },
+    {
+      "k": 32,
+      "l": 27,
+      "formula": {
+        "c": 1,
+        "r": 5,
+        "s": 5,
+        "d": 2,
+        "negative": false,
+        "a": 319,
+        "b": 589
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 1179,
+          "previous": 638,
+          "vertices": 1180
+        },
+        {
+          "orientation": 1,
+          "stop": 1178,
+          "previous": 639,
+          "vertices": 1179
+        }
+      ]
+    },
+    {
+      "k": 33,
+      "l": 26,
+      "formula": {
+        "c": 1,
+        "r": 7,
+        "s": 3,
+        "d": 5,
+        "negative": false,
+        "a": 145,
+        "b": 419
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 839,
+          "previous": 290,
+          "vertices": 840
+        },
+        {
+          "orientation": 1,
+          "stop": 838,
+          "previous": 291,
+          "vertices": 839
+        }
+      ]
+    },
+    {
+      "k": 34,
+      "l": 25,
+      "formula": {
+        "c": 1,
+        "r": 9,
+        "s": 2,
+        "d": 7,
+        "negative": false,
+        "a": 60,
+        "b": 337
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 675,
+          "previous": 120,
+          "vertices": 676
+        },
+        {
+          "orientation": 1,
+          "stop": 674,
+          "previous": 121,
+          "vertices": 675
+        }
+      ]
+    },
+    {
+      "k": 35,
+      "l": 24,
+      "formula": {
+        "c": 1,
+        "r": 11,
+        "s": 2,
+        "d": 2,
+        "negative": false,
+        "a": 67,
+        "b": 340
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 681,
+          "previous": 134,
+          "vertices": 682
+        },
+        {
+          "orientation": 1,
+          "stop": 680,
+          "previous": 135,
+          "vertices": 681
+        }
+      ]
+    },
+    {
+      "k": 36,
+      "l": 23,
+      "formula": {
+        "c": 2,
+        "r": 10,
+        "s": 2,
+        "d": 3,
+        "negative": true,
+        "a": 101,
+        "b": 376
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 752,
+          "previous": 203,
+          "vertices": 753
+        },
+        {
+          "orientation": 1,
+          "stop": 753,
+          "previous": 202,
+          "vertices": 754
+        }
+      ]
+    },
+    {
+      "k": 41,
+      "l": 17,
+      "formula": {
+        "c": 2,
+        "r": 7,
+        "s": 2,
+        "d": 3,
+        "negative": false,
+        "a": 194,
+        "b": 470
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 941,
+          "previous": 388,
+          "vertices": 942
+        },
+        {
+          "orientation": 1,
+          "stop": 940,
+          "previous": 389,
+          "vertices": 941
+        }
+      ]
+    },
+    {
+      "k": 43,
+      "l": 15,
+      "formula": {
+        "c": 2,
+        "r": 13,
+        "s": 1,
+        "d": 2,
+        "negative": false,
+        "a": 68,
+        "b": 345
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 691,
+          "previous": 136,
+          "vertices": 692
+        },
+        {
+          "orientation": 1,
+          "stop": 690,
+          "previous": 137,
+          "vertices": 691
+        }
+      ]
+    },
+    {
+      "k": 41,
+      "l": 18,
+      "formula": {
+        "c": 2,
+        "r": 5,
+        "s": 3,
+        "d": 3,
+        "negative": false,
+        "a": 332,
+        "b": 612
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 1225,
+          "previous": 664,
+          "vertices": 1226
+        },
+        {
+          "orientation": 1,
+          "stop": 1224,
+          "previous": 665,
+          "vertices": 1225
+        }
+      ]
+    },
+    {
+      "k": 37,
+      "l": 23,
+      "formula": {
+        "c": 2,
+        "r": 9,
+        "s": 2,
+        "d": 5,
+        "negative": true,
+        "a": 100,
+        "b": 382
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 764,
+          "previous": 201,
+          "vertices": 765
+        },
+        {
+          "orientation": 1,
+          "stop": 765,
+          "previous": 200,
+          "vertices": 766
+        }
+      ]
+    },
+    {
+      "k": 43,
+      "l": 16,
+      "formula": {
+        "c": 2,
+        "r": 11,
+        "s": 1,
+        "d": 5,
+        "negative": false,
+        "a": 64,
+        "b": 348
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 697,
+          "previous": 128,
+          "vertices": 698
+        },
+        {
+          "orientation": 1,
+          "stop": 696,
+          "previous": 129,
+          "vertices": 697
+        }
+      ]
+    },
+    {
+      "k": 33,
+      "l": 28,
+      "formula": {
+        "c": 1,
+        "r": 5,
+        "s": 5,
+        "d": 3,
+        "negative": false,
+        "a": 329,
+        "b": 609
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 1219,
+          "previous": 658,
+          "vertices": 1220
+        },
+        {
+          "orientation": 1,
+          "stop": 1218,
+          "previous": 659,
+          "vertices": 1219
+        }
+      ]
+    },
+    {
+      "k": 36,
+      "l": 25,
+      "formula": {
+        "c": 1,
+        "r": 11,
+        "s": 2,
+        "d": 3,
+        "negative": false,
+        "a": 68,
+        "b": 351
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 703,
+          "previous": 136,
+          "vertices": 704
+        },
+        {
+          "orientation": 1,
+          "stop": 702,
+          "previous": 137,
+          "vertices": 703
+        }
+      ]
+    },
+    {
+      "k": 37,
+      "l": 24,
+      "formula": {
+        "c": 2,
+        "r": 11,
+        "s": 2,
+        "d": 2,
+        "negative": true,
+        "a": 106,
+        "b": 389
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 778,
+          "previous": 213,
+          "vertices": 779
+        },
+        {
+          "orientation": 1,
+          "stop": 779,
+          "previous": 212,
+          "vertices": 780
+        }
+      ]
+    },
+    {
+      "k": 39,
+      "l": 22,
+      "formula": {
+        "c": 2,
+        "r": 5,
+        "s": 4,
+        "d": 2,
+        "negative": true,
+        "a": 380,
+        "b": 665
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 1330,
+          "previous": 761,
+          "vertices": 1331
+        },
+        {
+          "orientation": 1,
+          "stop": 1331,
+          "previous": 760,
+          "vertices": 1332
+        }
+      ]
+    },
+    {
+      "k": 35,
+      "l": 27,
+      "formula": {
+        "c": 1,
+        "r": 8,
+        "s": 3,
+        "d": 3,
+        "negative": false,
+        "a": 155,
+        "b": 441
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 883,
+          "previous": 310,
+          "vertices": 884
+        },
+        {
+          "orientation": 1,
+          "stop": 882,
+          "previous": 311,
+          "vertices": 883
+        }
+      ]
+    },
+    {
+      "k": 39,
+      "l": 23,
+      "formula": {
+        "c": 2,
+        "r": 7,
+        "s": 3,
+        "d": 2,
+        "negative": true,
+        "a": 245,
+        "b": 534
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 1068,
+          "previous": 491,
+          "vertices": 1069
+        },
+        {
+          "orientation": 1,
+          "stop": 1069,
+          "previous": 490,
+          "vertices": 1070
+        }
+      ]
+    },
+    {
+      "k": 43,
+      "l": 18,
+      "formula": {
+        "c": 2,
+        "r": 7,
+        "s": 2,
+        "d": 4,
+        "negative": false,
+        "a": 203,
+        "b": 494
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 989,
+          "previous": 406,
+          "vertices": 990
+        },
+        {
+          "orientation": 1,
+          "stop": 988,
+          "previous": 407,
+          "vertices": 989
+        }
+      ]
+    },
+    {
+      "k": 44,
+      "l": 17,
+      "formula": {
+        "c": 2,
+        "r": 10,
+        "s": 1,
+        "d": 7,
+        "negative": false,
+        "a": 63,
+        "b": 358
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 717,
+          "previous": 126,
+          "vertices": 718
+        },
+        {
+          "orientation": 1,
+          "stop": 716,
+          "previous": 127,
+          "vertices": 717
+        }
+      ]
+    },
+    {
+      "k": 45,
+      "l": 16,
+      "formula": {
+        "c": 2,
+        "r": 13,
+        "s": 1,
+        "d": 3,
+        "negative": false,
+        "a": 70,
+        "b": 362
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 725,
+          "previous": 140,
+          "vertices": 726
+        },
+        {
+          "orientation": 1,
+          "stop": 724,
+          "previous": 141,
+          "vertices": 725
+        }
+      ]
+    },
+    {
+      "k": 37,
+      "l": 26,
+      "formula": {
+        "c": 1,
+        "r": 11,
+        "s": 2,
+        "d": 4,
+        "negative": false,
+        "a": 69,
+        "b": 362
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 725,
+          "previous": 138,
+          "vertices": 726
+        },
+        {
+          "orientation": 1,
+          "stop": 724,
+          "previous": 139,
+          "vertices": 725
+        }
+      ]
+    },
+    {
+      "k": 45,
+      "l": 17,
+      "formula": {
+        "c": 2,
+        "r": 11,
+        "s": 1,
+        "d": 6,
+        "negative": false,
+        "a": 66,
+        "b": 365
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 731,
+          "previous": 132,
+          "vertices": 732
+        },
+        {
+          "orientation": 1,
+          "stop": 730,
+          "previous": 133,
+          "vertices": 731
+        }
+      ]
+    },
+    {
+      "k": 37,
+      "l": 27,
+      "formula": {
+        "c": 1,
+        "r": 10,
+        "s": 2,
+        "d": 7,
+        "negative": false,
+        "a": 66,
+        "b": 366
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 733,
+          "previous": 132,
+          "vertices": 734
+        },
+        {
+          "orientation": 1,
+          "stop": 732,
+          "previous": 133,
+          "vertices": 733
+        }
+      ]
+    },
+    {
+      "k": 39,
+      "l": 25,
+      "formula": {
+        "c": 2,
+        "r": 11,
+        "s": 2,
+        "d": 3,
+        "negative": true,
+        "a": 110,
+        "b": 408
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 816,
+          "previous": 221,
+          "vertices": 817
+        },
+        {
+          "orientation": 1,
+          "stop": 817,
+          "previous": 220,
+          "vertices": 818
+        }
+      ]
+    },
+    {
+      "k": 41,
+      "l": 23,
+      "formula": {
+        "c": 2,
+        "r": 5,
+        "s": 4,
+        "d": 3,
+        "negative": true,
+        "a": 398,
+        "b": 698
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 1396,
+          "previous": 797,
+          "vertices": 1397
+        },
+        {
+          "orientation": 1,
+          "stop": 1397,
+          "previous": 796,
+          "vertices": 1398
+        }
+      ]
+    },
+    {
+      "k": 46,
+      "l": 17,
+      "formula": {
+        "c": 2,
+        "r": 12,
+        "s": 1,
+        "d": 5,
+        "negative": false,
+        "a": 69,
+        "b": 372
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 745,
+          "previous": 138,
+          "vertices": 746
+        },
+        {
+          "orientation": 1,
+          "stop": 744,
+          "previous": 139,
+          "vertices": 745
+        }
+      ]
+    },
+    {
+      "k": 38,
+      "l": 27,
+      "formula": {
+        "c": 1,
+        "r": 11,
+        "s": 2,
+        "d": 5,
+        "negative": false,
+        "a": 70,
+        "b": 373
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 747,
+          "previous": 140,
+          "vertices": 748
+        },
+        {
+          "orientation": 1,
+          "stop": 746,
+          "previous": 141,
+          "vertices": 747
+        }
+      ]
+    },
+    {
+      "k": 41,
+      "l": 24,
+      "formula": {
+        "c": 2,
+        "r": 7,
+        "s": 3,
+        "d": 3,
+        "negative": true,
+        "a": 256,
+        "b": 560
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 1120,
+          "previous": 513,
+          "vertices": 1121
+        },
+        {
+          "orientation": 1,
+          "stop": 1121,
+          "previous": 512,
+          "vertices": 1122
+        }
+      ]
+    },
+    {
+      "k": 45,
+      "l": 19,
+      "formula": {
+        "c": 2,
+        "r": 7,
+        "s": 2,
+        "d": 5,
+        "negative": false,
+        "a": 212,
+        "b": 518
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 1037,
+          "previous": 424,
+          "vertices": 1038
+        },
+        {
+          "orientation": 1,
+          "stop": 1036,
+          "previous": 425,
+          "vertices": 1037
+        }
+      ]
+    },
+    {
+      "k": 37,
+      "l": 29,
+      "formula": {
+        "c": 1,
+        "r": 8,
+        "s": 3,
+        "d": 5,
+        "negative": false,
+        "a": 163,
+        "b": 469
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 939,
+          "previous": 326,
+          "vertices": 940
+        },
+        {
+          "orientation": 1,
+          "stop": 938,
+          "previous": 327,
+          "vertices": 939
+        }
+      ]
+    },
+    {
+      "k": 47,
+      "l": 17,
+      "formula": {
+        "c": 2,
+        "r": 13,
+        "s": 1,
+        "d": 4,
+        "negative": false,
+        "a": 72,
+        "b": 379
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 759,
+          "previous": 144,
+          "vertices": 760
+        },
+        {
+          "orientation": 1,
+          "stop": 758,
+          "previous": 145,
+          "vertices": 759
+        }
+      ]
+    },
+    {
+      "k": 41,
+      "l": 25,
+      "formula": {
+        "c": 2,
+        "r": 9,
+        "s": 2,
+        "d": 7,
+        "negative": true,
+        "a": 108,
+        "b": 420
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 840,
+          "previous": 217,
+          "vertices": 841
+        },
+        {
+          "orientation": 1,
+          "stop": 841,
+          "previous": 216,
+          "vertices": 842
+        }
+      ]
+    },
+    {
+      "k": 46,
+      "l": 19,
+      "formula": {
+        "c": 2,
+        "r": 8,
+        "s": 2,
+        "d": 3,
+        "negative": false,
+        "a": 218,
+        "b": 527
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 1055,
+          "previous": 436,
+          "vertices": 1056
+        },
+        {
+          "orientation": 1,
+          "stop": 1054,
+          "previous": 437,
+          "vertices": 1055
+        }
+      ]
+    },
+    {
+      "k": 37,
+      "l": 30,
+      "formula": {
+        "c": 1,
+        "r": 7,
+        "s": 4,
+        "d": 2,
+        "negative": false,
+        "a": 265,
+        "b": 572
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 1145,
+          "previous": 530,
+          "vertices": 1146
+        },
+        {
+          "orientation": 1,
+          "stop": 1144,
+          "previous": 531,
+          "vertices": 1145
+        }
+      ]
+    },
+    {
+      "k": 47,
+      "l": 18,
+      "formula": {
+        "c": 2,
+        "r": 11,
+        "s": 1,
+        "d": 7,
+        "negative": false,
+        "a": 68,
+        "b": 382
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 765,
+          "previous": 136,
+          "vertices": 766
+        },
+        {
+          "orientation": 1,
+          "stop": 764,
+          "previous": 137,
+          "vertices": 765
+        }
+      ]
+    },
+    {
+      "k": 38,
+      "l": 29,
+      "formula": {
+        "c": 1,
+        "r": 9,
+        "s": 3,
+        "d": 2,
+        "negative": false,
+        "a": 169,
+        "b": 477
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 955,
+          "previous": 338,
+          "vertices": 956
+        },
+        {
+          "orientation": 1,
+          "stop": 954,
+          "previous": 339,
+          "vertices": 955
+        }
+      ]
+    },
+    {
+      "k": 39,
+      "l": 28,
+      "formula": {
+        "c": 1,
+        "r": 11,
+        "s": 2,
+        "d": 6,
+        "negative": false,
+        "a": 71,
+        "b": 384
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 769,
+          "previous": 142,
+          "vertices": 770
+        },
+        {
+          "orientation": 1,
+          "stop": 768,
+          "previous": 143,
+          "vertices": 769
+        }
+      ]
+    },
+    {
+      "k": 48,
+      "l": 17,
+      "formula": {
+        "c": 2,
+        "r": 14,
+        "s": 1,
+        "d": 3,
+        "negative": false,
+        "a": 75,
+        "b": 386
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 773,
+          "previous": 150,
+          "vertices": 774
+        },
+        {
+          "orientation": 1,
+          "stop": 772,
+          "previous": 151,
+          "vertices": 773
+        }
+      ]
+    },
+    {
+      "k": 41,
+      "l": 26,
+      "formula": {
+        "c": 2,
+        "r": 11,
+        "s": 2,
+        "d": 4,
+        "negative": true,
+        "a": 114,
+        "b": 427
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 854,
+          "previous": 229,
+          "vertices": 855
+        },
+        {
+          "orientation": 1,
+          "stop": 855,
+          "previous": 228,
+          "vertices": 856
+        }
+      ]
+    },
+    {
+      "k": 49,
+      "l": 17,
+      "formula": {
+        "c": 2,
+        "r": 15,
+        "s": 1,
+        "d": 2,
+        "negative": false,
+        "a": 78,
+        "b": 393
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 787,
+          "previous": 156,
+          "vertices": 788
+        },
+        {
+          "orientation": 1,
+          "stop": 786,
+          "previous": 157,
+          "vertices": 787
+        }
+      ]
+    },
+    {
+      "k": 43,
+      "l": 25,
+      "formula": {
+        "c": 2,
+        "r": 7,
+        "s": 3,
+        "d": 4,
+        "negative": true,
+        "a": 267,
+        "b": 586
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 1172,
+          "previous": 535,
+          "vertices": 1173
+        },
+        {
+          "orientation": 1,
+          "stop": 1173,
+          "previous": 534,
+          "vertices": 1174
+        }
+      ]
+    },
+    {
+      "k": 37,
+      "l": 32,
+      "formula": {
+        "c": 1,
+        "r": 5,
+        "s": 6,
+        "d": 2,
+        "negative": false,
+        "a": 475,
+        "b": 790
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 1581,
+          "previous": 950,
+          "vertices": 1582
+        },
+        {
+          "orientation": 1,
+          "stop": 1580,
+          "previous": 951,
+          "vertices": 1581
+        }
+      ]
+    },
+    {
+      "k": 38,
+      "l": 31,
+      "formula": {
+        "c": 1,
+        "r": 7,
+        "s": 4,
+        "d": 3,
+        "negative": false,
+        "a": 272,
+        "b": 589
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 1179,
+          "previous": 544,
+          "vertices": 1180
+        },
+        {
+          "orientation": 1,
+          "stop": 1178,
+          "previous": 545,
+          "vertices": 1179
+        }
+      ]
+    },
+    {
+      "k": 40,
+      "l": 29,
+      "formula": {
+        "c": 1,
+        "r": 11,
+        "s": 2,
+        "d": 7,
+        "negative": false,
+        "a": 72,
+        "b": 395
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 791,
+          "previous": 144,
+          "vertices": 792
+        },
+        {
+          "orientation": 1,
+          "stop": 790,
+          "previous": 145,
+          "vertices": 791
+        }
+      ]
+    },
+    {
+      "k": 49,
+      "l": 18,
+      "formula": {
+        "c": 2,
+        "r": 13,
+        "s": 1,
+        "d": 5,
+        "negative": false,
+        "a": 74,
+        "b": 396
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 793,
+          "previous": 148,
+          "vertices": 794
+        },
+        {
+          "orientation": 1,
+          "stop": 792,
+          "previous": 149,
+          "vertices": 793
+        }
+      ]
+    },
+    {
+      "k": 41,
+      "l": 28,
+      "formula": {
+        "c": 1,
+        "r": 13,
+        "s": 2,
+        "d": 2,
+        "negative": false,
+        "a": 79,
+        "b": 398
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 797,
+          "previous": 158,
+          "vertices": 798
+        },
+        {
+          "orientation": 1,
+          "stop": 796,
+          "previous": 159,
+          "vertices": 797
+        }
+      ]
+    },
+    {
+      "k": 49,
+      "l": 19,
+      "formula": {
+        "c": 2,
+        "r": 11,
+        "s": 1,
+        "d": 8,
+        "negative": false,
+        "a": 70,
+        "b": 399
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 799,
+          "previous": 140,
+          "vertices": 800
+        },
+        {
+          "orientation": 1,
+          "stop": 798,
+          "previous": 141,
+          "vertices": 799
+        }
+      ]
+    },
+    {
+      "k": 41,
+      "l": 29,
+      "formula": {
+        "c": 1,
+        "r": 12,
+        "s": 2,
+        "d": 5,
+        "negative": false,
+        "a": 76,
+        "b": 402
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 805,
+          "previous": 152,
+          "vertices": 806
+        },
+        {
+          "orientation": 1,
+          "stop": 804,
+          "previous": 153,
+          "vertices": 805
+        }
+      ]
+    },
+    {
+      "k": 43,
+      "l": 27,
+      "formula": {
+        "c": 2,
+        "r": 11,
+        "s": 2,
+        "d": 5,
+        "negative": true,
+        "a": 118,
+        "b": 446
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 892,
+          "previous": 237,
+          "vertices": 893
+        },
+        {
+          "orientation": 1,
+          "stop": 893,
+          "previous": 236,
+          "vertices": 894
+        }
+      ]
+    },
+    {
+      "k": 49,
+      "l": 20,
+      "formula": {
+        "c": 2,
+        "r": 9,
+        "s": 2,
+        "d": 2,
+        "negative": false,
+        "a": 233,
+        "b": 560
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 1121,
+          "previous": 466,
+          "vertices": 1122
+        },
+        {
+          "orientation": 1,
+          "stop": 1120,
+          "previous": 467,
+          "vertices": 1121
+        }
+      ]
+    },
+    {
+      "k": 38,
+      "l": 33,
+      "formula": {
+        "c": 1,
+        "r": 5,
+        "s": 6,
+        "d": 3,
+        "negative": false,
+        "a": 488,
+        "b": 813
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 1627,
+          "previous": 976,
+          "vertices": 1628
+        },
+        {
+          "orientation": 1,
+          "stop": 1626,
+          "previous": 977,
+          "vertices": 1627
+        }
+      ]
+    },
+    {
+      "k": 39,
+      "l": 32,
+      "formula": {
+        "c": 1,
+        "r": 7,
+        "s": 4,
+        "d": 4,
+        "negative": false,
+        "a": 279,
+        "b": 606
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 1213,
+          "previous": 558,
+          "vertices": 1214
+        },
+        {
+          "orientation": 1,
+          "stop": 1212,
+          "previous": 559,
+          "vertices": 1213
+        }
+      ]
+    },
+    {
+      "k": 40,
+      "l": 31,
+      "formula": {
+        "c": 1,
+        "r": 9,
+        "s": 3,
+        "d": 4,
+        "negative": false,
+        "a": 177,
+        "b": 505
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 1011,
+          "previous": 354,
+          "vertices": 1012
+        },
+        {
+          "orientation": 1,
+          "stop": 1010,
+          "previous": 355,
+          "vertices": 1011
+        }
+      ]
+    },
+    {
+      "k": 41,
+      "l": 30,
+      "formula": {
+        "c": 1,
+        "r": 11,
+        "s": 2,
+        "d": 8,
+        "negative": false,
+        "a": 73,
+        "b": 406
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 813,
+          "previous": 146,
+          "vertices": 814
+        },
+        {
+          "orientation": 1,
+          "stop": 812,
+          "previous": 147,
+          "vertices": 813
+        }
+      ]
+    },
+    {
+      "k": 50,
+      "l": 19,
+      "formula": {
+        "c": 2,
+        "r": 12,
+        "s": 1,
+        "d": 7,
+        "negative": false,
+        "a": 73,
+        "b": 406
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 813,
+          "previous": 146,
+          "vertices": 814
+        },
+        {
+          "orientation": 1,
+          "stop": 812,
+          "previous": 147,
+          "vertices": 813
+        }
+      ]
+    },
+    {
+      "k": 42,
+      "l": 29,
+      "formula": {
+        "c": 1,
+        "r": 13,
+        "s": 2,
+        "d": 3,
+        "negative": false,
+        "a": 80,
+        "b": 409
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 819,
+          "previous": 160,
+          "vertices": 820
+        },
+        {
+          "orientation": 1,
+          "stop": 818,
+          "previous": 161,
+          "vertices": 819
+        }
+      ]
+    },
+    {
+      "k": 43,
+      "l": 28,
+      "formula": {
+        "c": 2,
+        "r": 13,
+        "s": 2,
+        "d": 2,
+        "negative": true,
+        "a": 124,
+        "b": 453
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 906,
+          "previous": 249,
+          "vertices": 907
+        },
+        {
+          "orientation": 1,
+          "stop": 907,
+          "previous": 248,
+          "vertices": 908
+        }
+      ]
+    },
+    {
+      "k": 44,
+      "l": 27,
+      "formula": {
+        "c": 2,
+        "r": 10,
+        "s": 2,
+        "d": 7,
+        "negative": true,
+        "a": 117,
+        "b": 452
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 904,
+          "previous": 235,
+          "vertices": 905
+        },
+        {
+          "orientation": 1,
+          "stop": 905,
+          "previous": 234,
+          "vertices": 906
+        }
+      ]
+    },
+    {
+      "k": 45,
+      "l": 26,
+      "formula": {
+        "c": 2,
+        "r": 7,
+        "s": 3,
+        "d": 5,
+        "negative": true,
+        "a": 278,
+        "b": 612
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 1224,
+          "previous": 557,
+          "vertices": 1225
+        },
+        {
+          "orientation": 1,
+          "stop": 1225,
+          "previous": 556,
+          "vertices": 1226
+        }
+      ]
+    },
+    {
+      "k": 51,
+      "l": 19,
+      "formula": {
+        "c": 2,
+        "r": 13,
+        "s": 1,
+        "d": 6,
+        "negative": false,
+        "a": 76,
+        "b": 413
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 827,
+          "previous": 152,
+          "vertices": 828
+        },
+        {
+          "orientation": 1,
+          "stop": 826,
+          "previous": 153,
+          "vertices": 827
+        }
+      ]
+    },
+    {
+      "k": 49,
+      "l": 22,
+      "formula": {
+        "c": 2,
+        "r": 5,
+        "s": 4,
+        "d": 2,
+        "negative": false,
+        "a": 565,
+        "b": 900
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 1801,
+          "previous": 1130,
+          "vertices": 1802
+        },
+        {
+          "orientation": 1,
+          "stop": 1800,
+          "previous": 1131,
+          "vertices": 1801
+        }
+      ]
+    },
+    {
+      "k": 50,
+      "l": 21,
+      "formula": {
+        "c": 2,
+        "r": 8,
+        "s": 2,
+        "d": 5,
+        "negative": false,
+        "a": 236,
+        "b": 575
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 1151,
+          "previous": 472,
+          "vertices": 1152
+        },
+        {
+          "orientation": 1,
+          "stop": 1150,
+          "previous": 473,
+          "vertices": 1151
+        }
+      ]
+    },
+    {
+      "k": 40,
+      "l": 33,
+      "formula": {
+        "c": 1,
+        "r": 7,
+        "s": 4,
+        "d": 5,
+        "negative": false,
+        "a": 286,
+        "b": 623
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 1247,
+          "previous": 572,
+          "vertices": 1248
+        },
+        {
+          "orientation": 1,
+          "stop": 1246,
+          "previous": 573,
+          "vertices": 1247
+        }
+      ]
+    },
+    {
+      "k": 41,
+      "l": 32,
+      "formula": {
+        "c": 1,
+        "r": 9,
+        "s": 3,
+        "d": 5,
+        "negative": false,
+        "a": 181,
+        "b": 519
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 1039,
+          "previous": 362,
+          "vertices": 1040
+        },
+        {
+          "orientation": 1,
+          "stop": 1038,
+          "previous": 363,
+          "vertices": 1039
+        }
+      ]
+    },
+    {
+      "k": 51,
+      "l": 20,
+      "formula": {
+        "c": 2,
+        "r": 11,
+        "s": 1,
+        "d": 9,
+        "negative": false,
+        "a": 72,
+        "b": 416
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 833,
+          "previous": 144,
+          "vertices": 834
+        },
+        {
+          "orientation": 1,
+          "stop": 832,
+          "previous": 145,
+          "vertices": 833
+        }
+      ]
+    },
+    {
+      "k": 42,
+      "l": 31,
+      "formula": {
+        "c": 1,
+        "r": 11,
+        "s": 2,
+        "d": 9,
+        "negative": false,
+        "a": 74,
+        "b": 417
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 835,
+          "previous": 148,
+          "vertices": 836
+        },
+        {
+          "orientation": 1,
+          "stop": 834,
+          "previous": 149,
+          "vertices": 835
+        }
+      ]
+    },
+    {
+      "k": 43,
+      "l": 30,
+      "formula": {
+        "c": 1,
+        "r": 13,
+        "s": 2,
+        "d": 4,
+        "negative": false,
+        "a": 81,
+        "b": 420
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 841,
+          "previous": 162,
+          "vertices": 842
+        },
+        {
+          "orientation": 1,
+          "stop": 840,
+          "previous": 163,
+          "vertices": 841
+        }
+      ]
+    },
+    {
+      "k": 52,
+      "l": 19,
+      "formula": {
+        "c": 2,
+        "r": 14,
+        "s": 1,
+        "d": 5,
+        "negative": false,
+        "a": 79,
+        "b": 420
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 841,
+          "previous": 158,
+          "vertices": 842
+        },
+        {
+          "orientation": 1,
+          "stop": 840,
+          "previous": 159,
+          "vertices": 841
+        }
+      ]
+    },
+    {
+      "k": 45,
+      "l": 28,
+      "formula": {
+        "c": 2,
+        "r": 11,
+        "s": 2,
+        "d": 6,
+        "negative": true,
+        "a": 122,
+        "b": 465
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 930,
+          "previous": 245,
+          "vertices": 931
+        },
+        {
+          "orientation": 1,
+          "stop": 931,
+          "previous": 244,
+          "vertices": 932
+        }
+      ]
+    },
+    {
+      "k": 46,
+      "l": 27,
+      "formula": {
+        "c": 2,
+        "r": 8,
+        "s": 3,
+        "d": 3,
+        "negative": true,
+        "a": 288,
+        "b": 629
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 1258,
+          "previous": 577,
+          "vertices": 1259
+        },
+        {
+          "orientation": 1,
+          "stop": 1259,
+          "previous": 576,
+          "vertices": 1260
+        }
+      ]
+    },
+    {
+      "k": 43,
+      "l": 31,
+      "formula": {
+        "c": 1,
+        "r": 12,
+        "s": 2,
+        "d": 7,
+        "negative": false,
+        "a": 78,
+        "b": 424
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 849,
+          "previous": 156,
+          "vertices": 850
+        },
+        {
+          "orientation": 1,
+          "stop": 848,
+          "previous": 157,
+          "vertices": 849
+        }
+      ]
+    },
+    {
+      "k": 45,
+      "l": 29,
+      "formula": {
+        "c": 2,
+        "r": 13,
+        "s": 2,
+        "d": 3,
+        "negative": true,
+        "a": 128,
+        "b": 472
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 944,
+          "previous": 257,
+          "vertices": 945
+        },
+        {
+          "orientation": 1,
+          "stop": 945,
+          "previous": 256,
+          "vertices": 946
+        }
+      ]
+    },
+    {
+      "k": 53,
+      "l": 19,
+      "formula": {
+        "c": 2,
+        "r": 15,
+        "s": 1,
+        "d": 4,
+        "negative": false,
+        "a": 82,
+        "b": 427
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 855,
+          "previous": 164,
+          "vertices": 856
+        },
+        {
+          "orientation": 1,
+          "stop": 854,
+          "previous": 165,
+          "vertices": 855
+        }
+      ]
+    },
+    {
+      "k": 44,
+      "l": 31,
+      "formula": {
+        "c": 1,
+        "r": 13,
+        "s": 2,
+        "d": 5,
+        "negative": false,
+        "a": 82,
+        "b": 431
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 863,
+          "previous": 164,
+          "vertices": 864
+        },
+        {
+          "orientation": 1,
+          "stop": 862,
+          "previous": 165,
+          "vertices": 863
+        }
+      ]
+    },
+    {
+      "k": 53,
+      "l": 20,
+      "formula": {
+        "c": 2,
+        "r": 13,
+        "s": 1,
+        "d": 7,
+        "negative": false,
+        "a": 78,
+        "b": 430
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 861,
+          "previous": 156,
+          "vertices": 862
+        },
+        {
+          "orientation": 1,
+          "stop": 860,
+          "previous": 157,
+          "vertices": 861
+        }
+      ]
+    },
+    {
+      "k": 46,
+      "l": 29,
+      "formula": {
+        "c": 2,
+        "r": 12,
+        "s": 2,
+        "d": 5,
+        "negative": true,
+        "a": 127,
+        "b": 478
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 956,
+          "previous": 255,
+          "vertices": 957
+        },
+        {
+          "orientation": 1,
+          "stop": 957,
+          "previous": 254,
+          "vertices": 958
+        }
+      ]
+    },
+    {
+      "k": 51,
+      "l": 23,
+      "formula": {
+        "c": 2,
+        "r": 5,
+        "s": 4,
+        "d": 3,
+        "negative": false,
+        "a": 588,
+        "b": 938
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 1877,
+          "previous": 1176,
+          "vertices": 1878
+        },
+        {
+          "orientation": 1,
+          "stop": 1876,
+          "previous": 1177,
+          "vertices": 1877
+        }
+      ]
+    },
+    {
+      "k": 54,
+      "l": 19,
+      "formula": {
+        "c": 2,
+        "r": 16,
+        "s": 1,
+        "d": 3,
+        "negative": false,
+        "a": 85,
+        "b": 434
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 869,
+          "previous": 170,
+          "vertices": 870
+        },
+        {
+          "orientation": 1,
+          "stop": 868,
+          "previous": 171,
+          "vertices": 869
+        }
+      ]
+    },
+    {
+      "k": 43,
+      "l": 33,
+      "formula": {
+        "c": 1,
+        "r": 10,
+        "s": 3,
+        "d": 3,
+        "negative": false,
+        "a": 191,
+        "b": 541
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 1083,
+          "previous": 382,
+          "vertices": 1084
+        },
+        {
+          "orientation": 1,
+          "stop": 1082,
+          "previous": 383,
+          "vertices": 1083
+        }
+      ]
+    },
+    {
+      "k": 45,
+      "l": 31,
+      "formula": {
+        "c": 1,
+        "r": 14,
+        "s": 2,
+        "d": 3,
+        "negative": false,
+        "a": 86,
+        "b": 438
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 877,
+          "previous": 172,
+          "vertices": 878
+        },
+        {
+          "orientation": 1,
+          "stop": 876,
+          "previous": 173,
+          "vertices": 877
+        }
+      ]
+    },
+    {
+      "k": 47,
+      "l": 29,
+      "formula": {
+        "c": 2,
+        "r": 11,
+        "s": 2,
+        "d": 7,
+        "negative": true,
+        "a": 126,
+        "b": 484
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 968,
+          "previous": 253,
+          "vertices": 969
+        },
+        {
+          "orientation": 1,
+          "stop": 969,
+          "previous": 252,
+          "vertices": 970
+        }
+      ]
+    },
+    {
+      "k": 55,
+      "l": 19,
+      "formula": {
+        "c": 2,
+        "r": 17,
+        "s": 1,
+        "d": 2,
+        "negative": false,
+        "a": 88,
+        "b": 441
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 883,
+          "previous": 176,
+          "vertices": 884
+        },
+        {
+          "orientation": 1,
+          "stop": 882,
+          "previous": 177,
+          "vertices": 883
+        }
+      ]
+    },
+    {
+      "k": 49,
+      "l": 27,
+      "formula": {
+        "c": 2,
+        "r": 5,
+        "s": 5,
+        "d": 2,
+        "negative": true,
+        "a": 649,
+        "b": 1004
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 2008,
+          "previous": 1299,
+          "vertices": 2009
+        },
+        {
+          "orientation": 1,
+          "stop": 2009,
+          "previous": 1298,
+          "vertices": 2010
+        }
+      ]
+    },
+    {
+      "k": 53,
+      "l": 22,
+      "formula": {
+        "c": 2,
+        "r": 9,
+        "s": 2,
+        "d": 4,
+        "negative": false,
+        "a": 251,
+        "b": 608
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 1217,
+          "previous": 502,
+          "vertices": 1218
+        },
+        {
+          "orientation": 1,
+          "stop": 1216,
+          "previous": 503,
+          "vertices": 1217
+        }
+      ]
+    },
+    {
+      "k": 43,
+      "l": 34,
+      "formula": {
+        "c": 1,
+        "r": 9,
+        "s": 3,
+        "d": 7,
+        "negative": false,
+        "a": 189,
+        "b": 547
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 1095,
+          "previous": 378,
+          "vertices": 1096
+        },
+        {
+          "orientation": 1,
+          "stop": 1094,
+          "previous": 379,
+          "vertices": 1095
+        }
+      ]
+    },
+    {
+      "k": 45,
+      "l": 32,
+      "formula": {
+        "c": 1,
+        "r": 13,
+        "s": 2,
+        "d": 6,
+        "negative": false,
+        "a": 83,
+        "b": 442
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 885,
+          "previous": 166,
+          "vertices": 886
+        },
+        {
+          "orientation": 1,
+          "stop": 884,
+          "previous": 167,
+          "vertices": 885
+        }
+      ]
+    },
+    {
+      "k": 47,
+      "l": 30,
+      "formula": {
+        "c": 2,
+        "r": 13,
+        "s": 2,
+        "d": 4,
+        "negative": true,
+        "a": 132,
+        "b": 491
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 982,
+          "previous": 265,
+          "vertices": 983
+        },
+        {
+          "orientation": 1,
+          "stop": 983,
+          "previous": 264,
+          "vertices": 984
+        }
+      ]
+    },
+    {
+      "k": 53,
+      "l": 23,
+      "formula": {
+        "c": 2,
+        "r": 7,
+        "s": 3,
+        "d": 2,
+        "negative": false,
+        "a": 430,
+        "b": 789
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 1579,
+          "previous": 860,
+          "vertices": 1580
+        },
+        {
+          "orientation": 1,
+          "stop": 1578,
+          "previous": 861,
+          "vertices": 1579
+        }
+      ]
+    },
+    {
+      "k": 43,
+      "l": 35,
+      "formula": {
+        "c": 1,
+        "r": 8,
+        "s": 4,
+        "d": 3,
+        "negative": false,
+        "a": 308,
+        "b": 666
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 1333,
+          "previous": 616,
+          "vertices": 1334
+        },
+        {
+          "orientation": 1,
+          "stop": 1332,
+          "previous": 617,
+          "vertices": 1333
+        }
+      ]
+    },
+    {
+      "k": 55,
+      "l": 21,
+      "formula": {
+        "c": 2,
+        "r": 13,
+        "s": 1,
+        "d": 8,
+        "negative": false,
+        "a": 80,
+        "b": 447
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 895,
+          "previous": 160,
+          "vertices": 896
+        },
+        {
+          "orientation": 1,
+          "stop": 894,
+          "previous": 161,
+          "vertices": 895
+        }
+      ]
+    },
+    {
+      "k": 49,
+      "l": 29,
+      "formula": {
+        "c": 2,
+        "r": 9,
+        "s": 3,
+        "d": 2,
+        "negative": true,
+        "a": 309,
+        "b": 672
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 1344,
+          "previous": 619,
+          "vertices": 1345
+        },
+        {
+          "orientation": 1,
+          "stop": 1345,
+          "previous": 618,
+          "vertices": 1346
+        }
+      ]
+    },
+    {
+      "k": 42,
+      "l": 37,
+      "formula": {
+        "c": 1,
+        "r": 5,
+        "s": 7,
+        "d": 2,
+        "negative": false,
+        "a": 661,
+        "b": 1021
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 2043,
+          "previous": 1322,
+          "vertices": 2044
+        },
+        {
+          "orientation": 1,
+          "stop": 2042,
+          "previous": 1323,
+          "vertices": 2043
+        }
+      ]
+    },
+    {
+      "k": 46,
+      "l": 33,
+      "formula": {
+        "c": 1,
+        "r": 13,
+        "s": 2,
+        "d": 7,
+        "negative": false,
+        "a": 84,
+        "b": 453
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 907,
+          "previous": 168,
+          "vertices": 908
+        },
+        {
+          "orientation": 1,
+          "stop": 906,
+          "previous": 169,
+          "vertices": 907
+        }
+      ]
+    },
+    {
+      "k": 47,
+      "l": 32,
+      "formula": {
+        "c": 1,
+        "r": 15,
+        "s": 2,
+        "d": 2,
+        "negative": false,
+        "a": 91,
+        "b": 456
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 913,
+          "previous": 182,
+          "vertices": 914
+        },
+        {
+          "orientation": 1,
+          "stop": 912,
+          "previous": 183,
+          "vertices": 913
+        }
+      ]
+    },
+    {
+      "k": 48,
+      "l": 31,
+      "formula": {
+        "c": 2,
+        "r": 14,
+        "s": 2,
+        "d": 3,
+        "negative": true,
+        "a": 137,
+        "b": 504
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 1008,
+          "previous": 275,
+          "vertices": 1009
+        },
+        {
+          "orientation": 1,
+          "stop": 1009,
+          "previous": 274,
+          "vertices": 1010
+        }
+      ]
+    },
+    {
+      "k": 49,
+      "l": 30,
+      "formula": {
+        "c": 2,
+        "r": 11,
+        "s": 2,
+        "d": 8,
+        "negative": true,
+        "a": 130,
+        "b": 503
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 1006,
+          "previous": 261,
+          "vertices": 1007
+        },
+        {
+          "orientation": 1,
+          "stop": 1007,
+          "previous": 260,
+          "vertices": 1008
+        }
+      ]
+    },
+    {
+      "k": 57,
+      "l": 20,
+      "formula": {
+        "c": 2,
+        "r": 17,
+        "s": 1,
+        "d": 3,
+        "negative": false,
+        "a": 90,
+        "b": 458
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 917,
+          "previous": 180,
+          "vertices": 918
+        },
+        {
+          "orientation": 1,
+          "stop": 916,
+          "previous": 181,
+          "vertices": 917
+        }
+      ]
+    },
+    {
+      "k": 50,
+      "l": 29,
+      "formula": {
+        "c": 2,
+        "r": 8,
+        "s": 3,
+        "d": 5,
+        "negative": true,
+        "a": 310,
+        "b": 681
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 1362,
+          "previous": 621,
+          "vertices": 1363
+        },
+        {
+          "orientation": 1,
+          "stop": 1363,
+          "previous": 620,
+          "vertices": 1364
+        }
+      ]
+    },
+    {
+      "k": 51,
+      "l": 28,
+      "formula": {
+        "c": 2,
+        "r": 5,
+        "s": 5,
+        "d": 3,
+        "negative": true,
+        "a": 674,
+        "b": 1044
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 2088,
+          "previous": 1349,
+          "vertices": 2089
+        },
+        {
+          "orientation": 1,
+          "stop": 2089,
+          "previous": 1348,
+          "vertices": 2090
+        }
+      ]
+    },
+    {
+      "k": 55,
+      "l": 23,
+      "formula": {
+        "c": 2,
+        "r": 9,
+        "s": 2,
+        "d": 5,
+        "negative": false,
+        "a": 260,
+        "b": 632
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 1265,
+          "previous": 520,
+          "vertices": 1266
+        },
+        {
+          "orientation": 1,
+          "stop": 1264,
+          "previous": 521,
+          "vertices": 1265
+        }
+      ]
+    },
+    {
+      "k": 47,
+      "l": 33,
+      "formula": {
+        "c": 1,
+        "r": 14,
+        "s": 2,
+        "d": 5,
+        "negative": false,
+        "a": 88,
+        "b": 460
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 921,
+          "previous": 176,
+          "vertices": 922
+        },
+        {
+          "orientation": 1,
+          "stop": 920,
+          "previous": 177,
+          "vertices": 921
+        }
+      ]
+    },
+    {
+      "k": 49,
+      "l": 31,
+      "formula": {
+        "c": 2,
+        "r": 13,
+        "s": 2,
+        "d": 5,
+        "negative": true,
+        "a": 136,
+        "b": 510
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 1020,
+          "previous": 273,
+          "vertices": 1021
+        },
+        {
+          "orientation": 1,
+          "stop": 1021,
+          "previous": 272,
+          "vertices": 1022
+        }
+      ]
+    },
+    {
+      "k": 55,
+      "l": 24,
+      "formula": {
+        "c": 2,
+        "r": 7,
+        "s": 3,
+        "d": 3,
+        "negative": false,
+        "a": 446,
+        "b": 820
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 1641,
+          "previous": 892,
+          "vertices": 1642
+        },
+        {
+          "orientation": 1,
+          "stop": 1640,
+          "previous": 893,
+          "vertices": 1641
+        }
+      ]
+    },
+    {
+      "k": 43,
+      "l": 38,
+      "formula": {
+        "c": 1,
+        "r": 5,
+        "s": 7,
+        "d": 3,
+        "negative": false,
+        "a": 677,
+        "b": 1047
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 2095,
+          "previous": 1354,
+          "vertices": 2096
+        },
+        {
+          "orientation": 1,
+          "stop": 2094,
+          "previous": 1355,
+          "vertices": 2095
+        }
+      ]
+    },
+    {
+      "k": 44,
+      "l": 37,
+      "formula": {
+        "c": 1,
+        "r": 7,
+        "s": 5,
+        "d": 2,
+        "negative": false,
+        "a": 439,
+        "b": 809
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 1619,
+          "previous": 878,
+          "vertices": 1620
+        },
+        {
+          "orientation": 1,
+          "stop": 1618,
+          "previous": 879,
+          "vertices": 1619
+        }
+      ]
+    },
+    {
+      "k": 46,
+      "l": 35,
+      "formula": {
+        "c": 1,
+        "r": 11,
+        "s": 3,
+        "d": 2,
+        "negative": false,
+        "a": 205,
+        "b": 577
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 1155,
+          "previous": 410,
+          "vertices": 1156
+        },
+        {
+          "orientation": 1,
+          "stop": 1154,
+          "previous": 411,
+          "vertices": 1155
+        }
+      ]
+    },
+    {
+      "k": 56,
+      "l": 23,
+      "formula": {
+        "c": 2,
+        "r": 10,
+        "s": 2,
+        "d": 3,
+        "negative": false,
+        "a": 266,
+        "b": 641
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 1283,
+          "previous": 532,
+          "vertices": 1284
+        },
+        {
+          "orientation": 1,
+          "stop": 1282,
+          "previous": 533,
+          "vertices": 1283
+        }
+      ]
+    },
+    {
+      "k": 47,
+      "l": 34,
+      "formula": {
+        "c": 1,
+        "r": 13,
+        "s": 2,
+        "d": 8,
+        "negative": false,
+        "a": 85,
+        "b": 464
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 929,
+          "previous": 170,
+          "vertices": 930
+        },
+        {
+          "orientation": 1,
+          "stop": 928,
+          "previous": 171,
+          "vertices": 929
+        }
+      ]
+    },
+    {
+      "k": 57,
+      "l": 22,
+      "formula": {
+        "c": 2,
+        "r": 13,
+        "s": 1,
+        "d": 9,
+        "negative": false,
+        "a": 82,
+        "b": 464
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 929,
+          "previous": 164,
+          "vertices": 930
+        },
+        {
+          "orientation": 1,
+          "stop": 928,
+          "previous": 165,
+          "vertices": 929
+        }
+      ]
+    },
+    {
+      "k": 49,
+      "l": 32,
+      "formula": {
+        "c": 2,
+        "r": 15,
+        "s": 2,
+        "d": 2,
+        "negative": true,
+        "a": 142,
+        "b": 517
+      },
+      "starts": [
+        {
+          "orientation": 0,
+          "stop": 1034,
+          "previous": 285,
+          "vertices": 1035
+        },
+        {
+          "orientation": 1,
+          "stop": 1035,
+          "previous": 284,
+          "vertices": 1036
+        }
+      ]
+    }
+  ],
+  "negative_endpoint_cases": [
+    {
+      "k": 17,
+      "l": 5
+    },
+    {
+      "k": 18,
+      "l": 5
+    },
+    {
+      "k": 19,
+      "l": 7
+    },
+    {
+      "k": 22,
+      "l": 5
+    },
+    {
+      "k": 17,
+      "l": 12
+    },
+    {
+      "k": 23,
+      "l": 5
+    },
+    {
+      "k": 21,
+      "l": 8
+    },
+    {
+      "k": 18,
+      "l": 13
+    },
+    {
+      "k": 19,
+      "l": 12
+    },
+    {
+      "k": 23,
+      "l": 7
+    },
+    {
+      "k": 24,
+      "l": 7
+    },
+    {
+      "k": 25,
+      "l": 7
+    },
+    {
+      "k": 21,
+      "l": 13
+    },
+    {
+      "k": 27,
+      "l": 5
+    },
+    {
+      "k": 26,
+      "l": 7
+    },
+    {
+      "k": 25,
+      "l": 9
+    },
+    {
+      "k": 28,
+      "l": 5
+    },
+    {
+      "k": 27,
+      "l": 8
+    },
+    {
+      "k": 27,
+      "l": 10
+    },
+    {
+      "k": 29,
+      "l": 8
+    },
+    {
+      "k": 22,
+      "l": 17
+    },
+    {
+      "k": 23,
+      "l": 16
+    },
+    {
+      "k": 30,
+      "l": 7
+    },
+    {
+      "k": 29,
+      "l": 9
+    },
+    {
+      "k": 32,
+      "l": 5
+    },
+    {
+      "k": 31,
+      "l": 7
+    },
+    {
+      "k": 23,
+      "l": 18
+    },
+    {
+      "k": 24,
+      "l": 17
+    },
+    {
+      "k": 33,
+      "l": 5
+    },
+    {
+      "k": 25,
+      "l": 16
+    },
+    {
+      "k": 29,
+      "l": 11
+    },
+    {
+      "k": 32,
+      "l": 7
+    },
+    {
+      "k": 31,
+      "l": 9
+    },
+    {
+      "k": 29,
+      "l": 12
+    },
+    {
+      "k": 30,
+      "l": 11
+    },
+    {
+      "k": 33,
+      "l": 7
+    },
+    {
+      "k": 32,
+      "l": 9
+    },
+    {
+      "k": 25,
+      "l": 18
+    },
+    {
+      "k": 31,
+      "l": 11
+    },
+    {
+      "k": 27,
+      "l": 17
+    },
+    {
+      "k": 31,
+      "l": 12
+    },
+    {
+      "k": 33,
+      "l": 10
+    },
+    {
+      "k": 26,
+      "l": 19
+    },
+    {
+      "k": 31,
+      "l": 13
+    },
+    {
+      "k": 34,
+      "l": 9
+    },
+    {
+      "k": 35,
+      "l": 8
+    },
+    {
+      "k": 37,
+      "l": 5
+    },
+    {
+      "k": 27,
+      "l": 19
+    },
+    {
+      "k": 29,
+      "l": 17
+    },
+    {
+      "k": 38,
+      "l": 5
+    },
+    {
+      "k": 37,
+      "l": 7
+    },
+    {
+      "k": 29,
+      "l": 18
+    },
+    {
+      "k": 37,
+      "l": 8
+    },
+    {
+      "k": 35,
+      "l": 11
+    },
+    {
+      "k": 38,
+      "l": 7
+    },
+    {
+      "k": 34,
+      "l": 13
+    },
+    {
+      "k": 27,
+      "l": 22
+    },
+    {
+      "k": 36,
+      "l": 11
+    },
+    {
+      "k": 29,
+      "l": 20
+    },
+    {
+      "k": 30,
+      "l": 19
+    },
+    {
+      "k": 37,
+      "l": 10
+    },
+    {
+      "k": 31,
+      "l": 18
+    },
+    {
+      "k": 39,
+      "l": 7
+    },
+    {
+      "k": 35,
+      "l": 13
+    },
+    {
+      "k": 38,
+      "l": 9
+    },
+    {
+      "k": 29,
+      "l": 21
+    },
+    {
+      "k": 37,
+      "l": 11
+    },
+    {
+      "k": 31,
+      "l": 19
+    },
+    {
+      "k": 40,
+      "l": 7
+    },
+    {
+      "k": 36,
+      "l": 13
+    },
+    {
+      "k": 28,
+      "l": 23
+    },
+    {
+      "k": 31,
+      "l": 20
+    },
+    {
+      "k": 38,
+      "l": 11
+    },
+    {
+      "k": 42,
+      "l": 5
+    },
+    {
+      "k": 37,
+      "l": 13
+    },
+    {
+      "k": 40,
+      "l": 9
+    },
+    {
+      "k": 39,
+      "l": 11
+    },
+    {
+      "k": 37,
+      "l": 14
+    },
+    {
+      "k": 43,
+      "l": 5
+    },
+    {
+      "k": 30,
+      "l": 23
+    },
+    {
+      "k": 31,
+      "l": 22
+    },
+    {
+      "k": 41,
+      "l": 9
+    },
+    {
+      "k": 40,
+      "l": 11
+    },
+    {
+      "k": 41,
+      "l": 11
+    },
+    {
+      "k": 43,
+      "l": 8
+    },
+    {
+      "k": 39,
+      "l": 14
+    },
+    {
+      "k": 31,
+      "l": 24
+    },
+    {
+      "k": 32,
+      "l": 23
+    },
+    {
+      "k": 44,
+      "l": 7
+    },
+    {
+      "k": 34,
+      "l": 21
+    },
+    {
+      "k": 41,
+      "l": 12
+    },
+    {
+      "k": 43,
+      "l": 9
+    },
+    {
+      "k": 42,
+      "l": 11
+    },
+    {
+      "k": 33,
+      "l": 23
+    },
+    {
+      "k": 43,
+      "l": 10
+    },
+    {
+      "k": 41,
+      "l": 13
+    },
+    {
+      "k": 45,
+      "l": 7
+    },
+    {
+      "k": 39,
+      "l": 16
+    },
+    {
+      "k": 32,
+      "l": 25
+    },
+    {
+      "k": 45,
+      "l": 8
+    },
+    {
+      "k": 47,
+      "l": 5
+    },
+    {
+      "k": 39,
+      "l": 17
+    },
+    {
+      "k": 35,
+      "l": 22
+    },
+    {
+      "k": 42,
+      "l": 13
+    },
+    {
+      "k": 46,
+      "l": 7
+    },
+    {
+      "k": 43,
+      "l": 12
+    },
+    {
+      "k": 41,
+      "l": 15
+    },
+    {
+      "k": 48,
+      "l": 5
+    },
+    {
+      "k": 43,
+      "l": 13
+    },
+    {
+      "k": 47,
+      "l": 7
+    },
+    {
+      "k": 41,
+      "l": 16
+    },
+    {
+      "k": 32,
+      "l": 27
+    },
+    {
+      "k": 33,
+      "l": 26
+    },
+    {
+      "k": 34,
+      "l": 25
+    },
+    {
+      "k": 35,
+      "l": 24
+    },
+    {
+      "k": 36,
+      "l": 23
+    },
+    {
+      "k": 41,
+      "l": 17
+    },
+    {
+      "k": 44,
+      "l": 13
+    },
+    {
+      "k": 47,
+      "l": 9
+    },
+    {
+      "k": 43,
+      "l": 15
+    },
+    {
+      "k": 41,
+      "l": 18
+    },
+    {
+      "k": 46,
+      "l": 11
+    },
+    {
+      "k": 37,
+      "l": 23
+    },
+    {
+      "k": 45,
+      "l": 13
+    },
+    {
+      "k": 47,
+      "l": 10
+    },
+    {
+      "k": 43,
+      "l": 16
+    },
+    {
+      "k": 33,
+      "l": 28
+    },
+    {
+      "k": 36,
+      "l": 25
+    },
+    {
+      "k": 37,
+      "l": 24
+    },
+    {
+      "k": 47,
+      "l": 11
+    },
+    {
+      "k": 45,
+      "l": 14
+    },
+    {
+      "k": 39,
+      "l": 22
+    },
+    {
+      "k": 46,
+      "l": 13
+    },
+    {
+      "k": 35,
+      "l": 27
+    },
+    {
+      "k": 49,
+      "l": 9
+    },
+    {
+      "k": 39,
+      "l": 23
+    },
+    {
+      "k": 43,
+      "l": 18
+    },
+    {
+      "k": 48,
+      "l": 11
+    },
+    {
+      "k": 44,
+      "l": 17
+    },
+    {
+      "k": 47,
+      "l": 13
+    },
+    {
+      "k": 52,
+      "l": 5
+    },
+    {
+      "k": 45,
+      "l": 16
+    },
+    {
+      "k": 37,
+      "l": 26
+    },
+    {
+      "k": 51,
+      "l": 7
+    },
+    {
+      "k": 50,
+      "l": 9
+    },
+    {
+      "k": 49,
+      "l": 11
+    },
+    {
+      "k": 47,
+      "l": 14
+    },
+    {
+      "k": 51,
+      "l": 8
+    },
+    {
+      "k": 45,
+      "l": 17
+    },
+    {
+      "k": 37,
+      "l": 27
+    },
+    {
+      "k": 48,
+      "l": 13
+    },
+    {
+      "k": 53,
+      "l": 5
+    },
+    {
+      "k": 52,
+      "l": 7
+    },
+    {
+      "k": 39,
+      "l": 25
+    },
+    {
+      "k": 47,
+      "l": 15
+    },
+    {
+      "k": 41,
+      "l": 23
+    },
+    {
+      "k": 50,
+      "l": 11
+    },
+    {
+      "k": 46,
+      "l": 17
+    },
+    {
+      "k": 38,
+      "l": 27
+    },
+    {
+      "k": 49,
+      "l": 13
+    },
+    {
+      "k": 53,
+      "l": 7
+    },
+    {
+      "k": 41,
+      "l": 24
+    },
+    {
+      "k": 45,
+      "l": 19
+    },
+    {
+      "k": 52,
+      "l": 9
+    },
+    {
+      "k": 37,
+      "l": 29
+    },
+    {
+      "k": 51,
+      "l": 11
+    },
+    {
+      "k": 47,
+      "l": 17
+    },
+    {
+      "k": 53,
+      "l": 8
+    },
+    {
+      "k": 50,
+      "l": 13
+    },
+    {
+      "k": 41,
+      "l": 25
+    },
+    {
+      "k": 54,
+      "l": 7
+    },
+    {
+      "k": 46,
+      "l": 19
+    },
+    {
+      "k": 49,
+      "l": 15
+    },
+    {
+      "k": 37,
+      "l": 30
+    },
+    {
+      "k": 47,
+      "l": 18
+    },
+    {
+      "k": 38,
+      "l": 29
+    },
+    {
+      "k": 39,
+      "l": 28
+    },
+    {
+      "k": 52,
+      "l": 11
+    },
+    {
+      "k": 48,
+      "l": 17
+    },
+    {
+      "k": 41,
+      "l": 26
+    },
+    {
+      "k": 53,
+      "l": 10
+    },
+    {
+      "k": 51,
+      "l": 14
+    },
+    {
+      "k": 53,
+      "l": 11
+    },
+    {
+      "k": 49,
+      "l": 17
+    },
+    {
+      "k": 43,
+      "l": 25
+    },
+    {
+      "k": 57,
+      "l": 5
+    },
+    {
+      "k": 37,
+      "l": 32
+    },
+    {
+      "k": 38,
+      "l": 31
+    },
+    {
+      "k": 53,
+      "l": 12
+    },
+    {
+      "k": 40,
+      "l": 29
+    },
+    {
+      "k": 49,
+      "l": 18
+    },
+    {
+      "k": 41,
+      "l": 28
+    },
+    {
+      "k": 51,
+      "l": 16
+    },
+    {
+      "k": 58,
+      "l": 5
+    },
+    {
+      "k": 49,
+      "l": 19
+    },
+    {
+      "k": 52,
+      "l": 15
+    },
+    {
+      "k": 41,
+      "l": 29
+    },
+    {
+      "k": 56,
+      "l": 9
+    },
+    {
+      "k": 43,
+      "l": 27
+    },
+    {
+      "k": 53,
+      "l": 14
+    },
+    {
+      "k": 49,
+      "l": 20
+    },
+    {
+      "k": 38,
+      "l": 33
+    },
+    {
+      "k": 54,
+      "l": 13
+    },
+    {
+      "k": 39,
+      "l": 32
+    },
+    {
+      "k": 40,
+      "l": 31
+    },
+    {
+      "k": 41,
+      "l": 30
+    },
+    {
+      "k": 50,
+      "l": 19
+    },
+    {
+      "k": 58,
+      "l": 7
+    },
+    {
+      "k": 42,
+      "l": 29
+    },
+    {
+      "k": 53,
+      "l": 15
+    },
+    {
+      "k": 55,
+      "l": 12
+    },
+    {
+      "k": 43,
+      "l": 28
+    },
+    {
+      "k": 44,
+      "l": 27
+    },
+    {
+      "k": 45,
+      "l": 26
+    },
+    {
+      "k": 55,
+      "l": 13
+    },
+    {
+      "k": 53,
+      "l": 16
+    },
+    {
+      "k": 57,
+      "l": 10
+    },
+    {
+      "k": 51,
+      "l": 19
+    },
+    {
+      "k": 59,
+      "l": 7
+    },
+    {
+      "k": 49,
+      "l": 22
+    },
+    {
+      "k": 58,
+      "l": 9
+    },
+    {
+      "k": 50,
+      "l": 21
+    },
+    {
+      "k": 57,
+      "l": 11
+    },
+    {
+      "k": 53,
+      "l": 17
+    },
+    {
+      "k": 40,
+      "l": 33
+    },
+    {
+      "k": 41,
+      "l": 32
+    },
+    {
+      "k": 59,
+      "l": 8
+    },
+    {
+      "k": 51,
+      "l": 20
+    },
+    {
+      "k": 42,
+      "l": 31
+    },
+    {
+      "k": 56,
+      "l": 13
+    },
+    {
+      "k": 43,
+      "l": 30
+    },
+    {
+      "k": 52,
+      "l": 19
+    },
+    {
+      "k": 45,
+      "l": 28
+    },
+    {
+      "k": 60,
+      "l": 7
+    },
+    {
+      "k": 46,
+      "l": 27
+    },
+    {
+      "k": 59,
+      "l": 9
+    },
+    {
+      "k": 54,
+      "l": 17
+    },
+    {
+      "k": 58,
+      "l": 11
+    },
+    {
+      "k": 43,
+      "l": 31
+    },
+    {
+      "k": 57,
+      "l": 13
+    },
+    {
+      "k": 55,
+      "l": 16
+    },
+    {
+      "k": 45,
+      "l": 29
+    },
+    {
+      "k": 53,
+      "l": 19
+    },
+    {
+      "k": 62,
+      "l": 5
+    },
+    {
+      "k": 61,
+      "l": 7
+    },
+    {
+      "k": 56,
+      "l": 15
+    },
+    {
+      "k": 55,
+      "l": 17
+    },
+    {
+      "k": 59,
+      "l": 11
+    },
+    {
+      "k": 44,
+      "l": 31
+    },
+    {
+      "k": 53,
+      "l": 20
+    },
+    {
+      "k": 61,
+      "l": 8
+    },
+    {
+      "k": 58,
+      "l": 13
+    },
+    {
+      "k": 46,
+      "l": 29
+    },
+    {
+      "k": 51,
+      "l": 23
+    },
+    {
+      "k": 54,
+      "l": 19
+    },
+    {
+      "k": 63,
+      "l": 5
+    },
+    {
+      "k": 61,
+      "l": 9
+    },
+    {
+      "k": 43,
+      "l": 33
+    },
+    {
+      "k": 56,
+      "l": 17
+    },
+    {
+      "k": 45,
+      "l": 31
+    },
+    {
+      "k": 60,
+      "l": 11
+    },
+    {
+      "k": 47,
+      "l": 29
+    },
+    {
+      "k": 57,
+      "l": 16
+    },
+    {
+      "k": 59,
+      "l": 13
+    },
+    {
+      "k": 55,
+      "l": 19
+    },
+    {
+      "k": 49,
+      "l": 27
+    },
+    {
+      "k": 53,
+      "l": 22
+    },
+    {
+      "k": 58,
+      "l": 15
+    },
+    {
+      "k": 43,
+      "l": 34
+    },
+    {
+      "k": 45,
+      "l": 32
+    },
+    {
+      "k": 59,
+      "l": 14
+    },
+    {
+      "k": 57,
+      "l": 17
+    },
+    {
+      "k": 61,
+      "l": 11
+    },
+    {
+      "k": 47,
+      "l": 30
+    },
+    {
+      "k": 60,
+      "l": 13
+    },
+    {
+      "k": 53,
+      "l": 23
+    },
+    {
+      "k": 43,
+      "l": 35
+    },
+    {
+      "k": 55,
+      "l": 21
+    },
+    {
+      "k": 58,
+      "l": 17
+    },
+    {
+      "k": 62,
+      "l": 11
+    },
+    {
+      "k": 49,
+      "l": 29
+    },
+    {
+      "k": 59,
+      "l": 16
+    },
+    {
+      "k": 61,
+      "l": 13
+    },
+    {
+      "k": 42,
+      "l": 37
+    },
+    {
+      "k": 63,
+      "l": 10
+    },
+    {
+      "k": 46,
+      "l": 33
+    },
+    {
+      "k": 65,
+      "l": 7
+    },
+    {
+      "k": 47,
+      "l": 32
+    },
+    {
+      "k": 48,
+      "l": 31
+    },
+    {
+      "k": 49,
+      "l": 30
+    },
+    {
+      "k": 61,
+      "l": 14
+    },
+    {
+      "k": 59,
+      "l": 17
+    },
+    {
+      "k": 63,
+      "l": 11
+    },
+    {
+      "k": 57,
+      "l": 20
+    },
+    {
+      "k": 50,
+      "l": 29
+    },
+    {
+      "k": 51,
+      "l": 28
+    },
+    {
+      "k": 55,
+      "l": 23
+    },
+    {
+      "k": 62,
+      "l": 13
+    },
+    {
+      "k": 47,
+      "l": 33
+    },
+    {
+      "k": 67,
+      "l": 5
+    },
+    {
+      "k": 59,
+      "l": 18
+    },
+    {
+      "k": 66,
+      "l": 7
+    },
+    {
+      "k": 49,
+      "l": 31
+    },
+    {
+      "k": 65,
+      "l": 9
+    },
+    {
+      "k": 60,
+      "l": 17
+    },
+    {
+      "k": 55,
+      "l": 24
+    },
+    {
+      "k": 64,
+      "l": 11
+    },
+    {
+      "k": 43,
+      "l": 38
+    },
+    {
+      "k": 44,
+      "l": 37
+    },
+    {
+      "k": 46,
+      "l": 35
+    },
+    {
+      "k": 56,
+      "l": 23
+    },
+    {
+      "k": 61,
+      "l": 16
+    },
+    {
+      "k": 63,
+      "l": 13
+    },
+    {
+      "k": 47,
+      "l": 34
+    },
+    {
+      "k": 59,
+      "l": 19
+    },
+    {
+      "k": 57,
+      "l": 22
+    },
+    {
+      "k": 68,
+      "l": 5
+    },
+    {
+      "k": 49,
+      "l": 32
+    },
+    {
+      "k": 62,
+      "l": 15
+    },
+    {
+      "k": 80,
+      "l": 67
+    },
+    {
+      "k": 81,
+      "l": 68
+    },
+    {
+      "k": 121,
+      "l": 67
+    },
+    {
+      "k": 123,
+      "l": 68
+    },
+    {
+      "k": 147,
+      "l": 67
+    },
+    {
+      "k": 149,
+      "l": 68
+    },
+    {
+      "k": 154,
+      "l": 135
+    },
+    {
+      "k": 155,
+      "l": 136
+    },
+    {
+      "k": 251,
+      "l": 135
+    },
+    {
+      "k": 253,
+      "l": 136
+    },
+    {
+      "k": 289,
+      "l": 135
+    },
+    {
+      "k": 291,
+      "l": 136
+    },
+    {
+      "k": 278,
+      "l": 255
+    },
+    {
+      "k": 279,
+      "l": 256
+    },
+    {
+      "k": 487,
+      "l": 255
+    },
+    {
+      "k": 489,
+      "l": 256
+    },
+    {
+      "k": 533,
+      "l": 255
+    },
+    {
+      "k": 535,
+      "l": 256
+    }
+  ],
+  "rays": [
+    {
+      "name": "unit",
+      "a": 3,
+      "b": 1,
+      "c": 1,
+      "d": 0,
+      "threshold": 1,
+      "period": 1,
+      "residues": [
+        0
+      ]
+    },
+    {
+      "name": "vanishing",
+      "a": 5,
+      "b": 2,
+      "c": 1,
+      "d": 0,
+      "threshold": 4,
+      "period": 1,
+      "residues": []
+    },
+    {
+      "name": "mod3",
+      "a": 2,
+      "b": 3,
+      "c": 1,
+      "d": 0,
+      "threshold": 4,
+      "period": 3,
+      "residues": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "mod5",
+      "a": 2,
+      "b": 5,
+      "c": 1,
+      "d": 0,
+      "threshold": 6,
+      "period": 5,
+      "residues": [
+        1,
+        4
+      ]
+    },
+    {
+      "name": "mod4",
+      "a": 2,
+      "b": 4,
+      "c": 1,
+      "d": 0,
+      "threshold": 5,
+      "period": 2,
+      "residues": [
+        1
+      ]
+    },
+    {
+      "name": "q2_unit",
+      "a": 5,
+      "b": 2,
+      "c": 2,
+      "d": 1,
+      "threshold": 1,
+      "period": 1,
+      "residues": [
+        0
+      ]
+    },
+    {
+      "name": "scaled",
+      "a": 3,
+      "b": 3,
+      "c": 1,
+      "d": 1,
+      "threshold": 1,
+      "period": 1,
+      "residues": []
+    },
+    {
+      "name": "fixed_width",
+      "a": 1,
+      "b": 5,
+      "c": 0,
+      "d": 5,
+      "threshold": 10,
+      "period": 5,
+      "residues": [
+        1,
+        4
+      ]
+    },
+    {
+      "name": "folded_unit",
+      "a": 3,
+      "b": 1,
+      "c": 2,
+      "d": 1,
+      "threshold": 1,
+      "period": 1,
+      "residues": [
+        0
+      ]
+    }
+  ],
+  "expected": {
+    "bands": 8,
+    "cap_records": 20,
+    "fan_graphs": 160,
+    "fan_starts": 320,
+    "endpoint_cases": 337,
+    "rays": 9
+  },
+  "limits": {
+    "cpu": 1,
+    "timeout_seconds_per_batch": 120,
+    "memory_mb": 1024,
+    "fan_batch_default": 8,
+    "max_graph_norm": 5000
+  },
+  "warning": "Future check scripts are Codex-authored and unexecuted; independent constructor does not make these scripts blind independent proofs"
+}

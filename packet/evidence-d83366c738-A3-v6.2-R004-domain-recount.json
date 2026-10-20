@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "theorem_domain": 191,
+  "primitive_interior": 127,
+  "nonprimitive_interior": 64,
+  "nonprimitive_axis": 25,
+  "nonprimitive_diagonal": 14,
+  "boundary_nonprimitive": 39,
+  "noncontrol_total": 230,
+  "controls": 2,
+  "stored_records": 232,
+  "scope": "Recount saved-review parameter domains; does not construct or classify graphs.",
+  "graph_checks_rerun": false,
+  "metadata_version": "0.6.2-draft",
+  "trial_id": "T0929",
+  "recount_performed_by": "Codex (main research agent)",
+  "finding_and_arithmetic_review_by": "Claude Code (coordinator)",
+  "metadata_updated_by": "Codex",
+  "original_recount": {
+    "historical_reference_id": "source-fffabe72b08559d1440c",
+    "sha256": "a366f538e56179dbd6c8e397d3d86b191c7102a2a876102e4a13461e2125dc86",
+    "bytes": 390
+  },
+  "provenance_note": "Counts and outcome unchanged. T0929 resolves in record-index.json. No graph or count rerun in this metadata update."
+}

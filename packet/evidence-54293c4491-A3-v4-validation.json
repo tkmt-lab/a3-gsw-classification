@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "scope": "Document links, preserved proof/data text, and received source hashes only; no scientific rerun or independent proof review",
+  "proof_sections_1_to_9_unchanged": true,
+  "ipr_appendix_A_unchanged": true,
+  "links_checked": 73,
+  "source_commit": "c5d5bbebfaff66a96517164b49d605ac24fc232f",
+  "files": [
+    {
+      "historical_reference_id": "source-01827b8089572b93da3d",
+      "bytes": 77047,
+      "sha256": "b1b1a5ccbbed38667adb44e677a99c6ac1e7e352d54b841f9efe0b571ce3581f"
+    },
+    {
+      "historical_reference_id": "source-21a2055b8345bb85e0ef",
+      "bytes": 1466,
+      "sha256": "e1beb94365fd3e88eeed21bb32fcd8610736b221c63a4f91de650fdecc4f1fa6"
+    },
+    {
+      "historical_reference_id": "source-6e522d930ac56a10cd2f",
+      "bytes": 9098,
+      "sha256": "4ef719235127985e94839a7a1ae3348f1f615497d7347e5f28b3ea863265a97e"
+    }
+  ]
+}

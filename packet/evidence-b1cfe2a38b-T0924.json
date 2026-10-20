@@ -1,0 +1,166 @@
+{
+  "trial_id": "T0924",
+  "study_id": "R002",
+  "parent_trial_id": "T0923",
+  "phase": "reproduction",
+  "started_at": "2026-10-19T04:19:09+00:00",
+  "finished_at": "2026-10-19T04:19:54+00:00",
+  "status": "ok",
+  "intent": "Build complete bounded prototype and execute uncached transitive standard-axiom gate",
+  "historical_command": [
+    "nice",
+    "-n",
+    "10",
+    "python3",
+    "-B",
+    "historical-reference:source-1751ba9b9c96620d62cf"
+  ],
+  "historical_working_directory": "ARCHIVAL_WORKSPACE",
+  "code_commit": "7c23111864e3caa50d7bc3c8dd491c6e788263ec",
+  "historical_code_patch_or_snapshot": {
+    "tracked_diff": "historical-reference:source-7c33e64323668e4405f4",
+    "untracked": [
+      "formal/Formal/GCUnitAxiomCheck.lean",
+      "formal/Formal/GCUnitDegree.lean",
+      "formal/Formal/GCUnitGeometry.lean",
+      "formal/Formal/GCUnitPatch.lean",
+      "formal/Formal/GCUnitPath.lean",
+      "formal/Formal/IcosahedronGluing.lean",
+      "formal/Formal/StandardAxiomGate.lean",
+      "historical-reference:source-3eec095818414982b2a9",
+      "historical-reference:source-a672024208ff20491a0a",
+      "historical-reference:source-204ee15c38014ce1e847",
+      "historical-reference:source-e756a7c60408f5a5ee73/",
+      "historical-reference:source-68d8baa91016840d1afb/",
+      "historical-reference:source-4e21afa9ab20e12274a4/",
+      "historical-reference:source-c56f1a556a3ca13df1b7/",
+      "historical-reference:source-529e5997ae9da84f18bb/",
+      "historical-reference:source-6fd1f4d5483368e91b30/",
+      "historical-reference:source-22651cb72b3969566788/",
+      "historical-reference:source-0fc385114d29f81c4625/",
+      "historical-reference:source-59d73391e9549217a0b0/",
+      "historical-reference:source-7fecd1aa1dc2c6dbdf01/",
+      "historical-reference:source-1fca63018132426f5f66/",
+      "historical-reference:source-ef107ac4921a08aa7db9/",
+      "historical-reference:source-1685f506370ce7feebaf/",
+      "historical-reference:source-b3197c60f38a9cdc9d21/",
+      "historical-reference:source-971aa7f5f2d662bd04fe/",
+      "historical-reference:source-c7a303374822c63506b9/",
+      "historical-reference:source-e4d749305f9891b2f5e0/",
+      "historical-reference:source-02e1f91c6b837a5b7601/",
+      "historical-reference:source-c72b8cc47a0d089b5638/",
+      "historical-reference:source-e48e8adedb7114a63f27/",
+      "historical-reference:source-5903e949a1c35699c562/",
+      "historical-reference:source-1751ba9b9c96620d62cf",
+      "historical-reference:source-9d9be0ab535e792890a6",
+      "historical-reference:source-f99393b12309d66b406f",
+      "historical-reference:source-25fd6780cb09c4ab1345",
+      "historical-reference:source-10da9c07ec1da1507de0",
+      "historical-reference:source-2c4778a4daf900ec3c6c",
+      "historical-reference:source-6045a7f1c59482628ca4",
+      "historical-reference:source-e77437e8669cfc851cab",
+      "historical-reference:source-29dc3fefd9f4b021fc6a",
+      "historical-reference:source-774f336a4b533520e20d",
+      "historical-reference:source-35849f7649c2a650fddf",
+      "historical-reference:source-b83ac552d44af048bacd",
+      "historical-reference:source-d54454b73f7b6e7fbf89",
+      "historical-reference:source-2ab9f3315839b00936aa",
+      "historical-reference:source-4745b815db964cdf8f5f",
+      "historical-reference:source-47198d1c0699f22a2a55",
+      "historical-reference:source-0e18be76390a181c0705",
+      "historical-reference:source-a5e4c47078d61b47d5c5",
+      "historical-reference:source-3767a63d87c885200559",
+      "historical-reference:source-7324cf8795c1c3bc63c4",
+      "historical-reference:source-05f7cb95688189e83a46",
+      "historical-reference:source-329e1dc5cbb9a88a1f66",
+      "evidence-b1cfe2a38b-T0924.json"
+    ],
+    "copies": [
+      {
+        "historical_reference_id": "source-b78c2b3683b62711d73a",
+        "historical_copy_id": "source-5f0ee1d5665f83f5a606",
+        "sha256": "ff25f620ab8cd16e180ca81c772ff5bc53a4758a8847650b06b19561650af5b2"
+      },
+      {
+        "historical_reference_id": "source-9072514125ee81b118db",
+        "historical_copy_id": "source-d9195fa649601318d713",
+        "sha256": "80777f94af1f407857bcc07a42c739561d248dbebba54ea4bf9df6d3258c7285"
+      },
+      {
+        "historical_reference_id": "source-a0324f50425ea8951762",
+        "historical_copy_id": "source-69acade00b875bbe5481",
+        "sha256": "7e5c4d49c69368d8c24b74416760efb2235d3a39897c7d81d3c84979294ce00a"
+      },
+      {
+        "historical_reference_id": "source-b88ac551dca299f0027e",
+        "historical_copy_id": "source-453a3a3f517c687b86ca",
+        "sha256": "ec4e7ec37c2f39665462c9c0cd185b9d3377e2f90eed77dd6990d98538842ab2"
+      },
+      {
+        "historical_reference_id": "source-bb8d240370e1cb903fbb",
+        "historical_copy_id": "source-01d9719d4741e00964f6",
+        "sha256": "cdde0a99e8de520181edd8f164560f2f7c204cc3dba3eee3358b99d703dbd958"
+      },
+      {
+        "historical_reference_id": "source-0e036003596e2956a038",
+        "historical_copy_id": "source-67e75877855e355be4ee",
+        "sha256": "c2f22bb99f8387eedcc800232ecee01f5aa0d0b542e6130ea20f3867a712f002"
+      },
+      {
+        "historical_reference_id": "source-d99184cc2cd251612d2c",
+        "historical_copy_id": "source-40e18640881cfe8d51a1",
+        "sha256": "e76b6f671fc81bac10d898db3ad0747d3b1c1c2d11a82941d3335ee6bcc2860d"
+      },
+      {
+        "historical_reference_id": "source-1128cc20557af5085271",
+        "historical_copy_id": "source-b62d6e090482eccd64af",
+        "sha256": "7df06d7ddb3a8dfe4202b9b65bab279551593ddad6284f99941635824cc4b4b6"
+      },
+      {
+        "historical_reference_id": "source-1751ba9b9c96620d62cf",
+        "historical_copy_id": "source-e7311540e1b8445d74b9",
+        "sha256": "cba3530ff5fa7f34a34ee48f6f21a35b7c8d1650f6994ff4a51673aa1c12b2b8"
+      }
+    ]
+  },
+  "environment": {
+    "historical_platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "historical_python": "3.14.7"
+  },
+  "inputs": [],
+  "parameters": {
+    "cpu": "1",
+    "memory_budget": "4GB"
+  },
+  "seed": null,
+  "artifacts": [
+    {
+      "historical_reference_id": "source-17c790e030fca420a827",
+      "bytes": 51196,
+      "sha256": "23760772daf2105a464954bafb83ee669c509c0eb51c58c761613f56f0d9c961",
+      "git_tracked": true
+    },
+    {
+      "historical_reference_id": "source-1334d321161bcd416638",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_tracked": true
+    }
+  ],
+  "metrics_viewed": {},
+  "elapsed_seconds": 45.037,
+  "peak_memory_mb": 2840.2,
+  "cost": {
+    "amount": 0,
+    "currency": null,
+    "basis": "ローカル実行（課金なし）"
+  },
+  "error_or_abort_reason": null,
+  "decision_and_next_step": null,
+  "notes": [],
+  "historical_executable": {
+    "historical_reference_id": "source-50a2bc5142adb9be0e01",
+    "sha256": "05086ac4d65920ab678c90142b3004c004086b7d77824a70e2ef9acd8d18eeb1"
+  }
+}

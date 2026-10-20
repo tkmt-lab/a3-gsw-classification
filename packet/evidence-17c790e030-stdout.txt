@@ -1,0 +1,998 @@
+cwd=formal; command=['lake', '--no-cache', 'build', '+Formal:olean']
+⚠ [862/918] Replayed Formal.GCArithmetic
+warning: historical-reference:source-d285cf76a68140ac9135: imports `Mathlib.Data.Int.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: historical-reference:source-d285cf76a68140ac9135: imports `Mathlib.Algebra.Group.Prod` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: historical-reference:source-d285cf76a68140ac9135: imports `Mathlib.Algebra.Ring.Divisibility.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: historical-reference:source-d285cf76a68140ac9135: imports `Mathlib.Tactic.Linarith` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: historical-reference:source-d285cf76a68140ac9135: imports `Mathlib.Tactic.NormNum` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: historical-reference:source-d285cf76a68140ac9135: imports `Mathlib.Tactic.Ring` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: historical-reference:source-d285cf76a68140ac9135:1:1: * `-/`:
+Copyright too short!
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+info: historical-reference:source-d285cf76a68140ac9135:98:0: 'R002.strip_coordinates' depends on axioms: [propext, Quot.sound]
+info: historical-reference:source-d285cf76a68140ac9135:99:0: 'R002.strip_odd_not_scaled' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: historical-reference:source-d285cf76a68140ac9135:100:0: 'R002.strip_even_scaled_iff' depends on axioms: [propext, Quot.sound]
+info: historical-reference:source-d285cf76a68140ac9135:101:0: 'R002.explicitStrip_recurrence' depends on axioms: [propext, Quot.sound]
+info: historical-reference:source-d285cf76a68140ac9135:102:0: 'R002.adjacent_heights_not_both_scaled' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [863/918] Replayed Formal.LatticeTransport
+warning: historical-reference:source-53021ba358b3472eecc4:1:1: * `-/`:
+Copyright too short!
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+info: historical-reference:source-53021ba358b3472eecc4:90:0: 'R002.rotate60_scaled_iff' depends on axioms: [propext, Quot.sound]
+info: historical-reference:source-53021ba358b3472eecc4:91:0: 'R002.rotateAbout_scaled_iff' depends on axioms: [propext, Quot.sound]
+info: historical-reference:source-53021ba358b3472eecc4:92:0: 'R002.transportCenters_scaled_iff' depends on axioms: [propext, Quot.sound]
+info: historical-reference:source-53021ba358b3472eecc4:93:0: 'R002.rotateAbout_next' depends on axioms: [propext]
+info: historical-reference:source-53021ba358b3472eecc4:94:0: 'R002.rotate60_norm' depends on axioms: [propext]
+info: historical-reference:source-53021ba358b3472eecc4:95:0: 'R002.transported_strip_odd_not_scaled' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [929/971] Replayed Formal.SequenceDecision
+warning: historical-reference:source-0c8c6feddab6a396be14: imports `Mathlib.Data.Nat.Find` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: historical-reference:source-0c8c6feddab6a396be14: imports `Mathlib.Data.Fintype.Card` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: historical-reference:source-0c8c6feddab6a396be14:1:1: * `-/`:
+Copyright too short!
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+info: historical-reference:source-0c8c6feddab6a396be14:122:0: 'R002.prefix_injective_iff_before_first_repeat' depends on axioms: [propext, Quot.sound]
+info: historical-reference:source-0c8c6feddab6a396be14:123:0: 'R002.valid_exists_iff_first_endpoint_lt_repeat' depends on axioms: [propext, Quot.sound]
+info: historical-reference:source-0c8c6feddab6a396be14:124:0: 'R002.valid_exists_iff_bounded_endpoint' depends on axioms: [propext, Quot.sound]
+info: historical-reference:source-0c8c6feddab6a396be14:125:0: 'R002.first_repeat_exists_bounded' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: historical-reference:source-0c8c6feddab6a396be14:126:0: 'R002.legal_cone_endpoint_has_even_length' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [980/1032] Replayed Formal.ForcedContinuation
+warning: historical-reference:source-23c2f444d536b1b7dc7a: imports `Mathlib.Combinatorics.SimpleGraph.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: historical-reference:source-23c2f444d536b1b7dc7a:1:1: * `-/`:
+Copyright too short!
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+info: historical-reference:source-23c2f444d536b1b7dc7a:144:0: 'R002.unique_other_common' does not depend on any axioms
+info: historical-reference:source-23c2f444d536b1b7dc7a:145:0: 'R002.forced_walk_unique' depends on axioms: [propext, Quot.sound]
+info: historical-reference:source-23c2f444d536b1b7dc7a:146:0: 'R002.forced_walk_exists_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: historical-reference:source-23c2f444d536b1b7dc7a:147:0: 'R002.finite_forced_walk_decision' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [981/1032] Replayed Formal.FiniteLiteralPath
+warning: historical-reference:source-a310d5ded90103a48fdb:1:1: * `-/`:
+Copyright too short!
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+info: historical-reference:source-a310d5ded90103a48fdb:118:0: 'R002.finite_path_eq_forced_prefix' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: historical-reference:source-a310d5ded90103a48fdb:119:0: 'R002.literal_path_iff_valid_forced_prefix' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: historical-reference:source-a310d5ded90103a48fdb:120:0: 'R002.finite_literal_path_decision' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [982/1032] Replayed Formal.CylinderArithmetic
+warning: historical-reference:source-a3b8733eef126b953202:1:1: * `-/`:
+Copyright too short!
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+info: historical-reference:source-a3b8733eef126b953202:56:0: 'R002.cylinder_displacement_height' depends on axioms: [propext, Quot.sound]
+info: historical-reference:source-a3b8733eef126b953202:57:0: 'R002.cylinder_height_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: historical-reference:source-a3b8733eef126b953202:58:0: 'R002.cylinder_scaled_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: historical-reference:source-a3b8733eef126b953202:59:0: 'R002.cylinder_portal_shift' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3145/3150] Replayed Formal.AffineInduction
+warning: historical-reference:source-04e133265c8273497105: imports `Mathlib.Order.RelClasses` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: historical-reference:source-04e133265c8273497105: imports `Mathlib.Tactic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: historical-reference:source-04e133265c8273497105:1:1: * `-/`:
+Copyright too short!
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+info: historical-reference:source-04e133265c8273497105:117:0: 'R002.inductionRank_wellFounded' does not depend on any axioms
+info: historical-reference:source-04e133265c8273497105:118:0: 'R002.induction_subtract_positive' depends on axioms: [propext, Quot.sound]
+info: historical-reference:source-04e133265c8273497105:119:0: 'R002.induction_accelerate_constant' depends on axioms: [propext, Quot.sound]
+info: historical-reference:source-04e133265c8273497105:120:0: 'R002.induction_subtract_constant' depends on axioms: [propext, Quot.sound]
+info: historical-reference:source-04e133265c8273497105:121:0: 'R002.induction_erase' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: historical-reference:source-04e133265c8273497105:122:0: 'R002.induction_blocks_wellFounded' does not depend on any axioms
+info: historical-reference:source-04e133265c8273497105:123:0: 'R002.induction_no_infinite_run' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: historical-reference:source-04e133265c8273497105:124:0: 'R002.induction_uniform_depth' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3146/3150] Replayed Formal.IETComponent
+warning: historical-reference:source-ed40d3019b059e86c1b8: imports `Mathlib.Data.List.Perm.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: historical-reference:source-ed40d3019b059e86c1b8:1:1: * `-/`:
+Copyright too short!
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+warning: historical-reference:source-ed40d3019b059e86c1b8:33:8: `simp [ht, hb] at hc` is a flexible tactic modifying `hc`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+
+Note: This linter can be disabled with `set_option linter.flexible false`
+info: historical-reference:source-ed40d3019b059e86c1b8:37:8: `exact (List.reverse_perm xs).trans (hh.cons_inv.trans (List.reverse_perm ys).symm)`
+uses `hc`, which was modified by the flexible tactic `simp` on line 33!
+warning: historical-reference:source-ed40d3019b059e86c1b8:36:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: historical-reference:source-ed40d3019b059e86c1b8:52:8: `simp [ht, hb, h] at hc` is a flexible tactic modifying `hc`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+
+Note: This linter can be disabled with `set_option linter.flexible false`
+info: historical-reference:source-ed40d3019b059e86c1b8:60:8: `exact induction_erase _ _ _ _ _ (by omega)`
+uses `hc`, which was modified by the flexible tactic `simp` on line 52!
+info: historical-reference:source-ed40d3019b059e86c1b8:69:0: 'R002.iet_component_perm' depends on axioms: [propext]
+info: historical-reference:source-ed40d3019b059e86c1b8:70:0: 'R002.iet_component_rank' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: historical-reference:source-ed40d3019b059e86c1b8:71:0: 'R002.iet_component_uniform_depth' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3147/3150] Replayed Formal.A3Arithmetic
+warning: historical-reference:source-1b2a7f16aa921302cfc4: imports `Mathlib.Tactic.Positivity` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: historical-reference:source-1b2a7f16aa921302cfc4:1:1: * `-/`:
+Copyright too short!
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+warning: historical-reference:source-1b2a7f16aa921302cfc4:91:29: missing space in the source
+
+This part of the code
+  'l-2) (hu'
+should be written as
+  'l - 2)'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: historical-reference:source-1b2a7f16aa921302cfc4:92:12: missing space in the source
+
+This part of the code
+  '(q*l+r)*u-l*v'
+should be written as
+  '(q * l'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: historical-reference:source-1b2a7f16aa921302cfc4:92:17: missing space in the source
+
+This part of the code
+  '(q*l+r)*u-l*v = 1)'
+should be written as
+  'r) * u'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: historical-reference:source-1b2a7f16aa921302cfc4:101:29: missing space in the source
+
+This part of the code
+  'l-2) (hv'
+should be written as
+  'l - 2)'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: historical-reference:source-1b2a7f16aa921302cfc4:102:11: missing space in the source
+
+This part of the code
+  'l*u+(q*l+r+l)*v'
+should be written as
+  'l * u'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: historical-reference:source-1b2a7f16aa921302cfc4:102:16: missing space in the source
+
+This part of the code
+  'l*u+(q*l+r+l)*v'
+should be written as
+  '(q * l'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: historical-reference:source-1b2a7f16aa921302cfc4:102:23: missing space in the source
+
+This part of the code
+  'l*u+(q*l+r+l)*v = 1)'
+should be written as
+  'l) * v'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: historical-reference:source-1b2a7f16aa921302cfc4:116:11: missing space in the source
+
+This part of the code
+  'N*u = k+l+l*h)'
+should be written as
+  'N * u'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: historical-reference:source-1b2a7f16aa921302cfc4:116:17: missing space in the source
+
+This part of the code
+  'k+l+l*h) (hb'
+should be written as
+  'k + l'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: historical-reference:source-1b2a7f16aa921302cfc4:116:32: missing space in the source
+
+This part of the code
+  'N*(-v)'
+should be written as
+  'N * (-v)'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: historical-reference:source-1b2a7f16aa921302cfc4:116:41: missing space in the source
+
+This part of the code
+  'l*t-k)
+ '
+should be written as
+  'l * t'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: historical-reference:source-1b2a7f16aa921302cfc4:117:17: missing space in the source
+
+This part of the code
+  'J*N-k-l-l*b) :'
+should be written as
+  'J * N'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: historical-reference:source-1b2a7f16aa921302cfc4:127:42: missing space in the source
+
+This part of the code
+  'l-2)
+ '
+should be written as
+  'l - 2)'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: historical-reference:source-1b2a7f16aa921302cfc4:129:12: missing space in the source
+
+This part of the code
+  '(q*l+r)*u-l*vA'
+should be written as
+  '(q * l'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: historical-reference:source-1b2a7f16aa921302cfc4:129:17: missing space in the source
+
+This part of the code
+  '(q*l+r)*u-l*vA ='
+should be written as
+  'r) * u'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: historical-reference:source-1b2a7f16aa921302cfc4:129:37: missing space in the source
+
+This part of the code
+  'l*uB+(q*l+r+l)*v'
+should be written as
+  'l * uB'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: historical-reference:source-1b2a7f16aa921302cfc4:129:40: missing space in the source
+
+This part of the code
+  'l*uB+(q*l+r+l)*v'
+should be written as
+  'uB + (q'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: historical-reference:source-1b2a7f16aa921302cfc4:129:43: missing space in the source
+
+This part of the code
+  'l*uB+(q*l+r+l)*v'
+should be written as
+  '(q * l'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: historical-reference:source-1b2a7f16aa921302cfc4:129:50: missing space in the source
+
+This part of the code
+  'l*uB+(q*l+r+l)*v = 1)'
+should be written as
+  'l) * v'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: historical-reference:source-1b2a7f16aa921302cfc4:130:15: missing space in the source
+
+This part of the code
+  'q*l+r) (hN'
+should be written as
+  'q * l'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: historical-reference:source-1b2a7f16aa921302cfc4:130:38: missing space in the source
+
+This part of the code
+  '(q*l+r) l)'
+should be written as
+  '(q * l'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: historical-reference:source-1b2a7f16aa921302cfc4:131:17: missing space in the source
+
+This part of the code
+  '(q*l+r) l*u'
+should be written as
+  '(q * l'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: historical-reference:source-1b2a7f16aa921302cfc4:131:24: missing space in the source
+
+This part of the code
+  'l*u = (q*l+r)+l+l*h)'
+should be written as
+  'l * u'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: historical-reference:source-1b2a7f16aa921302cfc4:131:31: missing space in the source
+
+This part of the code
+  '(q*l+r)+l+l*h)'
+should be written as
+  '(q * l'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: historical-reference:source-1b2a7f16aa921302cfc4:131:36: missing space in the source
+
+This part of the code
+  '(q*l+r)+l+l*h)
+ '
+should be written as
+  'r) + l'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: historical-reference:source-1b2a7f16aa921302cfc4:132:17: missing space in the source
+
+This part of the code
+  '(q*l+r) l*(-v)'
+should be written as
+  '(q * l'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: historical-reference:source-1b2a7f16aa921302cfc4:132:24: missing space in the source
+
+This part of the code
+  'l*(-v)'
+should be written as
+  'l * (-v)'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: historical-reference:source-1b2a7f16aa921302cfc4:132:33: missing space in the source
+
+This part of the code
+  'l*t-(q*l+r))'
+should be written as
+  'l * t'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: historical-reference:source-1b2a7f16aa921302cfc4:132:38: missing space in the source
+
+This part of the code
+  'l*t-(q*l+r))
+'
+should be written as
+  '(q * l'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: historical-reference:source-1b2a7f16aa921302cfc4:133:17: missing space in the source
+
+This part of the code
+  '2*norm'
+should be written as
+  '2 * norm'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: historical-reference:source-1b2a7f16aa921302cfc4:133:25: missing space in the source
+
+This part of the code
+  '(q*l+r) l-(q*l+r)-l-l*b)'
+should be written as
+  '(q * l'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: historical-reference:source-1b2a7f16aa921302cfc4:133:32: missing space in the source
+
+This part of the code
+  'l-(q*l+r)-l-l*b)'
+should be written as
+  'l - (q'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: historical-reference:source-1b2a7f16aa921302cfc4:133:35: missing space in the source
+
+This part of the code
+  'l-(q*l+r)-l-l*b)'
+should be written as
+  '(q * l'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: historical-reference:source-1b2a7f16aa921302cfc4:133:40: missing space in the source
+
+This part of the code
+  'l-(q*l+r)-l-l*b)
+ '
+should be written as
+  'r) - l'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: historical-reference:source-1b2a7f16aa921302cfc4:134:22: missing space in the source
+
+This part of the code
+  '(q*l+r) l)'
+should be written as
+  '(q * l'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+info: historical-reference:source-1b2a7f16aa921302cfc4:143:0: 'R002.A3.unit_endpoint' depends on axioms: [propext]
+info: historical-reference:source-1b2a7f16aa921302cfc4:144:0: 'R002.A3.second_plus' depends on axioms: [propext, Quot.sound]
+info: historical-reference:source-1b2a7f16aa921302cfc4:145:0: 'R002.A3.second_minus' depends on axioms: [propext, Quot.sound]
+info: historical-reference:source-1b2a7f16aa921302cfc4:146:0: 'R002.A3.diagonal_plus' depends on axioms: [propext, Quot.sound]
+info: historical-reference:source-1b2a7f16aa921302cfc4:147:0: 'R002.A3.diagonal_minus' depends on axioms: [propext, Quot.sound]
+info: historical-reference:source-1b2a7f16aa921302cfc4:148:0: 'R002.A3.folded_second_plus' depends on axioms: [propext, Quot.sound]
+info: historical-reference:source-1b2a7f16aa921302cfc4:149:0: 'R002.A3.folded_second_minus' depends on axioms: [propext, Quot.sound]
+info: historical-reference:source-1b2a7f16aa921302cfc4:150:0: 'R002.A3.outer_collisions' depends on axioms: [propext, Quot.sound]
+info: historical-reference:source-1b2a7f16aa921302cfc4:151:0: 'R002.A3.positive_fan_collisions' depends on axioms: [propext, Quot.sound]
+info: historical-reference:source-1b2a7f16aa921302cfc4:152:0: 'R002.A3.negative_fan_collisions' depends on axioms: [propext, Quot.sound]
+info: historical-reference:source-1b2a7f16aa921302cfc4:153:0: 'R002.A3.no_small_multiple' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: historical-reference:source-1b2a7f16aa921302cfc4:154:0: 'R002.A3.outer_u_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: historical-reference:source-1b2a7f16aa921302cfc4:155:0: 'R002.A3.outer_v_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: historical-reference:source-1b2a7f16aa921302cfc4:156:0: 'R002.A3.candidate_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: historical-reference:source-1b2a7f16aa921302cfc4:157:0: 'R002.A3.outer_endpoint_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3148/3150] Replayed Formal.A3PolynomialBounds
+warning: historical-reference:source-2f58c71c2f150882747c:1:1: * `-/`:
+Copyright too short!
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+warning: historical-reference:source-2f58c71c2f150882747c:14:8: Variable name `N` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _N
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: historical-reference:source-2f58c71c2f150882747c:16:8: Variable name `b` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _b
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: historical-reference:source-2f58c71c2f150882747c:29:8: Variable name `N` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _N
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: historical-reference:source-2f58c71c2f150882747c:45:8: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: historical-reference:source-2f58c71c2f150882747c:50:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: historical-reference:source-2f58c71c2f150882747c:60:8: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: historical-reference:source-2f58c71c2f150882747c:65:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: historical-reference:source-2f58c71c2f150882747c:75:8: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: historical-reference:source-2f58c71c2f150882747c:80:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: historical-reference:source-2f58c71c2f150882747c:90:8: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: historical-reference:source-2f58c71c2f150882747c:95:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: historical-reference:source-2f58c71c2f150882747c:105:8: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: historical-reference:source-2f58c71c2f150882747c:110:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: historical-reference:source-2f58c71c2f150882747c:121:8: Variable name `b` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _b
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: historical-reference:source-2f58c71c2f150882747c:125:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: historical-reference:source-2f58c71c2f150882747c:135:8: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: historical-reference:source-2f58c71c2f150882747c:140:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: historical-reference:source-2f58c71c2f150882747c:149:8: Variable name `N` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _N
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: historical-reference:source-2f58c71c2f150882747c:151:8: Variable name `b` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _b
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: historical-reference:source-2f58c71c2f150882747c:164:8: Variable name `N` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _N
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: historical-reference:source-2f58c71c2f150882747c:180:8: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: historical-reference:source-2f58c71c2f150882747c:185:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: historical-reference:source-2f58c71c2f150882747c:195:8: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: historical-reference:source-2f58c71c2f150882747c:200:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: historical-reference:source-2f58c71c2f150882747c:210:8: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: historical-reference:source-2f58c71c2f150882747c:215:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: historical-reference:source-2f58c71c2f150882747c:225:8: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: historical-reference:source-2f58c71c2f150882747c:230:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: historical-reference:source-2f58c71c2f150882747c:240:8: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: historical-reference:source-2f58c71c2f150882747c:245:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: historical-reference:source-2f58c71c2f150882747c:256:8: Variable name `b` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _b
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: historical-reference:source-2f58c71c2f150882747c:260:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: historical-reference:source-2f58c71c2f150882747c:270:8: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: historical-reference:source-2f58c71c2f150882747c:275:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: historical-reference:source-2f58c71c2f150882747c:284:8: Variable name `N` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _N
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: historical-reference:source-2f58c71c2f150882747c:286:8: Variable name `b` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _b
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: historical-reference:source-2f58c71c2f150882747c:291:16: Unused tactic linter: `(try dsimp [norm])` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: historical-reference:source-2f58c71c2f150882747c:299:8: Variable name `N` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _N
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: historical-reference:source-2f58c71c2f150882747c:306:16: Unused tactic linter: `(try dsimp [norm])` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: historical-reference:source-2f58c71c2f150882747c:315:8: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: historical-reference:source-2f58c71c2f150882747c:320:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: historical-reference:source-2f58c71c2f150882747c:330:8: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: historical-reference:source-2f58c71c2f150882747c:335:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: historical-reference:source-2f58c71c2f150882747c:345:8: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: historical-reference:source-2f58c71c2f150882747c:350:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: historical-reference:source-2f58c71c2f150882747c:360:8: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: historical-reference:source-2f58c71c2f150882747c:365:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: historical-reference:source-2f58c71c2f150882747c:375:8: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: historical-reference:source-2f58c71c2f150882747c:380:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: historical-reference:source-2f58c71c2f150882747c:391:8: Variable name `b` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _b
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: historical-reference:source-2f58c71c2f150882747c:395:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+info: historical-reference:source-2f58c71c2f150882747c:398:0: 'R002.A3.au_c1_a_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: historical-reference:source-2f58c71c2f150882747c:399:0: 'R002.A3.au_c1_b_minus_a_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: historical-reference:source-2f58c71c2f150882747c:400:0: 'R002.A3.au_c1_N_minus_b_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: historical-reference:source-2f58c71c2f150882747c:401:0: 'R002.A3.au_c1_v_upper_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: historical-reference:source-2f58c71c2f150882747c:402:0: 'R002.A3.au_c1_sum_upper_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: historical-reference:source-2f58c71c2f150882747c:403:0: 'R002.A3.au_c1_v_late_lower_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: historical-reference:source-2f58c71c2f150882747c:404:0: 'R002.A3.au_c1_sum_late_lower_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: historical-reference:source-2f58c71c2f150882747c:405:0: 'R002.A3.au_c1_early_inside_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: historical-reference:source-2f58c71c2f150882747c:406:0: 'R002.A3.au_c1_endpoint_bound_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: historical-reference:source-2f58c71c2f150882747c:407:0: 'R002.A3.au_c2_a_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: historical-reference:source-2f58c71c2f150882747c:408:0: 'R002.A3.au_c2_b_minus_a_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: historical-reference:source-2f58c71c2f150882747c:409:0: 'R002.A3.au_c2_N_minus_b_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: historical-reference:source-2f58c71c2f150882747c:410:0: 'R002.A3.au_c2_v_upper_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: historical-reference:source-2f58c71c2f150882747c:411:0: 'R002.A3.au_c2_sum_upper_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: historical-reference:source-2f58c71c2f150882747c:412:0: 'R002.A3.au_c2_v_late_lower_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: historical-reference:source-2f58c71c2f150882747c:413:0: 'R002.A3.au_c2_sum_late_lower_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: historical-reference:source-2f58c71c2f150882747c:414:0: 'R002.A3.au_c2_early_inside_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: historical-reference:source-2f58c71c2f150882747c:415:0: 'R002.A3.au_c2_endpoint_bound_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: historical-reference:source-2f58c71c2f150882747c:416:0: 'R002.A3.au_neg_a_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: historical-reference:source-2f58c71c2f150882747c:417:0: 'R002.A3.au_neg_b_minus_a_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: historical-reference:source-2f58c71c2f150882747c:418:0: 'R002.A3.au_neg_N_minus_b_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: historical-reference:source-2f58c71c2f150882747c:419:0: 'R002.A3.au_neg_u_upper_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: historical-reference:source-2f58c71c2f150882747c:420:0: 'R002.A3.au_neg_sum_upper_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: historical-reference:source-2f58c71c2f150882747c:421:0: 'R002.A3.au_neg_u_late_lower_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: historical-reference:source-2f58c71c2f150882747c:422:0: 'R002.A3.au_neg_sum_late_lower_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: historical-reference:source-2f58c71c2f150882747c:423:0: 'R002.A3.au_neg_early_inside_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3149/3159] Built Formal.IcosahedronGluing (7.5s)
+warning: historical-reference:source-1079b147e2df32000e4b: imports `Mathlib.Data.Fintype.Pi` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: historical-reference:source-1079b147e2df32000e4b: imports `Mathlib.Data.Fintype.Prod` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: historical-reference:source-1079b147e2df32000e4b: imports `Mathlib.Data.Fin.VecNotation` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: historical-reference:source-1079b147e2df32000e4b: imports `Mathlib.Logic.Relation` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [3156/3162] Built Formal.StandardAxiomGate (415ms)
+⚠ [3157/3162] Built Formal.GCUnitPatch (2.4s)
+warning: historical-reference:source-d09dbd0de48c12c81103: imports `Mathlib.Combinatorics.SimpleGraph.Finite` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: historical-reference:source-d09dbd0de48c12c81103: imports `Mathlib.Data.Fintype.OfMap` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: historical-reference:source-d09dbd0de48c12c81103: imports `Mathlib.Data.Fintype.Sum` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: historical-reference:source-d09dbd0de48c12c81103: imports `Mathlib.Tactic.FinCases` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3158/3162] Built Formal.GCUnitGeometry (3.0s)
+warning: historical-reference:source-ce27d78dfc074bbd3d91: imports `Mathlib.Tactic.Linarith` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: historical-reference:source-ce27d78dfc074bbd3d91: imports `Mathlib.Tactic.Ring` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: historical-reference:source-ce27d78dfc074bbd3d91:78:62: missing space in the source
+
+This part of the code
+  '(n+1) p)'
+should be written as
+  '(n + 1)'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: historical-reference:source-ce27d78dfc074bbd3d91:122:38: missing space in the source
+
+This part of the code
+  'x=k*y) (h0'
+should be written as
+  'x = k'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: historical-reference:source-ce27d78dfc074bbd3d91:127:38: missing space in the source
+
+This part of the code
+  'y=-(k+1)*x)'
+should be written as
+  'y = -(k'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: historical-reference:source-ce27d78dfc074bbd3d91:127:42: missing space in the source
+
+This part of the code
+  'y=-(k+1)*x)'
+should be written as
+  '-(k + 1)'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: historical-reference:source-ce27d78dfc074bbd3d91:127:45: missing space in the source
+
+This part of the code
+  'y=-(k+1)*x) (h0'
+should be written as
+  '1) * x)'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: historical-reference:source-ce27d78dfc074bbd3d91:132:38: missing space in the source
+
+This part of the code
+  'k*x+(k+1)*y=norm'
+should be written as
+  'k * x'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: historical-reference:source-ce27d78dfc074bbd3d91:132:43: missing space in the source
+
+This part of the code
+  'k*x+(k+1)*y=norm'
+should be written as
+  '(k + 1)'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: historical-reference:source-ce27d78dfc074bbd3d91:132:46: missing space in the source
+
+This part of the code
+  'k*x+(k+1)*y=norm'
+should be written as
+  '1) * y'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: historical-reference:source-ce27d78dfc074bbd3d91:133:15: missing space in the source
+
+This part of the code
+  'x+y) (h1'
+should be written as
+  'x + y)'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: historical-reference:source-ce27d78dfc074bbd3d91:133:26: missing space in the source
+
+This part of the code
+  'x+y ≤ k+1)'
+should be written as
+  'x + y'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: historical-reference:source-ce27d78dfc074bbd3d91:133:32: missing space in the source
+
+This part of the code
+  'k+1) :'
+should be written as
+  'k + 1)'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: historical-reference:source-ce27d78dfc074bbd3d91:154:58: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: historical-reference:source-ce27d78dfc074bbd3d91:154:58: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [3159/3162] Built Formal.GCUnitDegree (1.7s)
+⚠ [3160/3162] Built Formal.GCUnitPath (1.9s)
+warning: historical-reference:source-4be942d290e49761cea7:38:44: missing space in the source
+
+This part of the code
+  '2*n+3) :'
+should be written as
+  '2 * n'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: historical-reference:source-4be942d290e49761cea7:56:33: missing space in the source
+
+This part of the code
+  'i+1 ≤ n)'
+should be written as
+  'i + 1'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: historical-reference:source-4be942d290e49761cea7:67:35: missing space in the source
+
+This part of the code
+  'j+1 ≤ n)'
+should be written as
+  'j + 1'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: historical-reference:source-4be942d290e49761cea7:75:35: missing space in the source
+
+This part of the code
+  'j+1 ≤ n)'
+should be written as
+  'j + 1'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: historical-reference:source-4be942d290e49761cea7:79:35: missing space in the source
+
+This part of the code
+  'j+1 ≤ n)'
+should be written as
+  'j + 1'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: historical-reference:source-4be942d290e49761cea7:100:55: missing space in the source
+
+This part of the code
+  '2*n+3) :'
+should be written as
+  '2 * n'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: historical-reference:source-4be942d290e49761cea7:106:39: missing space in the source
+
+This part of the code
+  'i+1 ≤ 2*n+3)'
+should be written as
+  'i + 1'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: historical-reference:source-4be942d290e49761cea7:106:45: missing space in the source
+
+This part of the code
+  '2*n+3) :'
+should be written as
+  '2 * n'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: historical-reference:source-4be942d290e49761cea7:123:35: missing space in the source
+
+This part of the code
+  'i+2 ≤ 2*n+3)'
+should be written as
+  'i + 2'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: historical-reference:source-4be942d290e49761cea7:123:41: missing space in the source
+
+This part of the code
+  '2*n+3) :'
+should be written as
+  '2 * n'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+⚠ [3161/3162] Built Formal.GCUnitAxiomCheck (1.3s)
+warning: historical-reference:source-4c5f99b987a8410f5d64:1:1: * `-/`:
+Copyright too short!
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+info: historical-reference:source-4c5f99b987a8410f5d64:7:0: standard-axiom gate PASS: R002.Icosahedron.faceVertex_injective ([propext, Classical.choice, Quot.sound])
+info: historical-reference:source-4c5f99b987a8410f5d64:7:0: standard-axiom gate PASS: R002.Icosahedron.mate_involutive ([propext, Classical.choice, Quot.sound])
+info: historical-reference:source-4c5f99b987a8410f5d64:7:0: standard-axiom gate PASS: R002.Icosahedron.mate_other_face ([propext, Classical.choice, Quot.sound])
+info: historical-reference:source-4c5f99b987a8410f5d64:7:0: standard-axiom gate PASS: R002.Icosahedron.mate_reverses ([propext, Classical.choice, Quot.sound])
+info: historical-reference:source-4c5f99b987a8410f5d64:7:0: standard-axiom gate PASS: R002.Icosahedron.five_corners ([propext, Classical.choice, Quot.sound])
+info: historical-reference:source-4c5f99b987a8410f5d64:7:0: standard-axiom gate PASS: R002.Icosahedron.turn_preserves_vertex ([propext, Classical.choice, Quot.sound])
+info: historical-reference:source-4c5f99b987a8410f5d64:7:0: standard-axiom gate PASS: R002.Icosahedron.turn_five ([propext, Classical.choice, Quot.sound])
+info: historical-reference:source-4c5f99b987a8410f5d64:7:0: standard-axiom gate PASS: R002.Icosahedron.turn_no_early_return ([propext, Classical.choice, Quot.sound])
+info: historical-reference:source-4c5f99b987a8410f5d64:7:0: standard-axiom gate PASS: R002.Icosahedron.turn_covers_vertex ([propext, Classical.choice, Quot.sound])
+info: historical-reference:source-4c5f99b987a8410f5d64:7:0: standard-axiom gate PASS: R002.Icosahedron.faces_connected ([propext, Quot.sound])
+info: historical-reference:source-4c5f99b987a8410f5d64:7:0: standard-axiom gate PASS: R002.Icosahedron.parent_euler ([])
+info: historical-reference:source-4c5f99b987a8410f5d64:7:0: standard-axiom gate PASS: R002.GCUnit.parent_degree ([propext, Classical.choice, Quot.sound])
+info: historical-reference:source-4c5f99b987a8410f5d64:7:0: standard-axiom gate PASS: R002.GCUnit.corner_degree ([propext, Classical.choice, Quot.sound])
+info: historical-reference:source-4c5f99b987a8410f5d64:7:0: standard-axiom gate PASS: R002.GCUnit.unit_width_path ([propext, Classical.choice, Quot.sound])
+info: historical-reference:source-4c5f99b987a8410f5d64:7:0: standard-axiom gate PASS: R002.GCUnit.Geometry.inside_iff ([propext, Classical.choice, Quot.sound])
+info: historical-reference:source-4c5f99b987a8410f5d64:7:0: standard-axiom gate PASS: R002.GCUnit.Geometry.coord_inside ([propext, Classical.choice, Quot.sound])
+info: historical-reference:source-4c5f99b987a8410f5d64:7:0: standard-axiom gate PASS: R002.GCUnit.Geometry.coord_injective ([propext, Quot.sound])
+info: historical-reference:source-4c5f99b987a8410f5d64:7:0: standard-axiom gate PASS: R002.GCUnit.Geometry.coord_surjective ([propext, Classical.choice, Quot.sound])
+info: historical-reference:source-4c5f99b987a8410f5d64:7:0: standard-axiom gate PASS: R002.GCUnit.Geometry.edge_OA ([propext, Classical.choice, Quot.sound])
+info: historical-reference:source-4c5f99b987a8410f5d64:7:0: standard-axiom gate PASS: R002.GCUnit.Geometry.edge_OB ([propext, Classical.choice, Quot.sound])
+info: historical-reference:source-4c5f99b987a8410f5d64:7:0: standard-axiom gate PASS: R002.GCUnit.Geometry.edge_AB ([propext, Classical.choice, Quot.sound])
+info: historical-reference:source-4c5f99b987a8410f5d64:7:0: standard-axiom gate PASS: R002.GCUnit.Geometry.chartTurn_coord ([propext, Quot.sound])
+info: historical-reference:source-4c5f99b987a8410f5d64:7:0: standard-axiom gate PASS: R002.GCUnit.Geometry.chartAdj_iff ([propext, Classical.choice, Quot.sound])
+info: historical-reference:source-4c5f99b987a8410f5d64:32:0: 'R002.GCUnit.unit_width_path' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: historical-reference:source-4c5f99b987a8410f5d64:33:0: 'R002.GCUnit.Geometry.chartAdj_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: historical-reference:source-4c5f99b987a8410f5d64:34:0: 'R002.Icosahedron.faces_connected' depends on axioms: [propext, Quot.sound]
+✔ [3162/3162] Built Formal (9.2s)
+Build completed successfully (3162 jobs).
+cwd=formal; command=['lake', 'env', 'lean', '-j1', '-M4096', 'historical-reference:source-4c5f99b987a8410f5d64']
+standard-axiom gate PASS: R002.Icosahedron.faceVertex_injective ([propext, Classical.choice, Quot.sound])
+standard-axiom gate PASS: R002.Icosahedron.mate_involutive ([propext, Classical.choice, Quot.sound])
+standard-axiom gate PASS: R002.Icosahedron.mate_other_face ([propext, Classical.choice, Quot.sound])
+standard-axiom gate PASS: R002.Icosahedron.mate_reverses ([propext, Classical.choice, Quot.sound])
+standard-axiom gate PASS: R002.Icosahedron.five_corners ([propext, Classical.choice, Quot.sound])
+standard-axiom gate PASS: R002.Icosahedron.turn_preserves_vertex ([propext, Classical.choice, Quot.sound])
+standard-axiom gate PASS: R002.Icosahedron.turn_five ([propext, Classical.choice, Quot.sound])
+standard-axiom gate PASS: R002.Icosahedron.turn_no_early_return ([propext, Classical.choice, Quot.sound])
+standard-axiom gate PASS: R002.Icosahedron.turn_covers_vertex ([propext, Classical.choice, Quot.sound])
+standard-axiom gate PASS: R002.Icosahedron.faces_connected ([propext, Quot.sound])
+standard-axiom gate PASS: R002.Icosahedron.parent_euler ([])
+standard-axiom gate PASS: R002.GCUnit.parent_degree ([propext, Classical.choice, Quot.sound])
+standard-axiom gate PASS: R002.GCUnit.corner_degree ([propext, Classical.choice, Quot.sound])
+standard-axiom gate PASS: R002.GCUnit.unit_width_path ([propext, Classical.choice, Quot.sound])
+standard-axiom gate PASS: R002.GCUnit.Geometry.inside_iff ([propext, Classical.choice, Quot.sound])
+standard-axiom gate PASS: R002.GCUnit.Geometry.coord_inside ([propext, Classical.choice, Quot.sound])
+standard-axiom gate PASS: R002.GCUnit.Geometry.coord_injective ([propext, Quot.sound])
+standard-axiom gate PASS: R002.GCUnit.Geometry.coord_surjective ([propext, Classical.choice, Quot.sound])
+standard-axiom gate PASS: R002.GCUnit.Geometry.edge_OA ([propext, Classical.choice, Quot.sound])
+standard-axiom gate PASS: R002.GCUnit.Geometry.edge_OB ([propext, Classical.choice, Quot.sound])
+standard-axiom gate PASS: R002.GCUnit.Geometry.edge_AB ([propext, Classical.choice, Quot.sound])
+standard-axiom gate PASS: R002.GCUnit.Geometry.chartTurn_coord ([propext, Quot.sound])
+standard-axiom gate PASS: R002.GCUnit.Geometry.chartAdj_iff ([propext, Classical.choice, Quot.sound])
+'R002.GCUnit.unit_width_path' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R002.GCUnit.Geometry.chartAdj_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R002.Icosahedron.faces_connected' depends on axioms: [propext, Quot.sound]

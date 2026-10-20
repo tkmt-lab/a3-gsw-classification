@@ -1,0 +1,146 @@
+{
+  "status": "PASS",
+  "pdf_path": "paper-A3-v7.1-en.pdf",
+  "pdf_sha256": "32e484fd5b2b06c44c029dd20dd484e7d110151553972dff1f5d525900fd5615",
+  "pdf_bytes": 213313,
+  "pages": 24,
+  "source_path": "paper-A3-v7.1-en.tex",
+  "source_sha256": "606fd8a75d0a98ccc7520261815cb9a4646495de9c72a5189c100156837fa5fe",
+  "typeset_trial": "T1223",
+  "render_trial": "T1225",
+  "tex_engine": "Tectonic 0.17.0",
+  "equation_numbers": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "B1",
+    "B2",
+    "C1"
+  ],
+  "unique_equation_destinations": true,
+  "numbered_statements": 4,
+  "missing_references": false,
+  "overfull_boxes": false,
+  "duplicate_destinations": false,
+  "pdf_string_warnings": false,
+  "remaining_underfull_badness": [
+    1082,
+    1142,
+    1817
+  ],
+  "visual_review": {
+    "reviewer": "Codex main agent",
+    "all_pages_viewed": true,
+    "method": "All 24 pages viewed individually after T1217. Final T1225 render differs only on page 15, which was viewed again; the other 23 page images are byte-identical.",
+    "observed": "No clipping, overlapping text, broken tables or missing glyphs; claim identifiers kept with declarations. Mild underfull spacing remains readable.",
+    "independent_review": false
+  },
+  "page_render_hashes": [
+    {
+      "page": 1,
+      "sha256": "71c075c0e0c883a9092ebbbb7a60c07f3860e2b1b719e6a03a1c62996f3190dc"
+    },
+    {
+      "page": 2,
+      "sha256": "16360b7d44f780a4f990f8457482c83082cf4c6bf4dd5aa42cda28c4fdd06bc4"
+    },
+    {
+      "page": 3,
+      "sha256": "fdd62827cdb8d0926d557970e4eaaaf3f8c8fbc223878960a3f09ab56aabb4ef"
+    },
+    {
+      "page": 4,
+      "sha256": "884baff4723055e34c3692e2fc56e47adba9251a1a9266b33e5cb347d39ee3a6"
+    },
+    {
+      "page": 5,
+      "sha256": "f01f68b46709f48e5a2405df19fa0b99b28eb800dc3d6460a7fad10a2b0706ab"
+    },
+    {
+      "page": 6,
+      "sha256": "5e625be6af7f5613f1d76a889dda5bc2ab809f221855c4d45bd064dff888cae8"
+    },
+    {
+      "page": 7,
+      "sha256": "9b9751fa5ea0d535434bb28ba2f22b6c10a220fd6760941bd1c2379b2f879400"
+    },
+    {
+      "page": 8,
+      "sha256": "3ee846dc1b7843aa1a004df99112be28947060bebf9d8cb13e23722369246fbd"
+    },
+    {
+      "page": 9,
+      "sha256": "d3ec254e583383186adfef836d233ca9055a217c665835200ac517fd14656596"
+    },
+    {
+      "page": 10,
+      "sha256": "c7bad46a29fe81efc3cd9036264c56383c5811a1691151bd02efb9948c4bb4b6"
+    },
+    {
+      "page": 11,
+      "sha256": "74321a0ade243eec6c173613287cd6db8436eb0012368ab137de9b297dd07298"
+    },
+    {
+      "page": 12,
+      "sha256": "b778578087065eb66e2877a7003b81b0155c2eeb97d46b356ef1a12ca0f37726"
+    },
+    {
+      "page": 13,
+      "sha256": "c3b5e51decb1cf21a91ba65132222ad69aa02e7e032351e6e90f4f20da95698f"
+    },
+    {
+      "page": 14,
+      "sha256": "cc3e349a4a32e1da0e1a23e0f6ea254f151743cea444d9b1fdd5fc418c9eb2d1"
+    },
+    {
+      "page": 15,
+      "sha256": "a1f662190b43acbc0912a84a7fa013f2e65175f8fb35cfe112c88ddde9847fd7"
+    },
+    {
+      "page": 16,
+      "sha256": "2f76d9de0e33039ca1182e4a54e670e4211aa5b8d38c17eca83cd75f154de7cd"
+    },
+    {
+      "page": 17,
+      "sha256": "119e75ec568915be1f082224140504d5fcb8bb8fad70f4f9469557ae179bf71f"
+    },
+    {
+      "page": 18,
+      "sha256": "e116e55e4f5b1bdebc9d5fc35001c21af89eb321d4d8affbd20ab45520474f05"
+    },
+    {
+      "page": 19,
+      "sha256": "efa7e282c1fede05b470e9c360d026d9e1dd8d18dafc9b275854264dd8d6b38b"
+    },
+    {
+      "page": 20,
+      "sha256": "e6c10cd5c7b2a22c6bdfaa3de546d1733cbd03c260f13c144039d24e13caa0fc"
+    },
+    {
+      "page": 21,
+      "sha256": "b0981c0fa97f517234161f8dad8923448a9b2df0c773818dd2e04df148eb5ca2"
+    },
+    {
+      "page": 22,
+      "sha256": "9a876f7f482ca674d99adc16a69c5c03002b315f91afe7b42f5f006c0127953e"
+    },
+    {
+      "page": 23,
+      "sha256": "97488956783a9fa0235917413bb2c40ef6c267997e9b9e34eef2ccfa5e04309d"
+    },
+    {
+      "page": 24,
+      "sha256": "938b23130eade9eb0189dca26f8ef78c3847007164fd5a1db26b6ad505270104"
+    }
+  ],
+  "external_release": false
+}

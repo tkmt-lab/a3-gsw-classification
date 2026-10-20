@@ -1,0 +1,86 @@
+{
+  "trial_id": "T0929",
+  "study_id": "R002",
+  "parent_trial_id": "T0928",
+  "phase": "reproduction",
+  "started_at": "2026-10-19T04:27:09+00:00",
+  "finished_at": "2026-10-19T04:27:09+00:00",
+  "status": "ok",
+  "intent": "Recount R004 theorem-domain and boundary parameters for P006-09 without rerunning graph construction",
+  "historical_command": [
+    "python3",
+    "-B",
+    "historical-reference:source-540c17684d731858a8c0",
+    "--out",
+    "evidence-fffabe72b0-A3-v6-R004-domain-recount.json"
+  ],
+  "historical_working_directory": "ARCHIVAL_WORKSPACE",
+  "code_commit": "672428db9922005ed1f555dccc5e73e824e56e70",
+  "historical_code_patch_or_snapshot": {
+    "untracked": [
+      "historical-reference:source-8d002b29e560fb5ebf07/",
+      "historical-reference:source-0d52aaa9c3efb126cdcd",
+      "historical-reference:source-7ae195a4bd4655ab11f0",
+      "historical-reference:source-707cb56cef7f4e6a2144/",
+      "historical-reference:source-355e49681333ac15043c/",
+      "historical-reference:source-540c17684d731858a8c0",
+      "historical-reference:source-97439eeba5ae489183c0",
+      "historical-reference:source-3a4e65c2133512175da4",
+      "evidence-62c62baa14-T0929.json"
+    ],
+    "copies": [
+      {
+        "historical_reference_id": "source-540c17684d731858a8c0",
+        "historical_copy_id": "source-8fbf389e1dab231f961c",
+        "sha256": "aba6d50a4166021026d93454c789a451fffb6c89bc4068199043701bb35bf9de"
+      }
+    ]
+  },
+  "environment": {
+    "historical_platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "historical_python": "3.14.7"
+  },
+  "inputs": [
+    {
+      "path": "T0929-input-claude-en-v5-review.txt",
+      "sha256": "3e0792539d4060ad0f06ad57e4f5cbc591a950835b9b46be6b74a3eda8e21c48",
+      "kind": "file"
+    }
+  ],
+  "parameters": {
+    "cpu": "1",
+    "memory_budget": "1GB"
+  },
+  "seed": null,
+  "artifacts": [
+    {
+      "historical_reference_id": "source-725a9c250a36c9f5e2c7",
+      "bytes": 364,
+      "sha256": "d834dee30716811efb3cb809b5babc81b36d35f9b8666c0773d8c2430c722520",
+      "git_tracked": true
+    },
+    {
+      "historical_reference_id": "source-9ae43927efde5f18edd1",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_tracked": true
+    }
+  ],
+  "metrics_viewed": {},
+  "elapsed_seconds": 0.075,
+  "peak_memory_mb": 19.8,
+  "cost": {
+    "amount": 0,
+    "currency": null,
+    "basis": "ローカル実行（課金なし）"
+  },
+  "error_or_abort_reason": null,
+  "decision_and_next_step": null,
+  "notes": [],
+  "historical_executable": {
+    "historical_reference_id": "source-b0fa6594d8f4cbf19f97",
+    "sha256": "87d4df53fd91304be5bac391fb204643c36b7df2023c04a0953bcbc7d4fdf634"
+  },
+  "input_role_note": "Historical context receipt, not programmatically read by the recount code; parameter enumeration inputs are constants in the saved code."
+}

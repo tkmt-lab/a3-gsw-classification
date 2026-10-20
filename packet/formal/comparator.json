@@ -1,0 +1,13 @@
+{
+  "challenge_module": "Formal.ComparatorChallenge",
+  "solution_module": "Formal.ComparatorSolution",
+  "theorem_names": [
+    "ClaudeChallenge.main_primitive"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ]
+}

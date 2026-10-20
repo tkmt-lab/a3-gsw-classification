@@ -1,0 +1,42 @@
+"""Copy only the packet outside the repository and execute its declared checks."""
+import argparse
+import hashlib
+import json
+import os
+from pathlib import Path
+import shutil
+import subprocess
+import tempfile
+import time
+
+ROOT=Path(__file__).resolve().parents[3]
+
+def main():
+    ap=argparse.ArgumentParser(description=__doc__)
+    ap.add_argument('--probe',action='store_true');ap.add_argument('--reuse',type=Path)
+    ap.add_argument('--record',type=Path,required=True)
+    args=ap.parse_args()
+    source=ROOT/'data/releases/A3-v7.3-release-candidate'
+    if args.reuse: packet=args.reuse.resolve()
+    else:
+        parent=Path(tempfile.mkdtemp(prefix='review-a3-v7-detached-'))
+        packet=parent/'packet';shutil.copytree(source,packet,symlinks=True)
+    assert not packet.is_relative_to(ROOT) and not (packet/'.git').exists()
+    assert (packet/'SHA256SUMS').read_bytes()==(source/'SHA256SUMS').read_bytes()
+    env=dict(os.environ,PYTHONDONTWRITEBYTECODE='1')
+    env.pop('PYTHONPATH',None);env.pop('PYTHONHOME',None)
+    commands=[dict(argv=['python3','-B','check_certificates.py','--limit','1'],timeout_seconds=60)] if args.probe else json.loads((packet/'commands.json').read_text())
+    rows=[]
+    for command in commands:
+        start=time.monotonic()
+        r=subprocess.run(command['argv'],cwd=packet,env=env,capture_output=True,text=True,timeout=command['timeout_seconds'])
+        row=dict(argv=command['argv'],seconds=time.monotonic()-start,returncode=r.returncode,stdout=r.stdout,stderr=r.stderr)
+        rows.append(row);print(json.dumps(row),flush=True)
+        assert r.returncode==0,row
+    result=dict(status='PASS',scope='Detached directory execution; not OS-enforced isolation or a new mathematical review',
+        packet=str(packet),packet_inventory_sha256=hashlib.sha256((packet/'SHA256SUMS').read_bytes()).hexdigest(),
+        commands=rows,network_used=False,dependencies_installed=False,lean_rerun=False,probe=args.probe)
+    with args.record.open('x') as f: json.dump(result,f,indent=2);f.write('\n')
+    print(json.dumps({k:v for k,v in result.items() if k!='commands'}))
+
+if __name__=='__main__':main()

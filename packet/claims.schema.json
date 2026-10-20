@@ -1,0 +1,377 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "A3 local claim/evidence graph, schema 3",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "version",
+    "paper",
+    "source_commit",
+    "status_semantics",
+    "notation",
+    "claims"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": 3
+    },
+    "version": {
+      "type": "string",
+      "minLength": 1,
+      "const": "1.0.5"
+    },
+    "paper": {
+      "$ref": "#/$defs/evidence"
+    },
+    "source_commit": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{40}$"
+    },
+    "status_semantics": {
+      "type": "string",
+      "minLength": 1
+    },
+    "notation": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "claims": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/claim"
+      }
+    }
+  },
+  "$defs": {
+    "strings": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "required": [
+        "path",
+        "sha256",
+        "bytes"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "bytes": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "lean": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "required": [
+        "declaration",
+        "file",
+        "commit",
+        "type_signature",
+        "axioms",
+        "accepted_trial",
+        "build_not_rerun"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "declaration": {
+          "type": "string",
+          "minLength": 1
+        },
+        "file": {
+          "type": "string",
+          "minLength": 1
+        },
+        "commit": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{40}$"
+        },
+        "type_signature": {
+          "type": "string",
+          "minLength": 1
+        },
+        "axioms": {
+          "$ref": "#/$defs/strings"
+        },
+        "accepted_trial": {
+          "type": "string",
+          "pattern": "^T[0-9]{4}$"
+        },
+        "build_not_rerun": {
+          "type": "boolean"
+        },
+        "scope": {
+          "const": "existence-only"
+        },
+        "effective_algorithm_certified": {
+          "const": false
+        },
+        "additional_declarations": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/lean_declaration"
+          }
+        }
+      }
+    },
+    "review": {
+      "type": "object",
+      "required": [
+        "path",
+        "sha256",
+        "bytes",
+        "row_ids"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "bytes": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "row_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "pattern": "^P006-[0-9]{2}$"
+          }
+        }
+      }
+    },
+    "claim": {
+      "type": "object",
+      "required": [
+        "id",
+        "paper_label",
+        "kind",
+        "statement_latex",
+        "statement_plain",
+        "hypotheses",
+        "depends_on",
+        "status",
+        "status_scope",
+        "remaining_obligations",
+        "lean",
+        "evidence",
+        "independent_verification",
+        "review_history",
+        "human_review"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Za-z][A-Za-z0-9_:.-]*$"
+        },
+        "paper_label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "kind": {
+          "enum": [
+            "theorem",
+            "corollary",
+            "formal-lemma",
+            "proof-bridge",
+            "finite-result"
+          ]
+        },
+        "statement_latex": {
+          "type": "string",
+          "minLength": 1
+        },
+        "statement_plain": {
+          "type": "string",
+          "minLength": 1
+        },
+        "hypotheses": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "depends_on": {
+          "$ref": "#/$defs/strings"
+        },
+        "status": {
+          "enum": [
+            "lean-proved",
+            "prose-reviewed-by-ai",
+            "computationally-verified",
+            "open"
+          ]
+        },
+        "status_scope": {
+          "type": "string",
+          "minLength": 1
+        },
+        "remaining_obligations": {
+          "$ref": "#/$defs/strings"
+        },
+        "lean": {
+          "$ref": "#/$defs/lean"
+        },
+        "evidence": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/evidence"
+          }
+        },
+        "independent_verification": {
+          "type": "string",
+          "minLength": 1
+        },
+        "review_history": {
+          "$ref": "#/$defs/review"
+        },
+        "human_review": {
+          "const": false
+        },
+        "formalization_plan": {
+          "type": "object",
+          "required": [
+            "target",
+            "reason"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "target": {
+              "type": "boolean"
+            },
+            "reason": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "statement_human_check": {
+          "$ref": "#/$defs/statement_human_check"
+        }
+      }
+    },
+    "statement_human_check": {
+      "type": "object",
+      "required": [
+        "status",
+        "reviewer",
+        "checked_on",
+        "basis",
+        "scope",
+        "declaration",
+        "proof_peer_review",
+        "novelty_review",
+        "challenge",
+        "guide",
+        "receipt"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "status": {
+          "const": "confirmed"
+        },
+        "reviewer": {
+          "const": "owner"
+        },
+        "checked_on": {
+          "const": "2026-10-19"
+        },
+        "basis": {
+          "const": "owner-self-report-recorded-by-coordinator"
+        },
+        "scope": {
+          "const": "challenge-statement-meaning-only"
+        },
+        "declaration": {
+          "const": "ClaudeChallenge.main"
+        },
+        "proof_peer_review": {
+          "const": false
+        },
+        "novelty_review": {
+          "const": false
+        },
+        "challenge": {
+          "$ref": "#/$defs/evidence"
+        },
+        "guide": {
+          "$ref": "#/$defs/evidence"
+        },
+        "receipt": {
+          "$ref": "#/$defs/evidence"
+        }
+      }
+    },
+    "lean_declaration": {
+      "type": "object",
+      "required": [
+        "declaration",
+        "file",
+        "commit",
+        "type_signature",
+        "axioms",
+        "accepted_trial",
+        "build_not_rerun"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "declaration": {
+          "type": "string",
+          "minLength": 1
+        },
+        "file": {
+          "type": "string",
+          "minLength": 1
+        },
+        "commit": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{40}$"
+        },
+        "type_signature": {
+          "type": "string",
+          "minLength": 1
+        },
+        "axioms": {
+          "$ref": "#/$defs/strings"
+        },
+        "accepted_trial": {
+          "type": "string",
+          "pattern": "^T[0-9]{4}$"
+        },
+        "build_not_rerun": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+# Comparator方式の照合：既約の主定理（2026-10-19）
+
+統括（Claude Code）。Lean 4.35.0に同梱の`lake comparator`で、既約の主定理の証明が、統括の独立な主張文と**同じ文**の証明であることを照合した。
+
+- 主張（challenge）：`formal/Formal/ComparatorChallenge.lean`。統括が最初に書いた`Challenge.lean`の定義部分（`namespace ClaudeChallenge`から`criterion`まで）と一字一句同じ定義に、`theorem main_primitive ... := by sorry`を加えたもの。importはMathlibの4モジュールに絞ってある（研究チームの`ClaudeChallengeSpec.lean`と同じ）。
+- 証明（solution）：`formal/Formal/ComparatorSolution.lean`。`ClaudeMain.main_primitive`（研究チームの必要性＋Claudeサブエージェントの十分性）をそのまま使う。
+- 設定：`formal/comparator.json`（許す公理はpropext・Quot.sound・Classical.choiceの3つ）。
+
+## 結果
+
+| 実行 | 結果 | 時間・メモリ |
+|---|---|---|
+| `lake comparator --inadvisably-no-sandbox` | Lean標準kernelが受理、**Your solution is okay!** | 79.9秒、最大3.13GB |
+| `lake comparator --inadvisably-no-sandbox --paranoid` | Lean paranoid・lean4lean（16,258宣言）・nanoda・con-leche（16,261宣言）・con-ron（16,261宣言）・Lean標準の**全6つのkernelが受理** | 202.8秒、最大2.87GB |
+
+生の出力は同じフォルダの`comparator-primitive-default-2026-10-19.txt`と`comparator-primitive-paranoid-2026-10-19.txt`。
+
+## 留保
+
+- 本来の`lake comparator`は検査をbwrapの隔離環境で行う。bwrapはLinux用でmacOSにないため、`--inadvisably-no-sandbox`で実行した。自分たちのコードを自分で検査する場面であり、悪意あるコードへの防御は目的でない。第三者が再現するときはLinuxでの隔離実行を勧める。
+- 対象は**既約（gcd=1）の場合**の主定理。非既約の場合は研究チームが進行中で、完了後に`ClaudeChallenge.main`そのものを同じ方法で照合する。
+- 主張文が論文の主張と同じ意味であることは機械では保証されない（`studies/R002/challenge-reading-guide-ja.md`で人が確かめる）。

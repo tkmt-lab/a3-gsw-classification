@@ -1,0 +1,19 @@
+--- owner-challenge-original.lean.original.log
++++ formal/Formal/ComparatorChallengeMain.lean
+@@ -1,4 +1,7 @@
+-import Mathlib
++import Mathlib.Combinatorics.SimpleGraph.Finite
++import Mathlib.Data.Int.GCD
++import Mathlib.Data.Fin.VecNotation
++import Mathlib.Algebra.Ring.Parity
+ 
+ /-!
+ # Challenge statement: literal gSW paths in the duals of GC(k,l)[C20]
+@@ -120,6 +123,7 @@
+         let r := k - 2 * m
+         r = 1 ∨ m % r = 1 ∨ m % r = r - 1)
+ 
++-- Definition-only receipt: the unproved main theorem is deliberately not imported.
+ /-- Main classification: for `k > l > 0`, the dual of GC(k,l)[C20] has a literal gSW path
+ iff the two-stage rule holds. -/
+ theorem main (k l : ℕ) (hl : 0 < l) (hlk : l < k) :

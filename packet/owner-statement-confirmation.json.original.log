@@ -1,0 +1,29 @@
+{
+  "kind": "owner-self-reported-statement-meaning-check",
+  "checked_on": "2026-10-19",
+  "reported_time": "about 21:22 JST",
+  "reviewer": "owner",
+  "recorded_by": "coordinator",
+  "scope": "The owner reported reading the independent challenge statement using the Japanese guide and confirming that it expresses the paper classification claim. This is not human review of the proof.",
+  "declaration": "ClaudeChallenge.main",
+  "proof_peer_review": false,
+  "novelty_review": false,
+  "decision_source_commit": "31c7ffcbc04db737e4f6b888b29fbf8b5c593b3f",
+  "decision_source_identifier": "docs/DECISIONS.md",
+  "decision_full_file_sha256": "8a807e4eb647cb1627f9fbbd017275310abf9ad5baa3e94ae5ea918e2fef75b5",
+  "decision_extract": {
+    "path": "studies/R002/A3-v7.1-received/owner-decision-extract.original.txt",
+    "sha256": "e00d89e5f5504ce8a4bfa4dbb9297ce4d50585e3046e6e2f4017d7b5e6c19412",
+    "bytes": 283
+  },
+  "challenge": {
+    "path": "studies/R002/A3-v7.1-received/owner-challenge-original.lean.original.log",
+    "sha256": "2f466e618d27acb81b94ec93bd5f2e044f81d3f1b850574bc24ee27ef97d3166",
+    "bytes": 6169
+  },
+  "guide": {
+    "path": "studies/R002/A3-v7.1-received/owner-reading-guide-ja.original.log",
+    "sha256": "0c2268eb04a9725b36452b0391f7dfd2574701d357270307390b67440d20837c",
+    "bytes": 6788
+  }
+}

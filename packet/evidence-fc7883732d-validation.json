@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "scope": "Archive member bytes and saved all-certificate check; no generator rerun, no general proof review",
+  "archive": {
+    "historical_reference_id": "source-7eec0f06c17f0dd5a3fe",
+    "bytes": 4021814,
+    "sha256": "bf1248e6b8ab206f44e548d46f90a964755388546ca27ea997a9f84df8cd2961"
+  },
+  "archive_members": 972,
+  "certificate_check_trial": "T0898",
+  "certificate_result": {
+    "status": "PASS",
+    "inventory_files": 971,
+    "certificates_checked": 816,
+    "starts_checked": 97920,
+    "path_vertices_checked": 3560894,
+    "full_canonical_codes_unique": 816,
+    "C_acceptance_source_sha256": "ac177edff4c801168232d33eaadf9bfff6afdd18b27d9b64bf388fb288a70f50",
+    "native_checked": true,
+    "seconds": 3.4247519590426236,
+    "scope": "Finite supplied certificates and package integrity, not generator completeness or A3 general proof"
+  },
+  "historical_native_build_command": "cc -O3 -Wall -Wextra -Werror -o historical-reference:source-b0e220f0b0b6624203ac historical-reference:source-279e35ed0bb0cc40c810",
+  "compiler": "Apple clang version 21.0.0 (clang-2100.1.1.101)",
+  "native_binary_sha256": "4654a2e3297d1f81b0a7e2710b289c1058ff0b71ed2ff472ea03af4b58df8342"
+}

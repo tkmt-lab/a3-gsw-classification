@@ -1,0 +1,249 @@
+[
+  {
+    "id": "source-5d59978db689319572a6",
+    "original_sha256": "0dc177b4eeb09f9989d476d4a9d7dafd47bbe8a76875987e1e449be12c2c2580",
+    "recorded_status": "PASS",
+    "carbon_sizes": [
+      162
+    ],
+    "count_per_generator": 989495,
+    "negatives": 0,
+    "raw_generator_streams_included": false,
+    "scope": "Summary of saved accepted audit; no new census."
+  },
+  {
+    "id": "source-ab21b4c2f748a0018bd2",
+    "original_sha256": "a35f76a4b82238705ffbc35dcbc41386a351f09d9bf19f2af5416d5dc175dc9e",
+    "recorded_status": "PASS",
+    "carbon_sizes": [
+      164
+    ],
+    "count_per_generator": 1170157,
+    "negatives": 1,
+    "raw_generator_streams_included": false,
+    "scope": "Summary of saved accepted audit; no new census."
+  },
+  {
+    "id": "source-6f973abf5f755ea49418",
+    "original_sha256": "3738ae4f15da3f53bbf572189d2a6369aa8235755c2039dfe30caa0f0fe12310",
+    "recorded_status": "PASS",
+    "carbon_sizes": [
+      166,
+      168,
+      170,
+      172,
+      174,
+      176,
+      178,
+      180
+    ],
+    "count_per_generator": 20361828,
+    "negatives": 136,
+    "raw_generator_streams_included": false,
+    "scope": "Summary of saved accepted audit; no new census."
+  },
+  {
+    "id": "source-5ebaecdba2963e736935",
+    "original_sha256": "9266cc9553cf64bffbc28126a428ac5b2024bcd8e16c6fc924de4afdd15d9e50",
+    "recorded_status": "PASS",
+    "carbon_sizes": [
+      182,
+      184
+    ],
+    "count_per_generator": 10115657,
+    "negatives": 117,
+    "raw_generator_streams_included": false,
+    "scope": "Summary of saved accepted audit; no new census."
+  },
+  {
+    "id": "source-064131f16527b5bae330",
+    "original_sha256": "e3174e6a17e0376b5ca3bf49bfe1e4b54af2ec024485f8ff845483966eb20d62",
+    "recorded_status": "PASS",
+    "carbon_sizes": [
+      186
+    ],
+    "count_per_generator": 6229550,
+    "negatives": 0,
+    "raw_generator_streams_included": false,
+    "scope": "Summary of saved accepted audit; no new census."
+  },
+  {
+    "id": "source-11547dc25e4ec83bb539",
+    "original_sha256": "be9eb074592cdbeccc8dbde2ed26f628c507b6da6af84a7a3e2fb759e55ee508",
+    "recorded_status": "PASS",
+    "carbon_sizes": [
+      188,
+      190,
+      192,
+      194,
+      196,
+      198,
+      200
+    ],
+    "count_per_generator": 76985381,
+    "negatives": 470,
+    "raw_generator_streams_included": false,
+    "scope": "Summary of saved accepted audit; no new census."
+  },
+  {
+    "id": "source-9e17ec2f42e243c28671",
+    "original_sha256": "daac3bfbd3fa69ecab46ca5f2bac76b38600b28840ccd177d40fd1ced0d792ca",
+    "recorded_status": "PASS",
+    "carbon_sizes": [
+      142,
+      144
+    ],
+    "count_per_generator": 337812,
+    "negatives": 15,
+    "raw_generator_streams_included": false,
+    "scope": "Summary of saved accepted audit; no new census."
+  },
+  {
+    "id": "source-2afde64d6ec1a4c5e441",
+    "original_sha256": "680ea9589025b8ffa549d475e7d0bf59eaf239b9ca421a9f4a6a3857aec66aa8",
+    "recorded_status": "PASS",
+    "carbon_sizes": [
+      60,
+      62,
+      64,
+      66,
+      68,
+      70,
+      72,
+      74,
+      76,
+      78,
+      80,
+      82,
+      84,
+      86,
+      88,
+      90,
+      92,
+      94,
+      96,
+      98,
+      100,
+      102,
+      104,
+      106,
+      108,
+      110,
+      112,
+      114,
+      116,
+      118,
+      120,
+      122,
+      124,
+      126,
+      128,
+      130,
+      132,
+      134,
+      136,
+      138,
+      140
+    ],
+    "count_per_generator": 578806,
+    "negatives": 20,
+    "raw_generator_streams_included": false,
+    "scope": "Summary of saved accepted audit; no new census."
+  },
+  {
+    "id": "source-7da2bb45ff9856931a8c",
+    "original_sha256": "df164b954ff557dbf9b3ad02027856043379ff46298a33f1f39846dddfc65de9",
+    "recorded_status": "PASS",
+    "carbon_sizes": [
+      146
+    ],
+    "count_per_generator": 225245,
+    "negatives": 0,
+    "raw_generator_streams_included": false,
+    "scope": "Summary of saved accepted audit; no new census."
+  },
+  {
+    "id": "source-98bd612d42e985650360",
+    "original_sha256": "65d27ec89104419b84cd800125ace17bc6aa1a5a0beeef1dbcc7a1fd7b137483",
+    "recorded_status": "PASS",
+    "carbon_sizes": [
+      148
+    ],
+    "count_per_generator": 277930,
+    "negatives": 0,
+    "raw_generator_streams_included": false,
+    "scope": "Summary of saved accepted audit; no new census."
+  },
+  {
+    "id": "source-5ef33bebfe74390c6155",
+    "original_sha256": "d01976f66f124730e3356ec52f61db1a03e3514194bd3a147e6662a683561cf3",
+    "recorded_status": "PASS",
+    "carbon_sizes": [
+      150
+    ],
+    "count_per_generator": 335569,
+    "negatives": 0,
+    "raw_generator_streams_included": false,
+    "scope": "Summary of saved accepted audit; no new census."
+  },
+  {
+    "id": "source-3b229a16ab8fc6165d10",
+    "original_sha256": "604a38a7e6d399579504e91a70e55af41654730c0edc14b4baf6b61a48095aa7",
+    "recorded_status": "PASS",
+    "carbon_sizes": [
+      152
+    ],
+    "count_per_generator": 404667,
+    "negatives": 17,
+    "raw_generator_streams_included": false,
+    "scope": "Summary of saved accepted audit; no new census."
+  },
+  {
+    "id": "source-bf135a7c73418e189e55",
+    "original_sha256": "ea90345252ec8032b6a0b736f4a6ce92c8b5037fd6e287fd7388d04046ab030b",
+    "recorded_status": "PASS",
+    "carbon_sizes": [
+      154
+    ],
+    "count_per_generator": 489646,
+    "negatives": 0,
+    "raw_generator_streams_included": false,
+    "scope": "Summary of saved accepted audit; no new census."
+  },
+  {
+    "id": "source-f0d4799755b69e1d67d3",
+    "original_sha256": "72f45069ff230e8b3182373e9efc4fc94011efcd2baaa82dff425cc13c29e9cf",
+    "recorded_status": "PASS",
+    "carbon_sizes": [
+      156
+    ],
+    "count_per_generator": 586264,
+    "negatives": 0,
+    "raw_generator_streams_included": false,
+    "scope": "Summary of saved accepted audit; no new census."
+  },
+  {
+    "id": "source-49266c25ed585c905151",
+    "original_sha256": "22f3902fa2988d1b6e34b164fea0e8765712cb5f940ddba9f5f1bf9c6c3ca56b",
+    "recorded_status": "PASS",
+    "carbon_sizes": [
+      158
+    ],
+    "count_per_generator": 697720,
+    "negatives": 0,
+    "raw_generator_streams_included": false,
+    "scope": "Summary of saved accepted audit; no new census."
+  },
+  {
+    "id": "source-016881a48f39fe8e3e02",
+    "original_sha256": "637488c09ff83d3216d1199f6846ae155759ae63d71f03009c2333c21f54c540",
+    "recorded_status": "PASS",
+    "carbon_sizes": [
+      160
+    ],
+    "count_per_generator": 836497,
+    "negatives": 40,
+    "raw_generator_streams_included": false,
+    "scope": "Summary of saved accepted audit; no new census."
+  }
+]

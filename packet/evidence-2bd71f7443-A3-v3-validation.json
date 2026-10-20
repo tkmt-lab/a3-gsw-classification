@@ -1,0 +1,77 @@
+{
+  "status": "PASS",
+  "scope": "Metadata and document consistency only; no scientific rerun.",
+  "received_commit": "9fedf3fcf46dfd35eaeb31c1091981c43463ad9b",
+  "R004_commit": "da213c7cd69ff70c7dea29f4c9e072da5db2698a",
+  "source_reports": [
+    {
+      "historical_reference_id": "source-68a6778d9d9668a437e1",
+      "bytes": 6992,
+      "sha256": "d59751d89080db7159c1e94d056fffc34529cca59416f80052dd2b3311a26b5c"
+    },
+    {
+      "historical_reference_id": "source-dad4dc927b7f9e64a75a",
+      "bytes": 8253,
+      "sha256": "2fbee26235226b6f75d49b427de57c81b9e46f4e5a498a53b2afb1ac67a2996f"
+    },
+    {
+      "historical_reference_id": "source-edb7bec909d59e43d524",
+      "bytes": 9199,
+      "sha256": "0093b9b6d84248ed090083b58d75910557213126b7bf4c50cc388c9739d9566b"
+    },
+    {
+      "historical_reference_id": "source-5867eeb6582f200e6bcc",
+      "bytes": 7170,
+      "sha256": "07b990c0b2b52c74fd3082d4b219cb2ca8428f981378c4ee1ae177ba8cb93db5"
+    },
+    {
+      "historical_reference_id": "source-b9b1957e3feca8caf44f",
+      "bytes": 1013,
+      "sha256": "7ca25a31588db8b165623a3a3dcfc074bffda55e875730d61aac570bbc85fd51"
+    },
+    {
+      "historical_reference_id": "source-1f6872565b13075ffe42",
+      "bytes": 63866,
+      "sha256": "7a92c28df5f8f6f1447834c494956db1c882133770d3197cd0c2752249e491c3"
+    },
+    {
+      "historical_reference_id": "source-488c86fa3ed4ef631049",
+      "bytes": 7318,
+      "sha256": "ff3a6e442e16da8e26ac100204c67b2e5b35fe248942a73eb2c086b1b51fab10"
+    },
+    {
+      "historical_reference_id": "source-102fef46afd1372704a8",
+      "bytes": 3667,
+      "sha256": "bf1fb6dbf9cd19c1788fc7b3ab90c8050ef18f7fb9b84c87d5fcd54e811848d2"
+    }
+  ],
+  "data_manifest": {
+    "historical_reference_id": "source-353885262f1fc650953e",
+    "bytes": 4212,
+    "sha256": "c20f0a387ff146bbc04541e289a556a0ff7d431237dc8795a923ccc9c70dbab3"
+  },
+  "table_sizes": 71,
+  "negative_certificates": 816,
+  "scientific_execution": false,
+  "supplement_not_yet_received": false,
+  "proof_sections_1_to_9_unchanged": true,
+  "paper_table_matches_csv": true,
+  "links_checked": 88,
+  "supplement_received": [
+    {
+      "historical_reference_id": "source-770bb61bc1d0bf8707b7",
+      "commit": "df84a3d2",
+      "source": "historical-reference:source-c57a2f5e872f8d7112b1",
+      "bytes": 6737,
+      "sha256": "dfb4565763ba9f736235d57136a0cccb2651c3b7c96e1e9aac44b7ed7139fcc6"
+    },
+    {
+      "historical_reference_id": "source-b96e1b4b2e454b9be13d",
+      "commit": "823e97bd",
+      "source": "historical-reference:source-c8d2d75bca066130ffa7",
+      "bytes": 1466,
+      "sha256": "331c4303370cc7f8b1412d610661d999c4bad0de3d5aaaf32787d6b5d9299b2f"
+    }
+  ],
+  "final_paper_sha256": "8664f32fa71fa49b2eb1802692a3c34866f42045044dcc8cf5654e0d9660b58b"
+}

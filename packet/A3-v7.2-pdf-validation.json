@@ -1,0 +1,150 @@
+{
+  "status": "PASS",
+  "pdf_path": "paper-A3-v7.2-en.pdf",
+  "pdf_sha256": "335952d0a6a5d5ab35a989fd5ca208129b3e624370ac947ce50532ddc8923fe0",
+  "pdf_bytes": 215894,
+  "pages": 25,
+  "source_path": "paper-A3-v7.2-en.tex",
+  "source_sha256": "6b2d6c7e0db3ef325c66caae4e354991c72baf80fee907b324c7dd91050c12e3",
+  "typeset_trial": "T1248",
+  "render_trial": "T1249",
+  "tex_engine": "Tectonic 0.17.0",
+  "equation_numbers": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "B1",
+    "B2",
+    "C1"
+  ],
+  "unique_equation_destinations": true,
+  "numbered_statements": 4,
+  "missing_references": false,
+  "overfull_boxes": false,
+  "duplicate_destinations": false,
+  "pdf_string_warnings": false,
+  "remaining_underfull_badness": [
+    1082,
+    1142,
+    1817
+  ],
+  "visual_review": {
+    "reviewer": "Codex main agent",
+    "all_pages_viewed": true,
+    "method": "All 25 pages viewed individually after T1243. Final T1249 render differs only on pages 24 and 25, both viewed again; the other 23 page images are byte-identical.",
+    "observed": "No clipping, overlapping text, broken tables or missing glyphs; claim identifiers kept with declarations. Mild underfull spacing remains readable.",
+    "independent_review": false
+  },
+  "page_render_hashes": [
+    {
+      "page": 1,
+      "sha256": "da15f74ce7dc065df1ae897faa34535485fc1ee0b6ed4e0df8217fbadd894bad"
+    },
+    {
+      "page": 2,
+      "sha256": "16360b7d44f780a4f990f8457482c83082cf4c6bf4dd5aa42cda28c4fdd06bc4"
+    },
+    {
+      "page": 3,
+      "sha256": "fdd62827cdb8d0926d557970e4eaaaf3f8c8fbc223878960a3f09ab56aabb4ef"
+    },
+    {
+      "page": 4,
+      "sha256": "884baff4723055e34c3692e2fc56e47adba9251a1a9266b33e5cb347d39ee3a6"
+    },
+    {
+      "page": 5,
+      "sha256": "f01f68b46709f48e5a2405df19fa0b99b28eb800dc3d6460a7fad10a2b0706ab"
+    },
+    {
+      "page": 6,
+      "sha256": "5e625be6af7f5613f1d76a889dda5bc2ab809f221855c4d45bd064dff888cae8"
+    },
+    {
+      "page": 7,
+      "sha256": "9b9751fa5ea0d535434bb28ba2f22b6c10a220fd6760941bd1c2379b2f879400"
+    },
+    {
+      "page": 8,
+      "sha256": "3ee846dc1b7843aa1a004df99112be28947060bebf9d8cb13e23722369246fbd"
+    },
+    {
+      "page": 9,
+      "sha256": "d3ec254e583383186adfef836d233ca9055a217c665835200ac517fd14656596"
+    },
+    {
+      "page": 10,
+      "sha256": "c7bad46a29fe81efc3cd9036264c56383c5811a1691151bd02efb9948c4bb4b6"
+    },
+    {
+      "page": 11,
+      "sha256": "74321a0ade243eec6c173613287cd6db8436eb0012368ab137de9b297dd07298"
+    },
+    {
+      "page": 12,
+      "sha256": "25ad174f5c953aa588edec7f95cd781ae409587f86841ecc047c0aebed1d0a86"
+    },
+    {
+      "page": 13,
+      "sha256": "dedc234dbeb3e9e49297cac26c241d544028d470fd7337b5ff92b99a1a9bc6f1"
+    },
+    {
+      "page": 14,
+      "sha256": "9d212782716b593e889654a78f6a5b020447edbe70eaceb97a4914ae3e5b9f73"
+    },
+    {
+      "page": 15,
+      "sha256": "93f1b8142999bb6acab83bf59f791a40917aea32ba57709f1c48351d8a53e7b7"
+    },
+    {
+      "page": 16,
+      "sha256": "4fbe86b748adce56c74c2ace0a7a6e97cbafa8a21f801db2128993c466574a93"
+    },
+    {
+      "page": 17,
+      "sha256": "b76afce4a507a8b356a0fd014d625a5e7d434af8cb79a71bc13046ef625d9e9f"
+    },
+    {
+      "page": 18,
+      "sha256": "659483d1990657d2a8f0b2fbb5a019fc8d163bbbb65ed6edd566a906f6325112"
+    },
+    {
+      "page": 19,
+      "sha256": "efa7e282c1fede05b470e9c360d026d9e1dd8d18dafc9b275854264dd8d6b38b"
+    },
+    {
+      "page": 20,
+      "sha256": "e6c10cd5c7b2a22c6bdfaa3de546d1733cbd03c260f13c144039d24e13caa0fc"
+    },
+    {
+      "page": 21,
+      "sha256": "b0981c0fa97f517234161f8dad8923448a9b2df0c773818dd2e04df148eb5ca2"
+    },
+    {
+      "page": 22,
+      "sha256": "bf63d5609b421832478ac1e65f53547842e364bda81870c1d07e82ffbbfbe664"
+    },
+    {
+      "page": 23,
+      "sha256": "c6d62a75b123bdfba3351a389734e17ba97e58bf97135be5790af28ef2b347fb"
+    },
+    {
+      "page": 24,
+      "sha256": "4d82b60c5766e52c1b019c574728c243ba4c347823fee1335c83dbe46d27224d"
+    },
+    {
+      "page": 25,
+      "sha256": "5098f21461d6da1150866fc04f9e7e61788356e332e93f3ad0778de16494e491"
+    }
+  ],
+  "external_release": false
+}

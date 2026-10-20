@@ -1,0 +1,90 @@
+[
+  {
+    "argv": [
+      "python3",
+      "-B",
+      "check_closure.py"
+    ],
+    "inputs": [
+      "claims.json",
+      "claims.schema.json",
+      "commands.json",
+      "SHA256SUMS",
+      "record-index.json",
+      "PROVENANCE.json",
+      "lean-records.json",
+      "packet-repairs.json",
+      "release-metadata.json",
+      "LICENSING.md",
+      "REPOSITORY-URL.txt",
+      "CITATION.cff",
+      "license-sources.json",
+      "check_publication.py"
+    ],
+    "timeout_seconds": 60
+  },
+  {
+    "argv": [
+      "python3",
+      "-B",
+      "check_claims.py"
+    ],
+    "inputs": [
+      "claims.json",
+      "claims.schema.json",
+      "schema_validator.py",
+      "lean-records.json",
+      "check_review_state.py",
+      "independent-proofs.json",
+      "formalization.json",
+      "check_formalization.py",
+      "OWNER-STATEMENT-CHECK.md",
+      "owner-statement-confirmation.json.original.log",
+      "NOVELTY-SCOPE.md",
+      "R005-novelty-A3-deep-2026-10-19.md.original.log",
+      "R005-owner-novelty-A3-deep-2026-10-19.md.original.log",
+      "PACKAGING-REPAIRS.md",
+      "T1202-detached-formal-gate.original.log",
+      "T1202-trial.json.original.log",
+      "T1202-execution-receipt.json.original.log",
+      "T1202-source-SHA256SUMS.original.log",
+      "run_formal_gate.py",
+      "PACKAGING-REPAIRS.md",
+      "T1202-detached-formal-gate.original.log",
+      "T1202-trial.json.original.log",
+      "T1202-execution-receipt.json.original.log",
+      "T1202-source-SHA256SUMS.original.log",
+      "run_formal_gate.py",
+      "INDEPENDENT-PROOFS.md",
+      "owner-copy-diff.txt",
+      "owner-copy-comparison.json"
+    ],
+    "timeout_seconds": 60
+  },
+  {
+    "argv": [
+      "python3",
+      "-B",
+      "check_paper.py"
+    ],
+    "inputs": [
+      "paper-A3-v8.1-en.tex",
+      "data/counts.csv"
+    ],
+    "timeout_seconds": 60
+  },
+  {
+    "argv": [
+      "python3",
+      "-B",
+      "check_certificates.py"
+    ],
+    "inputs": [
+      "data/negative-index.jsonl",
+      "data/counts.csv",
+      "code/certificates.py",
+      "code/verify_fullerenes.py"
+    ],
+    "timeout_seconds": 600
+  }
+]

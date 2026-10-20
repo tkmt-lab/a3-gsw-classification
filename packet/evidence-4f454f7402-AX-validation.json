@@ -1,0 +1,306 @@
+{
+  "status": "PASS",
+  "scope": "Saved Claude outputs and documentation integrity only; no scientific checker rerun",
+  "trial_range": "T0746-T0782",
+  "trial_statuses": {
+    "ok": 36,
+    "error": 1
+  },
+  "technical_failure": {
+    "trial": "T0772",
+    "reason": "count 160 exceeded guard count <= 16 before checks; no result JSON",
+    "scientific_counterexample": false
+  },
+  "resource_totals": {
+    "elapsed_seconds": 178.167,
+    "max_trial_seconds": 13.817,
+    "peak_memory_mb": 97.3,
+    "cost": 0
+  },
+  "checked_hashes": {
+    "inputs_and_logs": 111,
+    "code_snapshot_pairs": 74
+  },
+  "output_files": [
+    {
+      "trial": "T0746",
+      "historical_reference_id": "source-469d450184777a3a1acc",
+      "sha256": "51f2f6f2c8a0c55dae6df142d2721cfa0e2bb19da69a5668f5747cb95d34a592",
+      "bytes": 2117
+    },
+    {
+      "trial": "T0747",
+      "historical_reference_id": "source-bb0fe98bfd6e5c543c90",
+      "sha256": "4717250570b2b8b5d2d71e3b211e6ea81533674ca87b17990e0ec105fa93a0e0",
+      "bytes": 279
+    },
+    {
+      "trial": "T0748",
+      "historical_reference_id": "source-f781afb6813a3eab3bcf",
+      "sha256": "897c3b8842b27e395aadee1d425b418900bb93cd5ef5a2e6779c1233ad57bc1d",
+      "bytes": 945
+    },
+    {
+      "trial": "T0749",
+      "historical_reference_id": "source-1c2a962f4bf1648dbf6a",
+      "sha256": "733e4f2bf79090cca5ecda252e529af144503b2cafb308d9615e6c5330cc9b4c",
+      "bytes": 6233
+    },
+    {
+      "trial": "T0750",
+      "historical_reference_id": "source-9c8efe81210d8ccc59ba",
+      "sha256": "eb2c5bce60b0dd9138e0e28076e3ceb421868b36daf0e584affeaa1152811716",
+      "bytes": 6240
+    },
+    {
+      "trial": "T0751",
+      "historical_reference_id": "source-000d9fca45f14243ac10",
+      "sha256": "391aeacb610ae8865dc4b642b4d7c6b96f8ede551bfa2eeb2385fbf59ba7196f",
+      "bytes": 6241
+    },
+    {
+      "trial": "T0752",
+      "historical_reference_id": "source-07019f61ac72ae06438d",
+      "sha256": "c56df5d5c206ebaa514298175c109ed9973c3c1dc5d611565748a376609bf142",
+      "bytes": 6247
+    },
+    {
+      "trial": "T0753",
+      "historical_reference_id": "source-10717e94abb264c04129",
+      "sha256": "36d736acaa6f586b44b405a6fca6d0f706d80e6a1a634f12a160e1c0fc61a2b1",
+      "bytes": 6249
+    },
+    {
+      "trial": "T0754",
+      "historical_reference_id": "source-4ad824ae1b90e625d1c2",
+      "sha256": "6a8130b5bb88e06e5251a2d0278a546cf8fa2b94b846348ae00ba5bbb1623dac",
+      "bytes": 6261
+    },
+    {
+      "trial": "T0755",
+      "historical_reference_id": "source-f50b9f80f7bebdd72cb9",
+      "sha256": "5fadea45fb8f7185668aee47bc9149693879d128334bf653664c0471892292b0",
+      "bytes": 6259
+    },
+    {
+      "trial": "T0756",
+      "historical_reference_id": "source-bef47348c7b3508d1a38",
+      "sha256": "73a35cd9149ea97f6733da7bd1af27b26aa00e98ad04ec537009c381c5f2efbe",
+      "bytes": 6272
+    },
+    {
+      "trial": "T0757",
+      "historical_reference_id": "source-fbf9894d9eeede5a9df5",
+      "sha256": "dc51345328d5d15611c3ff3ea3ebed5d67c63917d7552ef5b94ef080bedc0610",
+      "bytes": 6275
+    },
+    {
+      "trial": "T0758",
+      "historical_reference_id": "source-a52116bc29b7be7ed00f",
+      "sha256": "b0d3b03432f336f8d14bf942cd4814a47ce09158a50300c961da78c715191253",
+      "bytes": 6281
+    },
+    {
+      "trial": "T0759",
+      "historical_reference_id": "source-bfd1954ccfe98df84ad7",
+      "sha256": "496f9e0b720dbbc03f98c4e9d6b9c54efe893adb6b6c391558923567fcafdf56",
+      "bytes": 6271
+    },
+    {
+      "trial": "T0760",
+      "historical_reference_id": "source-141f1c64835d59f0515f",
+      "sha256": "35e6d2fca199995cc82354be2257d8951bf98410660e71d717f1e817313a2a98",
+      "bytes": 6281
+    },
+    {
+      "trial": "T0761",
+      "historical_reference_id": "source-467d5c19791695075988",
+      "sha256": "9f9b2ec3ff6123eddb46d8c39b3019a641f36ac3bf536ed5a8d8ec8077aae7ef",
+      "bytes": 6288
+    },
+    {
+      "trial": "T0762",
+      "historical_reference_id": "source-9c558b7100d4bc1d4a5d",
+      "sha256": "23fdb1817d6358d8b7497b443d4b0448175ec80fb45a6d367a8e70bc6bb21aa7",
+      "bytes": 6284
+    },
+    {
+      "trial": "T0763",
+      "historical_reference_id": "source-29a79f7a00672f776d5f",
+      "sha256": "b1b231fdfd93acd6919125c85c6b28f0124b5fcef6e1fe9aee309cdc38b1130d",
+      "bytes": 6280
+    },
+    {
+      "trial": "T0764",
+      "historical_reference_id": "source-5ba20a635aa000d6e831",
+      "sha256": "3a1469d1beaa982e499b29bbde9e6bab0d90992ee93c8dd457d669871e897d29",
+      "bytes": 6266
+    },
+    {
+      "trial": "T0765",
+      "historical_reference_id": "source-f0cd333be8f060ef0d1b",
+      "sha256": "66453b10352ec584d7426908a2f0394f4184dfda4b2a0631e396d3d74e209a4c",
+      "bytes": 6298
+    },
+    {
+      "trial": "T0766",
+      "historical_reference_id": "source-28933129fc7441b58818",
+      "sha256": "dc8be91bac92c1e625e9441092f5084ea04798a6d7dcb32a133fac0a63c0ac5d",
+      "bytes": 6298
+    },
+    {
+      "trial": "T0767",
+      "historical_reference_id": "source-4726fabf483d4c85a6bc",
+      "sha256": "448f8c5f703d04b5d71499e6526907d34f90b0694ba91c5f2a89dd57d8141987",
+      "bytes": 6310
+    },
+    {
+      "trial": "T0768",
+      "historical_reference_id": "source-26db635524acef5c1d9c",
+      "sha256": "d2990e2345c1436c90d418a95ca4e9e7ae95098255bc0c4078de3d238005e102",
+      "bytes": 6316
+    },
+    {
+      "trial": "T0769",
+      "historical_reference_id": "source-7f4ab886166b0986288b",
+      "sha256": "8c0fa6775f8aa3be7b8ef75e085f2bacbd9fb21514ba4e416df44e22903d3141",
+      "bytes": 947
+    },
+    {
+      "trial": "T0770",
+      "historical_reference_id": "source-51fe43b3e1b8d725b423",
+      "sha256": "7800a6b1ce1a84871041992ebba6df903ec55f50426a92145d33de81b8ce86a4",
+      "bytes": 1145
+    },
+    {
+      "trial": "T0771",
+      "historical_reference_id": "source-cb923652fb93bf8f5607",
+      "sha256": "37c90bc433a8559aa18005bb126bc973babdb84a9a867eb2cd5220c4720aa9d5",
+      "bytes": 1146
+    },
+    {
+      "trial": "T0773",
+      "historical_reference_id": "source-062a3b0db1cedebc4d6b",
+      "sha256": "5e7eac3d71f28d92bdf087e4470faae7924035c48366aaee063359520f618e96",
+      "bytes": 12314
+    },
+    {
+      "trial": "T0774",
+      "historical_reference_id": "source-bb1c901378bf7af489df",
+      "sha256": "9dfcbc43d0401de369a65ff54f05c48692201da6bafeea150738750756832184",
+      "bytes": 12328
+    },
+    {
+      "trial": "T0775",
+      "historical_reference_id": "source-c505223e4777e7a95e61",
+      "sha256": "f172831b193873c760dafea5d652adb69f265ef7595c1b97b94f5317d06be237",
+      "bytes": 12350
+    },
+    {
+      "trial": "T0776",
+      "historical_reference_id": "source-81a69b51d2b1a103e859",
+      "sha256": "6f499d3de1caed7c86e8761735cae7fc94468b6658da6609d64b1f63e0194b69",
+      "bytes": 12371
+    },
+    {
+      "trial": "T0777",
+      "historical_reference_id": "source-3a419a6d95c985b9e1e7",
+      "sha256": "7727b062737643f59717d9050a51b44773828bcc8e872071c8af23bdccd0a832",
+      "bytes": 12396
+    },
+    {
+      "trial": "T0778",
+      "historical_reference_id": "source-ae8fc6b5cd8aad3945b1",
+      "sha256": "7fa131f24bc46144fce3520f44e1b8494c56c968e769556f815f80ad26ee74ac",
+      "bytes": 12392
+    },
+    {
+      "trial": "T0779",
+      "historical_reference_id": "source-730f591ea7bfc8bede9d",
+      "sha256": "70d8c7cd8bfb018459f60c74d10809b55a4d1b0ad273a6a25a1dfc20b8fac1cb",
+      "bytes": 12411
+    },
+    {
+      "trial": "T0780",
+      "historical_reference_id": "source-6552687b7d1e54028683",
+      "sha256": "23e185ce4175d77a9a973b4dcbb2893fa9493eaae0fcb1dbbd3fb969eba64080",
+      "bytes": 12385
+    },
+    {
+      "trial": "T0781",
+      "historical_reference_id": "source-f46285211e951ef49a19",
+      "sha256": "3761c9d724a5e8e1d1199ddbb4d2741ef6e43afc5bbae4a972d9fc96fbc8f51f",
+      "bytes": 12435
+    },
+    {
+      "trial": "T0782",
+      "historical_reference_id": "source-9270559dba5aeaf27f24",
+      "sha256": "5046b971a86fa40b4c648a686b976a9a802e8fb0f3f01829591a6486a4fc057e",
+      "bytes": 12465
+    }
+  ],
+  "finite_checks": {
+    "bands": 8,
+    "cap_records": 20,
+    "endpoint_cases": 337,
+    "endpoint_regions": {
+      "outer": 159,
+      "c2": 63,
+      "c1": 68,
+      "negative_second": 47
+    },
+    "fan_graphs": 160,
+    "fan_starts": 320,
+    "all_starts": 19200,
+    "rays": 9,
+    "ray_samples": 1809,
+    "graph_check_executions": 14,
+    "fan_geometry_occurrences": {
+      "vertices": 286940,
+      "unit_triangles": 286300,
+      "parent_pieces": 303857,
+      "cut_checks": 19412
+    }
+  },
+  "duplicate_handling": {
+    "normal_and_allstarts_same_160_graphs": true,
+    "probes_subsets_not_added": true,
+    "ray_arithmetic_repeated_not_added": true,
+    "graph_checks_14_are_executions_not_new_unique_graphs": true
+  },
+  "prior_frozen_artifacts_unchanged": {
+    "AO": 24,
+    "AP": 53,
+    "AQ": 62,
+    "AR": 43,
+    "AS": 64,
+    "AT": 29,
+    "AU": 31,
+    "AV": 35,
+    "AW": 22
+  },
+  "local_markdown_links_checked": 86,
+  "trial_check": {
+    "status": "PASS",
+    "trials": 782,
+    "errors": 0,
+    "warnings": 0
+  },
+  "wiki_check": {
+    "status": "PASS",
+    "pages": 74,
+    "sources": 326,
+    "errors": 0,
+    "warnings": 201
+  },
+  "lean_total": 98,
+  "lean_rebuild": false,
+  "new_scientific_runs_by_codex": 0,
+  "r004_snapshot": "AM unchanged",
+  "state": "Waiting until owner research-system retrospective; also awaiting R004 enumeration completion",
+  "limitations": [
+    "Codex-authored tests executed by Claude on Claude independent constructors; not an independent general proof",
+    "PASS is restricted to known finite sets; general carriers, cuts, endpoints and AN ownership/IET remain textual review pending",
+    "Structural audit PASS verifies artifacts and records, not scientific truth or novelty"
+  ]
+}

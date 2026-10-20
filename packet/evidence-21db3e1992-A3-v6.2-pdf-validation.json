@@ -1,0 +1,143 @@
+{
+  "status": "PASS",
+  "pdf_path": "paper-A3-v6.2-en.pdf",
+  "pdf_sha256": "736b5c02ef6e9295aa952ed14b877dfff16fd2d69960e19ac9989e11dbbfa6c7",
+  "pdf_bytes": 207140,
+  "pages": 23,
+  "historical_source_path_id": "source-dcd262b2fdbe90aab3cf",
+  "source_sha256": "6f2deb0d0460c1b29f13da9ca1c00ae9c6b2bc42588ea07e243e979deb073de3",
+  "typeset_trial": "T1003",
+  "render_trial": "T1004",
+  "tex_engine": "Tectonic 0.17.0",
+  "equation_numbers": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "B1",
+    "B2",
+    "C1"
+  ],
+  "unique_equation_destinations": true,
+  "numbered_statements": 4,
+  "missing_references": false,
+  "overfull_boxes": false,
+  "duplicate_destinations": false,
+  "pdf_string_warnings": false,
+  "remaining_underfull_badness": [
+    1082,
+    1142,
+    1817,
+    2261
+  ],
+  "visual_review": {
+    "reviewer": "Codex main agent",
+    "all_pages_viewed": true,
+    "method": "All 23 pages rendered at 1100 pixels. Fourteen changed pages viewed; pages 4,5,7-13 matched previously inspected v6.1 images. Final pages 17/18 were viewed again after an explicit Appendix B page break. Intermediate samepage attempts did not change pagination and were not accepted as fixing the orphan heading.",
+    "observed": "No clipping, overlapping text, broken tables or missing glyphs; claim identifiers kept with declarations. Mild underfull spacing remains readable.",
+    "independent_review": false
+  },
+  "page_render_hashes": [
+    {
+      "page": 1,
+      "sha256": "5807def5cca6f7d5779986f13b99641728fd6dcd305b3fa71c1f36689bd5acf7"
+    },
+    {
+      "page": 2,
+      "sha256": "f9bc36a64df81a4eafe98e41218af94810246bdaba1c3fd2251e2172e803bd2d"
+    },
+    {
+      "page": 3,
+      "sha256": "13b657b8ab40b6fd812a3844698f7a61971ad040e9139a21afbcd43ead19c3c0"
+    },
+    {
+      "page": 4,
+      "sha256": "1558314498494500b5babd59363b71b9b899b0f67a300e9754dcec1ae5eb4dbb"
+    },
+    {
+      "page": 5,
+      "sha256": "51a2db985c8b41484282869f623fbe851bef52a6fc9441fc0815c83ff95c3dd8"
+    },
+    {
+      "page": 6,
+      "sha256": "7fdf3c923549a27433966911efd54f68b3a894a08e7e52ee4f94865dd4147dd1"
+    },
+    {
+      "page": 7,
+      "sha256": "53a4954b6cdd80abf8d7c3c218f5bfe289a36bdce46710acb2e0021299721cc7"
+    },
+    {
+      "page": 8,
+      "sha256": "a777df690ade62f9399a6d4c246c9c20db99b001b8519e2cb21d42e9ded850d3"
+    },
+    {
+      "page": 9,
+      "sha256": "b0ac7bfe3a816c54b2ee467f1b9ae6e4736ec3859cd660f7aa6a92ba239c2f74"
+    },
+    {
+      "page": 10,
+      "sha256": "12c086461d22525a48e8e574914d7b5e194a41855a149ef8c81f10d441e25d5f"
+    },
+    {
+      "page": 11,
+      "sha256": "464dd60e7226930e270b749ff2e80a309fa78eab1363ecdc0b1e134c701afcaa"
+    },
+    {
+      "page": 12,
+      "sha256": "7f3f2f753df2187f27cfa13cee45a9217da1edc4223306b2b79189a40e60f3ec"
+    },
+    {
+      "page": 13,
+      "sha256": "701758ce8955c0ff8690583db7383142e742bfe259fbc8f81bde1c7ddc7b01d6"
+    },
+    {
+      "page": 14,
+      "sha256": "04ec9853da5bcaefa1d068b05d2eca64622fbad0291bba4430cfa46a017024ad"
+    },
+    {
+      "page": 15,
+      "sha256": "0485ab9449ed5af29fa8731928fca290fcf449ffea24ea88a4aa7416d4039220"
+    },
+    {
+      "page": 16,
+      "sha256": "86794e0b844abca631ecd683c94beaa5d74bd0de02732b6538fa1c172ae44b91"
+    },
+    {
+      "page": 17,
+      "sha256": "a692c3627de5dc6ac5cd56125a1f61df4ac53cb14fce63e27d5b14f8b244ad3c"
+    },
+    {
+      "page": 18,
+      "sha256": "2d1050b71cde13ede9610cafabc0f06c9842515eeb6639d51eb3e9a145b9dc27"
+    },
+    {
+      "page": 19,
+      "sha256": "1acf70622f8fd13bbe8000b640d8bcec4e6b987300f9df3a252f17313b7a592b"
+    },
+    {
+      "page": 20,
+      "sha256": "3c481e9220ec459e6d8d81f20409f6225de9faf7a950f71e6b026e5849665c38"
+    },
+    {
+      "page": 21,
+      "sha256": "4c602dfce6180da0d1f5e6e9a66b931f2224da58ac78cdf4d27bd54bc698583c"
+    },
+    {
+      "page": 22,
+      "sha256": "dddfbead14055bf6d4e7ecfc7ccab6bed8dfd2013400d0ff4ad0bbb3ea9bd8d0"
+    },
+    {
+      "page": 23,
+      "sha256": "06d790aaa086356042c2bbcbe9192f55518e4829d5cfeef8c71fdce185a5e508"
+    }
+  ],
+  "external_release": false
+}

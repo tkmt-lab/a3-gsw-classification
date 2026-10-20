@@ -1,0 +1,69 @@
+"""Reject new-receipt loss/corruption and stale/promoted metadata in an owned disposable copy."""
+import argparse
+import hashlib
+import json
+import os
+from pathlib import Path
+import shutil
+import subprocess
+import tempfile
+ROOT=Path(__file__).resolve().parents[3]
+def main():
+    ap=argparse.ArgumentParser();ap.add_argument('--record',type=Path,required=True);args=ap.parse_args()
+    env=dict(os.environ,PYTHONDONTWRITEBYTECODE='1');env.pop('PYTHONPATH',None);env.pop('PYTHONHOME',None)
+    rows=[]
+    with tempfile.TemporaryDirectory(prefix='a3-v064-controls-') as t:
+        p=Path(t)/'packet';shutil.copytree(ROOT/'data/releases/A3-v7.3-release-candidate',p)
+        proof='R004-a3-remaining-necessity-proof.md';original='R004-a3-positive-remaining-proof.md.original.txt'
+        saved={n:(p/n).read_bytes() for n in ['claims.json','formalization.json','SHA256SUMS',proof,original]}
+        def restore():
+            for n,b in saved.items():(p/n).write_bytes(b)
+        def inventory():
+            (p/'SHA256SUMS').write_text(''.join(hashlib.sha256(q.read_bytes()).hexdigest()+'  '+q.relative_to(p).as_posix()+'\n' for q in sorted(p.rglob('*')) if q.is_file() and q.name!='SHA256SUMS'))
+        def reject(label,script,needle):
+            r=subprocess.run(['python3','-B',script],cwd=p,env=env,text=True,capture_output=True,timeout=60)
+            assert r.returncode!=0 and needle in r.stderr,(label,r.stdout,r.stderr)
+            rows.append(dict(control=label,rejected=True,command=script,stderr=r.stderr));restore()
+        (p/proof).unlink();inventory()
+        reject('missing received proof with regenerated inventory','check_closure.py','missing reference')
+        (p/original).write_bytes(saved[original]+b'\ncorrupted\n');inventory()
+        reject('corrupt fixed original despite regenerated inventory','check_claims.py',original)
+        a=json.loads(saved['claims.json']);r=next(r for r in a['claims'] if r['id']=='thm:classification');r['independent_verification']='Only the belt positive branch is received; full necessity remains unfinished.'
+        (p/'claims.json').write_text(json.dumps(a));inventory()
+        reject('stale full-classification receipt despite regenerated inventory','check_claims.py','stale classification receipt')
+        a=json.loads(saved['claims.json']);next(r for r in a['claims'] if r['id']=='thm:classification')['human_review']=True
+        (p/'claims.json').write_text(json.dumps(a));inventory()
+        reject('unsupported human-review promotion','check_claims.py','AssertionError')
+        a=json.loads(saved['formalization.json']);a['permitted_axioms'].append('customAx')
+        (p/'formalization.json').write_text(json.dumps(a));inventory()
+        reject('unsupported axiom allowlist extension','check_claims.py','AssertionError')
+        a=json.loads(saved['formalization.json']);a['comparator']['minimum_and_rays_checked']=True
+        (p/'formalization.json').write_text(json.dumps(a));inventory()
+        reject('unsupported Comparator scope extension','check_claims.py','AssertionError')
+        a=json.loads(saved['claims.json']);r=next(r for r in a['claims'] if r['id']=='thm:classification');r['status']='open';r['lean']=None
+        (p/'claims.json').write_text(json.dumps(a));inventory()
+        reject('stale unformalized classification metadata','check_claims.py','AssertionError')
+        a=json.loads(saved['claims.json']);r=next(r for r in a['claims'] if r['id']=='thm:classification');r['statement_human_check']['proof_peer_review']=True
+        (p/'claims.json').write_text(json.dumps(a));inventory()
+        reject('statement check must not become proof peer review','check_claims.py','AssertionError')
+        a=json.loads(saved['claims.json']);main=next(r for r in a['claims'] if r['id']=='thm:classification');next(r for r in a['claims'] if r['id']=='cor:minimum')['statement_human_check']=main['statement_human_check']
+        (p/'claims.json').write_text(json.dumps(a));inventory()
+        reject('statement check must not spread to another claim','check_claims.py','AssertionError')
+        a=json.loads(saved['claims.json']);next(r for r in a['claims'] if r['id']=='thm:classification').pop('statement_human_check')
+        (p/'claims.json').write_text(json.dumps(a));inventory()
+        reject('missing recorded statement confirmation','check_claims.py','Error')
+        a=json.loads(saved['claims.json']);next(r for r in a['claims'] if r['id']=='thm:classification')['remaining_obligations']=['Human peer review of the proof.','Novelty excluded: all intersection signatures are equal.']
+        (p/'claims.json').write_text(json.dumps(a));inventory()
+        reject('full-signature novelty overclaim','check_claims.py','novelty scope')
+        a=json.loads(saved['formalization.json']);a['rejection_control']['fresh_run_this_revision']=True
+        (p/'formalization.json').write_text(json.dumps(a));inventory()
+        reject('historical rejection must not become a fresh run','check_claims.py','AssertionError')
+        a=json.loads(saved['formalization.json']);a['rejection_control']['log']=a['gate_logs'][0]
+        (p/'formalization.json').write_text(json.dumps(a));inventory()
+        reject('successful T1192 gate must not replace T1202 control','check_claims.py','AssertionError')
+        for script in ['check_closure.py','check_claims.py']:
+            r=subprocess.run(['python3','-B',script],cwd=p,env=env,text=True,capture_output=True,timeout=60);assert r.returncode==0,r.stderr
+    result=dict(status='PASS',scope=__doc__,controls=rows,candidate_modified=False)
+    with args.record.open('x') as f:json.dump(result,f,indent=2);f.write('\n')
+    print(json.dumps(dict(status='PASS',controls=len(rows),candidate_modified=False)))
+if __name__=='__main__':main()
