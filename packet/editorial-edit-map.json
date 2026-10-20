@@ -1,0 +1,463 @@
+{
+  "predecessor": "paper-A3-en.tex",
+  "target": "paper-A3-v9.0-en.tex",
+  "predecessor_sha256": "bd802e28c658ffea9e8500b60d2fef7a91f3004b312acc3c050a4f61ff63a50b",
+  "target_sha256": "1f969416e3ecbf874ee381ff897dd2cea7ea153df96edec066b7cb8f2a62afcd",
+  "edits": [
+    {
+      "number": 1,
+      "before": "Version 8.1, 20 October 2026",
+      "after": "Version 9.0, 21 October 2026",
+      "reason": "Move process history to the supplement; retain mathematics and current scope.",
+      "source_line": 17
+    },
+    {
+      "number": 2,
+      "before": "points remains a separate proof draft. The complete classification and the primitive minimum are now\nproved in Lean on an independently specified closed surface graph.\nComparator checks the full classification against the independent\nstatement; six kernels accepted the same proof. Eventual periodicity\nis also formalized, while an executable threshold and period are not.\nThe owner reports confirming the meaning of the independent challenge\nstatement; human review of the proof remains outstanding. ",
+      "after": "points remains a separate proof draft. The classification and primitive\nminimum are Lean-proved on an explicitly specified closed surface graph.\nThe existence of a threshold and positive period is also formalized;\neffective computation has a prose arithmetic argument.\n",
+      "reason": "Move process history to the supplement; retain mathematics and current scope.",
+      "source_line": 34
+    },
+    {
+      "number": 3,
+      "before": "We distinguish finite checks, AI prose review,\nformal proofs, and independently constructed verification. ",
+      "after": "",
+      "reason": "Move process history to the supplement; retain mathematics and current scope.",
+      "source_line": 43
+    },
+    {
+      "number": 4,
+      "before": "\\noindent\\textbf{Editorial status.} This public-release edition v8.1 continues English v7.2 and Japanese v4. The work is AI-assisted. The theorem statements below\nretain v4's numbering; calling a statement a theorem does not assert\ncompleted external peer review. The coordinator (Claude) reviewed the\nJapanese v4 text of Appendices B and C at 03:46 JST on 19 October 2026\n(commit \\record{49430e1c}), recalculating its formulas and recording no\nmissing steps. This English text transcribes that Japanese argument;\nselected English formulas were also machine-checked by the coordinator.\nThat historical review was AI prose review. The later formal proof\nchecks the exact graph statement described in Section 9; it does not\nreplace human review. P006-15 separately records the owner's\nreported confirmation of the challenge statement's meaning on\n19 October 2026; this is not proof peer review.\nThe coordinator's later addendum also completes AI prose review of A-sheet items 2 and 3; Section 11 records the scope. The author has approved the authorship, affiliation, licenses and AI-use statement for this edition. The separate treatment of other\nfamilies and the general ray theorem is reserved for a follow-up paper.\n\n",
+      "after": "\\section{Introduction}\nWe classify literal linear generalized Stone--Wales paths in the\nGoldberg--Coxeter images of the dodecahedron. The endpoint condition\nmust hold before the first repeated surface vertex. The proof reduces\nthis comparison to two arithmetic stages, with positive belt witnesses\nand explicit collisions for the negative cases. The constructions and\npath definition come from the cited fullerene literature; the exact\nnovelty comparison is discussed in Section~\\ref{sec:review}.\n\n\\section{What is proved, and how}\\label{sec:guarantees}\n\\begin{center}\\small\n\\begin{tabular}{p{.22\\textwidth}p{.28\\textwidth}p{.38\\textwidth}}\n\\toprule Claim & Present proof basis & Scope\\\\\\midrule\nTheorem~\\ref{thm:classification} & Lean graph theorem and prose geometric proofs & All integer $k>l>0$, including nonprimitive parameters; explicit closed surface quotient.\\\\\nCorollary~\\ref{cor:minimum} & Lean graph and bounded arithmetic theorem & Primitive $k>l>0$, with the minimum at $(17,5)$.\\\\\nCorollary~\\ref{cor:rays} & Lean existence theorem; prose threshold arithmetic & Every eventually interior integer affine ray, including nonprimitive points; the executable threshold/period algorithm remains an obligation.\\\\\nCorollary~\\ref{cor:density} & Prose counting proof draft & Primitive parameter points, with its stated counting and limit obligations.\\\\\nFinite checks and census & Explicit constructors, path searches and absence-certificate checkers & The ranges in Section~\\ref{sec:checks} and Appendix~\\ref{app:census}; separate full-code comparison through $C_{186}$.\\\\\nAuxiliary formal claims & Lean arithmetic and conditional graph propositions & Exact hypotheses and types in the claim ledger.\\\\\n\\bottomrule\n\\end{tabular}\n\\end{center}\nTwo separately developed prose derivations cover the full interior A3\nclassification. The formal claims concern the specified quotient graph;\nits interpretation as the intended published construction and human\nproof peer review remain distinct matters. The priority comparison is\nopen. The supplementary \\record{VERIFICATION-RECORD.md} records roles,\nindependence qualifications, formal entry points and validation history.\n\n",
+      "reason": "Move process history to the supplement; retain mathematics and current scope.",
+      "source_line": 50
+    },
+    {
+      "number": 5,
+      "before": "\\subsection{Kinds of evidence}\nAn AI proof draft is a general argument awaiting review. AI prose review\nmeans the specified formulas or paragraphs were read and rederived by\nClaude; it is neither human peer review nor necessarily an independent\nderivation. Lean checks the stated formal propositions, separately from\nthe geometric hypotheses. Finite checks on an independent construction\nare identified by both the constructor and the checker. ``R004\nindependent'' refers to completed reports from a verification team that\ndid not read the main team's proof or implementation within the stated\nscope. Two independently derived general prose proofs are now received:\nthe research team's argument and R004's alternative. The team's\nformalization, completed with the coordinator's positive construction,\nproves the complete classification on the independent graph (P006-14).\nThis is not a third independent derivation. Sections 9 and 11 give the precise boundary.\n\n",
+      "after": "",
+      "reason": "Move process history to the supplement; retain mathematics and current scope.",
+      "source_line": 111
+    },
+    {
+      "number": 6,
+      "before": "The proof separates the integer-inflation obstruction (Section 3),\nthe two start orbits (Section 4), positive paths (Section 5), and\ncollisions with endpoint exclusion (Sections 6--7).",
+      "after": "The proof separates the integer-inflation obstruction\n(Section~\\ref{sec:inflation}), the two start orbits\n(Section~\\ref{sec:starts}), positive paths (Section~\\ref{sec:positive}),\nand collisions with endpoint exclusion\n(Sections~\\ref{sec:negative}--\\ref{sec:ordering}).",
+      "reason": "Move process history to the supplement; retain mathematics and current scope.",
+      "source_line": 145
+    },
+    {
+      "number": 7,
+      "before": "Section 5.1. In the third region,",
+      "after": "the unit-width case below. In the third region,",
+      "reason": "Move process history to the supplement; retain mathematics and current scope.",
+      "source_line": 158
+    },
+    {
+      "number": 8,
+      "before": "This gives (2), with the assembly reviewed in AU, Section 7.",
+      "after": "This gives (2), with the assembly in Section~\\ref{sec:ordering}.",
+      "reason": "Move process history to the supplement; retain mathematics and current scope.",
+      "source_line": 160
+    },
+    {
+      "number": 9,
+      "before": "The nonprimitive absence statement is now proved on the full closed\nquotient, including lattice points on parent edges, and transported by\na proved graph isomorphism to the independent specification. It uses\nactual degrees and does not forbid internal degree-five vertices.\nR004 also supplies an independently derived prose argument. The original argument is\n\\record{general-inflation-argument.md}.\n\n",
+      "after": "The closed quotient retains lattice points on parent edges, and a\nproved graph isomorphism transports absence to the specified graph.\nThe degree argument uses actual degrees and permits internal\ndegree-five vertices.\n\n",
+      "reason": "Move process history to the supplement; retain mathematics and current scope.",
+      "source_line": 178
+    },
+    {
+      "number": 10,
+      "before": "principle is formalized as \\record{R002.finite_literal_path_decision}.\nThe local assumption and all-start coverage remain hypotheses of\nthat conditional theorem. The later full classification additionally\nderives the surface degrees, common-neighbour property and start\nreduction in its own concrete graph modules.\nThe noncomputable \\record{forcedWalk} is not a certified executable\nclassifier; see \\record{formal-correspondence-decision.md}.\n\n",
+      "after": "principle is a conditional finite-graph theorem. Its local hypothesis\nand all-start coverage are supplied by the concrete surface argument,\nwhich derives the degrees, common-neighbour property and start reduction.\n\n",
+      "reason": "Move process history to the supplement; retain mathematics and current scope.",
+      "source_line": 193
+    },
+    {
+      "number": 11,
+      "before": "tables. T0743 checked the eight belts and T0746 the 20 cap entries on\nClaude's independent construction. General containment is a separate step.",
+      "after": "tables. A finite check covers all eight belts and twenty cap entries.\nGeneral containment is supplied by the following argument.",
+      "reason": "Move process history to the supplement; retain mathematics and current scope.",
+      "source_line": 283
+    },
+    {
+      "number": 12,
+      "before": "The Japanese v4 B-side argument has coordinator AI prose review\n(\\record{49430e1c}). This English transcription retains the stated trust\nlimitations in Section 11.\n",
+      "after": "",
+      "reason": "Move process history to the supplement; retain mathematics and current scope.",
+      "source_line": 374
+    },
+    {
+      "number": 13,
+      "before": "The bound reduces enumeration to $k\\le25$, $0<l<k$. Claude checked\nall 123 on an independent construction (T0669); the other 116 were\npositive. At $C_{7980}$ the two orbit repeats were $228\\to15$ and\n$229\\to14$. See \\record{A3-minimum-AP.md} and Section 10.3.\n\n",
+      "after": "The bound reduces enumeration to $k\\le25$, $0<l<k$. Of all 123\nprimitive pairs in this range, 116 are positive. At $C_{7980}$ the two\norbit repeats are $228\\to15$ and $229\\to14$. The minimum also has the\nformal proof summarized in Section~\\ref{sec:lean}.\n\n",
+      "reason": "Move process history to the supplement; retain mathematics and current scope.",
+      "source_line": 570
+    },
+    {
+      "number": 14,
+      "before": "or on graph isomorphism classes. The general counting argument remains\na proof draft, without complete independent review or formalization.\nBy the owner's decision of 19 October 2026, this density corollary is\nexcluded from the formalization target. Its counting, M\\\"obius-inversion,\nerror-bound, and limit machinery forms a separate substantial project;\nthe current priority is the graph classification, minimum, and affine-ray\ncorollaries. The prose proof and its unresolved review status are retained.\n",
+      "after": "or on graph isomorphism classes. The following is the prose counting\nargument; its current proof-draft scope is stated in the guarantee table.\n",
+      "reason": "Move process history to the supplement; retain mathematics and current scope.",
+      "source_line": 589
+    },
+    {
+      "number": 15,
+      "before": "This is the direct argument in \\record{A3-ray-theorem-AU.md}; after\nclassification,",
+      "after": "After\nclassification,",
+      "reason": "Move process history to the supplement; retain mathematics and current scope.",
+      "source_line": 642
+    },
+    {
+      "number": 16,
+      "before": "\\section{Correspondence with Lean (P001/P002)}\\label{sec:lean}\n\\subsection{Exact graph specification and completed conclusions}\nThe fixed environment is Lean 4.35.0 and mathlib v4.35.0. The\ncoordinator wrote an independent specification using only mathlib:\ntwenty oriented parent faces on twelve labels, integer lattice points\nof closed triangles, and equivalence generated by edge gluings.\nThe simple graph \\record{ClaudeChallenge.gcGraph} defines adjacency\nfrom lattice triangles, and \\record{LiteralPath} uses actual neighbour\nsets, distinct vertices and an even number of vertices. Internal\ndegree-five vertices are allowed. The arithmetic predicate\n\\record{ClaudeChallenge.criterion} includes $\\gcd(k,l)=1$ and the\nalternatives in (2). Domain assumptions are $k,l\\in\\mathbb N$,\n$0<l<k$; positive integer inputs correspond to the paper's domain.\n\nThe research team's surface descriptions are connected by proved\ngraph isomorphisms to this independent quotient. In the nonprimitive\ncase the closed model retains ordinary lattice vertices on parent\nedges. Degree five is proved equivalent to being a parent vertex,\nand other vertices have degree six. The argument derives local\ntriangle continuation, coherent chart changes and a finite lift of\nevery literal path. It is not conditional on an unproved development\ncertificate. Primitive necessity uses the start reduction and sector\ncollisions; the coordinator's positive construction supplies the\nconverse. The resulting theorem is\n\\record{ClaudeMain.main_full} in\n\\record{formal/Formal/ClaudeMainFull.lean}:\n\\[\n (\\exists n,p,\\ \\operatorname{LiteralPath}(\\operatorname{gcGraph}(k,l),n,p))\n \\quad\\Longleftrightarrow\\quad \\operatorname{criterion}(k,l).\n\\]\nThere is no primitivity hypothesis in this theorem. The declaration\n\\record{ClaudeMain.main_primitive} is its earlier primitive checkpoint.\nThe full declaration proves the independent challenge's statement\n\\record{ClaudeChallenge.main}; it does not add an axiom with that name.\n\nFor Corollary~\\ref{cor:minimum},\n\\record{ClaudeCor.minimum_at} proves that among primitive $k>l>0$\nwith $T\\le399$, absence is equivalent to $(k,l)=(17,5)$.\n\\record{minimum_negative}, \\record{minimum_below} and\n\\record{minimum_data} record absence, existence below the bound,\nprimitivity and the norm calculation. The bounded arithmetic table\nuses kernel \\record{decide}, not native evaluation.\n\nFor Corollary~\\ref{cor:rays}, \\record{ClaudeCor.criterion_ray}\nproves existence of a threshold and a positive period on every\ninteger affine ray eventually satisfying $0<l(t)<k(t)$.\n\\record{R002.A3Release.path_ray} transports this to literal-path\nexistence using the full classification, including nonprimitive\npoints. The parameter $t$ is natural, which describes the same\npositive tail as sufficiently large integer $t$. No executable\nalgorithm computing the threshold and period is certified. Therefore\nthe entire wording of Corollary~\\ref{cor:rays} retains a partial\nformalization obligation. Corollary~\\ref{cor:density} remains outside\nthe formalization target. No formal proof of the Python or C solver,\nthe census generators, or the order formula is inferred.\n\n\\subsection{Axioms, reproducibility and Comparator scope}\nThe packet includes the Lean source dependency closure, the pinned\ntoolchain and manifest, and \\record{Formal/A3ReleaseCheck.lean}.\nThe latter reprints axiom dependencies and runs an automatic\nallowlist gate accepting only \\record{propext},\n\\record{Classical.choice} and \\record{Quot.sound} transitively.\nIt rejects unfinished proofs, custom axioms and native-evaluation\ntrust axioms. Reproduction instructions and exact records are in\n\\record{FORMALIZATION.md} and \\record{formalization.json}; mathlib\ncaches are excluded. The four small Python packet checks inspect\nsaved types and outputs; they are not a Lean execution.\n\nThe coordinator's Comparator challenge copies its independently\nwritten definitions and has a deliberately unproved target statement.\nThe submitted solution is \\record{ClaudeMain.main_full}.\nComparator checks the equality of the challenge statement and the\nproved statement, with the three-axiom allowlist. The full-theorem\nrun recorded acceptance by Lean's standard and paranoid kernels,\nlean4lean, nanoda, con-leche and con-ron. The six kernels check the\nsame formal proof; they are not six independent mathematical reviews.\nThat run covers the full classification, including nonprimitive\nparameters, but not the later minimum and ray proofs. The earlier\nprimitive Comparator run has its separate scope and logs.\nThe macOS runs explicitly disabled the unavailable Linux sandbox;\nthey do not establish process isolation. The fixed reports and raw\noutputs are supplied, without claiming a new six-kernel run in v7.\n\nAn independent specification and a proved graph isomorphism reduce\nthe risk of proving a convenient surrogate. They do not prove that\nthe specification expresses the intended published definition or\nthat every coordinate formula in the prose is a transcription of\nthe formal proof. On 19 October 2026, the owner reported checking\nthe independent challenge statement with the Japanese reading guide\nand confirming that it expresses the paper's classification claim\n(P006-15). This is a human check of the statement's meaning,\nnot human peer review of the proof, a new machine equivalence proof,\nor a novelty review. Human proof peer review and novelty relative to\nthe full position-mapping theory remain outstanding.\nThe historical 41 arithmetic lemmas and four conditional/prototype\nentries are retained with their exact types in the 57-claim inventory.\nTheir count is not a percentage of formalization; they are no longer\nthe frontier of the supplied formal development.\n\n",
+      "after": "\\section{Formal graph and proved conclusions}\\label{sec:lean}\nThe graph specification uses twenty oriented parent faces on twelve\nlabels, integer lattice points of closed triangles, and equivalence\ngenerated by edge gluings. The simple graph \\record{gcGraph} defines\nadjacency from lattice triangles. Its \\record{LiteralPath} uses actual\nneighbour sets, distinct vertices and an even vertex count, permitting\ninternal degree-five vertices. The predicate \\record{criterion}\nincludes primitivity and the alternatives in (2), on natural inputs\n$0<l<k$.\n\nProved graph isomorphisms connect the surface descriptions to this\nquotient, retaining ordinary parent-edge vertices in the nonprimitive\ncase. Degree five is equivalent to being a parent vertex; other vertices\nhave degree six. The argument derives local triangle continuation,\ncoherent chart changes and a finite lift of every literal path.\nPrimitive necessity uses start reduction and sector collisions;\npositive constructions give the converse. The full theorem is\n\\[\n (\\exists n,p,\\ \\operatorname{LiteralPath}(\\operatorname{gcGraph}(k,l),n,p))\n \\quad\\Longleftrightarrow\\quad \\operatorname{criterion}(k,l).\n\\]\nThere is no primitivity hypothesis. For Corollary~\\ref{cor:minimum},\nthe formal bounded arithmetic theorem shows that among primitive\n$k>l>0$ with $T\\le399$, absence is equivalent to $(k,l)=(17,5)$.\nIts supporting lemmas prove absence, existence below the bound,\nprimitivity and the norm calculation.\n\nFor Corollary~\\ref{cor:rays}, the formal arithmetic result supplies a\nthreshold and positive period on every eventually interior integer\naffine ray. The full classification transports it to actual path\nexistence, including nonprimitive points. A natural ray parameter\ndescribes the same positive tail as sufficiently large integer time.\nThe prose argument above gives the effective arithmetic construction;\nthe formal result has existence scope. Auxiliary claim identifiers\nbelow refer to their exact typed statements in the claim ledger.\n\n",
+      "reason": "Move process history to the supplement; retain mathematics and current scope.",
+      "source_line": 646
+    },
+    {
+      "number": 17,
+      "before": "\\section{Finite checks and selection history}",
+      "after": "\\section{Finite checks}",
+      "reason": "Move process history to the supplement; retain mathematics and current scope.",
+      "source_line": 745
+    },
+    {
+      "number": 18,
+      "before": "\\subsection{Predictions and comparisons}\nDiscovery data and later fixed predictions are distinguished; successful\nlater tests do not erase failed conjectures or selection history.\n\\begin{longtable}{p{.16\\textwidth}p{.77\\textwidth}}\n\\toprule Stage & Scope and result\\\\\\midrule\\endhead\nAP/T0669 & All 123 primitive pairs through $T=673$, rechecked after\ndiscovery on an independent construction: 116 positive, seven negative.\nThese are not 123 unseen tests.\\\\\nAR & Twenty points fixed at \\record{23486766}: 12 positive, eight negative,\nall matching.\\\\\nAS & The 921 points through $T=5000$ were used for discovery (602 positive,\n319 negative). Fourteen separate predictions at \\record{e379785c} all\nmatched. The three counterexamples to AQ's stronger threshold remain\nin the history.\\\\\nClaude T0708 & All 360 pairs with $5000<T\\le7000$, independently\nconstructed: 171 positive, 189 negative. Twenty-six were already known,\nso 334 were new.\\\\\nAT & Forty-six points at \\record{15e419a4}, $9049\\le T\\le185851$:\n24 positive, 22 negative, all matching.\\\\\nAU & Thirty points at \\record{1ede36c9}, maximum $T=488721$: 12 positive,\n18 negative; all decisions, 12 endpoints, and 36 negative-start\ncollisions matched.\\\\\nAV & Cutoffs $10^4,10^5,10^6,10^7$ and the checking method fixed at\n\\record{bba3e303}, without predictions of exact finite counts. Two\narithmetic implementations agreed; no new graph census was run.\\\\\n\\bottomrule\n\\end{longtable}\nAt $X=10^7$, the arithmetic count was 1,837,762 primitive points,\n81,946 positive and 1,755,816 negative (about 95.54\\%). This is not\na proof of the limit or of monotonicity. Direct endpoint formulas\nwere compared with unit continuation on 161 AR, 76 AT, and 323 AU\npaths. These 560 paths include repeated graphs.\n\n\\subsection{Belt tables and the AW package}\nClaude independently recalculated the eight belt tables in T0743.\nExecution of \\record{review-AW} is recorded in AX: T0746 checked eight\nbelts and 20 caps; T0747 checked 337 endpoint orders (159 outer,\n63 c2, 68 c1, 47 folded second); T0749--T0768 checked every vertex,\ncut triangle piece, and cut for 160 known negative graphs and 320\nstarts. T0773--T0782 checked all 19,200 starts of those same graphs.\nT0770 compared 1809 arithmetic values on nine rays; T0771 checked\n14 graph instances. Probes T0748/T0769 are not additional examples.\nT0772 stopped before execution on a resource-limit error. The 37 trials\ncomprise 36 successes and one technical failure: 178.167 seconds total,\nmaximum 13.817 seconds per trial and 97.3 MB, no charge. The aggregate\n286,940 vertices, 286,300 triangles, 303,857 pieces, and 19,412 cuts\nare workload counts, not independent examples. Codex wrote the checking\ncode with knowledge of the proof; Claude ran it on an independent\nconstructor. This is finite verification, not an independent general proof.\n\n\\subsection{Reports received from R004}\nEarlier general integer-GC results use the completed reports 3--6 at\n\\record{234253238be3949656fa44d63829bbc3e16eb4a3}, fixed in AM. Reports\n9--10 were received at \\record{da213c7c}, with byte-identical copies in\n\\record{A3-v3-received}. For the census, report 9 established exact\nagreement through $C_{176}$, with 19,703,439 outputs per generator and\n228 negatives. R004 compared complete canonical-code sets, including\npositive graphs. Its Colab checks reread every stored graph and its\ndecision evidence; Mac checks covered hashes, decision rows, full code\nsets, and negative certificates, not a fresh check of every positive\npath on the Mac. Report 10's partial $C_{178}$ recovery (34 of 256\npartitions, 940,264 graphs, no negatives) was not a completed census.\n\n\\textbf{Independent census receipt.} R004 report 11 confirms\ncomplete canonical-code-set agreement between its two generators for\nall 64 even sizes $C_{60}$--$C_{186}$: 43,636,843 outputs per generator\nand 346 negatives. The coordinator compared its size table with the\nmain team's fixed table, size by size, and found complete count agreement;\nthe fixed receipt is \\record{coordinator-C186-check.original.log}.\nThis edit independently recounted those stored tables, without\nregenerating graphs or comparing the code streams again.\nThe range $C_{188}$--$C_{200}$ is outside R004's authorized comparison\nscope and remains a main-team-only result. The main team's full totals\nof 120,622,224 outputs per generator and 816 negatives are unchanged.\nThis is a dated receipt boundary, not a claim about live jobs.\n\nR004 report 10 checked the A3 claim using a GC construction implemented\nfrom the original source, both adjacency search and face-strip tracking.\nFor $T\\le700$, the theorem domain $k>l>0$ contains 191 checked pairs:\n127 primitive (120 positive, seven negative) and 64 nonprimitive\n(all negative). A further 39 nonprimitive boundary pairs, 25 of the form\n$(k,0)$ and 14 of the form $(k,k)$, are outside that domain and also\nnegative. Thus there are 230 non-control cases in total. The two controls\n$(1,0),(1,1)$ give 232 stored records. The coordinator's v5 arithmetic\nreview corrected the earlier description of all 230 as theorem-domain\ncases; see correction P006-09. All decisions matched, including\nminimality at $T=399$. The report reread all records, positive paths,\nand 13,200 negative-start certificates. The main team's proof and code\nwere not read, but the expected claim was known: this was not blind.\nThe same verifier used multiple implementations; it was not a further\nagent's audit. Editing this paper did not rerun those constructions.\n\nR004 independently reduced the nonprimitive case to integer GC\ninflation and proved the positive belt branch $k\\equiv\\pm1\\pmod l$\n(\\record{df84a3d2}, corrected coordinator receipt \\record{0c59d19f}).\nThe newly received reports 12 and 13 extend this to all negative and\nall remaining positive cases, respectively. Their proof map also derives\nthe primitive minimum $(17,5)$, $T=399$, by general bounds.\nThese fixed receipts are \\record{R004-report-012.md},\n\\record{R004-report-013.md}, and \\record{R004-a3-claim13-proof-map.md}.\nThe verifier knew the claim but did not consult the main team's proof,\nconstruction or code: this is independent derivation, not a blind test.\nThe coordinator's two fixed reviews report no gap; they are reviews by\none AI, not human peer review or formalization. P006-13 records this\nchange of receipt state. The census receipt boundary above is separate.\n\n",
+      "after": "\\subsection{Parameter checks and path audits}\nAn explicit graph constructor and literal-path checker test the\nclassification on 123 primitive pairs through $T=673$: 116 positive\nand seven negative. A discovery set through $T=5000$ has 921 points,\n602 positive and 319 negative. Further fixed predictions include\nsets of twenty, fourteen, forty-six and thirty points; all decisions\nmatch. The forty-six-point range is $9049\\le T\\le185851$ and the\nthirty-point maximum is $T=488721$. A separately constructed comparison\nof 360 pairs with $5000<T\\le7000$ has 171 positive and 189 negative\ndecisions; twenty-six were known, leaving 334 new inputs.\n\nTwo arithmetic implementations agree at cutoffs $10^4,10^5,10^6,10^7$.\nAt $X=10^7$ there are 1,837,762 primitive points, 81,946 positive and\n1,755,816 negative (about 95.54\\%). These are finite arithmetic counts.\nDirect endpoint formulas agree with unit continuation on 161 unit-residue,\n76 second-stage and 323 assembled paths, totalling 560 paths with\nrepeated graphs.\n\nThe finite belt audit checks eight belts, twenty caps and 337 endpoint\norders (159 outer, 63 second positive fan, 68 first positive fan,\n47 folded second). It checks every vertex, cut triangle piece and cut\non 160 known negative graphs and 320 starts, and all 19,200 starts\nof those same graphs. Nine rays have 1,809 arithmetic comparisons and\nfourteen graph instances. The aggregate workload is 286,940 vertices,\n286,300 triangles, 303,857 pieces and 19,412 cuts; these counts overlap\nthe examples rather than enlarging their number.\n\nA separate constructor checks 191 theorem-domain pairs with $T\\le700$:\n127 primitive (120 positive, seven negative) and 64 nonprimitive,\nall negative. Another 39 nonprimitive boundary pairs consist of\n25 $(k,0)$ and 14 $(k,k)$ inputs. Two controls $(1,0),(1,1)$ give\n232 stored records in total. All decisions agree, including minimum\n$T=399$; positive paths and 13,200 negative-start certificates are\nchecked. The boundary pairs are outside Theorem~\\ref{thm:classification}.\n\nThe IPR census has a separate full-canonical-code-set comparison on\n64 even sizes $C_{60}$--$C_{186}$, with 43,636,843 outputs per generator\nand 346 negatives. The full $C_{60}$--$C_{200}$ totals and the scope of\ntheir decision and certificate checks are given in Appendix~\\ref{app:census}.\n\n",
+      "reason": "Move process history to the supplement; retain mathematics and current scope.",
+      "source_line": 746
+    },
+    {
+      "number": 19,
+      "before": "\\subsection{Route of the independent general proof}",
+      "after": "\\subsection{A second geometric derivation}",
+      "reason": "Move process history to the supplement; retain mathematics and current scope.",
+      "source_line": 852
+    },
+    {
+      "number": 20,
+      "before": "defined in \\record{R004-a3-remaining-necessity-proof.md}, the return maps",
+      "after": "defined by the corresponding sector developments, the return maps",
+      "reason": "Move process history to the supplement; retain mathematics and current scope.",
+      "source_line": 863
+    },
+    {
+      "number": 21,
+      "before": "For the remaining positive sectors,\n\\record{R004-a3-positive-remaining-proof.md} constructs endpoints",
+      "after": "For the remaining positive sectors, the construction has endpoints",
+      "reason": "Move process history to the supplement; retain mathematics and current scope.",
+      "source_line": 884
+    },
+    {
+      "number": 22,
+      "before": "This route has separately derived face tables and repeat formulas;\nit does not independently certify every coordinate convention of our\nAppendices B and C. Both arguments use developed strips, belts and\ntransverse width, so mathematical nonequivalence is not asserted.\nThe fixed coordinator reviews describe symbolic checks and finite\nspot checks, with some containment and cap checks relying on the\nprose argument and sampled instances. They also retain the external\nnonfacial-three-cycle prerequisite. Editing this summary did not rerun\nthose checks or add another independent reviewer. The reviews are\n\\record{R004-coordinator-review-a3-necessity-2026-10-19.md} and\n\\record{R004-coordinator-review-a3-positive-2026-10-19.md}.\n\n",
+      "after": "The face tables and repeat formulas give the second geometric route;\nboth routes use developed strips, belts and transverse width.\n\n",
+      "reason": "Move process history to the supplement; retain mathematics and current scope.",
+      "source_line": 897
+    },
+    {
+      "number": 23,
+      "before": "The \\record{review-A3} package was fixed before execution at\n\\record{cb01852c}. Claude ran Codex's checks on its independent graphs.\nT0789 verified 24 gluing records (10 outer, 10 positive-side, four\nnegative-side), 82 edge moves, 48 terminal triangles, and 144 vertex\nimages. T0795--T0864 checked 560 known positive paths on 417 distinct\ngraphs, including 584,420 vertices and 583,300 unit triangles.\nT0865--T0884 checked 159 known outer-negative graphs, 318 starts,\nincluding repeats, prior-cone exclusion, regions, cuts, and edge gluings.\nThe five probes T0790--T0794 overlap these samples. T0789--T0884\ncontains \\emph{96}, not 95, successes: one atlas, five probes, and\n90 batches. This corrected addition is recorded in\n\\record{A3-v2-validation.json}. Total time was 234.914 seconds (231.601\nfor the batches), maximum 7.034 seconds per trial and 103.8 MB, no\ncharge. T0788 was a pre-execution argument-expansion failure. None of\nthese known examples is counted again as an unseen test.\n\n",
+      "after": "An additional finite audit verifies 24 gluing records (ten outer,\nten positive-side and four negative-side), 82 edge moves, 48 terminal\ntriangles and 144 vertex images. It checks 560 known positive paths\non 417 distinct graphs, comprising 584,420 vertices and 583,300 unit\ntriangles, and 159 known outer-negative graphs with 318 starts.\nThe latter checks include repeats, prior-cone exclusion, regions,\ncuts and edge gluings. Probes overlap these samples.\n\nThe pairs $(23,15)$ and $(27,10)$ have",
+      "reason": "Move process history to the supplement; retain mathematics and current scope.",
+      "source_line": 910
+    },
+    {
+      "number": 24,
+      "before": "both have $T=1099$",
+      "after": "$T=1099$",
+      "reason": "Move process history to the supplement; retain mathematics and current scope.",
+      "source_line": 926
+    },
+    {
+      "number": 25,
+      "before": "haveR005 compared $(23,15)$ and $(27,10)$:",
+      "after": "have",
+      "reason": "Move process history to the supplement; retain mathematics and current scope.",
+      "source_line": null
+    },
+    {
+      "number": 26,
+      "before": "This comparison initially used arithmetic, not graph\ndecisions. Claude subsequently constructed both $C_{21980}$ graphs\n(10,992 dual vertices, IPR) independently, finding a 290-vertex path\nin the first and no path in the second. It did not recalculate the\nzigzag invariants; this rewrite did not rerun the graph tests.\nThe pair was selected during literature comparison, not preregistered\nas an unseen sample.",
+      "after": "Explicit constructions of both $C_{21980}$ graphs (10,992 dual\nvertices, IPR) give a 290-vertex path in the first and no path in the\nsecond. The pair is a known comparison example.",
+      "reason": "Move process history to the supplement; retain mathematics and current scope.",
+      "source_line": 929
+    },
+    {
+      "number": 27,
+      "before": "R005's later fixed report\nalso finds that",
+      "after": "The comparison finds that",
+      "reason": "Move process history to the supplement; retain mathematics and current scope.",
+      "source_line": 937
+    },
+    {
+      "number": 28,
+      "before": "intersection theory. This revision receives that finite check without\nrerunning it.",
+      "after": "intersection theory.",
+      "reason": "Move process history to the supplement; retain mathematics and current scope.",
+      "source_line": 941
+    },
+    {
+      "number": 29,
+      "before": "\\section{Review obligations and related work}\\label{sec:review}\n\\subsection{Current status of the claims}\nThe definition, two start orbits, and candidate endpoints have been\nchecked against the source and in AI prose review, but lack a complete\nformal surface connection at that historical checkpoint. The main AR positive argument was reviewed;\nits finite belt and cap tables were checked later. Through the fixed\nreview \\record{9fedf3fc}, the coordinator checked congruence exclusion,\nendpoint ordering, the positive-side A calculations, outer A coordinates,\nnegative-side A regions, the collision identities, and their period\ndifferences. Ownership of all outer A pieces and some negative-side A\nlower bounds retained abbreviated steps. The periodic transfer of the\nfinite tables was rederived. Signs, small widths, simplicity, and degrees\nwere checked, while some full cap-piece arguments remained partial.\nAppendices B and C explicitly supply B's three regions and the terminal\ncaps. A later fixed review, \\record{49430e1c} (03:46 JST, 19 October\n2026), records the coordinator's recalculation of all formulas in the\nJapanese v4 Appendices B and C, with no missing steps found. This review\nwas omitted from English v6's status metadata. English v6.2 corrects the\nomission; it transcribes the Japanese proof, with the coordinator's\nseparate machine checks of selected English formulas recorded in P006.\nThe later addendum \\record{c1b27f1d}, headed 15:10 JST, completes\nthe general AI prose review of A-sheet items 2 and 3: Appendix C\nsupplies the terminal containment, and the diagonal-A initial cap\nwas rederived in that addendum. P006-11 records this update.\nThe English-v5 review addendum \\record{f88d1b6a} identifies its one\nfailed check as the R004 nonprimitive domain count corrected in\nP006-09; the other 76 checks passed. The typesetting issue was\noutside those 77 checks. Neither addendum supplies human peer\nreview, full formalization, or an independent necessity proof; the later\nR004 receipt below supplies the last of these separately.\n\nP006-13 records two independently derived general prose proofs of\nthe entire classification: the research team's proof and R004's\nalternative. R004 knew the claim but did not read the main proof,\nconstruction or code. One AI coordinator reviewed both directions;\nthis is not human peer review. P006-14 adds the full Lean theorem\nand the primitive minimum, and records the full-theorem Comparator\nacceptance. Thus \\record{thm:classification} and \\record{cor:minimum}\nare \\texttt{lean-proved} for the exact independent graph statements,\nwhile novelty and human proof review remain separate obligations.\nP006-15 records the owner's statement-meaning confirmation without\npromoting the proof to human-reviewed. Ray\nperiodicity has a formal existence theorem; effective threshold and\nperiod computation remains uncertified. Density retains its general\ncounting review obligations. These updates do not extend the separate\ndated census receipt boundary in Section 10.3.\n\n",
+      "after": "\\section{Related work and open comparison}\\label{sec:review}\n",
+      "reason": "Move process history to the supplement; retain mathematics and current scope.",
+      "source_line": 944
+    },
+    {
+      "number": 30,
+      "before": "simple open gSW path. In R005's comparison of 489 already\nknown primitive pairs,",
+      "after": "simple open gSW path. In a comparison of 489 already\nknown primitive pairs,",
+      "reason": "Move process history to the supplement; retain mathematics and current scope.",
+      "source_line": 1007
+    },
+    {
+      "number": 31,
+      "before": "However, R005's later\ncheck found",
+      "after": "However, the check found",
+      "reason": "Move process history to the supplement; retain mathematics and current scope.",
+      "source_line": 1012
+    },
+    {
+      "number": 32,
+      "before": "intersection order. P006-16 and the supplied fixed report\n\\record{R005-novelty-A3-deep-2026-10-19.md.original.log} record the\ncorrection. Its two tracing implementations agreed on five known\nexamples, sharing the GC constructor; that finite check is not an\nindependent construction or a general classification proof.\nThe 489 labels were obtained from the AU formula, not a new census of\ngraphs. The report is \\record{R005/report-2026-10-19-position-mapping.md}.\n\n",
+      "after": "intersection order. Two tracing implementations agree on five known\nexamples using a shared graph constructor. The 489 labels come from\nthe classification formula rather than a new graph census.\n\n",
+      "reason": "Move process history to the supplement; retain mathematics and current scope.",
+      "source_line": 1016
+    },
+    {
+      "number": 33,
+      "before": "The stored literature review has now examined the full twelve-page\nbody of Deza--Dutour--Fowler (2004), \\emph{Zigzags, Railroads, and\nKnots in Fullerenes} \\cite{Knots}, pp.~1282--1293. In the text examined,\nit did not locate this same two-stage literal-gSW classification.\nIts GC/gcd, zigzag and tightness results do not by themselves supply\nthe endpoint-before-revisit comparison used here; a short derivation\nfrom the full intersection theory has not been excluded. Sections\n2.5--2.6 and 7.1--7.6 of \\emph{Geometric Structure of Chemistry-Relevant\nGraphs} (2015) remain unread; contents and chapter abstracts are not\nfull-text review. Novelty is not established.\n\n",
+      "after": "The comparison with Deza--Dutour--Fowler's zigzag and railroad\ntheory \\cite{Knots} leaves open whether the criterion is a short\nconsequence of the full intersection theory. The candidate contribution is",
+      "reason": "Move process history to the supplement; retain mathematics and current scope.",
+      "source_line": 1043
+    },
+    {
+      "number": 34,
+      "before": "The candidate contribution isThe candidate contribution is",
+      "after": "The candidate contribution is",
+      "reason": "Move process history to the supplement; retain mathematics and current scope.",
+      "source_line": null
+    },
+    {
+      "number": 35,
+      "before": "nor finite decidability is proposed as a new principle. The search\nthrough 19 October 2026 did not locate the same criterion within the\nmaterial actually examined. Whether it is a\nshort consequence of the full position-mapping and intersection theory\nremains open; no priority or worldwide novelty guarantee is made.\n",
+      "after": "nor finite decidability is proposed as a new principle. Priority and a\npossible short derivation from full position-mapping theory remain open.\n",
+      "reason": "Move process history to the supplement; retain mathematics and current scope.",
+      "source_line": 1066
+    },
+    {
+      "number": 36,
+      "before": "The saved cumulative record P contains 120,622,224",
+      "after": "The cumulative record contains 120,622,224",
+      "reason": "Move process history to the supplement; retain mathematics and current scope.",
+      "source_line": 1081
+    },
+    {
+      "number": 37,
+      "before": "The main team did \\emph{not} compare full canonical-code sets\nof all positive graphs.",
+      "after": "Full canonical-code sets of all positive graphs are compared\nonly on the separate range through $C_{186}$.",
+      "reason": "Move process history to the supplement; retain mathematics and current scope.",
+      "source_line": 1085
+    },
+    {
+      "number": 38,
+      "before": "The original\naudits compared the full codes, not just their hashes. The v3 metadata\nextraction verified saved hashes and counts without rerunning search,\ncanonicalization, or certificate logic.\n\nThe entire census was not one preregistered experiment: it includes\ndiscovery and later confirmation. Predictions of the full negative\nsets for $C_{186}$--$C_{200}$ were fixed at \\record{3ac5c0b} and matched\nunchanged. Failures, interruptions, and selections are preserved in\nreport P and its trials.\n\n",
+      "after": "The original\naudits compare the full codes, with metadata extraction checking\nsaved hashes and counts. The census includes discovery and later\nconfirmation; fixed predictions cover the negative sets for\n$C_{186}$--$C_{200}$ and match the observed sets.\n\n",
+      "reason": "Move process history to the supplement; retain mathematics and current scope.",
+      "source_line": 1106
+    },
+    {
+      "number": 39,
+      "before": "The following table transcribes the frozen \\record{A3-v3-data/counts.csv}.",
+      "after": "The following table gives the saved counts from \\record{data/counts.csv}.",
+      "reason": "Move process history to the supplement; retain mathematics and current scope.",
+      "source_line": 1118
+    },
+    {
+      "number": 40,
+      "before": "Section 10.3 fixes the independent receipt boundary at $C_{186}$:\n64 even sizes, 43,636,843 outputs per generator and 346 negatives,\nwith the coordinator's size-by-size count comparison received.\nThe range $C_{188}$--$C_{200}$ is a main-team-only result. The published-data plan adopted for local preparation\ncontains an English README and schema, a 71-row CSV, an 816-row JSONL\nindex, 816 certificate JSON files, audit summaries, decision and\nchecking code with dependency hashes, and generator metadata.\nThe certificate files total 60,758,514 uncompressed bytes. Generator\nsource and binaries, raw output streams, and all positive graphs are\nexcluded. Package-relative references retain both original and derived\nhashes. Local archive hashes and the exact validation scope are recorded\nseparately; no archive is uploaded by this preparation. Authorship and licenses are\nset below. Third-party terms are retained; journal and arXiv submission\nare separate later decisions.\n\n",
+      "after": "The separate full-code comparison covers $C_{60}$--$C_{186}$:\n64 even sizes, 43,636,843 outputs per generator and 346 negatives.\nThe $C_{188}$--$C_{200}$ results use the primary census pipeline.\nThe data package contains an English README and schema, a 71-row CSV,\nan 816-row JSONL index, 816 certificate JSON files, audit summaries,\ndecision and checking code with dependency hashes, and generator\nmetadata. The certificates total 60,758,514 uncompressed bytes.\nGenerator source and binaries, raw output streams and all positive\ngraphs are excluded. Package-relative references retain original and\nderived hashes. Third-party terms are retained.\n\n",
+      "reason": "Move process history to the supplement; retain mathematics and current scope.",
+      "source_line": 1227
+    },
+    {
+      "number": 41,
+      "before": "candidate congruences. It does not by itself complete review of the\nclassification. The Japanese v4 B and C prose received the coordinator's\nAI review in \\record{49430e1c}; this English transcription and the\nselected-formula machine checks do not constitute human peer review,\na second independent general proof, or full formalization by itself. The separate\nR004 proof is received in Section 10, rather than established by this\ntranscription.\n\n",
+      "after": "candidate congruences.\n\n",
+      "reason": "Move process history to the supplement; retain mathematics and current scope.",
+      "source_line": 1473
+    },
+    {
+      "number": 42,
+      "before": "\\section*{Main formal declarations}\nThe current entry points are\n\\begin{itemize}\n\\item \\record{ClaudeMain.main_full}: the full classification,\nclaim \\record{thm:classification};\n\\item \\record{ClaudeCor.minimum_at}: the primitive minimum,\nclaim \\record{cor:minimum};\n\\item \\record{ClaudeCor.criterion_ray}: arithmetic eventual periodicity\nof the criterion on affine rays;\n\\item \\record{R002.A3Release.path_ray}: its transfer to graph path\nexistence, including nonprimitive parameters.\n\\end{itemize}\nThe last two declarations supply the existence clause of\n\\record{cor:rays}; its certified effective threshold/period algorithm\nremains outside that formal result. They are not proofs of the density\nclaim \\record{cor:density}.\n\\section*{Historical formal lemma identifiers}\nThese identifiers refer to the exact types and evidence in \\record{A3-v7.3-machine/claims.json}.\nThe following historical list contains the 41 A3 arithmetic declarations, the conditional finite-path theorem,\nand three selected prototype declarations have distinct entries.\n",
+      "after": "\\section*{Auxiliary formal claim identifiers}\nThe following identifiers point to exact typed statements in the claim\nledger: 41 arithmetic propositions, a conditional finite-path theorem\nand three selected prototype propositions.\n",
+      "reason": "Move process history to the supplement; retain mathematics and current scope.",
+      "source_line": 1481
+    },
+    {
+      "number": 43,
+      "before": "The author used Codex and Claude Code\nto assist with literature organization, mathematical exploration,\nproof drafting, implementation, finite verification, formalization of\nthe graph classification and specified corollary statements, and English exposition. The author is responsible\nfor the published account, its provenance, and the stated limits of\nverification. AI systems are not listed as authors. AI prose reviews\nare identified separately from human review. Only the explicitly\nlisted Lean propositions are described as formally proved; finite\nchecks and independently constructed tests have their stated domains.\nNo claim of complete human checking of every argument is made.\n\n",
+      "after": "The author used Codex and Claude Code to assist with literature\norganization, mathematical exploration, proof drafting, implementation,\nfinite verification, formalization and English exposition. The author\nis responsible for the published account, its provenance and stated\nverification scope. AI systems are not listed as authors.\n\n",
+      "reason": "Move process history to the supplement; retain mathematics and current scope.",
+      "source_line": 1594
+    },
+    {
+      "number": 44,
+      "before": "\\section*{Reproducibility records}\nRelative repository paths are archival identifiers, not claims of\npublic availability. The earlier proof drafts are\n\\record{A3-unit-residue-proof-AR.md}, \\record{A3-qge3-proof-AT.md},\n\\record{A3-q2-positive-proof-AT.md}, \\record{A3-complete-proof-AU.md},\nand \\record{A3-endpoint-order-AU.md}. Finite geometry is preserved in\n\\record{review-AW/manifest.json}, its cap table, and the three atlases\nnamed in Section 6. Review execution hashes are in\n\\record{AX-validation.json}, \\record{A3-v2-validation.json},\n\\record{A3-v3-validation.json}, and \\record{A3-v4-validation.json}.\nThe English correspondence and validation record accompany this source.\nThe machine-readable claim layer distinguishes dependencies and\nevidence statuses; its identifiers match the labels above. Hashes\nestablish file identity, not the truth of mathematical contents.\n\n",
+      "after": "",
+      "reason": "Move process history to the supplement; retain mathematics and current scope.",
+      "source_line": 1613
+    },
+    {
+      "number": 45,
+      "before": "\\record{review-AW/cap-separation.md}",
+      "after": "the cap-separation table",
+      "reason": "Move process history to the supplement; retain mathematics and current scope.",
+      "source_line": 282
+    },
+    {
+      "number": 46,
+      "before": "\\record{AT-A3-collision-atlas.json}",
+      "after": "the outer collision atlas",
+      "reason": "Move process history to the supplement; retain mathematics and current scope.",
+      "source_line": 393
+    },
+    {
+      "number": 47,
+      "before": "\\record{AU-A3-fan-atlas.json}",
+      "after": "the positive-fan atlas",
+      "reason": "Move process history to the supplement; retain mathematics and current scope.",
+      "source_line": 445
+    },
+    {
+      "number": 48,
+      "before": "\\record{AU-A3-negative-fan-atlas.json}",
+      "after": "the negative-fan atlas",
+      "reason": "Move process history to the supplement; retain mathematics and current scope.",
+      "source_line": 502
+    },
+    {
+      "number": 49,
+      "before": "The AQ two-orbit argument was reviewed in prose. A negative proof must",
+      "after": "A negative proof must",
+      "reason": "Move process history to the supplement; retain mathematics and current scope.",
+      "source_line": 219
+    },
+    {
+      "number": 50,
+      "before": "Section 5.5",
+      "after": "Section~\\ref{sec:positive}",
+      "reason": "Update a section reference after adding the introduction and guarantee section.",
+      "source_line": 1472
+    },
+    {
+      "number": 51,
+      "before": "Section 5.4",
+      "after": "Section~\\ref{sec:positive}",
+      "reason": "Update a section reference after adding the introduction and guarantee section.",
+      "source_line": 520
+    },
+    {
+      "number": 52,
+      "before": "Section 6.1",
+      "after": "Section~\\ref{sec:negative}",
+      "reason": "Update a section reference after adding the introduction and guarantee section.",
+      "source_line": 1277
+    },
+    {
+      "number": 53,
+      "before": "Section 9",
+      "after": "Section~\\ref{sec:lean}",
+      "reason": "Update a section reference after adding the introduction and guarantee section.",
+      "source_line": 58
+    },
+    {
+      "number": 54,
+      "before": "Section 6",
+      "after": "Section~\\ref{sec:negative}",
+      "reason": "Update a section reference after adding the introduction and guarantee section.",
+      "source_line": 1034
+    },
+    {
+      "number": 55,
+      "before": "Section 6",
+      "after": "Section~\\ref{sec:negative}",
+      "reason": "Update a section reference after adding the introduction and guarantee section.",
+      "source_line": 1034
+    },
+    {
+      "number": 56,
+      "before": "Section 7",
+      "after": "Section~\\ref{sec:ordering}",
+      "reason": "Update a section reference after adding the introduction and guarantee section.",
+      "source_line": 160
+    },
+    {
+      "number": 57,
+      "before": "Section 7",
+      "after": "Section~\\ref{sec:ordering}",
+      "reason": "Update a section reference after adding the introduction and guarantee section.",
+      "source_line": 160
+    },
+    {
+      "number": 58,
+      "before": "Section 7",
+      "after": "Section~\\ref{sec:ordering}",
+      "reason": "Update a section reference after adding the introduction and guarantee section.",
+      "source_line": 160
+    },
+    {
+      "number": 59,
+      "before": "proves the stated classification, subject to the review status in\nSection 11.",
+      "after": "proves the stated classification with the proof basis summarized\nin the guarantee table.",
+      "reason": "Move process history to the supplement; retain mathematics and current scope.",
+      "source_line": 553
+    },
+    {
+      "number": 60,
+      "before": "criterion. Reading of \\cite{Patches} was limited to its abstract;\n\\cite{Pentagonal} was read mainly in its abstract and Section 2.",
+      "after": "criterion in the portions compared. The exact reading scope is\nrecorded in the supplement.",
+      "reason": "Move process history to the supplement; retain mathematics and current scope.",
+      "source_line": 1041
+    },
+    {
+      "number": 61,
+      "before": "the outer collision atlas",
+      "after": "in the outer collision atlas",
+      "reason": "Move process history to the supplement; retain mathematics and current scope.",
+      "source_line": null
+    },
+    {
+      "number": 62,
+      "before": "The table the positive-fan atlas",
+      "after": "The table in the positive-fan atlas",
+      "reason": "Move process history to the supplement; retain mathematics and current scope.",
+      "source_line": null
+    },
+    {
+      "number": 63,
+      "before": "the negative-fan atlas",
+      "after": "The negative-fan atlas",
+      "reason": "Move process history to the supplement; retain mathematics and current scope.",
+      "source_line": null
+    },
+    {
+      "number": 64,
+      "before": "The saved taxonomy U assigns disjoint explanations:",
+      "after": "The finite taxonomy assigns disjoint explanations:",
+      "reason": "Move process history to the supplement; retain mathematics and current scope.",
+      "source_line": 1199
+    },
+    {
+      "number": 65,
+      "before": "\\cite[Section~\\ref{sec:negative}, Fig.~5]{Growing}",
+      "after": "\\cite[Section 6, Fig.~5]{Growing}",
+      "reason": "Restore the external source locator; inserted paper sections do not renumber a cited source.",
+      "source_line": null
+    }
+  ]
+}

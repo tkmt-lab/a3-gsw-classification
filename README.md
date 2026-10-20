@@ -12,10 +12,11 @@ This repository contains a paper, a Lean 4 formalization, and the verification d
 
 Consequences: the smallest primitive negative example is $\mathrm{GC}(17,5)[C_{20}]=C_{7980}$, and path existence is eventually periodic along every integer affine ray in $(k,l)$ that eventually stays in the domain $0<l<k$.
 
-- Archived on Zenodo: [doi:10.5281/zenodo.23491202](https://doi.org/10.5281/zenodo.23491202) (all versions; this release v1.0.5 is [doi:10.5281/zenodo.23491203](https://doi.org/10.5281/zenodo.23491203)).
+- Archived on Zenodo: [doi:10.5281/zenodo.23491202](https://doi.org/10.5281/zenodo.23491202) (all versions; releases are listed there).
 - Paper: [`paper/paper-A3-en.pdf`](paper/paper-A3-en.pdf) (LaTeX source alongside).
 - Second paper (affine families of fullerenes): [tkmt-lab/gsw-ray-periodicity](https://github.com/tkmt-lab/gsw-ray-periodicity).
 - Everything else (Lean sources, certificates, claim records, review records): [`packet/`](packet/). Start with [`packet/AGENTS.md`](packet/AGENTS.md).
+- Verification record (who checked what, Comparator scope, review and correction history): [`packet/VERIFICATION-RECORD.md`](packet/VERIFICATION-RECORD.md). The paper itself states the mathematics and the current proof scope.
 
 ## What has been checked, and how
 

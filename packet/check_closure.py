@@ -84,7 +84,7 @@ def main():
             assert not re.search(r'/(?:Users|Volumes)/',s),('machine path',p.name)
     # Explicit regressions for the four second-reader packaging findings.
     repairs=json.loads((ROOT/'packet-repairs.json').read_text())
-    assert repairs['packet_version']=='1.0.5'
+    assert repairs['packet_version']=='1.1.0'
     def fingerprint(r):
         b=local(r['path']).read_bytes()
         assert len(b)==r['bytes'] and hashlib.sha256(b).hexdigest()==r['sha256'],('repair fingerprint',r['path'])
@@ -94,7 +94,7 @@ def main():
     assert not any(isinstance(n,ast.If) and '__name__' in ast.unparse(n.test) for n in cert.body), 'unused certificate CLI'
     citing=(ROOT/'CITING.md').read_text()
     targets=re.findall(r'\]\(([^)]+)\)',citing)
-    assert 'paper-A3-v8.1-en.pdf' in targets and 'CITATION.cff' in targets, 'direct citation links'
+    assert 'paper-A3-v9.0-en.pdf' in targets and 'CITATION.cff' in targets, 'direct citation links'
     assert all('ARCHIVAL' not in t for t in targets), 'archived citation target'
     p006=(ROOT/'P006-corrections.md').read_text()
     row=next(s for s in p006.splitlines() if s.startswith('| P006-09 '))

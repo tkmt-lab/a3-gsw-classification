@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "paper": "paper-A3-v9.0-en.tex",
+  "protected_blocks": {
+    "definition": 0,
+    "theorem": 1,
+    "lemma": 0,
+    "proposition": 0,
+    "corollary": 3,
+    "equation": 15,
+    "proof": 0,
+    "display_math": 30,
+    "prose_definition_sections": 1,
+    "external_source_locators_unchanged": true,
+    "claim_ids": 57,
+    "byte_identical": true
+  },
+  "lexical": {
+    "counts": {
+      "internal_names": 0,
+      "trial_ids": 0,
+      "commit_ids": 0,
+      "owner_history": 0,
+      "delivery_terms": 0
+    },
+    "AI_tool_exceptions": [
+      "Codex",
+      "Claude Code"
+    ],
+    "protected_theorem_word_exception": [],
+    "identifier_notes": "Claim IDs/labels preserved. A3 AR/AT denote named belt constructions; the au_* arithmetic identifiers are fixed claim references, not workflow history."
+  },
+  "word_count_method": "English alphabetic tokens with internal hyphens/apostrophes; same TeX prose estimate as lines6.0. Comments/math/labels/citations/record identifiers removed; bibliography included.",
+  "tex_prose_words": {
+    "old": 8760,
+    "new": 6556
+  },
+  "edit_count": 65,
+  "source_sha256": "1f969416e3ecbf874ee381ff897dd2cea7ea153df96edec066b7cb8f2a62afcd",
+  "predecessor_sha256": "bd802e28c658ffea9e8500b60d2fef7a91f3004b312acc3c050a4f61ff63a50b",
+  "new_lean_runs": 0,
+  "scientific_runs": 0,
+  "publication_operations": 0,
+  "pdf_words": {
+    "old": 11502,
+    "new": 9002
+  },
+  "old_pages": 25,
+  "pages": 22,
+  "pdf_token_method": "pdftotext then the same English alphabetic-token regex, including math letters, bibliography and running headers."
+}

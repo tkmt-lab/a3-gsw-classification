@@ -1,10 +1,10 @@
 {
   "schema_version": 3,
-  "version": "1.0.5",
+  "version": "1.1.0",
   "paper": {
-    "path": "paper-A3-v8.1-en.tex",
-    "sha256": "bd802e28c658ffea9e8500b60d2fef7a91f3004b312acc3c050a4f61ff63a50b",
-    "bytes": 82881
+    "path": "paper-A3-v9.0-en.tex",
+    "sha256": "1f969416e3ecbf874ee381ff897dd2cea7ea153df96edec066b7cb8f2a62afcd",
+    "bytes": 65389
   },
   "source_commit": "256a1405a0086114f5c467ac2f1d8ff9cbd3591b",
   "status_semantics": "lean-proved records the exact stated formal graph theorem, not human semantic review, peer review or novelty. Complete classification and primitive minimum are proved. Ray existence only is proved; effective threshold/period computation is not certified. Two independent prose derivations are received, not blind; one AI coordinator review is not human review. P006-15 separately records the owner-reported meaning check of the classification challenge statement; human_review continues to mean human proof review and remains false. The claims depends_on relation is the manuscript's expository/prose dependency graph, not Lean's checked import or proof-term dependency graph. The theorem is Lean-proved by a separate route: sufficiency uses ClaudePos.criterion_sufficient (Claude's Lean following R004's construction); necessity uses R002.GCClosed.criterion_necessary (the research team's Lean). Open sec:positive/sec:negative entries concern their particular prose coordinate bridges, whose human semantic and proof review remains outstanding; they are not admitted hypotheses or unchecked proof terms of ClaudeMain.main_full.",
@@ -19,7 +19,7 @@
       "paper_label": "lean:unit_endpoint",
       "kind": "formal-lemma",
       "statement_latex": "q,l,\\varepsilon\\in\\mathbb Z;\\ k=ql+\\varepsilon,\\ Q=q(k+l)+l\\ \\Longrightarrow\\ kQ=qT+\\varepsilon l\\ \\land\\ lQ=T-\\varepsilon(k+l)",
-      "statement_plain": "For every input satisfying the binders below, the exact Lean declaration states: theorem unit_endpoint (q l eps : ℤ) :\n    let k := q*l+eps\n    let Q := q*(k+l)+l\n    k*Q = q*norm k l+eps*l ∧ l*Q = norm k l-eps*(k+l). The surface interpretation is not part of this arithmetic/conditional theorem.",
+      "statement_plain": "For every input satisfying the binders below, the exact Lean declaration states: theorem unit_endpoint (q l eps : \u2124) :\n    let k := q*l+eps\n    let Q := q*(k+l)+l\n    k*Q = q*norm k l+eps*l \u2227 l*Q = norm k l-eps*(k+l). The surface interpretation is not part of this arithmetic/conditional theorem.",
       "hypotheses": [
         "All binders and local definitions in lean.type_signature are authoritative.",
         "For A3 arithmetic, T=norm(k,l)=k^2+kl+l^2 and G(u,v)=(ku-lv,lu+(k+l)v)."
@@ -34,7 +34,7 @@
         "declaration": "R002.A3.unit_endpoint",
         "file": "formal/Formal/A3Arithmetic.lean",
         "commit": "3f6e1e17fb381d959c4fb46a10d10df684c96861",
-        "type_signature": "theorem unit_endpoint (q l eps : ℤ) :\n    let k := q*l+eps\n    let Q := q*(k+l)+l\n    k*Q = q*norm k l+eps*l ∧ l*Q = norm k l-eps*(k+l)",
+        "type_signature": "theorem unit_endpoint (q l eps : \u2124) :\n    let k := q*l+eps\n    let Q := q*(k+l)+l\n    k*Q = q*norm k l+eps*l \u2227 l*Q = norm k l-eps*(k+l)",
         "axioms": [
           "propext"
         ],
@@ -75,7 +75,7 @@
       "paper_label": "lean:second_plus",
       "kind": "formal-lemma",
       "statement_latex": "s,r\\in\\mathbb Z;\\ l=sr+1,\\ k=2l+r,\\ Q=s(3k+l)+k\\ \\Longrightarrow\\ rQ+3k+l=T\\ \\land\\ G(3s+1,-s)=(Q,1)",
-      "statement_plain": "For every input satisfying the binders below, the exact Lean declaration states: theorem second_plus (s r : ℤ) :\n    let l := s*r+1; let k := 2*l+r; let Q := s*(3*k+l)+k\n    r*Q+(3*k+l) = norm k l ∧ gc k l (3*s+1) (-s) = (Q,1). The surface interpretation is not part of this arithmetic/conditional theorem.",
+      "statement_plain": "For every input satisfying the binders below, the exact Lean declaration states: theorem second_plus (s r : \u2124) :\n    let l := s*r+1; let k := 2*l+r; let Q := s*(3*k+l)+k\n    r*Q+(3*k+l) = norm k l \u2227 gc k l (3*s+1) (-s) = (Q,1). The surface interpretation is not part of this arithmetic/conditional theorem.",
       "hypotheses": [
         "All binders and local definitions in lean.type_signature are authoritative.",
         "For A3 arithmetic, T=norm(k,l)=k^2+kl+l^2 and G(u,v)=(ku-lv,lu+(k+l)v)."
@@ -90,7 +90,7 @@
         "declaration": "R002.A3.second_plus",
         "file": "formal/Formal/A3Arithmetic.lean",
         "commit": "3f6e1e17fb381d959c4fb46a10d10df684c96861",
-        "type_signature": "theorem second_plus (s r : ℤ) :\n    let l := s*r+1; let k := 2*l+r; let Q := s*(3*k+l)+k\n    r*Q+(3*k+l) = norm k l ∧ gc k l (3*s+1) (-s) = (Q,1)",
+        "type_signature": "theorem second_plus (s r : \u2124) :\n    let l := s*r+1; let k := 2*l+r; let Q := s*(3*k+l)+k\n    r*Q+(3*k+l) = norm k l \u2227 gc k l (3*s+1) (-s) = (Q,1)",
         "axioms": [
           "propext",
           "Quot.sound"
@@ -132,7 +132,7 @@
       "paper_label": "lean:second_minus",
       "kind": "formal-lemma",
       "statement_latex": "s,r\\in\\mathbb Z;\\ l=sr-1,\\ k=2l+r,\\ Q=s(2k+3l)+k+l\\ \\Longrightarrow\\ rQ-2k-3l=T\\ \\land\\ G(s,2s+1)=(1,Q)",
-      "statement_plain": "For every input satisfying the binders below, the exact Lean declaration states: theorem second_minus (s r : ℤ) :\n    let l := s*r-1; let k := 2*l+r; let Q := s*(2*k+3*l)+(k+l)\n    r*Q-(2*k+3*l) = norm k l ∧ gc k l s (2*s+1) = (1,Q). The surface interpretation is not part of this arithmetic/conditional theorem.",
+      "statement_plain": "For every input satisfying the binders below, the exact Lean declaration states: theorem second_minus (s r : \u2124) :\n    let l := s*r-1; let k := 2*l+r; let Q := s*(2*k+3*l)+(k+l)\n    r*Q-(2*k+3*l) = norm k l \u2227 gc k l s (2*s+1) = (1,Q). The surface interpretation is not part of this arithmetic/conditional theorem.",
       "hypotheses": [
         "All binders and local definitions in lean.type_signature are authoritative.",
         "For A3 arithmetic, T=norm(k,l)=k^2+kl+l^2 and G(u,v)=(ku-lv,lu+(k+l)v)."
@@ -147,7 +147,7 @@
         "declaration": "R002.A3.second_minus",
         "file": "formal/Formal/A3Arithmetic.lean",
         "commit": "3f6e1e17fb381d959c4fb46a10d10df684c96861",
-        "type_signature": "theorem second_minus (s r : ℤ) :\n    let l := s*r-1; let k := 2*l+r; let Q := s*(2*k+3*l)+(k+l)\n    r*Q-(2*k+3*l) = norm k l ∧ gc k l s (2*s+1) = (1,Q)",
+        "type_signature": "theorem second_minus (s r : \u2124) :\n    let l := s*r-1; let k := 2*l+r; let Q := s*(2*k+3*l)+(k+l)\n    r*Q-(2*k+3*l) = norm k l \u2227 gc k l s (2*s+1) = (1,Q)",
         "axioms": [
           "propext",
           "Quot.sound"
@@ -189,7 +189,7 @@
       "paper_label": "lean:diagonal_plus",
       "kind": "formal-lemma",
       "statement_latex": "s,w\\in\\mathbb Z;\\ l=sw+1,\\ k=l+w,\\ Q=s(2k+l)+k\\ \\Longrightarrow\\ wQ+2k+l=T\\ \\land\\ G(2s+1,-s)=(Q,1)",
-      "statement_plain": "For every input satisfying the binders below, the exact Lean declaration states: theorem diagonal_plus (s w : ℤ) :\n    let l := s*w+1; let k := l+w; let Q := s*(2*k+l)+k\n    w*Q+(2*k+l) = norm k l ∧ gc k l (2*s+1) (-s) = (Q,1). The surface interpretation is not part of this arithmetic/conditional theorem.",
+      "statement_plain": "For every input satisfying the binders below, the exact Lean declaration states: theorem diagonal_plus (s w : \u2124) :\n    let l := s*w+1; let k := l+w; let Q := s*(2*k+l)+k\n    w*Q+(2*k+l) = norm k l \u2227 gc k l (2*s+1) (-s) = (Q,1). The surface interpretation is not part of this arithmetic/conditional theorem.",
       "hypotheses": [
         "All binders and local definitions in lean.type_signature are authoritative.",
         "For A3 arithmetic, T=norm(k,l)=k^2+kl+l^2 and G(u,v)=(ku-lv,lu+(k+l)v)."
@@ -204,7 +204,7 @@
         "declaration": "R002.A3.diagonal_plus",
         "file": "formal/Formal/A3Arithmetic.lean",
         "commit": "3f6e1e17fb381d959c4fb46a10d10df684c96861",
-        "type_signature": "theorem diagonal_plus (s w : ℤ) :\n    let l := s*w+1; let k := l+w; let Q := s*(2*k+l)+k\n    w*Q+(2*k+l) = norm k l ∧ gc k l (2*s+1) (-s) = (Q,1)",
+        "type_signature": "theorem diagonal_plus (s w : \u2124) :\n    let l := s*w+1; let k := l+w; let Q := s*(2*k+l)+k\n    w*Q+(2*k+l) = norm k l \u2227 gc k l (2*s+1) (-s) = (Q,1)",
         "axioms": [
           "propext",
           "Quot.sound"
@@ -246,7 +246,7 @@
       "paper_label": "lean:diagonal_minus",
       "kind": "formal-lemma",
       "statement_latex": "s,w\\in\\mathbb Z;\\ l=sw-1,\\ k=l+w,\\ Q=s(k+2l)+k+l\\ \\Longrightarrow\\ wQ-k-2l=T\\ \\land\\ G(s,s+1)=(1,Q)",
-      "statement_plain": "For every input satisfying the binders below, the exact Lean declaration states: theorem diagonal_minus (s w : ℤ) :\n    let l := s*w-1; let k := l+w; let Q := s*(k+2*l)+(k+l)\n    w*Q-(k+2*l) = norm k l ∧ gc k l s (s+1) = (1,Q). The surface interpretation is not part of this arithmetic/conditional theorem.",
+      "statement_plain": "For every input satisfying the binders below, the exact Lean declaration states: theorem diagonal_minus (s w : \u2124) :\n    let l := s*w-1; let k := l+w; let Q := s*(k+2*l)+(k+l)\n    w*Q-(k+2*l) = norm k l \u2227 gc k l s (s+1) = (1,Q). The surface interpretation is not part of this arithmetic/conditional theorem.",
       "hypotheses": [
         "All binders and local definitions in lean.type_signature are authoritative.",
         "For A3 arithmetic, T=norm(k,l)=k^2+kl+l^2 and G(u,v)=(ku-lv,lu+(k+l)v)."
@@ -261,7 +261,7 @@
         "declaration": "R002.A3.diagonal_minus",
         "file": "formal/Formal/A3Arithmetic.lean",
         "commit": "3f6e1e17fb381d959c4fb46a10d10df684c96861",
-        "type_signature": "theorem diagonal_minus (s w : ℤ) :\n    let l := s*w-1; let k := l+w; let Q := s*(k+2*l)+(k+l)\n    w*Q-(k+2*l) = norm k l ∧ gc k l s (s+1) = (1,Q)",
+        "type_signature": "theorem diagonal_minus (s w : \u2124) :\n    let l := s*w-1; let k := l+w; let Q := s*(k+2*l)+(k+l)\n    w*Q-(k+2*l) = norm k l \u2227 gc k l s (s+1) = (1,Q)",
         "axioms": [
           "propext",
           "Quot.sound"
@@ -303,7 +303,7 @@
       "paper_label": "lean:folded_second_plus",
       "kind": "formal-lemma",
       "statement_latex": "s,w\\in\\mathbb Z;\\ l=sw+1,\\ k=2l-w,\\ Q=s(2k+3l)-k-l\\ \\Longrightarrow\\ wQ+2k+3l=T\\ \\land\\ G(s,2s-1)=(1,Q)",
-      "statement_plain": "For every input satisfying the binders below, the exact Lean declaration states: theorem folded_second_plus (s w : ℤ) :\n    let l := s*w+1; let k := 2*l-w; let Q := s*(2*k+3*l)-(k+l)\n    w*Q+(2*k+3*l) = norm k l ∧ gc k l s (2*s-1) = (1,Q). The surface interpretation is not part of this arithmetic/conditional theorem.",
+      "statement_plain": "For every input satisfying the binders below, the exact Lean declaration states: theorem folded_second_plus (s w : \u2124) :\n    let l := s*w+1; let k := 2*l-w; let Q := s*(2*k+3*l)-(k+l)\n    w*Q+(2*k+3*l) = norm k l \u2227 gc k l s (2*s-1) = (1,Q). The surface interpretation is not part of this arithmetic/conditional theorem.",
       "hypotheses": [
         "All binders and local definitions in lean.type_signature are authoritative.",
         "For A3 arithmetic, T=norm(k,l)=k^2+kl+l^2 and G(u,v)=(ku-lv,lu+(k+l)v)."
@@ -318,7 +318,7 @@
         "declaration": "R002.A3.folded_second_plus",
         "file": "formal/Formal/A3Arithmetic.lean",
         "commit": "3f6e1e17fb381d959c4fb46a10d10df684c96861",
-        "type_signature": "theorem folded_second_plus (s w : ℤ) :\n    let l := s*w+1; let k := 2*l-w; let Q := s*(2*k+3*l)-(k+l)\n    w*Q+(2*k+3*l) = norm k l ∧ gc k l s (2*s-1) = (1,Q)",
+        "type_signature": "theorem folded_second_plus (s w : \u2124) :\n    let l := s*w+1; let k := 2*l-w; let Q := s*(2*k+3*l)-(k+l)\n    w*Q+(2*k+3*l) = norm k l \u2227 gc k l s (2*s-1) = (1,Q)",
         "axioms": [
           "propext",
           "Quot.sound"
@@ -360,7 +360,7 @@
       "paper_label": "lean:folded_second_minus",
       "kind": "formal-lemma",
       "statement_latex": "s,w\\in\\mathbb Z;\\ l=sw-1,\\ k=2l-w,\\ Q=s(3k+l)-k\\ \\Longrightarrow\\ wQ-3k-l=T\\ \\land\\ G(3s-1,-s)=(Q,1)",
-      "statement_plain": "For every input satisfying the binders below, the exact Lean declaration states: theorem folded_second_minus (s w : ℤ) :\n    let l := s*w-1; let k := 2*l-w; let Q := s*(3*k+l)-k\n    w*Q-(3*k+l) = norm k l ∧ gc k l (3*s-1) (-s) = (Q,1). The surface interpretation is not part of this arithmetic/conditional theorem.",
+      "statement_plain": "For every input satisfying the binders below, the exact Lean declaration states: theorem folded_second_minus (s w : \u2124) :\n    let l := s*w-1; let k := 2*l-w; let Q := s*(3*k+l)-k\n    w*Q-(3*k+l) = norm k l \u2227 gc k l (3*s-1) (-s) = (Q,1). The surface interpretation is not part of this arithmetic/conditional theorem.",
       "hypotheses": [
         "All binders and local definitions in lean.type_signature are authoritative.",
         "For A3 arithmetic, T=norm(k,l)=k^2+kl+l^2 and G(u,v)=(ku-lv,lu+(k+l)v)."
@@ -375,7 +375,7 @@
         "declaration": "R002.A3.folded_second_minus",
         "file": "formal/Formal/A3Arithmetic.lean",
         "commit": "3f6e1e17fb381d959c4fb46a10d10df684c96861",
-        "type_signature": "theorem folded_second_minus (s w : ℤ) :\n    let l := s*w-1; let k := 2*l-w; let Q := s*(3*k+l)-k\n    w*Q-(3*k+l) = norm k l ∧ gc k l (3*s-1) (-s) = (Q,1)",
+        "type_signature": "theorem folded_second_minus (s w : \u2124) :\n    let l := s*w-1; let k := 2*l-w; let Q := s*(3*k+l)-k\n    w*Q-(3*k+l) = norm k l \u2227 gc k l (3*s-1) (-s) = (Q,1)",
         "axioms": [
           "propext",
           "Quot.sound"
@@ -417,7 +417,7 @@
       "paper_label": "lean:outer_collisions",
       "kind": "formal-lemma",
       "statement_latex": "q,k,l\\in\\mathbb Z;\\ a=(q-4)k+(q+2)l-1,\\ b=(q+2)k+6l-1\\ \\Longrightarrow\\ (1,a)=R(0,b)+G(q+2,-6)\\ \\land\\ (a,0)=R(b,1)+G(q-4,-q-2)",
-      "statement_plain": "For every input satisfying the binders below, the exact Lean declaration states: theorem outer_collisions (q k l : ℤ) :\n    let a := (q-4)*k+(q+2)*l-1; let b := (q+2)*k+6*l-1\n    (1,a) = rotate60 (0,b) + gc k l (q+2) (-6) ∧\n    (a,0) = rotate60 (b,1) + gc k l (q-4) (-(q+2)). The surface interpretation is not part of this arithmetic/conditional theorem.",
+      "statement_plain": "For every input satisfying the binders below, the exact Lean declaration states: theorem outer_collisions (q k l : \u2124) :\n    let a := (q-4)*k+(q+2)*l-1; let b := (q+2)*k+6*l-1\n    (1,a) = rotate60 (0,b) + gc k l (q+2) (-6) \u2227\n    (a,0) = rotate60 (b,1) + gc k l (q-4) (-(q+2)). The surface interpretation is not part of this arithmetic/conditional theorem.",
       "hypotheses": [
         "All binders and local definitions in lean.type_signature are authoritative.",
         "For A3 arithmetic, T=norm(k,l)=k^2+kl+l^2 and G(u,v)=(ku-lv,lu+(k+l)v)."
@@ -432,7 +432,7 @@
         "declaration": "R002.A3.outer_collisions",
         "file": "formal/Formal/A3Arithmetic.lean",
         "commit": "3f6e1e17fb381d959c4fb46a10d10df684c96861",
-        "type_signature": "theorem outer_collisions (q k l : ℤ) :\n    let a := (q-4)*k+(q+2)*l-1; let b := (q+2)*k+6*l-1\n    (1,a) = rotate60 (0,b) + gc k l (q+2) (-6) ∧\n    (a,0) = rotate60 (b,1) + gc k l (q-4) (-(q+2))",
+        "type_signature": "theorem outer_collisions (q k l : \u2124) :\n    let a := (q-4)*k+(q+2)*l-1; let b := (q+2)*k+6*l-1\n    (1,a) = rotate60 (0,b) + gc k l (q+2) (-6) \u2227\n    (a,0) = rotate60 (b,1) + gc k l (q-4) (-(q+2))",
         "axioms": [
           "propext",
           "Quot.sound"
@@ -474,7 +474,7 @@
       "paper_label": "lean:positive_fan_collisions",
       "kind": "formal-lemma",
       "statement_latex": "c,s,k,l\\in\\mathbb Z;\\ a=(c+1)sk+(s-5)l-1,\\ b=(cs+5)k+(c+1)sl-1\\ \\Longrightarrow\\ (0,a)=R^{-1}(1,b)+G(-cs-5,(c+1)s)\\ \\land\\ (a,1)=R^{-1}(b,0)+G(s-5,cs+5)",
-      "statement_plain": "For every input satisfying the binders below, the exact Lean declaration states: theorem positive_fan_collisions (c s k l : ℤ) :\n    let a := (c+1)*s*k+(s-5)*l-1; let b := (c*s+5)*k+(c+1)*s*l-1\n    (0,a) = invRotate (1,b) + gc k l (-(c*s+5)) ((c+1)*s) ∧\n    (a,1) = invRotate (b,0) + gc k l (s-5) (c*s+5). The surface interpretation is not part of this arithmetic/conditional theorem.",
+      "statement_plain": "For every input satisfying the binders below, the exact Lean declaration states: theorem positive_fan_collisions (c s k l : \u2124) :\n    let a := (c+1)*s*k+(s-5)*l-1; let b := (c*s+5)*k+(c+1)*s*l-1\n    (0,a) = invRotate (1,b) + gc k l (-(c*s+5)) ((c+1)*s) \u2227\n    (a,1) = invRotate (b,0) + gc k l (s-5) (c*s+5). The surface interpretation is not part of this arithmetic/conditional theorem.",
       "hypotheses": [
         "All binders and local definitions in lean.type_signature are authoritative.",
         "For A3 arithmetic, T=norm(k,l)=k^2+kl+l^2 and G(u,v)=(ku-lv,lu+(k+l)v)."
@@ -489,7 +489,7 @@
         "declaration": "R002.A3.positive_fan_collisions",
         "file": "formal/Formal/A3Arithmetic.lean",
         "commit": "3f6e1e17fb381d959c4fb46a10d10df684c96861",
-        "type_signature": "theorem positive_fan_collisions (c s k l : ℤ) :\n    let a := (c+1)*s*k+(s-5)*l-1; let b := (c*s+5)*k+(c+1)*s*l-1\n    (0,a) = invRotate (1,b) + gc k l (-(c*s+5)) ((c+1)*s) ∧\n    (a,1) = invRotate (b,0) + gc k l (s-5) (c*s+5)",
+        "type_signature": "theorem positive_fan_collisions (c s k l : \u2124) :\n    let a := (c+1)*s*k+(s-5)*l-1; let b := (c*s+5)*k+(c+1)*s*l-1\n    (0,a) = invRotate (1,b) + gc k l (-(c*s+5)) ((c+1)*s) \u2227\n    (a,1) = invRotate (b,0) + gc k l (s-5) (c*s+5)",
         "axioms": [
           "propext",
           "Quot.sound"
@@ -531,7 +531,7 @@
       "paper_label": "lean:negative_fan_collisions",
       "kind": "formal-lemma",
       "statement_latex": "s,k,l\\in\\mathbb Z;\\ a=(2s-5)k+3sl-1,\\ b=3sk+(s+5)l-1\\ \\Longrightarrow\\ (1,a)=R(0,b)+G(3s,-s-5)\\ \\land\\ (a,0)=R(b,1)+G(2s-5,-3s)",
-      "statement_plain": "For every input satisfying the binders below, the exact Lean declaration states: theorem negative_fan_collisions (s k l : ℤ) :\n    let a := (2*s-5)*k+3*s*l-1; let b := 3*s*k+(s+5)*l-1\n    (1,a) = rotate60 (0,b) + gc k l (3*s) (-(s+5)) ∧\n    (a,0) = rotate60 (b,1) + gc k l (2*s-5) (-3*s). The surface interpretation is not part of this arithmetic/conditional theorem.",
+      "statement_plain": "For every input satisfying the binders below, the exact Lean declaration states: theorem negative_fan_collisions (s k l : \u2124) :\n    let a := (2*s-5)*k+3*s*l-1; let b := 3*s*k+(s+5)*l-1\n    (1,a) = rotate60 (0,b) + gc k l (3*s) (-(s+5)) \u2227\n    (a,0) = rotate60 (b,1) + gc k l (2*s-5) (-3*s). The surface interpretation is not part of this arithmetic/conditional theorem.",
       "hypotheses": [
         "All binders and local definitions in lean.type_signature are authoritative.",
         "For A3 arithmetic, T=norm(k,l)=k^2+kl+l^2 and G(u,v)=(ku-lv,lu+(k+l)v)."
@@ -546,7 +546,7 @@
         "declaration": "R002.A3.negative_fan_collisions",
         "file": "formal/Formal/A3Arithmetic.lean",
         "commit": "3f6e1e17fb381d959c4fb46a10d10df684c96861",
-        "type_signature": "theorem negative_fan_collisions (s k l : ℤ) :\n    let a := (2*s-5)*k+3*s*l-1; let b := 3*s*k+(s+5)*l-1\n    (1,a) = rotate60 (0,b) + gc k l (3*s) (-(s+5)) ∧\n    (a,0) = rotate60 (b,1) + gc k l (2*s-5) (-3*s)",
+        "type_signature": "theorem negative_fan_collisions (s k l : \u2124) :\n    let a := (2*s-5)*k+3*s*l-1; let b := 3*s*k+(s+5)*l-1\n    (1,a) = rotate60 (0,b) + gc k l (3*s) (-(s+5)) \u2227\n    (a,0) = rotate60 (b,1) + gc k l (2*s-5) (-3*s)",
         "axioms": [
           "propext",
           "Quot.sound"
@@ -588,7 +588,7 @@
       "paper_label": "lean:no_small_multiple",
       "kind": "formal-lemma",
       "statement_latex": "l,r,z\\in\\mathbb Z,\\quad 0<r<l\\ \\Longrightarrow\\ r\\ne lz",
-      "statement_plain": "For every input satisfying the binders below, the exact Lean declaration states: theorem no_small_multiple (l r z : ℤ) (hl : 0 < l) (hr : 0 < r) (hrl : r < l) :\n    r ≠ l*z. The surface interpretation is not part of this arithmetic/conditional theorem.",
+      "statement_plain": "For every input satisfying the binders below, the exact Lean declaration states: theorem no_small_multiple (l r z : \u2124) (hl : 0 < l) (hr : 0 < r) (hrl : r < l) :\n    r \u2260 l*z. The surface interpretation is not part of this arithmetic/conditional theorem.",
       "hypotheses": [
         "All binders and local definitions in lean.type_signature are authoritative.",
         "For A3 arithmetic, T=norm(k,l)=k^2+kl+l^2 and G(u,v)=(ku-lv,lu+(k+l)v)."
@@ -603,7 +603,7 @@
         "declaration": "R002.A3.no_small_multiple",
         "file": "formal/Formal/A3Arithmetic.lean",
         "commit": "3f6e1e17fb381d959c4fb46a10d10df684c96861",
-        "type_signature": "theorem no_small_multiple (l r z : ℤ) (hl : 0 < l) (hr : 0 < r) (hrl : r < l) :\n    r ≠ l*z",
+        "type_signature": "theorem no_small_multiple (l r z : \u2124) (hl : 0 < l) (hr : 0 < r) (hrl : r < l) :\n    r \u2260 l*z",
         "axioms": [
           "propext",
           "Classical.choice",
@@ -646,7 +646,7 @@
       "paper_label": "lean:outer_u_bound",
       "kind": "formal-lemma",
       "statement_latex": "q,l,r,u,v\\in\\mathbb Z;\\ l>0,\\ 2\\le r\\le l-2,\\ u\\ge1,\\ (ql+r)u-lv=1\\ \\Longrightarrow\\ u\\ge2",
-      "statement_plain": "For every input satisfying the binders below, the exact Lean declaration states: theorem outer_u_bound (q l r u v : ℤ) (hl : 0 < l)\n    (hr : 2 ≤ r) (hrl : r ≤ l-2) (hu : 1 ≤ u)\n    (hx : (q*l+r)*u-l*v = 1) : 2 ≤ u. The surface interpretation is not part of this arithmetic/conditional theorem.",
+      "statement_plain": "For every input satisfying the binders below, the exact Lean declaration states: theorem outer_u_bound (q l r u v : \u2124) (hl : 0 < l)\n    (hr : 2 \u2264 r) (hrl : r \u2264 l-2) (hu : 1 \u2264 u)\n    (hx : (q*l+r)*u-l*v = 1) : 2 \u2264 u. The surface interpretation is not part of this arithmetic/conditional theorem.",
       "hypotheses": [
         "All binders and local definitions in lean.type_signature are authoritative.",
         "For A3 arithmetic, T=norm(k,l)=k^2+kl+l^2 and G(u,v)=(ku-lv,lu+(k+l)v)."
@@ -663,7 +663,7 @@
         "declaration": "R002.A3.outer_u_bound",
         "file": "formal/Formal/A3Arithmetic.lean",
         "commit": "3f6e1e17fb381d959c4fb46a10d10df684c96861",
-        "type_signature": "theorem outer_u_bound (q l r u v : ℤ) (hl : 0 < l)\n    (hr : 2 ≤ r) (hrl : r ≤ l-2) (hu : 1 ≤ u)\n    (hx : (q*l+r)*u-l*v = 1) : 2 ≤ u",
+        "type_signature": "theorem outer_u_bound (q l r u v : \u2124) (hl : 0 < l)\n    (hr : 2 \u2264 r) (hrl : r \u2264 l-2) (hu : 1 \u2264 u)\n    (hx : (q*l+r)*u-l*v = 1) : 2 \u2264 u",
         "axioms": [
           "propext",
           "Classical.choice",
@@ -706,7 +706,7 @@
       "paper_label": "lean:outer_v_bound",
       "kind": "formal-lemma",
       "statement_latex": "q,l,r,u,v\\in\\mathbb Z;\\ l\\ge2,\\ 2\\le r\\le l-2,\\ v<1,\\ lu+(ql+r+l)v=1\\ \\Longrightarrow\\ v\\le-2",
-      "statement_plain": "For every input satisfying the binders below, the exact Lean declaration states: theorem outer_v_bound (q l r u v : ℤ) (hl : 2 ≤ l)\n    (hr : 2 ≤ r) (hrl : r ≤ l-2) (hv : v < 1)\n    (hy : l*u+(q*l+r+l)*v = 1) : v ≤ -2. The surface interpretation is not part of this arithmetic/conditional theorem.",
+      "statement_plain": "For every input satisfying the binders below, the exact Lean declaration states: theorem outer_v_bound (q l r u v : \u2124) (hl : 2 \u2264 l)\n    (hr : 2 \u2264 r) (hrl : r \u2264 l-2) (hv : v < 1)\n    (hy : l*u+(q*l+r+l)*v = 1) : v \u2264 -2. The surface interpretation is not part of this arithmetic/conditional theorem.",
       "hypotheses": [
         "All binders and local definitions in lean.type_signature are authoritative.",
         "For A3 arithmetic, T=norm(k,l)=k^2+kl+l^2 and G(u,v)=(ku-lv,lu+(k+l)v)."
@@ -723,7 +723,7 @@
         "declaration": "R002.A3.outer_v_bound",
         "file": "formal/Formal/A3Arithmetic.lean",
         "commit": "3f6e1e17fb381d959c4fb46a10d10df684c96861",
-        "type_signature": "theorem outer_v_bound (q l r u v : ℤ) (hl : 2 ≤ l)\n    (hr : 2 ≤ r) (hrl : r ≤ l-2) (hv : v < 1)\n    (hy : l*u+(q*l+r+l)*v = 1) : v ≤ -2",
+        "type_signature": "theorem outer_v_bound (q l r u v : \u2124) (hl : 2 \u2264 l)\n    (hr : 2 \u2264 r) (hrl : r \u2264 l-2) (hv : v < 1)\n    (hy : l*u+(q*l+r+l)*v = 1) : v \u2264 -2",
         "axioms": [
           "propext",
           "Classical.choice",
@@ -766,7 +766,7 @@
       "paper_label": "lean:candidate_order",
       "kind": "formal-lemma",
       "statement_latex": "N,k,l,b,h,t,u,v,J\\in\\mathbb Z;\\ N,k\\ge0,\\ l>0,\\ u\\ge J,\\ v\\le-J,\\ Nu=k+l+lh,\\ -Nv=lt-k,\\ JN-k-l-lb>0\\ \\Longrightarrow\\ b<h\\land b<t\\land 2b<2h+1\\land 2b+1<2t+1",
-      "statement_plain": "For every input satisfying the binders below, the exact Lean declaration states: theorem candidate_order (N k l b h t u v J : ℤ)\n    (hN : 0 ≤ N) (hk : 0 ≤ k) (hl : 0 < l)\n    (hu : J ≤ u) (hv : v ≤ -J)\n    (ha : N*u = k+l+l*h) (hb : N*(-v) = l*t-k)\n    (hgap : 0 < J*N-k-l-l*b) :\n    b < h ∧ b < t ∧ 2*b < 2*h+1 ∧ 2*b+1 < 2*t+1. The surface interpretation is not part of this arithmetic/conditional theorem.",
+      "statement_plain": "For every input satisfying the binders below, the exact Lean declaration states: theorem candidate_order (N k l b h t u v J : \u2124)\n    (hN : 0 \u2264 N) (hk : 0 \u2264 k) (hl : 0 < l)\n    (hu : J \u2264 u) (hv : v \u2264 -J)\n    (ha : N*u = k+l+l*h) (hb : N*(-v) = l*t-k)\n    (hgap : 0 < J*N-k-l-l*b) :\n    b < h \u2227 b < t \u2227 2*b < 2*h+1 \u2227 2*b+1 < 2*t+1. The surface interpretation is not part of this arithmetic/conditional theorem.",
       "hypotheses": [
         "All binders and local definitions in lean.type_signature are authoritative.",
         "For A3 arithmetic, T=norm(k,l)=k^2+kl+l^2 and G(u,v)=(ku-lv,lu+(k+l)v)."
@@ -781,7 +781,7 @@
         "declaration": "R002.A3.candidate_order",
         "file": "formal/Formal/A3Arithmetic.lean",
         "commit": "3f6e1e17fb381d959c4fb46a10d10df684c96861",
-        "type_signature": "theorem candidate_order (N k l b h t u v J : ℤ)\n    (hN : 0 ≤ N) (hk : 0 ≤ k) (hl : 0 < l)\n    (hu : J ≤ u) (hv : v ≤ -J)\n    (ha : N*u = k+l+l*h) (hb : N*(-v) = l*t-k)\n    (hgap : 0 < J*N-k-l-l*b) :\n    b < h ∧ b < t ∧ 2*b < 2*h+1 ∧ 2*b+1 < 2*t+1",
+        "type_signature": "theorem candidate_order (N k l b h t u v J : \u2124)\n    (hN : 0 \u2264 N) (hk : 0 \u2264 k) (hl : 0 < l)\n    (hu : J \u2264 u) (hv : v \u2264 -J)\n    (ha : N*u = k+l+l*h) (hb : N*(-v) = l*t-k)\n    (hgap : 0 < J*N-k-l-l*b) :\n    b < h \u2227 b < t \u2227 2*b < 2*h+1 \u2227 2*b+1 < 2*t+1",
         "axioms": [
           "propext",
           "Classical.choice",
@@ -824,7 +824,7 @@
       "paper_label": "lean:outer_endpoint_order",
       "kind": "formal-lemma",
       "statement_latex": "q,l,r,h,t,u,v,u_B,v_A,b\\in\\mathbb Z;\\ l\\ge2,\\ 2\\le r\\le l-2,\\ k=ql+r\\ge0,\\ N=k^2+kl+l^2\\ge0,\\ u\\ge1,\\ v<1,\\ ku-lv_A=1,\\ lu_B+(k+l)v=1,\\ Nu=k+l+lh,\\ -Nv=lt-k,\\ 2N-k-l-lb>0,\\ b<N\\ \\Longrightarrow\\ b<h\\land b<t\\land 2b<2h+1\\land 2b+1<2t+1\\land 2b+1<2N",
-      "statement_plain": "For every input satisfying the binders below, the exact Lean declaration states: theorem outer_endpoint_order (q l r h t u v uB vA b : ℤ)\n    (hl : 2 ≤ l) (hr : 2 ≤ r) (hrl : r ≤ l-2)\n    (hu : 1 ≤ u) (hv : v < 1)\n    (hx : (q*l+r)*u-l*vA = 1) (hy : l*uB+(q*l+r+l)*v = 1)\n    (hk : 0 ≤ q*l+r) (hN : 0 ≤ norm (q*l+r) l)\n    (ha : norm (q*l+r) l*u = (q*l+r)+l+l*h)\n    (hb : norm (q*l+r) l*(-v) = l*t-(q*l+r))\n    (hgap : 0 < 2*norm (q*l+r) l-(q*l+r)-l-l*b)\n    (hbn : b < norm (q*l+r) l) :\n    b < h ∧ b < t ∧ 2*b < 2*h+1 ∧ 2*b+1 < 2*t+1 ∧\n      2*b+1 < 2*norm (q*l+r) l. The surface interpretation is not part of this arithmetic/conditional theorem.",
+      "statement_plain": "For every input satisfying the binders below, the exact Lean declaration states: theorem outer_endpoint_order (q l r h t u v uB vA b : \u2124)\n    (hl : 2 \u2264 l) (hr : 2 \u2264 r) (hrl : r \u2264 l-2)\n    (hu : 1 \u2264 u) (hv : v < 1)\n    (hx : (q*l+r)*u-l*vA = 1) (hy : l*uB+(q*l+r+l)*v = 1)\n    (hk : 0 \u2264 q*l+r) (hN : 0 \u2264 norm (q*l+r) l)\n    (ha : norm (q*l+r) l*u = (q*l+r)+l+l*h)\n    (hb : norm (q*l+r) l*(-v) = l*t-(q*l+r))\n    (hgap : 0 < 2*norm (q*l+r) l-(q*l+r)-l-l*b)\n    (hbn : b < norm (q*l+r) l) :\n    b < h \u2227 b < t \u2227 2*b < 2*h+1 \u2227 2*b+1 < 2*t+1 \u2227\n      2*b+1 < 2*norm (q*l+r) l. The surface interpretation is not part of this arithmetic/conditional theorem.",
       "hypotheses": [
         "All binders and local definitions in lean.type_signature are authoritative.",
         "For A3 arithmetic, T=norm(k,l)=k^2+kl+l^2 and G(u,v)=(ku-lv,lu+(k+l)v)."
@@ -843,7 +843,7 @@
         "declaration": "R002.A3.outer_endpoint_order",
         "file": "formal/Formal/A3Arithmetic.lean",
         "commit": "3f6e1e17fb381d959c4fb46a10d10df684c96861",
-        "type_signature": "theorem outer_endpoint_order (q l r h t u v uB vA b : ℤ)\n    (hl : 2 ≤ l) (hr : 2 ≤ r) (hrl : r ≤ l-2)\n    (hu : 1 ≤ u) (hv : v < 1)\n    (hx : (q*l+r)*u-l*vA = 1) (hy : l*uB+(q*l+r+l)*v = 1)\n    (hk : 0 ≤ q*l+r) (hN : 0 ≤ norm (q*l+r) l)\n    (ha : norm (q*l+r) l*u = (q*l+r)+l+l*h)\n    (hb : norm (q*l+r) l*(-v) = l*t-(q*l+r))\n    (hgap : 0 < 2*norm (q*l+r) l-(q*l+r)-l-l*b)\n    (hbn : b < norm (q*l+r) l) :\n    b < h ∧ b < t ∧ 2*b < 2*h+1 ∧ 2*b+1 < 2*t+1 ∧\n      2*b+1 < 2*norm (q*l+r) l",
+        "type_signature": "theorem outer_endpoint_order (q l r h t u v uB vA b : \u2124)\n    (hl : 2 \u2264 l) (hr : 2 \u2264 r) (hrl : r \u2264 l-2)\n    (hu : 1 \u2264 u) (hv : v < 1)\n    (hx : (q*l+r)*u-l*vA = 1) (hy : l*uB+(q*l+r+l)*v = 1)\n    (hk : 0 \u2264 q*l+r) (hN : 0 \u2264 norm (q*l+r) l)\n    (ha : norm (q*l+r) l*u = (q*l+r)+l+l*h)\n    (hb : norm (q*l+r) l*(-v) = l*t-(q*l+r))\n    (hgap : 0 < 2*norm (q*l+r) l-(q*l+r)-l-l*b)\n    (hbn : b < norm (q*l+r) l) :\n    b < h \u2227 b < t \u2227 2*b < 2*h+1 \u2227 2*b+1 < 2*t+1 \u2227\n      2*b+1 < 2*norm (q*l+r) l",
         "axioms": [
           "propext",
           "Classical.choice",
@@ -902,7 +902,7 @@
         "declaration": "R002.A3.au_c1_a_pos",
         "file": "formal/Formal/A3PolynomialBounds.lean",
         "commit": "3f6e1e17fb381d959c4fb46a10d10df684c96861",
-        "type_signature": "theorem au_c1_a_pos (S D E : ℤ) (hS : 0 ≤ S) (hD : 0 ≤ D) (hE : 0 ≤ E) :\n    let s := S + 2;\n    let w := D + E + 4;\n    let d := D + 2;\n    let l := s*w+d;\n    let k := 1*l+w;\n    let N := norm k l;\n    let a := (1+1)*s*k+(s-5)*l-1;\n    let b := (1*s+5)*k+(1+1)*s*l-1;\n    0 < a",
+        "type_signature": "theorem au_c1_a_pos (S D E : \u2124) (hS : 0 \u2264 S) (hD : 0 \u2264 D) (hE : 0 \u2264 E) :\n    let s := S + 2;\n    let w := D + E + 4;\n    let d := D + 2;\n    let l := s*w+d;\n    let k := 1*l+w;\n    let N := norm k l;\n    let a := (1+1)*s*k+(s-5)*l-1;\n    let b := (1*s+5)*k+(1+1)*s*l-1;\n    0 < a",
         "axioms": [
           "propext",
           "Classical.choice",
@@ -961,7 +961,7 @@
         "declaration": "R002.A3.au_c1_b_minus_a_pos",
         "file": "formal/Formal/A3PolynomialBounds.lean",
         "commit": "3f6e1e17fb381d959c4fb46a10d10df684c96861",
-        "type_signature": "theorem au_c1_b_minus_a_pos (S D E : ℤ) (hS : 0 ≤ S) (hD : 0 ≤ D) (hE : 0 ≤ E) :\n    let s := S + 2;\n    let w := D + E + 4;\n    let d := D + 2;\n    let l := s*w+d;\n    let k := 1*l+w;\n    let N := norm k l;\n    let a := (1+1)*s*k+(s-5)*l-1;\n    let b := (1*s+5)*k+(1+1)*s*l-1;\n    0 < b-a",
+        "type_signature": "theorem au_c1_b_minus_a_pos (S D E : \u2124) (hS : 0 \u2264 S) (hD : 0 \u2264 D) (hE : 0 \u2264 E) :\n    let s := S + 2;\n    let w := D + E + 4;\n    let d := D + 2;\n    let l := s*w+d;\n    let k := 1*l+w;\n    let N := norm k l;\n    let a := (1+1)*s*k+(s-5)*l-1;\n    let b := (1*s+5)*k+(1+1)*s*l-1;\n    0 < b-a",
         "axioms": [
           "propext",
           "Classical.choice",
@@ -1020,7 +1020,7 @@
         "declaration": "R002.A3.au_c1_N_minus_b_pos",
         "file": "formal/Formal/A3PolynomialBounds.lean",
         "commit": "3f6e1e17fb381d959c4fb46a10d10df684c96861",
-        "type_signature": "theorem au_c1_N_minus_b_pos (S D E : ℤ) (hS : 0 ≤ S) (hD : 0 ≤ D) (hE : 0 ≤ E) :\n    let s := S + 2;\n    let w := D + E + 4;\n    let d := D + 2;\n    let l := s*w+d;\n    let k := 1*l+w;\n    let N := norm k l;\n    let a := (1+1)*s*k+(s-5)*l-1;\n    let b := (1*s+5)*k+(1+1)*s*l-1;\n    0 < N-b",
+        "type_signature": "theorem au_c1_N_minus_b_pos (S D E : \u2124) (hS : 0 \u2264 S) (hD : 0 \u2264 D) (hE : 0 \u2264 E) :\n    let s := S + 2;\n    let w := D + E + 4;\n    let d := D + 2;\n    let l := s*w+d;\n    let k := 1*l+w;\n    let N := norm k l;\n    let a := (1+1)*s*k+(s-5)*l-1;\n    let b := (1*s+5)*k+(1+1)*s*l-1;\n    0 < N-b",
         "axioms": [
           "propext",
           "Classical.choice",
@@ -1079,7 +1079,7 @@
         "declaration": "R002.A3.au_c1_v_upper_pos",
         "file": "formal/Formal/A3PolynomialBounds.lean",
         "commit": "3f6e1e17fb381d959c4fb46a10d10df684c96861",
-        "type_signature": "theorem au_c1_v_upper_pos (S D E : ℤ) (hS : 0 ≤ S) (hD : 0 ≤ D) (hE : 0 ≤ E) :\n    let s := S + 2;\n    let w := D + E + 4;\n    let d := D + 2;\n    let l := s*w+d;\n    let k := 1*l+w;\n    let N := norm k l;\n    let a := (1+1)*s*k+(s-5)*l-1;\n    let b := (1*s+5)*k+(1+1)*s*l-1;\n    0 < (1*s+1+2)*N-k*b-k-l",
+        "type_signature": "theorem au_c1_v_upper_pos (S D E : \u2124) (hS : 0 \u2264 S) (hD : 0 \u2264 D) (hE : 0 \u2264 E) :\n    let s := S + 2;\n    let w := D + E + 4;\n    let d := D + 2;\n    let l := s*w+d;\n    let k := 1*l+w;\n    let N := norm k l;\n    let a := (1+1)*s*k+(s-5)*l-1;\n    let b := (1*s+5)*k+(1+1)*s*l-1;\n    0 < (1*s+1+2)*N-k*b-k-l",
         "axioms": [
           "propext",
           "Classical.choice",
@@ -1138,7 +1138,7 @@
         "declaration": "R002.A3.au_c1_sum_upper_pos",
         "file": "formal/Formal/A3PolynomialBounds.lean",
         "commit": "3f6e1e17fb381d959c4fb46a10d10df684c96861",
-        "type_signature": "theorem au_c1_sum_upper_pos (S D E : ℤ) (hS : 0 ≤ S) (hD : 0 ≤ D) (hE : 0 ≤ E) :\n    let s := S + 2;\n    let w := D + E + 4;\n    let d := D + 2;\n    let l := s*w+d;\n    let k := 1*l+w;\n    let N := norm k l;\n    let a := (1+1)*s*k+(s-5)*l-1;\n    let b := (1*s+5)*k+(1+1)*s*l-1;\n    0 < ((1+1)*s+1+3)*N-(k+l)*b-k",
+        "type_signature": "theorem au_c1_sum_upper_pos (S D E : \u2124) (hS : 0 \u2264 S) (hD : 0 \u2264 D) (hE : 0 \u2264 E) :\n    let s := S + 2;\n    let w := D + E + 4;\n    let d := D + 2;\n    let l := s*w+d;\n    let k := 1*l+w;\n    let N := norm k l;\n    let a := (1+1)*s*k+(s-5)*l-1;\n    let b := (1*s+5)*k+(1+1)*s*l-1;\n    0 < ((1+1)*s+1+3)*N-(k+l)*b-k",
         "axioms": [
           "propext",
           "Classical.choice",
@@ -1197,7 +1197,7 @@
         "declaration": "R002.A3.au_c1_v_late_lower_pos",
         "file": "formal/Formal/A3PolynomialBounds.lean",
         "commit": "3f6e1e17fb381d959c4fb46a10d10df684c96861",
-        "type_signature": "theorem au_c1_v_late_lower_pos (S D E : ℤ) (hS : 0 ≤ S) (hD : 0 ≤ D) (hE : 0 ≤ E) :\n    let s := S + 2;\n    let w := D + E + 4;\n    let d := D + 2;\n    let l := s*w+d;\n    let k := 1*l+w;\n    let N := norm k l;\n    let a := (1+1)*s*k+(s-5)*l-1;\n    let b := (1*s+5)*k+(1+1)*s*l-1;\n    0 < k*b-l-(1*s+1+1)*N",
+        "type_signature": "theorem au_c1_v_late_lower_pos (S D E : \u2124) (hS : 0 \u2264 S) (hD : 0 \u2264 D) (hE : 0 \u2264 E) :\n    let s := S + 2;\n    let w := D + E + 4;\n    let d := D + 2;\n    let l := s*w+d;\n    let k := 1*l+w;\n    let N := norm k l;\n    let a := (1+1)*s*k+(s-5)*l-1;\n    let b := (1*s+5)*k+(1+1)*s*l-1;\n    0 < k*b-l-(1*s+1+1)*N",
         "axioms": [
           "propext",
           "Classical.choice",
@@ -1256,7 +1256,7 @@
         "declaration": "R002.A3.au_c1_sum_late_lower_pos",
         "file": "formal/Formal/A3PolynomialBounds.lean",
         "commit": "3f6e1e17fb381d959c4fb46a10d10df684c96861",
-        "type_signature": "theorem au_c1_sum_late_lower_pos (S D E : ℤ) (hS : 0 ≤ S) (hD : 0 ≤ D) (hE : 0 ≤ E) :\n    let s := S + 2;\n    let w := D + E + 4;\n    let d := D + 2;\n    let l := s*w+d;\n    let k := 1*l+w;\n    let N := norm k l;\n    let a := (1+1)*s*k+(s-5)*l-1;\n    let b := (1*s+5)*k+(1+1)*s*l-1;\n    0 < (k+l)*b-((1+1)*s+1+2)*N",
+        "type_signature": "theorem au_c1_sum_late_lower_pos (S D E : \u2124) (hS : 0 \u2264 S) (hD : 0 \u2264 D) (hE : 0 \u2264 E) :\n    let s := S + 2;\n    let w := D + E + 4;\n    let d := D + 2;\n    let l := s*w+d;\n    let k := 1*l+w;\n    let N := norm k l;\n    let a := (1+1)*s*k+(s-5)*l-1;\n    let b := (1*s+5)*k+(1+1)*s*l-1;\n    0 < (k+l)*b-((1+1)*s+1+2)*N",
         "axioms": [
           "propext",
           "Classical.choice",
@@ -1315,7 +1315,7 @@
         "declaration": "R002.A3.au_c1_early_inside_pos",
         "file": "formal/Formal/A3PolynomialBounds.lean",
         "commit": "3f6e1e17fb381d959c4fb46a10d10df684c96861",
-        "type_signature": "theorem au_c1_early_inside_pos (S D E : ℤ) (hS : 0 ≤ S) (hD : 0 ≤ D) (hE : 0 ≤ E) :\n    let s := S + 2;\n    let w := D + E + 4;\n    let d := D + 2;\n    let l := s*w+d;\n    let k := 1*l+w;\n    let N := norm k l;\n    let a := (1+1)*s*k+(s-5)*l-1;\n    let b := (1*s+5)*k+(1+1)*s*l-1;\n    0 < N-w*a-(1+1)*k-l",
+        "type_signature": "theorem au_c1_early_inside_pos (S D E : \u2124) (hS : 0 \u2264 S) (hD : 0 \u2264 D) (hE : 0 \u2264 E) :\n    let s := S + 2;\n    let w := D + E + 4;\n    let d := D + 2;\n    let l := s*w+d;\n    let k := 1*l+w;\n    let N := norm k l;\n    let a := (1+1)*s*k+(s-5)*l-1;\n    let b := (1*s+5)*k+(1+1)*s*l-1;\n    0 < N-w*a-(1+1)*k-l",
         "axioms": [
           "propext",
           "Classical.choice",
@@ -1374,7 +1374,7 @@
         "declaration": "R002.A3.au_c1_endpoint_bound_pos",
         "file": "formal/Formal/A3PolynomialBounds.lean",
         "commit": "3f6e1e17fb381d959c4fb46a10d10df684c96861",
-        "type_signature": "theorem au_c1_endpoint_bound_pos (S D E : ℤ) (hS : 0 ≤ S) (hD : 0 ≤ D) (hE : 0 ≤ E) :\n    let s := S + 2;\n    let w := D + E + 4;\n    let d := D + 2;\n    let l := s*w+d;\n    let k := 1*l+w;\n    let N := norm k l;\n    let a := (1+1)*s*k+(s-5)*l-1;\n    let b := (1*s+5)*k+(1+1)*s*l-1;\n    0 < (s+2)*N-k-l-l*b",
+        "type_signature": "theorem au_c1_endpoint_bound_pos (S D E : \u2124) (hS : 0 \u2264 S) (hD : 0 \u2264 D) (hE : 0 \u2264 E) :\n    let s := S + 2;\n    let w := D + E + 4;\n    let d := D + 2;\n    let l := s*w+d;\n    let k := 1*l+w;\n    let N := norm k l;\n    let a := (1+1)*s*k+(s-5)*l-1;\n    let b := (1*s+5)*k+(1+1)*s*l-1;\n    0 < (s+2)*N-k-l-l*b",
         "axioms": [
           "propext",
           "Classical.choice",
@@ -1433,7 +1433,7 @@
         "declaration": "R002.A3.au_c2_a_pos",
         "file": "formal/Formal/A3PolynomialBounds.lean",
         "commit": "3f6e1e17fb381d959c4fb46a10d10df684c96861",
-        "type_signature": "theorem au_c2_a_pos (S D E : ℤ) (hS : 0 ≤ S) (hD : 0 ≤ D) (hE : 0 ≤ E) :\n    let s := S + 1;\n    let w := D + E + 4;\n    let d := D + 2;\n    let l := s*w+d;\n    let k := 2*l+w;\n    let N := norm k l;\n    let a := (2+1)*s*k+(s-5)*l-1;\n    let b := (2*s+5)*k+(2+1)*s*l-1;\n    0 < a",
+        "type_signature": "theorem au_c2_a_pos (S D E : \u2124) (hS : 0 \u2264 S) (hD : 0 \u2264 D) (hE : 0 \u2264 E) :\n    let s := S + 1;\n    let w := D + E + 4;\n    let d := D + 2;\n    let l := s*w+d;\n    let k := 2*l+w;\n    let N := norm k l;\n    let a := (2+1)*s*k+(s-5)*l-1;\n    let b := (2*s+5)*k+(2+1)*s*l-1;\n    0 < a",
         "axioms": [
           "propext",
           "Classical.choice",
@@ -1492,7 +1492,7 @@
         "declaration": "R002.A3.au_c2_b_minus_a_pos",
         "file": "formal/Formal/A3PolynomialBounds.lean",
         "commit": "3f6e1e17fb381d959c4fb46a10d10df684c96861",
-        "type_signature": "theorem au_c2_b_minus_a_pos (S D E : ℤ) (hS : 0 ≤ S) (hD : 0 ≤ D) (hE : 0 ≤ E) :\n    let s := S + 1;\n    let w := D + E + 4;\n    let d := D + 2;\n    let l := s*w+d;\n    let k := 2*l+w;\n    let N := norm k l;\n    let a := (2+1)*s*k+(s-5)*l-1;\n    let b := (2*s+5)*k+(2+1)*s*l-1;\n    0 < b-a",
+        "type_signature": "theorem au_c2_b_minus_a_pos (S D E : \u2124) (hS : 0 \u2264 S) (hD : 0 \u2264 D) (hE : 0 \u2264 E) :\n    let s := S + 1;\n    let w := D + E + 4;\n    let d := D + 2;\n    let l := s*w+d;\n    let k := 2*l+w;\n    let N := norm k l;\n    let a := (2+1)*s*k+(s-5)*l-1;\n    let b := (2*s+5)*k+(2+1)*s*l-1;\n    0 < b-a",
         "axioms": [
           "propext",
           "Classical.choice",
@@ -1551,7 +1551,7 @@
         "declaration": "R002.A3.au_c2_N_minus_b_pos",
         "file": "formal/Formal/A3PolynomialBounds.lean",
         "commit": "3f6e1e17fb381d959c4fb46a10d10df684c96861",
-        "type_signature": "theorem au_c2_N_minus_b_pos (S D E : ℤ) (hS : 0 ≤ S) (hD : 0 ≤ D) (hE : 0 ≤ E) :\n    let s := S + 1;\n    let w := D + E + 4;\n    let d := D + 2;\n    let l := s*w+d;\n    let k := 2*l+w;\n    let N := norm k l;\n    let a := (2+1)*s*k+(s-5)*l-1;\n    let b := (2*s+5)*k+(2+1)*s*l-1;\n    0 < N-b",
+        "type_signature": "theorem au_c2_N_minus_b_pos (S D E : \u2124) (hS : 0 \u2264 S) (hD : 0 \u2264 D) (hE : 0 \u2264 E) :\n    let s := S + 1;\n    let w := D + E + 4;\n    let d := D + 2;\n    let l := s*w+d;\n    let k := 2*l+w;\n    let N := norm k l;\n    let a := (2+1)*s*k+(s-5)*l-1;\n    let b := (2*s+5)*k+(2+1)*s*l-1;\n    0 < N-b",
         "axioms": [
           "propext",
           "Classical.choice",
@@ -1610,7 +1610,7 @@
         "declaration": "R002.A3.au_c2_v_upper_pos",
         "file": "formal/Formal/A3PolynomialBounds.lean",
         "commit": "3f6e1e17fb381d959c4fb46a10d10df684c96861",
-        "type_signature": "theorem au_c2_v_upper_pos (S D E : ℤ) (hS : 0 ≤ S) (hD : 0 ≤ D) (hE : 0 ≤ E) :\n    let s := S + 1;\n    let w := D + E + 4;\n    let d := D + 2;\n    let l := s*w+d;\n    let k := 2*l+w;\n    let N := norm k l;\n    let a := (2+1)*s*k+(s-5)*l-1;\n    let b := (2*s+5)*k+(2+1)*s*l-1;\n    0 < (2*s+2+2)*N-k*b-k-l",
+        "type_signature": "theorem au_c2_v_upper_pos (S D E : \u2124) (hS : 0 \u2264 S) (hD : 0 \u2264 D) (hE : 0 \u2264 E) :\n    let s := S + 1;\n    let w := D + E + 4;\n    let d := D + 2;\n    let l := s*w+d;\n    let k := 2*l+w;\n    let N := norm k l;\n    let a := (2+1)*s*k+(s-5)*l-1;\n    let b := (2*s+5)*k+(2+1)*s*l-1;\n    0 < (2*s+2+2)*N-k*b-k-l",
         "axioms": [
           "propext",
           "Classical.choice",
@@ -1669,7 +1669,7 @@
         "declaration": "R002.A3.au_c2_sum_upper_pos",
         "file": "formal/Formal/A3PolynomialBounds.lean",
         "commit": "3f6e1e17fb381d959c4fb46a10d10df684c96861",
-        "type_signature": "theorem au_c2_sum_upper_pos (S D E : ℤ) (hS : 0 ≤ S) (hD : 0 ≤ D) (hE : 0 ≤ E) :\n    let s := S + 1;\n    let w := D + E + 4;\n    let d := D + 2;\n    let l := s*w+d;\n    let k := 2*l+w;\n    let N := norm k l;\n    let a := (2+1)*s*k+(s-5)*l-1;\n    let b := (2*s+5)*k+(2+1)*s*l-1;\n    0 < ((2+1)*s+2+3)*N-(k+l)*b-k",
+        "type_signature": "theorem au_c2_sum_upper_pos (S D E : \u2124) (hS : 0 \u2264 S) (hD : 0 \u2264 D) (hE : 0 \u2264 E) :\n    let s := S + 1;\n    let w := D + E + 4;\n    let d := D + 2;\n    let l := s*w+d;\n    let k := 2*l+w;\n    let N := norm k l;\n    let a := (2+1)*s*k+(s-5)*l-1;\n    let b := (2*s+5)*k+(2+1)*s*l-1;\n    0 < ((2+1)*s+2+3)*N-(k+l)*b-k",
         "axioms": [
           "propext",
           "Classical.choice",
@@ -1728,7 +1728,7 @@
         "declaration": "R002.A3.au_c2_v_late_lower_pos",
         "file": "formal/Formal/A3PolynomialBounds.lean",
         "commit": "3f6e1e17fb381d959c4fb46a10d10df684c96861",
-        "type_signature": "theorem au_c2_v_late_lower_pos (S D E : ℤ) (hS : 0 ≤ S) (hD : 0 ≤ D) (hE : 0 ≤ E) :\n    let s := S + 1;\n    let w := D + E + 4;\n    let d := D + 2;\n    let l := s*w+d;\n    let k := 2*l+w;\n    let N := norm k l;\n    let a := (2+1)*s*k+(s-5)*l-1;\n    let b := (2*s+5)*k+(2+1)*s*l-1;\n    0 < k*b-l-(2*s+2+1)*N",
+        "type_signature": "theorem au_c2_v_late_lower_pos (S D E : \u2124) (hS : 0 \u2264 S) (hD : 0 \u2264 D) (hE : 0 \u2264 E) :\n    let s := S + 1;\n    let w := D + E + 4;\n    let d := D + 2;\n    let l := s*w+d;\n    let k := 2*l+w;\n    let N := norm k l;\n    let a := (2+1)*s*k+(s-5)*l-1;\n    let b := (2*s+5)*k+(2+1)*s*l-1;\n    0 < k*b-l-(2*s+2+1)*N",
         "axioms": [
           "propext",
           "Classical.choice",
@@ -1787,7 +1787,7 @@
         "declaration": "R002.A3.au_c2_sum_late_lower_pos",
         "file": "formal/Formal/A3PolynomialBounds.lean",
         "commit": "3f6e1e17fb381d959c4fb46a10d10df684c96861",
-        "type_signature": "theorem au_c2_sum_late_lower_pos (S D E : ℤ) (hS : 0 ≤ S) (hD : 0 ≤ D) (hE : 0 ≤ E) :\n    let s := S + 1;\n    let w := D + E + 4;\n    let d := D + 2;\n    let l := s*w+d;\n    let k := 2*l+w;\n    let N := norm k l;\n    let a := (2+1)*s*k+(s-5)*l-1;\n    let b := (2*s+5)*k+(2+1)*s*l-1;\n    0 < (k+l)*b-((2+1)*s+2+2)*N",
+        "type_signature": "theorem au_c2_sum_late_lower_pos (S D E : \u2124) (hS : 0 \u2264 S) (hD : 0 \u2264 D) (hE : 0 \u2264 E) :\n    let s := S + 1;\n    let w := D + E + 4;\n    let d := D + 2;\n    let l := s*w+d;\n    let k := 2*l+w;\n    let N := norm k l;\n    let a := (2+1)*s*k+(s-5)*l-1;\n    let b := (2*s+5)*k+(2+1)*s*l-1;\n    0 < (k+l)*b-((2+1)*s+2+2)*N",
         "axioms": [
           "propext",
           "Classical.choice",
@@ -1846,7 +1846,7 @@
         "declaration": "R002.A3.au_c2_early_inside_pos",
         "file": "formal/Formal/A3PolynomialBounds.lean",
         "commit": "3f6e1e17fb381d959c4fb46a10d10df684c96861",
-        "type_signature": "theorem au_c2_early_inside_pos (S D E : ℤ) (hS : 0 ≤ S) (hD : 0 ≤ D) (hE : 0 ≤ E) :\n    let s := S + 1;\n    let w := D + E + 4;\n    let d := D + 2;\n    let l := s*w+d;\n    let k := 2*l+w;\n    let N := norm k l;\n    let a := (2+1)*s*k+(s-5)*l-1;\n    let b := (2*s+5)*k+(2+1)*s*l-1;\n    0 < N-w*a-(2+1)*k-l",
+        "type_signature": "theorem au_c2_early_inside_pos (S D E : \u2124) (hS : 0 \u2264 S) (hD : 0 \u2264 D) (hE : 0 \u2264 E) :\n    let s := S + 1;\n    let w := D + E + 4;\n    let d := D + 2;\n    let l := s*w+d;\n    let k := 2*l+w;\n    let N := norm k l;\n    let a := (2+1)*s*k+(s-5)*l-1;\n    let b := (2*s+5)*k+(2+1)*s*l-1;\n    0 < N-w*a-(2+1)*k-l",
         "axioms": [
           "propext",
           "Classical.choice",
@@ -1905,7 +1905,7 @@
         "declaration": "R002.A3.au_c2_endpoint_bound_pos",
         "file": "formal/Formal/A3PolynomialBounds.lean",
         "commit": "3f6e1e17fb381d959c4fb46a10d10df684c96861",
-        "type_signature": "theorem au_c2_endpoint_bound_pos (S D E : ℤ) (hS : 0 ≤ S) (hD : 0 ≤ D) (hE : 0 ≤ E) :\n    let s := S + 1;\n    let w := D + E + 4;\n    let d := D + 2;\n    let l := s*w+d;\n    let k := 2*l+w;\n    let N := norm k l;\n    let a := (2+1)*s*k+(s-5)*l-1;\n    let b := (2*s+5)*k+(2+1)*s*l-1;\n    0 < (s+2)*N-k-l-l*b",
+        "type_signature": "theorem au_c2_endpoint_bound_pos (S D E : \u2124) (hS : 0 \u2264 S) (hD : 0 \u2264 D) (hE : 0 \u2264 E) :\n    let s := S + 1;\n    let w := D + E + 4;\n    let d := D + 2;\n    let l := s*w+d;\n    let k := 2*l+w;\n    let N := norm k l;\n    let a := (2+1)*s*k+(s-5)*l-1;\n    let b := (2*s+5)*k+(2+1)*s*l-1;\n    0 < (s+2)*N-k-l-l*b",
         "axioms": [
           "propext",
           "Classical.choice",
@@ -1964,7 +1964,7 @@
         "declaration": "R002.A3.au_neg_a_pos",
         "file": "formal/Formal/A3PolynomialBounds.lean",
         "commit": "3f6e1e17fb381d959c4fb46a10d10df684c96861",
-        "type_signature": "theorem au_neg_a_pos (S D E : ℤ) (hS : 0 ≤ S) (hD : 0 ≤ D) (hE : 0 ≤ E) :\n    let s := S + 2;\n    let w := D + E + 4;\n    let d := D + 2;\n    let l := s*w+d;\n    let k := 2*l-w;\n    let N := norm k l;\n    let a := (2*s-5)*k+3*s*l-1;\n    let b := 3*s*k+(s+5)*l-1;\n    0 < a",
+        "type_signature": "theorem au_neg_a_pos (S D E : \u2124) (hS : 0 \u2264 S) (hD : 0 \u2264 D) (hE : 0 \u2264 E) :\n    let s := S + 2;\n    let w := D + E + 4;\n    let d := D + 2;\n    let l := s*w+d;\n    let k := 2*l-w;\n    let N := norm k l;\n    let a := (2*s-5)*k+3*s*l-1;\n    let b := 3*s*k+(s+5)*l-1;\n    0 < a",
         "axioms": [
           "propext",
           "Classical.choice",
@@ -2023,7 +2023,7 @@
         "declaration": "R002.A3.au_neg_b_minus_a_pos",
         "file": "formal/Formal/A3PolynomialBounds.lean",
         "commit": "3f6e1e17fb381d959c4fb46a10d10df684c96861",
-        "type_signature": "theorem au_neg_b_minus_a_pos (S D E : ℤ) (hS : 0 ≤ S) (hD : 0 ≤ D) (hE : 0 ≤ E) :\n    let s := S + 2;\n    let w := D + E + 4;\n    let d := D + 2;\n    let l := s*w+d;\n    let k := 2*l-w;\n    let N := norm k l;\n    let a := (2*s-5)*k+3*s*l-1;\n    let b := 3*s*k+(s+5)*l-1;\n    0 < b-a",
+        "type_signature": "theorem au_neg_b_minus_a_pos (S D E : \u2124) (hS : 0 \u2264 S) (hD : 0 \u2264 D) (hE : 0 \u2264 E) :\n    let s := S + 2;\n    let w := D + E + 4;\n    let d := D + 2;\n    let l := s*w+d;\n    let k := 2*l-w;\n    let N := norm k l;\n    let a := (2*s-5)*k+3*s*l-1;\n    let b := 3*s*k+(s+5)*l-1;\n    0 < b-a",
         "axioms": [
           "propext",
           "Classical.choice",
@@ -2082,7 +2082,7 @@
         "declaration": "R002.A3.au_neg_N_minus_b_pos",
         "file": "formal/Formal/A3PolynomialBounds.lean",
         "commit": "3f6e1e17fb381d959c4fb46a10d10df684c96861",
-        "type_signature": "theorem au_neg_N_minus_b_pos (S D E : ℤ) (hS : 0 ≤ S) (hD : 0 ≤ D) (hE : 0 ≤ E) :\n    let s := S + 2;\n    let w := D + E + 4;\n    let d := D + 2;\n    let l := s*w+d;\n    let k := 2*l-w;\n    let N := norm k l;\n    let a := (2*s-5)*k+3*s*l-1;\n    let b := 3*s*k+(s+5)*l-1;\n    0 < N-b",
+        "type_signature": "theorem au_neg_N_minus_b_pos (S D E : \u2124) (hS : 0 \u2264 S) (hD : 0 \u2264 D) (hE : 0 \u2264 E) :\n    let s := S + 2;\n    let w := D + E + 4;\n    let d := D + 2;\n    let l := s*w+d;\n    let k := 2*l-w;\n    let N := norm k l;\n    let a := (2*s-5)*k+3*s*l-1;\n    let b := 3*s*k+(s+5)*l-1;\n    0 < N-b",
         "axioms": [
           "propext",
           "Classical.choice",
@@ -2141,7 +2141,7 @@
         "declaration": "R002.A3.au_neg_u_upper_pos",
         "file": "formal/Formal/A3PolynomialBounds.lean",
         "commit": "3f6e1e17fb381d959c4fb46a10d10df684c96861",
-        "type_signature": "theorem au_neg_u_upper_pos (S D E : ℤ) (hS : 0 ≤ S) (hD : 0 ≤ D) (hE : 0 ≤ E) :\n    let s := S + 2;\n    let w := D + E + 4;\n    let d := D + 2;\n    let l := s*w+d;\n    let k := 2*l-w;\n    let N := norm k l;\n    let a := (2*s-5)*k+3*s*l-1;\n    let b := 3*s*k+(s+5)*l-1;\n    0 < (s+2)*N-k-l-l*b",
+        "type_signature": "theorem au_neg_u_upper_pos (S D E : \u2124) (hS : 0 \u2264 S) (hD : 0 \u2264 D) (hE : 0 \u2264 E) :\n    let s := S + 2;\n    let w := D + E + 4;\n    let d := D + 2;\n    let l := s*w+d;\n    let k := 2*l-w;\n    let N := norm k l;\n    let a := (2*s-5)*k+3*s*l-1;\n    let b := 3*s*k+(s+5)*l-1;\n    0 < (s+2)*N-k-l-l*b",
         "axioms": [
           "propext",
           "Classical.choice",
@@ -2200,7 +2200,7 @@
         "declaration": "R002.A3.au_neg_sum_upper_pos",
         "file": "formal/Formal/A3PolynomialBounds.lean",
         "commit": "3f6e1e17fb381d959c4fb46a10d10df684c96861",
-        "type_signature": "theorem au_neg_sum_upper_pos (S D E : ℤ) (hS : 0 ≤ S) (hD : 0 ≤ D) (hE : 0 ≤ E) :\n    let s := S + 2;\n    let w := D + E + 4;\n    let d := D + 2;\n    let l := s*w+d;\n    let k := 2*l-w;\n    let N := norm k l;\n    let a := (2*s-5)*k+3*s*l-1;\n    let b := 3*s*k+(s+5)*l-1;\n    0 < (3*s+3)*N-(k+l)*b-k",
+        "type_signature": "theorem au_neg_sum_upper_pos (S D E : \u2124) (hS : 0 \u2264 S) (hD : 0 \u2264 D) (hE : 0 \u2264 E) :\n    let s := S + 2;\n    let w := D + E + 4;\n    let d := D + 2;\n    let l := s*w+d;\n    let k := 2*l-w;\n    let N := norm k l;\n    let a := (2*s-5)*k+3*s*l-1;\n    let b := 3*s*k+(s+5)*l-1;\n    0 < (3*s+3)*N-(k+l)*b-k",
         "axioms": [
           "propext",
           "Classical.choice",
@@ -2259,7 +2259,7 @@
         "declaration": "R002.A3.au_neg_u_late_lower_pos",
         "file": "formal/Formal/A3PolynomialBounds.lean",
         "commit": "3f6e1e17fb381d959c4fb46a10d10df684c96861",
-        "type_signature": "theorem au_neg_u_late_lower_pos (S D E : ℤ) (hS : 0 ≤ S) (hD : 0 ≤ D) (hE : 0 ≤ E) :\n    let s := S + 2;\n    let w := D + E + 4;\n    let d := D + 2;\n    let l := s*w+d;\n    let k := 2*l-w;\n    let N := norm k l;\n    let a := (2*s-5)*k+3*s*l-1;\n    let b := 3*s*k+(s+5)*l-1;\n    0 < l*b-k-(s+1)*N",
+        "type_signature": "theorem au_neg_u_late_lower_pos (S D E : \u2124) (hS : 0 \u2264 S) (hD : 0 \u2264 D) (hE : 0 \u2264 E) :\n    let s := S + 2;\n    let w := D + E + 4;\n    let d := D + 2;\n    let l := s*w+d;\n    let k := 2*l-w;\n    let N := norm k l;\n    let a := (2*s-5)*k+3*s*l-1;\n    let b := 3*s*k+(s+5)*l-1;\n    0 < l*b-k-(s+1)*N",
         "axioms": [
           "propext",
           "Classical.choice",
@@ -2318,7 +2318,7 @@
         "declaration": "R002.A3.au_neg_sum_late_lower_pos",
         "file": "formal/Formal/A3PolynomialBounds.lean",
         "commit": "3f6e1e17fb381d959c4fb46a10d10df684c96861",
-        "type_signature": "theorem au_neg_sum_late_lower_pos (S D E : ℤ) (hS : 0 ≤ S) (hD : 0 ≤ D) (hE : 0 ≤ E) :\n    let s := S + 2;\n    let w := D + E + 4;\n    let d := D + 2;\n    let l := s*w+d;\n    let k := 2*l-w;\n    let N := norm k l;\n    let a := (2*s-5)*k+3*s*l-1;\n    let b := 3*s*k+(s+5)*l-1;\n    0 < (k+l)*b-(3*s+2)*N",
+        "type_signature": "theorem au_neg_sum_late_lower_pos (S D E : \u2124) (hS : 0 \u2264 S) (hD : 0 \u2264 D) (hE : 0 \u2264 E) :\n    let s := S + 2;\n    let w := D + E + 4;\n    let d := D + 2;\n    let l := s*w+d;\n    let k := 2*l-w;\n    let N := norm k l;\n    let a := (2*s-5)*k+3*s*l-1;\n    let b := 3*s*k+(s+5)*l-1;\n    0 < (k+l)*b-(3*s+2)*N",
         "axioms": [
           "propext",
           "Classical.choice",
@@ -2377,7 +2377,7 @@
         "declaration": "R002.A3.au_neg_early_inside_pos",
         "file": "formal/Formal/A3PolynomialBounds.lean",
         "commit": "3f6e1e17fb381d959c4fb46a10d10df684c96861",
-        "type_signature": "theorem au_neg_early_inside_pos (S D E : ℤ) (hS : 0 ≤ S) (hD : 0 ≤ D) (hE : 0 ≤ E) :\n    let s := S + 2;\n    let w := D + E + 4;\n    let d := D + 2;\n    let l := s*w+d;\n    let k := 2*l-w;\n    let N := norm k l;\n    let a := (2*s-5)*k+3*s*l-1;\n    let b := 3*s*k+(s+5)*l-1;\n    0 < N-w*a-2*k-3*l",
+        "type_signature": "theorem au_neg_early_inside_pos (S D E : \u2124) (hS : 0 \u2264 S) (hD : 0 \u2264 D) (hE : 0 \u2264 E) :\n    let s := S + 2;\n    let w := D + E + 4;\n    let d := D + 2;\n    let l := s*w+d;\n    let k := 2*l-w;\n    let N := norm k l;\n    let a := (2*s-5)*k+3*s*l-1;\n    let b := 3*s*k+(s+5)*l-1;\n    0 < N-w*a-2*k-3*l",
         "axioms": [
           "propext",
           "Classical.choice",
@@ -2420,7 +2420,7 @@
       "paper_label": "lean:finite_literal_path_decision",
       "kind": "formal-lemma",
       "statement_latex": "V\\text{ finite},\\ G\\text{ a simple graph},\\ \\operatorname{TwoCommonNeighbors}(G),\\ t\\text{ an ordered triangle},\\ \\operatorname{cone}(t.a),\\ \\neg\\operatorname{cone}(t.b)\\ \\Longrightarrow\\ \\exists r\\le|V|,\\ \\operatorname{FirstRepeat}(\\operatorname{forcedWalk}(G,t),r)\\land[(\\exists n,p,\\operatorname{LiteralPathFrom}(G,\\operatorname{cone},t,p,n))\\leftrightarrow(\\exists e<r,\\operatorname{LegalConeEndpoint}(\\operatorname{cone},\\operatorname{forcedWalk}(G,t),e))]",
-      "statement_plain": "For every input satisfying the binders below, the exact Lean declaration states: theorem finite_literal_path_decision [Fintype V] (G : SimpleGraph V)\n    (hG : TwoCommonNeighbors G) (cone : V → Prop) (t : OrderedTriangle G)\n    (hc : cone t.a) (hb : ¬ cone t.b) :\n    ∃ r ≤ Fintype.card V, FirstRepeat (forcedWalk G hG t) r ∧\n      ((∃ n p, LiteralPathFrom G cone t p n) ↔\n        ∃ e < r, LegalConeEndpoint cone (forcedWalk G hG t) e). The surface interpretation is not part of this arithmetic/conditional theorem.",
+      "statement_plain": "For every input satisfying the binders below, the exact Lean declaration states: theorem finite_literal_path_decision [Fintype V] (G : SimpleGraph V)\n    (hG : TwoCommonNeighbors G) (cone : V \u2192 Prop) (t : OrderedTriangle G)\n    (hc : cone t.a) (hb : \u00ac cone t.b) :\n    \u2203 r \u2264 Fintype.card V, FirstRepeat (forcedWalk G hG t) r \u2227\n      ((\u2203 n p, LiteralPathFrom G cone t p n) \u2194\n        \u2203 e < r, LegalConeEndpoint cone (forcedWalk G hG t) e). The surface interpretation is not part of this arithmetic/conditional theorem.",
       "hypotheses": [
         "All binders and local definitions in lean.type_signature are authoritative.",
         "For A3 arithmetic, T=norm(k,l)=k^2+kl+l^2 and G(u,v)=(ku-lv,lu+(k+l)v)."
@@ -2435,7 +2435,7 @@
         "declaration": "R002.finite_literal_path_decision",
         "file": "formal/Formal/FiniteLiteralPath.lean",
         "commit": "37ef1aafeda64cb7d4f11a243f6b9c4790411103",
-        "type_signature": "theorem finite_literal_path_decision [Fintype V] (G : SimpleGraph V)\n    (hG : TwoCommonNeighbors G) (cone : V → Prop) (t : OrderedTriangle G)\n    (hc : cone t.a) (hb : ¬ cone t.b) :\n    ∃ r ≤ Fintype.card V, FirstRepeat (forcedWalk G hG t) r ∧\n      ((∃ n p, LiteralPathFrom G cone t p n) ↔\n        ∃ e < r, LegalConeEndpoint cone (forcedWalk G hG t) e)",
+        "type_signature": "theorem finite_literal_path_decision [Fintype V] (G : SimpleGraph V)\n    (hG : TwoCommonNeighbors G) (cone : V \u2192 Prop) (t : OrderedTriangle G)\n    (hc : cone t.a) (hb : \u00ac cone t.b) :\n    \u2203 r \u2264 Fintype.card V, FirstRepeat (forcedWalk G hG t) r \u2227\n      ((\u2203 n p, LiteralPathFrom G cone t p n) \u2194\n        \u2203 e < r, LegalConeEndpoint cone (forcedWalk G hG t) e)",
         "axioms": [
           "propext",
           "Classical.choice",
@@ -3386,7 +3386,7 @@
         "declaration": "ClaudeMain.main_full",
         "file": "formal/Formal/ClaudeMainFull.lean",
         "commit": "89dc6b42b98e5234c7c1c95f0d9bf7479bee86f6",
-        "type_signature": "theorem main_full (k l : ℕ) (hl : 0 < l) (hlk : l < k) :\n    (∃ n p, ClaudeChallenge.LiteralPath (ClaudeChallenge.gcGraph k l) n p) ↔\n      ClaudeChallenge.criterion k l",
+        "type_signature": "theorem main_full (k l : \u2115) (hl : 0 < l) (hlk : l < k) :\n    (\u2203 n p, ClaudeChallenge.LiteralPath (ClaudeChallenge.gcGraph k l) n p) \u2194\n      ClaudeChallenge.criterion k l",
         "axioms": [
           "propext",
           "Classical.choice",
@@ -3638,7 +3638,7 @@
         "declaration": "ClaudeCor.minimum_at",
         "file": "formal/Formal/ClaudeCorMinimum.lean",
         "commit": "e000a347ac864a476bf23a2062e3ef2405c8dab7",
-        "type_signature": "theorem minimum_at (k l : ℕ) (hl : 0 < l) (hlk : l < k) (hp : Nat.gcd k l = 1)\n    (hT : k ^ 2 + k * l + l ^ 2 ≤ 399) :\n    (¬ ∃ n p, LiteralPath (gcGraph k l) n p) ↔ (k, l) = (17, 5)",
+        "type_signature": "theorem minimum_at (k l : \u2115) (hl : 0 < l) (hlk : l < k) (hp : Nat.gcd k l = 1)\n    (hT : k ^ 2 + k * l + l ^ 2 \u2264 399) :\n    (\u00ac \u2203 n p, LiteralPath (gcGraph k l) n p) \u2194 (k, l) = (17, 5)",
         "axioms": [
           "propext",
           "Classical.choice",
@@ -3862,7 +3862,7 @@
         "declaration": "ClaudeCor.criterion_ray",
         "file": "formal/Formal/ClaudeCorRays.lean",
         "commit": "980cac887526c319ad6b06b1adf0abb18814c84c",
-        "type_signature": "theorem criterion_ray (a b c d : ℤ)\n    (h : Ev (fun t : ℕ => 0 < c * t + d ∧ c * t + d < a * t + b)) :\n    EvPer (fun t : ℕ => criterion (a * t + b).toNat (c * t + d).toNat)",
+        "type_signature": "theorem criterion_ray (a b c d : \u2124)\n    (h : Ev (fun t : \u2115 => 0 < c * t + d \u2227 c * t + d < a * t + b)) :\n    EvPer (fun t : \u2115 => criterion (a * t + b).toNat (c * t + d).toNat)",
         "axioms": [
           "propext",
           "Classical.choice",
@@ -3877,7 +3877,7 @@
             "declaration": "R002.A3Release.path_ray",
             "file": "formal/Formal/A3ReleaseCheck.lean",
             "commit": "acf551eeff93a0da0267909408ee7b97ed84b6ef",
-            "type_signature": "theorem path_ray (a b c d : ℤ)\n    (h : ClaudeCor.Ev (fun t : ℕ => 0 < c * t + d ∧ c * t + d < a * t + b)) :\n    ClaudeCor.EvPer (fun t : ℕ => ∃ n p,\n      ClaudeChallenge.LiteralPath (ClaudeChallenge.gcGraph (a * t + b) (c * t + d)) n p)",
+            "type_signature": "theorem path_ray (a b c d : \u2124)\n    (h : ClaudeCor.Ev (fun t : \u2115 => 0 < c * t + d \u2227 c * t + d < a * t + b)) :\n    ClaudeCor.EvPer (fun t : \u2115 => \u2203 n p,\n      ClaudeChallenge.LiteralPath (ClaudeChallenge.gcGraph (a * t + b) (c * t + d)) n p)",
             "axioms": [
               "propext",
               "Classical.choice",
@@ -4087,7 +4087,7 @@
       "statement_latex": "k\\in\\mathbb N,\\ k\\ge2\\Longrightarrow\\exists p:\\operatorname{DegreeLiteralPath}(\\operatorname{graph}(k-1),p,2k+1)",
       "statement_plain": "Every k>=2 has a degree-based literal path of 2k+2 vertices in the explicit unit-width patch graph. This is not a theorem for an independently formalized general GC surface.",
       "hypotheses": [
-        "theorem unit_width_path (k : ℕ) (hk : 2 ≤ k) :\n    ∃ p : ℕ → Vertex (k-1), DegreeLiteralPath (graph (k-1)) p (2*k+1)",
+        "theorem unit_width_path (k : \u2115) (hk : 2 \u2264 k) :\n    \u2203 p : \u2115 \u2192 Vertex (k-1), DegreeLiteralPath (graph (k-1)) p (2*k+1)",
         "Definitions of the explicit model are in the source files and the prototype correspondence."
       ],
       "depends_on": [],
@@ -4100,7 +4100,7 @@
         "declaration": "R002.GCUnit.unit_width_path",
         "file": "formal/Formal/GCUnitPath.lean",
         "commit": "672428db9922005ed1f555dccc5e73e824e56e70",
-        "type_signature": "theorem unit_width_path (k : ℕ) (hk : 2 ≤ k) :\n    ∃ p : ℕ → Vertex (k-1), DegreeLiteralPath (graph (k-1)) p (2*k+1)",
+        "type_signature": "theorem unit_width_path (k : \u2115) (hk : 2 \u2264 k) :\n    \u2203 p : \u2115 \u2192 Vertex (k-1), DegreeLiteralPath (graph (k-1)) p (2*k+1)",
         "axioms": [
           "propext",
           "Classical.choice",
@@ -4166,7 +4166,7 @@
       "statement_latex": "\\forall n,u,v,\\ \\operatorname{ChartAdj}(u,v)\\iff\\operatorname{graph}(n).\\operatorname{Adj}(u,v)",
       "statement_plain": "The Cartesian unit-difference chart adjacency equals the triangular-array adjacency for every pair of model vertices.",
       "hypotheses": [
-        "theorem chartAdj_iff {n : ℕ} (u v : Vertex n) : ChartAdj u v ↔ (graph n).Adj u v",
+        "theorem chartAdj_iff {n : \u2115} (u v : Vertex n) : ChartAdj u v \u2194 (graph n).Adj u v",
         "Definitions of the explicit model are in the source files and the prototype correspondence."
       ],
       "depends_on": [],
@@ -4179,7 +4179,7 @@
         "declaration": "R002.GCUnit.Geometry.chartAdj_iff",
         "file": "formal/Formal/GCUnitGeometry.lean",
         "commit": "672428db9922005ed1f555dccc5e73e824e56e70",
-        "type_signature": "theorem chartAdj_iff {n : ℕ} (u v : Vertex n) : ChartAdj u v ↔ (graph n).Adj u v",
+        "type_signature": "theorem chartAdj_iff {n : \u2115} (u v : Vertex n) : ChartAdj u v \u2194 (graph n).Adj u v",
         "axioms": [
           "propext",
           "Classical.choice",

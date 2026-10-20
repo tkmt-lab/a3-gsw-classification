@@ -1,3 +1,7 @@
+# 1.1.0 / article 9.0
+
+Focus the article on mathematics and current proof scope, moving verification process/history to VERIFICATION-RECORD.md.
+
 # 1.0.5 / article 8.1
 
 Remove recoverable private-identifier fingerprints and individual-name matching vocabulary from the public scanner. Generic pattern checks remain public; individual-name checks were performed internally with a nonpublic table. Earlier editions are retained as historical artifacts and superseded for publication. No private fingerprint values are repeated here. Add a structural rejection guard against restoring a private identifier registry or 64-digit fingerprint literal in the public scanner. Correct receipt byte-preservation wording and artifact/challenge navigation. Article v8.1 bytes are unchanged. Lean sources, mathematical claims, proof/review states and scientific evidence are unchanged. No Lean/kernel/scientific rerun or publication operation.

@@ -1,0 +1,128 @@
+{
+  "status": "PASS",
+  "source_path": "paper-A3-v9.0-en.tex",
+  "source_sha256": "1f969416e3ecbf874ee381ff897dd2cea7ea153df96edec066b7cb8f2a62afcd",
+  "pdf_path": "paper-A3-v9.0-en.pdf",
+  "pdf_sha256": "5196ee93d1c21e8bcb32bef235d7a1192c794a1060d3341b339bed180c2918f0",
+  "pdf_bytes": 191995,
+  "pages": 22,
+  "typeset_trial": "T1539",
+  "render_trial": "T1540",
+  "tex_engine": "Tectonic 0.17.0 cached only",
+  "overfull_boxes": false,
+  "undefined_references": false,
+  "duplicate_destinations": false,
+  "mathematical_comparison": {
+    "definition": 0,
+    "theorem": 1,
+    "lemma": 0,
+    "proposition": 0,
+    "corollary": 3,
+    "equation": 15,
+    "proof": 0,
+    "display_math": 30,
+    "prose_definition_sections": 1,
+    "external_source_locators_unchanged": true,
+    "claim_ids": 57,
+    "byte_identical": true
+  },
+  "page_render_hashes": [
+    {
+      "page": 1,
+      "sha256": "9faadbe9d493bd4ff2866271d876d12c1f94e609ecb893453a853e0ad4f666eb"
+    },
+    {
+      "page": 2,
+      "sha256": "3e820f8542db69435cf6680d54793f01ef9be35fd92f9fea89cfabdb7ba85962"
+    },
+    {
+      "page": 3,
+      "sha256": "0ff0e2eb8404fb001a3408154ecd811b2493dd53895b659cfd19d0ca5e3bd906"
+    },
+    {
+      "page": 4,
+      "sha256": "cfc53899b1710ffa663f00ae4385337d1413790845bc7b2085fa5c3a32a3b31e"
+    },
+    {
+      "page": 5,
+      "sha256": "cd6b5ca05b0c17e66b69b5708786778dae18822e4e6efa96e323f8b866a245f7"
+    },
+    {
+      "page": 6,
+      "sha256": "5ea0f80b163b4dd5e3dd0349863e6826fa1a4b36f28826aa1be8726b2d008e64"
+    },
+    {
+      "page": 7,
+      "sha256": "d2e87b8c3113b3bcbc116e24d79abdb7f3783d560011554efa5ca572aa6dd157"
+    },
+    {
+      "page": 8,
+      "sha256": "7a534b19b47d9cd54c2c2948ee6e5413aab5689621b560a9e7c6c60f39cffb38"
+    },
+    {
+      "page": 9,
+      "sha256": "fed39ada377bd8b84e144a52f92058d744a051ac60f68e5744f8a2cc2c7a8bea"
+    },
+    {
+      "page": 10,
+      "sha256": "d00c8dcc8839f1a03f7e7966bdc424903582593598a0c53495b4b0ded00fbd5e"
+    },
+    {
+      "page": 11,
+      "sha256": "40b6b974e78cbfbf3b5a61e1e027b8d9871cd0e7ea984d979c84ad8184a67691"
+    },
+    {
+      "page": 12,
+      "sha256": "60cb8bc806a8db98017fbe89badbdf770f4b481e2e4ab5aec72726dd7e0ce494"
+    },
+    {
+      "page": 13,
+      "sha256": "213b7d3572b800b3b76c24ea8018e6bed06fa0a7a7cb62cb6f12e0096932a957"
+    },
+    {
+      "page": 14,
+      "sha256": "a7b37ee04a79bf97d315722f5dd6ae05d15ce12630f7fc7a68cea1b29b3fb299"
+    },
+    {
+      "page": 15,
+      "sha256": "641b8e8942358baa3cb1000e9ebe2fbdbceab9f5d9ec69dd1f08c640fe5eb239"
+    },
+    {
+      "page": 16,
+      "sha256": "3346bc68333bc793bee34dc6a0838e0325e366f5718d23fd088262004457f480"
+    },
+    {
+      "page": 17,
+      "sha256": "053a8a2f7c87a1f2366fe1c4e9b69aa96dffc31bc6611eed9c9d140827ecc2eb"
+    },
+    {
+      "page": 18,
+      "sha256": "c67c725cfa12b8dd30263205d941ca12b6991e480645d20ee5c7664c1aaa3a10"
+    },
+    {
+      "page": 19,
+      "sha256": "2239154d3c1f7b94ab682e043de2a41cbac72d4d9c8442a70b5c64dcab978176"
+    },
+    {
+      "page": 20,
+      "sha256": "152bd3d4c5205dfb1fd263bfd06255f58752de3a4f461c695b3f5e4298145c2e"
+    },
+    {
+      "page": 21,
+      "sha256": "1cda9e6c2fb203ec49df6f20469e0d37a0ccc7f0189362b277563ebec07f7d5c"
+    },
+    {
+      "page": 22,
+      "sha256": "8d76fff73f2386d6b81cb489c560656d0c03b1c1843b7165c98e31b92076cfa0"
+    }
+  ],
+  "visual_review": {
+    "reviewer": "Codex main agent",
+    "all_pages_viewed": true,
+    "independent_review": false,
+    "method": "All 22 final page images reviewed individually at 1100px. Initial review followed by re-view of changed final pages; unchanged page PNG hashes match reviewed images.",
+    "observed": "No clipping, overlaps, missing glyphs, broken tables or unresolved references. D12 initial vertical overflow corrected by a page break; A3 source locator and prose joins corrected before final review."
+  },
+  "uploaded": false,
+  "publication_on_hold": false
+}

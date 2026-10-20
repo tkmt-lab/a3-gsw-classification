@@ -1,5 +1,5 @@
 {
-  "packet_version": "1.0.5",
+  "packet_version": "1.1.0",
   "status": "REDACTED_PUBLIC_DERIVATIVES",
   "originals_included": false,
   "proof_sources_changed": false,
@@ -54,5 +54,5 @@
       ]
     }
   ],
-  "change_scope": "Historical record derivatives unchanged; remove private fingerprint vocabulary from current public scanner, disclose separate internal private-name checks and editorial navigation corrections."
+  "change_scope": "Add editorial article 9.0 and a verification supplement; no new privacy transformations. Earlier papers and all inherited proof/evidence payloads preserve exact bytes."
 }

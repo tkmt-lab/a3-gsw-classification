@@ -1,6 +1,6 @@
 {
-  "packet_version": "1.0.5",
-  "paper_version": "8.1",
+  "packet_version": "1.1.0",
+  "paper_version": "9.0",
   "author": "Tatsuhiko Takimoto",
   "affiliation": "Independent researcher",
   "contact": "GitHub Issues",
@@ -12,5 +12,5 @@
   "AI_statement_owner_approved": true,
   "uploaded": false,
   "doi": null,
-  "pdf_validation_file": "A3-v8.1-pdf-validation.json"
+  "pdf_validation_file": "A3-v9.0-pdf-validation.json"
 }

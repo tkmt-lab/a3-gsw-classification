@@ -5,19 +5,19 @@ ROOT=Path(__file__).resolve().parent
 
 def check_publication():
  a=json.loads((ROOT/'release-metadata.json').read_text());cff=json.loads((ROOT/'CITATION.cff').read_text())
- assert a['packet_version']=='1.0.5' and a['author']=='Tatsuhiko Takimoto' and a['affiliation']=='Independent researcher'
+ assert a['packet_version']=='1.1.0' and a['author']=='Tatsuhiko Takimoto' and a['affiliation']=='Independent researcher'
  assert a['organization'] is None and a['email'] is None and a['AI_statement_owner_approved'] is True
  assert a['contact']=='GitHub Issues' and a['contact_url_file']=='REPOSITORY-URL.txt'
  assert a['text_figures_data_license']=='CC-BY-4.0' and a['code_lean_license']=='Apache-2.0'
  assert not a['uploaded'] and a['doi'] is None
- expected={'8.1':'https://github.com/tkmt-lab/a3-gsw-classification','4.2':'https://github.com/tkmt-lab/gsw-ray-periodicity'}[a['paper_version']]
+ expected={'9.0':'https://github.com/tkmt-lab/a3-gsw-classification','4.2':'https://github.com/tkmt-lab/gsw-ray-periodicity'}[a['paper_version']]
  assert (ROOT/a['contact_url_file']).read_text().strip()==expected,'wrong or unresolved repository URL'
  assert cff['repository-code']==expected,'CFF repository URL differs from approved URL'
  token='<'+'REPOSITORY-URL'+'>'
  current=[*ROOT.glob('*.md'),*ROOT.glob('*.txt'),ROOT/'CITATION.cff']
  assert not any(token in p.read_text() for p in current),'unresolved repository URL placeholder'
  person={'family-names':'Takimoto','given-names':'Tatsuhiko','affiliation':'Independent researcher'}
- assert cff['cff-version']=='1.2.0' and cff['type']=='software' and cff['version']=='1.0.5'
+ assert cff['cff-version']=='1.2.0' and cff['type']=='software' and cff['version']=='1.1.0'
  assert cff['authors']==[person] and cff['license']=='Apache-2.0'
  article=cff['preferred-citation'];assert article['type']=='article' and article['version']==a['paper_version']
  assert article['authors']==[person] and article['license']=='CC-BY-4.0'
@@ -41,8 +41,9 @@ def check_publication():
  assert 'not a statement already approved' not in tex and 'owner has not' not in tex.lower()
  assert 'License and contact' in tex and 'GitHub Issues' in tex and 'REPOSITORY-URL.txt' in tex
  assert 'CC BY 4.0' in tex and 'Apache-2.0' in tex
- if a['paper_version']=='8.1':
-  assert 'full twelve-page' in tex and 'remain unread' in tex and 'did not locate this same two-stage' in tex
+ if a['paper_version']=='9.0':
+  record=(ROOT/'VERIFICATION-RECORD.md').read_text()
+  assert 'twelve-page' in record and 'remain unread' in record and 'did not locate this same' in record
   assert 'P006-18' in (ROOT/'P006-corrections.md').read_text()
  else:
   assert 'operation permitting heptagons' in tex and 'operation permitting pentagons' not in tex
@@ -52,7 +53,7 @@ def check_publication():
   ref=cff['references'];assert len(ref)==1
   r=ref[0];assert r['type']=='article' and r['authors']==[person]
   assert r['repository-code']=='https://github.com/tkmt-lab/a3-gsw-classification'
-  assert r['version']=='8.1' and r['title'].startswith('A two-stage classification')
+  assert r['version']=='9.0' and r['title'].startswith('A two-stage classification')
   assert set(r)<=set(schema['definitions']['reference']['properties'])
   assert 'classification and arithmetic argument~\\cite{A3}.' in tex
   assert '\\bibitem{A3} Tatsuhiko Takimoto' in tex
@@ -60,5 +61,5 @@ def check_publication():
  from check_publication_audit import check_publication_audit
  check_publication_audit(ROOT)
  privacy = check_privacy(ROOT)
- return dict(**privacy,public_metadata=True,packet_version='1.0.5',repository_url=expected,uploaded=False,full_cff_schema_validation=False,scope='exact field/enum contract, not a general CFF schema engine')
+ return dict(**privacy,public_metadata=True,packet_version='1.1.0',repository_url=expected,uploaded=False,full_cff_schema_validation=False,scope='exact field/enum contract, not a general CFF schema engine')
 if __name__=='__main__':print(json.dumps(dict(status='PASS',**check_publication())))

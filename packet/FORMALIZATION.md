@@ -52,3 +52,7 @@ separate from successful gate logs and is not a proof dependency.
 For `cor:rays`, the `lean` object records `ClaudeCor.criterion_ray` and its `additional_declarations` entry records `R002.A3Release.path_ray`. Both are existence-only, with their exact types, source commits, hashes and saved T1192 axiom output. `effective_algorithm_certified` is false; the entire corollary remains open for a certified executable threshold/period algorithm. The 47 fully Lean-proved claim statuses do not change. This unchanged-source packaging phase runs no Lean; it inherits the 1.0.3 build and axiom receipts without extending their scopes.
 
 The module header in ClaudeChallengeSpec.lean is stale: its `sorry`/`main` target is in ComparatorChallengeMain.lean, while ClaudeChallengeSpec.lean contains definitions only; all Lean bytes are preserved and the previous packet build receipts are inherited without running Lean in this packaging phase.
+
+## Editorial separation in article 9.0
+
+The article uses neutral mathematical names; exact implementation names, Comparator targets and verification history are in VERIFICATION-RECORD.md. All 165 Lean sources and proof scopes are unchanged. The 57 claim records preserve their original status_scope wording (including historical edition references), as exact evidence records rather than newly dated review. No new owner-confirmation procedure or Lean run.

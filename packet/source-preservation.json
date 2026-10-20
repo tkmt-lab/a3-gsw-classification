@@ -830,7 +830,7 @@
     }
   ],
   "parent_packet_version": "1.0.3",
-  "parent_inventory_sha256": "96121a2c6ce6344f887422385a57e6f22550b687916a0ac5d9e4cfa5f358191f",
+  "parent_inventory_sha256": "0435e6a94d023e4933c5aebccff865528baf06b09a6429b992a5daec39629099",
   "inherited_receipts": [
     {
       "path": "T1192-formal-gate.original.log",
@@ -861,5 +861,7 @@
   "new_lean_runs": 0,
   "external_kernels_rerun": false,
   "stale_module_note": "The module header in ClaudeChallengeSpec.lean is stale: its `sorry`/`main` target is in ComparatorChallengeMain.lean, while ClaudeChallengeSpec.lean contains definitions only; all Lean bytes are preserved and the previous packet build receipts are inherited without running Lean in this packaging phase.",
-  "scope": "Static equality comparison only. Historical build, axiom and rejection receipts retain their exact bytes and scopes; redacted derivatives remain derivatives, not original private records."
+  "scope": "Static equality comparison only. Historical build, axiom and rejection receipts retain their exact bytes and scopes; redacted derivatives remain derivatives, not original private records.",
+  "added_proof_sources": 0,
+  "editorial_only": true
 }

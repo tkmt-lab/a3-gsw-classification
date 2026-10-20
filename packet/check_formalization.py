@@ -4,7 +4,7 @@ import json
 import re
 def check_formalization(root,claims):
     f=json.loads((root/'formalization.json').read_text())
-    assert f['packet_version']=='1.0.5'
+    assert f['packet_version']=='1.1.0'
     assert f['classification']=='ClaudeMain.main_full' and f['minimum']=='ClaudeCor.minimum_at'
     assert f['ray_existence']=='R002.A3Release.path_ray'
     assert not f['ray_effective_algorithm'] and not f['density_formalized']

@@ -68,8 +68,13 @@
       "check_paper.py"
     ],
     "inputs": [
-      "paper-A3-v8.1-en.tex",
-      "data/counts.csv"
+      "paper-A3-v9.0-en.tex",
+      "data/counts.csv",
+      "VERIFICATION-RECORD.md",
+      "editorial-edit-map.json",
+      "editorial-audit.json",
+      "editorial_next97.py",
+      "A3-v9.0-pdf-validation.json"
     ],
     "timeout_seconds": 60
   },

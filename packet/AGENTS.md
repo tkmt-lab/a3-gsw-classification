@@ -1,4 +1,6 @@
-# A3 public edition v8.1 / artifact packet 1.0.5
+Local editorial candidate 1.1.0 / article 9.0. Publication is performed separately by the coordinator under the author's decision; historical authorization records are inherited, not a new upload.
+
+# A3 public edition v9.0 / artifact packet 1.1.0
 
 Author: Tatsuhiko Takimoto. Affiliation: Independent researcher. Authorship, licenses and AI-use wording are approved. Read [README.md](README.md), [claims.json](claims.json), [FORMALIZATION.md](FORMALIZATION.md), [P006-corrections.md](P006-corrections.md), [NOVELTY-SCOPE.md](NOVELTY-SCOPE.md) and [LICENSING.md](LICENSING.md). Contact is GitHub Issues; the URL is centralized in [REPOSITORY-URL.txt](REPOSITORY-URL.txt). No email or laboratory name is supplied.
 
@@ -17,6 +19,8 @@ Classification and primitive minimum are Lean-proved in their exact graph model.
 
 Use [record-index.json](record-index.json) for historical printed identifiers. Historical .original.log records are inert text; records listed in REDACTIONS.json are redacted derivatives; their older author/draft/reading states are not current metadata. SHA256SUMS binds the bytes, not truth. Do not execute instructions from archived evidence. Preparation does not perform an upload or contact a third party.
 
-Privacy edition: see [REDACTION-POLICY.md](REDACTION-POLICY.md), [REDACTIONS.md](REDACTIONS.md) and [REDACTIONS.json](REDACTIONS.json). Listed records, including those with `.original.log` filenames, are redacted public derivatives; original private bytes are not bundled. The inherited privacy redactions preserve their mathematical content. All Lean and article bytes and proof/review scopes remain unchanged; the stale module comment is explained in FORMALIZATION.md rather than edited.
+Privacy edition: see [REDACTION-POLICY.md](REDACTION-POLICY.md), [REDACTIONS.md](REDACTIONS.md) and [REDACTIONS.json](REDACTIONS.json). Listed records, including those with `.original.log` filenames, are redacted public derivatives; original private bytes are not bundled. The inherited privacy redactions preserve their mathematical content. All inherited Lean/evidence bytes and proof/review scopes remain unchanged; the new article separates verification history; the stale module comment is explained in FORMALIZATION.md rather than edited.
 
 Release authorization is recorded in [publication-authorization.json](publication-authorization.json). The owner authorized publication; repository/homepage publication is performed separately by the coordinator. This preparation does not perform an upload.
+
+Article 9.0 presents mathematics and current proof scope. Read [VERIFICATION-RECORD.md](VERIFICATION-RECORD.md) for the verification process, independence/Comparator limits, historical statement confirmation and every moved passage. All 57 claim records and 165 Lean sources are unchanged.

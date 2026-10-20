@@ -1,5 +1,5 @@
 {
-  "packet_version": "1.0.5",
+  "packet_version": "1.1.0",
   "source_tree_base_commit": "acf551eeff93a0da0267909408ee7b97ed84b6ef",
   "graph_specification": "ClaudeChallenge.gcGraph",
   "classification": "ClaudeMain.main_full",

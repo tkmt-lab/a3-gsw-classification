@@ -10,7 +10,7 @@ def check_publication_audit(root):
         raw=(root/relative).read_bytes();assert len(raw)==r['bytes'] and hashlib.sha256(raw).hexdigest()==r['sha256'],('audit fingerprint',str(relative));return raw
     from publication_privacy import check_scanner_source
     check_scanner_source(root)
-    metadata=load('release-metadata.json');a3=metadata['paper_version']=='8.1';version='1.0.5' if a3 else '1.2.1'
+    metadata=load('release-metadata.json');a3=metadata['paper_version']=='9.0';version='1.1.0' if a3 else '1.2.1'
     assert metadata['packet_version']==version
     provenance=load('PROVENANCE.json');authorization=load('publication-authorization.json')
     assert provenance['publication_on_hold'] is False,'publication hold restored'
@@ -22,7 +22,7 @@ def check_publication_audit(root):
     assert not authorization['publication_performed_by_research_team'] and not authorization['proof_peer_review'] and not authorization['novelty_review']
     assert authorization['publication_operation_role']=='coordinator'
     current=[root/n for n in ['AGENTS.md','README.md','CITING.md','FORMALIZATION.md']]
-    tex=root/('paper-A3-v8.1-en.tex' if a3 else 'paper-lines-v4.5-en.tex');current.append(tex)
+    tex=root/('paper-A3-v9.0-en.tex' if a3 else 'paper-lines-v4.5-en.tex');current.append(tex)
     for p in current:
         assert not re.search(r'publication\s+(?:(?:is|remains)\s+)?on\s+hold',p.read_text(),re.I),'publication hold restored in '+p.name
     citing=(root/'CITING.md').read_text()
@@ -37,7 +37,7 @@ def check_publication_audit(root):
         assert 'saved gate/kernel receipts, certificate code' not in readme, 'blanket receipt byte claim restored'
         assert 'three T1202 records' in readme and 'public bytes and fingerprints differ' in readme
         supplement=(root/'SUPPLEMENTARY-EVIDENCE.md').read_text()
-        assert 'English v8.1' in supplement and '1.0.5' in supplement
+        assert 'English v9.0' in supplement and '1.1.0' in supplement
         assert 'authorship and release metadata remain unassigned' not in supplement
     else:
         claims=load('claims.json');scope=claims['scope'];contract=load('scope-contract.json')

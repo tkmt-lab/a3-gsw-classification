@@ -1,6 +1,6 @@
 # Current packet and retained historical checks
 
-The current manuscript is [English v8.1](paper-A3-v8.1-en.tex), in packet **1.0.5**. The historical repairs below were introduced when the manuscript was English v6.2 and the packet was 0.6.3-draft; those were the versions at that time. This packaging repair does not promote any theorem or review status.
+The current manuscript is [English v9.0](paper-A3-v9.0-en.tex), in packet **1.1.0**. The historical repairs below were introduced when the manuscript was English v6.2 and the packet was 0.6.3-draft; those were the versions at that time. This packaging repair does not promote any theorem or review status.
 
 ## Coordinator's 77 checks
 
@@ -20,8 +20,8 @@ The receipt provided context for the recount. The saved recount code does not op
 
 ## P006-09's claims target
 
-The historical target was `A3-v6-machine/claims.json`, version **0.6.0-draft**, SHA-256 `187b0756e1ad8e3fb3fe33e2eb439c30d9565d0251e7d93f4c4151bdec431f83`. This identity is verified against the frozen source during the build. It is not the current [1.0.5 claims metadata](claims.json). The historical claims file is identified rather than redistributed; all current direct claim evidence is supplied.
+The historical target was `A3-v6-machine/claims.json`, version **0.6.0-draft**, SHA-256 `187b0756e1ad8e3fb3fe33e2eb439c30d9565d0251e7d93f4c4151bdec431f83`. This identity is verified against the frozen source during the build. It is not the current [1.1.0 claims metadata](claims.json). The historical claims file is identified rather than redistributed; all current direct claim evidence is supplied.
 
 ## Certificate and citation repairs
 
-`code/certificates.py` retains every imported function unchanged and removes only its unused repository CLI. Run `check_certificates.py` through the entry point. [CITING](CITING.md) links directly to the actual [PDF](paper-A3-v8.1-en.pdf) and [CFF](CITATION.cff). At the time of the 0.6.3 repairs the paper remained 0.6.2-draft. The current paper is English v8.1 and this artifact packet is 1.0.5. Authorship is Tatsuhiko Takimoto, Independent researcher; approved licenses and current release authorization are recorded in LICENSING.md and publication-authorization.json. These current records supersede the historical draft/authorship metadata.
+`code/certificates.py` retains every imported function unchanged and removes only its unused repository CLI. Run `check_certificates.py` through the entry point. [CITING](CITING.md) links directly to the actual [PDF](paper-A3-v9.0-en.pdf) and [CFF](CITATION.cff). At the time of the 0.6.3 repairs the paper remained 0.6.2-draft. The current paper is English v9.0 and this artifact packet is 1.1.0. Authorship is Tatsuhiko Takimoto, Independent researcher; approved licenses and current release authorization are recorded in LICENSING.md and publication-authorization.json. These current records supersede the historical draft/authorship metadata.

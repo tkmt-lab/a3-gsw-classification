@@ -10,3 +10,5 @@ See [REDACTION-POLICY.md](REDACTION-POLICY.md) for the fixed rules and original/
 | verify_detached.py.original.log | 08279e67914b68e267daa4b6eac068733a7b8efe24af8a97ed865e8846a808c1 | d55592a7c3d15968eb34cdc8b800fd7480d46a35edbaa677450a296e5fee1847 | 2141 | 2142 | R03-temp-prefix |
 
 This edition also removes the old individual-identifier scanner vocabulary. Private-name checks were performed internally; the public scanner contains generic patterns only. Existing historical record transformations in the table above are unchanged.
+
+Packet 1.1.0 adds article 9.0 and VERIFICATION-RECORD.md. The inherited paper_bytes_changed=false field describes privacy transformations; the editorial article is a new version. Earlier article and proof/evidence bytes remain unchanged.

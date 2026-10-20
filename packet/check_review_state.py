@@ -8,7 +8,7 @@ def strip_link_targets(s):
 
 def check_review_state(root, claims):
     m=json.loads((root/'independent-proofs.json').read_text())
-    assert m['packet_version']=='1.0.5'
+    assert m['packet_version']=='1.1.0'
     assert m['coverage']==dict(nonprimitive=True,primitive_negative=True,primitive_positive=True)
     assert m['coordinator_reviewers']==1 and not m['human_review'] and not m['full_formalization'] and not m['blind']
     assert len(m['receipts'])==13
@@ -47,7 +47,7 @@ def check_review_state(root, claims):
     assert 'computing' in ' '.join(by['cor:rays']['remaining_obligations'])
     assert by['cor:density']['formalization_plan']['target'] is False
     assert sum(r['status']=='lean-proved' for r in claims['claims'])==47
-    assert claims['version']=='1.0.5'
+    assert claims['version']=='1.1.0'
     p006=(root/'P006-corrections.md').read_text()
     assert len(re.findall(r'^\| P006-\d+ ',p006,re.M))==19
     remaining=' '.join(by['thm:classification']['remaining_obligations'])
