@@ -65,4 +65,4 @@ See [`CITATION.cff`](CITATION.cff).
 
 ## Contact
 
-Please open an issue in this repository.
+Please open an issue in this repository, or write to research@tatsuhikotakimoto.com.
