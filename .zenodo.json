@@ -1,0 +1,28 @@
+{
+  "upload_type": "software",
+  "title": "A two-stage classification of linear generalized Stone–Wales paths in Goldberg–Coxeter images of the dodecahedron: paper and verification packet",
+  "description": "<p>Paper (v8.1) and verification packet (A3 1.0.5). For the Goldberg–Coxeter images GC(k,l)[C20] of the dodecahedron, the existence of a literal linear generalized Stone–Wales path, in the sense of Bille, Buchstaber and Spodarev, is classified by an explicit two-stage residue criterion. The classification is proved in Lean 4 using only the standard axioms and was checked with Comparator against an independently written statement. The proofs have not had human peer review, and novelty is not settled; the packet records exactly what was checked.</p><p>The research was carried out with AI systems (OpenAI Codex and Anthropic Claude Code); the author directed the work and is responsible for it.</p><p>Licences: the paper text, figures and data are under CC BY 4.0; code and Lean sources are under Apache-2.0 (see LICENSING.md). The licence field of this record refers to the code.</p>",
+  "creators": [
+    {
+      "name": "Takimoto, Tatsuhiko",
+      "affiliation": "Independent researcher"
+    }
+  ],
+  "license": "Apache-2.0",
+  "version": "1.0.5",
+  "keywords": [
+    "fullerenes",
+    "Stone–Wales",
+    "Goldberg–Coxeter construction",
+    "Lean 4",
+    "formal verification"
+  ],
+  "access_right": "open",
+  "related_identifiers": [
+    {
+      "identifier": "https://tkmt-lab.github.io/",
+      "relation": "isDocumentedBy",
+      "resource_type": "other"
+    }
+  ]
+}
